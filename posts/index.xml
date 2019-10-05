@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Carlos Buenosvinos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Aug 2017 08:00:09 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 06 Oct 2019 00:57:01 +0200</lastBuildDate>
     
 	<atom:link href="https://carlosbuenosvinos.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Techpump, una historia de Mentoring</title>
+      <link>https://carlosbuenosvinos.github.io/techpump-una-historia-de-mentoring/</link>
+      <pubDate>Sun, 06 Oct 2019 00:57:01 +0200</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/techpump-una-historia-de-mentoring/</guid>
+      <description>&lt;p&gt;Ayudar a otros es algo que me hace feliz, me llena. Especialmente, si a quien ayudas es gente comprometida, son buenos alumnos y los resultados se ven pronto. Dejadme que os comparta la historia de Techpump y su CTO, Chavi.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Rigor Talks – PHP – #31 – Viewing Domain Events with Kibana (Spanish)</title>
@@ -19,13 +28,7 @@
       <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-31-viewing-domain-events-with-kibana-spanish/</guid>
       <description>&lt;p&gt;Hola Amigos del Rigor! Continuamos con la serie sobre Domain Events pero esta vez con un caso práctico de uso muy interesante para marcarse un tanto con negocio. Vamos a enviar los eventos de dominio contra un Elastic para que podamos finalmente agregar un Kibana y tener métricas en tiempo real de lo que ocurre en nuestra aplicación.&lt;/p&gt;
 
-&lt;p&gt;En este vídeo, vamos a configurar Kibana para montar gráficos y ver la información de los eventos que hemos enviado a Elastic de una forma que negocio flipe :)&lt;/p&gt;
-
-&lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;aquí&lt;/a&gt;. Si los videos os gustan, no olvidéis suscribiros a mi canal. Espero que os guste!&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;#MayTheRigorBeWithYou&lt;/p&gt;
-&lt;/blockquote&gt;</description>
+&lt;p&gt;En este vídeo, vamos a configurar Kibana para montar gráficos y ver la información de los eventos que hemos enviado a Elastic de una forma que negocio flipe :)&lt;/p&gt;</description>
     </item>
     
     <item>

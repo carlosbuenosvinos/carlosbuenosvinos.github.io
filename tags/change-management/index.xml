@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>change management on Carlos Buenosvinos</title>
+    <link>https://carlosbuenosvinos.github.io/tags/change-management/</link>
+    <description>Recent content in change management on Carlos Buenosvinos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 06 Oct 2019 00:57:01 +0200</lastBuildDate>
+    
+	<atom:link href="https://carlosbuenosvinos.github.io/tags/change-management/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Techpump, una historia de Mentoring</title>
+      <link>https://carlosbuenosvinos.github.io/techpump-una-historia-de-mentoring/</link>
+      <pubDate>Sun, 06 Oct 2019 00:57:01 +0200</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/techpump-una-historia-de-mentoring/</guid>
+      <description>&lt;p&gt;Ayudar a otros es algo que me hace feliz, me llena. Especialmente, si a quien ayudas es gente comprometida, son buenos alumnos y los resultados se ven pronto. Dejadme que os comparta la historia de Techpump y su CTO, Chavi.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -3,13 +3,58 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://carlosbuenosvinos.github.io/tags/agile/</loc>
+    <lastmod>2019-10-06T00:57:01+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://carlosbuenosvinos.github.io/</loc>
-    <lastmod>2017-08-01T08:00:09+00:00</lastmod>
+    <lastmod>2019-10-06T00:57:01+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://carlosbuenosvinos.github.io/categories/</loc>
-    <lastmod>2017-08-01T08:00:09+00:00</lastmod>
+    <lastmod>2019-10-06T00:57:01+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carlosbuenosvinos.github.io/tags/change-management/</loc>
+    <lastmod>2019-10-06T00:57:01+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carlosbuenosvinos.github.io/tags/cto/</loc>
+    <lastmod>2019-10-06T00:57:01+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carlosbuenosvinos.github.io/tags/digital-transformation/</loc>
+    <lastmod>2019-10-06T00:57:01+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carlosbuenosvinos.github.io/categories/mentoring/</loc>
+    <lastmod>2019-10-06T00:57:01+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carlosbuenosvinos.github.io/tags/mentoring/</loc>
+    <lastmod>2019-10-06T00:57:01+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carlosbuenosvinos.github.io/posts/</loc>
+    <lastmod>2019-10-06T00:57:01+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carlosbuenosvinos.github.io/tags/</loc>
+    <lastmod>2019-10-06T00:57:01+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carlosbuenosvinos.github.io/techpump-una-historia-de-mentoring/</loc>
+    <lastmod>2019-10-06T00:57:01+02:00</lastmod>
   </url>
   
   <url>
@@ -53,11 +98,6 @@
   </url>
   
   <url>
-    <loc>https://carlosbuenosvinos.github.io/posts/</loc>
-    <lastmod>2017-08-01T08:00:09+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://carlosbuenosvinos.github.io/tags/realtime/</loc>
     <lastmod>2017-08-01T08:00:09+00:00</lastmod>
   </url>
@@ -74,11 +114,6 @@
   
   <url>
     <loc>https://carlosbuenosvinos.github.io/rigor-talks-php-31-viewing-domain-events-with-kibana-spanish/</loc>
-    <lastmod>2017-08-01T08:00:09+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carlosbuenosvinos.github.io/tags/</loc>
     <lastmod>2017-08-01T08:00:09+00:00</lastmod>
   </url>
   
@@ -660,11 +695,6 @@
   <url>
     <loc>https://carlosbuenosvinos.github.io/tags/workshop/</loc>
     <lastmod>2016-11-22T09:00:57+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carlosbuenosvinos.github.io/tags/agile/</loc>
-    <lastmod>2016-11-21T08:30:55+00:00</lastmod>
   </url>
   
   <url>
@@ -1729,11 +1759,6 @@
   
   <url>
     <loc>https://carlosbuenosvinos.github.io/tags/comunicacion/</loc>
-    <lastmod>2014-02-14T08:00:24+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carlosbuenosvinos.github.io/tags/cto/</loc>
     <lastmod>2014-02-14T08:00:24+00:00</lastmod>
   </url>
   

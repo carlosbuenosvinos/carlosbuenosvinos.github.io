@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>autoload on Carlos Buenosvinos</title>
-    <link>https://carlosbuenosvinos.com/tags/autoload/</link>
+    <link>https://carlosbuenosvinos.github.io/tags/autoload/</link>
     <description>Recent content in autoload on Carlos Buenosvinos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 14 Apr 2016 07:30:15 +0000</lastBuildDate>
     
-	<atom:link href="https://carlosbuenosvinos.com/tags/autoload/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://carlosbuenosvinos.github.io/tags/autoload/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Saved 500 Kbytes of autoload classmap with autoload-dev at @AtrapaloEng</title>
-      <link>https://carlosbuenosvinos.com/saved-500-kbytes-of-autoload-classmap-with-autoload-dev-at-atrapaloeng/</link>
+      <link>https://carlosbuenosvinos.github.io/saved-500-kbytes-of-autoload-classmap-with-autoload-dev-at-atrapaloeng/</link>
       <pubDate>Thu, 14 Apr 2016 07:30:15 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/saved-500-kbytes-of-autoload-classmap-with-autoload-dev-at-atrapaloeng/</guid>
+      <guid>https://carlosbuenosvinos.github.io/saved-500-kbytes-of-autoload-classmap-with-autoload-dev-at-atrapaloeng/</guid>
       <description>&lt;p&gt;This week, at Atrápalo, we have reviewed our autoloading Composer configuration to use PSR-4 and split production classmap from development classmap to save some space in our Opcache. The result, 500 Kbytes less. Let&amp;#8217;s see some details.&lt;/p&gt;</description>
     </item>
     

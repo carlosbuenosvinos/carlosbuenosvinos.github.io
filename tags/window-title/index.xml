@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>window title on Carlos Buenosvinos</title>
-    <link>https://carlosbuenosvinos.com/tags/window-title/</link>
+    <link>https://carlosbuenosvinos.github.io/tags/window-title/</link>
     <description>Recent content in window title on Carlos Buenosvinos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 09 Aug 2013 18:55:48 +0000</lastBuildDate>
     
-	<atom:link href="https://carlosbuenosvinos.com/tags/window-title/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://carlosbuenosvinos.github.io/tags/window-title/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Adding a custom font on a titanium window title</title>
-      <link>https://carlosbuenosvinos.com/adding-a-custom-font-on-a-titanium-window-title/</link>
+      <link>https://carlosbuenosvinos.github.io/adding-a-custom-font-on-a-titanium-window-title/</link>
       <pubDate>Fri, 09 Aug 2013 18:55:48 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/adding-a-custom-font-on-a-titanium-window-title/</guid>
+      <guid>https://carlosbuenosvinos.github.io/adding-a-custom-font-on-a-titanium-window-title/</guid>
       <description>&lt;p&gt;If you are working with Titanium and you need to customize the font you are using as a title in a window, there is no predefined solution to do this, but there is a trick, the &amp;#8220;titleControl&amp;#8221; window property with a label control.&lt;/p&gt;</description>
     </item>
     

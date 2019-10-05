@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ssh key on Carlos Buenosvinos</title>
-    <link>https://carlosbuenosvinos.com/tags/ssh-key/</link>
+    <link>https://carlosbuenosvinos.github.io/tags/ssh-key/</link>
     <description>Recent content in ssh key on Carlos Buenosvinos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 14 Sep 2016 16:22:39 +0000</lastBuildDate>
     
-	<atom:link href="https://carlosbuenosvinos.com/tags/ssh-key/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://carlosbuenosvinos.github.io/tags/ssh-key/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>GitHub &#43; Ansible: deploy your public SSH keys to your servers</title>
-      <link>https://carlosbuenosvinos.com/github-ansible-deploy-your-public-ssh-keys-to-your-server/</link>
+      <link>https://carlosbuenosvinos.github.io/github-ansible-deploy-your-public-ssh-keys-to-your-server/</link>
       <pubDate>Wed, 14 Sep 2016 16:22:39 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/github-ansible-deploy-your-public-ssh-keys-to-your-server/</guid>
+      <guid>https://carlosbuenosvinos.github.io/github-ansible-deploy-your-public-ssh-keys-to-your-server/</guid>
       <description>&lt;p&gt;When I work with some mates in a side project, I need to give them access to the server. This is a quick tip about how to easily do it using GitHub and Ansible. The solution is simple and elegant.&lt;/p&gt;</description>
     </item>
     

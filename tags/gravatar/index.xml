@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>gravatar on Carlos Buenosvinos</title>
-    <link>https://carlosbuenosvinos.com/tags/gravatar/</link>
+    <link>https://carlosbuenosvinos.github.io/tags/gravatar/</link>
     <description>Recent content in gravatar on Carlos Buenosvinos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 30 Jun 2013 21:53:22 +0000</lastBuildDate>
     
-	<atom:link href="https://carlosbuenosvinos.com/tags/gravatar/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://carlosbuenosvinos.github.io/tags/gravatar/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>iGravatar, the Gravatar client for iPhone</title>
-      <link>https://carlosbuenosvinos.com/igravatar-the-gravatar-client-for-iphone/</link>
+      <link>https://carlosbuenosvinos.github.io/igravatar-the-gravatar-client-for-iphone/</link>
       <pubDate>Sun, 30 Jun 2013 21:53:22 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/igravatar-the-gravatar-client-for-iphone/</guid>
+      <guid>https://carlosbuenosvinos.github.io/igravatar-the-gravatar-client-for-iphone/</guid>
       <description>&lt;p&gt;&lt;strong&gt;iGravatar&lt;/strong&gt; is your &lt;strong&gt;iPhone&lt;/strong&gt; app for managing your Gravatar account. You will be able to upload new pictures from your iPhone library or directly from your camera, assign pictures to your email addresses and so on. Sync your contacts picture in case they have a Gravatar account!&lt;/p&gt;</description>
     </item>
     

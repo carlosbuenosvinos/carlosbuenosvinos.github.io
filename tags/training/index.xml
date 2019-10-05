@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>training on Carlos Buenosvinos</title>
-    <link>https://carlosbuenosvinos.com/tags/training/</link>
+    <link>https://carlosbuenosvinos.github.io/tags/training/</link>
     <description>Recent content in training on Carlos Buenosvinos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 22 Nov 2016 09:00:57 +0000</lastBuildDate>
     
-	<atom:link href="https://carlosbuenosvinos.com/tags/training/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://carlosbuenosvinos.github.io/tags/training/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Awesome two days helping @Lowpost_es team</title>
-      <link>https://carlosbuenosvinos.com/awesome-two-days-helping-lowpost_es-team/</link>
+      <link>https://carlosbuenosvinos.github.io/awesome-two-days-helping-lowpost_es-team/</link>
       <pubDate>Tue, 22 Nov 2016 09:00:57 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/awesome-two-days-helping-lowpost_es-team/</guid>
+      <guid>https://carlosbuenosvinos.github.io/awesome-two-days-helping-lowpost_es-team/</guid>
       <description>&lt;p&gt;I have recently visited Valencia in order to help my friends at &lt;a href=&#34;http://lowpost.es/&#34; target=&#34;_blank&#34;&gt;Lowpost&lt;/a&gt;. It was great and I had a lot of fun! I would like to tell you a bit about how it was.&lt;/p&gt;
 
 &lt;h3 id=&#34;who-is-lowpost&#34;&gt;Who is Lowpost?&lt;/h3&gt;
@@ -30,10 +30,10 @@
     
     <item>
       <title>“Implementing Domain-Driven Design” Workshop in Barcelona</title>
-      <link>https://carlosbuenosvinos.com/implementing-domain-driven-design-workshop-in-barcelona/</link>
+      <link>https://carlosbuenosvinos.github.io/implementing-domain-driven-design-workshop-in-barcelona/</link>
       <pubDate>Thu, 27 Nov 2014 07:33:12 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/implementing-domain-driven-design-workshop-in-barcelona/</guid>
+      <guid>https://carlosbuenosvinos.github.io/implementing-domain-driven-design-workshop-in-barcelona/</guid>
       <description>&lt;p&gt;Since 2012 and after two years reading and working with Domain-Driven Design approaches, in 2014, Christian (&lt;a href=&#34;https://twitter.com/theUniC&#34; target=&#34;_blank&#34;&gt;@theUniC&lt;/a&gt;) and me went to Berlin to get trained by Vaughn Vernon, author of &amp;#8220;Implementing Domain-Driven Design&amp;#8221; book. The training was fantastic, all the concepts that were going around on their minds up to that moment, got stuck into the ground in the 3 days IDDD workshop. However, they were the only two PHP developers there in a room full of Java and .NET. That was quite funny.&lt;/p&gt;</description>
     </item>
     

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>notifier on Carlos Buenosvinos</title>
-    <link>https://carlosbuenosvinos.com/tags/notifier/</link>
+    <link>https://carlosbuenosvinos.github.io/tags/notifier/</link>
     <description>Recent content in notifier on Carlos Buenosvinos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 14 Mar 2017 09:30:36 +0000</lastBuildDate>
     
-	<atom:link href="https://carlosbuenosvinos.com/tags/notifier/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://carlosbuenosvinos.github.io/tags/notifier/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Rigor Talks – PHP – #19 – Refactor Use Case VI (Spanish)</title>
-      <link>https://carlosbuenosvinos.com/rigor-talks-php-19-refactor-use-case-vi-spanish/</link>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-19-refactor-use-case-vi-spanish/</link>
       <pubDate>Tue, 14 Mar 2017 09:30:36 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/rigor-talks-php-19-refactor-use-case-vi-spanish/</guid>
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-19-refactor-use-case-vi-spanish/</guid>
       <description>&lt;p&gt;Hola Amigos del Rigor! Después de explicar el principio de Tell-Don&amp;#8217;t-Ask, continuamos con la serie de los videos de refactoring. En este video, vamos a ver cómo extraer dependencias como Loggers, Servicios para enviar notificaciones o similares usando una primera aproximación sencilla con un EventDispatcher.&lt;/p&gt;
 
 &lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Si los videos os gustan, no olvidéis suscribiros a mi canal. Espero que os guste!&lt;/p&gt;

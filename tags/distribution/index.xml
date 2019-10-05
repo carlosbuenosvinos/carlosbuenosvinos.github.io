@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>distribution on Carlos Buenosvinos</title>
-    <link>https://carlosbuenosvinos.com/tags/distribution/</link>
+    <link>https://carlosbuenosvinos.github.io/tags/distribution/</link>
     <description>Recent content in distribution on Carlos Buenosvinos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 22 Jun 2017 08:00:22 +0000</lastBuildDate>
     
-	<atom:link href="https://carlosbuenosvinos.com/tags/distribution/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://carlosbuenosvinos.github.io/tags/distribution/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Rigor Talks – PHP – #27 – Distributing Domain Events using RabbitMQ (Spanish)</title>
-      <link>https://carlosbuenosvinos.com/rigor-talks-php-27-distributing-domain-events-using-rabbitmq-spanish/</link>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-27-distributing-domain-events-using-rabbitmq-spanish/</link>
       <pubDate>Thu, 22 Jun 2017 08:00:22 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/rigor-talks-php-27-distributing-domain-events-using-rabbitmq-spanish/</guid>
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-27-distributing-domain-events-using-rabbitmq-spanish/</guid>
       <description>&lt;p&gt;Hola Amigos del Rigor! Continuamos con la serie sobre Domain Events. En este sexto video de la serie, vamos a distribuir los eventos, que tenemos persistidos en base de datos, hacia un sistema de colas como RabbitMQ. Veremos algunas consideraciones y trucos a tener en cuenta.&lt;/p&gt;
 
 &lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;aquí&lt;/a&gt;. Si los videos os gustan, no olvidéis suscribiros a mi canal. Espero que os guste!&lt;/p&gt;
@@ -28,10 +28,10 @@
     
     <item>
       <title>Rigor Talks – PHP – #26 – Distributing Domain Events using REST (Spanish)</title>
-      <link>https://carlosbuenosvinos.com/rigor-talks-php-26-distributing-domain-events-using-rest-spanish/</link>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-26-distributing-domain-events-using-rest-spanish/</link>
       <pubDate>Tue, 06 Jun 2017 08:00:02 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/rigor-talks-php-26-distributing-domain-events-using-rest-spanish/</guid>
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-26-distributing-domain-events-using-rest-spanish/</guid>
       <description>&lt;p&gt;Hola Amigos del Rigor! Continuamos con la serie sobre Domain Events. En este quinto video de la serie, vamos a empezar a discutir manera de distribuir los eventos. El primer método es quizá menos conocido, REST. Veremos qué beneficios tiene y algunos trucos para implementarlo.&lt;/p&gt;
 
 &lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;aquí&lt;/a&gt;. Si los videos os gustan, no olvidéis suscribiros a mi canal. Espero que os guste!&lt;/p&gt;

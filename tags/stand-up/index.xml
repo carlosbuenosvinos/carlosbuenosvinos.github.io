@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>stand-up on Carlos Buenosvinos</title>
-    <link>https://carlosbuenosvinos.com/tags/stand-up/</link>
+    <link>https://carlosbuenosvinos.github.io/tags/stand-up/</link>
     <description>Recent content in stand-up on Carlos Buenosvinos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 21 Nov 2016 08:30:55 +0000</lastBuildDate>
     
-	<atom:link href="https://carlosbuenosvinos.com/tags/stand-up/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://carlosbuenosvinos.github.io/tags/stand-up/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>“Scrum, no eres tú, soy yo”: Charla en la #geekdeveloperday organizada por @geekhubs</title>
-      <link>https://carlosbuenosvinos.com/scrum-no-eres-tu-soy-yo-charla-en-la-geekdeveloperday-organizada-por-geekhubs/</link>
+      <link>https://carlosbuenosvinos.github.io/scrum-no-eres-tu-soy-yo-charla-en-la-geekdeveloperday-organizada-por-geekhubs/</link>
       <pubDate>Mon, 21 Nov 2016 08:30:55 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/scrum-no-eres-tu-soy-yo-charla-en-la-geekdeveloperday-organizada-por-geekhubs/</guid>
+      <guid>https://carlosbuenosvinos.github.io/scrum-no-eres-tu-soy-yo-charla-en-la-geekdeveloperday-organizada-por-geekhubs/</guid>
       <description>&lt;p&gt;El pasado 2 de Noviembre estuve en Madrid. &lt;a href=&#34;http://geekshubsacademy.com/&#34; target=&#34;_blank&#34;&gt;GeeksHubs Academy&lt;/a&gt; organizaba el II Geek Developer Day y me invitaron a dar una charla sobre Scrum y la manera de mejorar la implementación en las empresas. Aquí os dejo el video y las slides.&lt;/p&gt;</description>
     </item>
     

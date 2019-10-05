@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>github on Carlos Buenosvinos</title>
-    <link>https://carlosbuenosvinos.com/tags/github/</link>
+    <link>https://carlosbuenosvinos.github.io/tags/github/</link>
     <description>Recent content in github on Carlos Buenosvinos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 14 Sep 2016 16:22:39 +0000</lastBuildDate>
     
-	<atom:link href="https://carlosbuenosvinos.com/tags/github/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://carlosbuenosvinos.github.io/tags/github/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>GitHub &#43; Ansible: deploy your public SSH keys to your servers</title>
-      <link>https://carlosbuenosvinos.com/github-ansible-deploy-your-public-ssh-keys-to-your-server/</link>
+      <link>https://carlosbuenosvinos.github.io/github-ansible-deploy-your-public-ssh-keys-to-your-server/</link>
       <pubDate>Wed, 14 Sep 2016 16:22:39 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/github-ansible-deploy-your-public-ssh-keys-to-your-server/</guid>
+      <guid>https://carlosbuenosvinos.github.io/github-ansible-deploy-your-public-ssh-keys-to-your-server/</guid>
       <description>&lt;p&gt;When I work with some mates in a side project, I need to give them access to the server. This is a quick tip about how to easily do it using GitHub and Ansible. The solution is simple and elegant.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Fixing commit TYPOs in git history with filter-branch</title>
-      <link>https://carlosbuenosvinos.com/fixing-commit-typos-in-git-history-with-filter-branch/</link>
+      <link>https://carlosbuenosvinos.github.io/fixing-commit-typos-in-git-history-with-filter-branch/</link>
       <pubDate>Mon, 12 May 2014 13:21:12 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/fixing-commit-typos-in-git-history-with-filter-branch/</guid>
+      <guid>https://carlosbuenosvinos.github.io/fixing-commit-typos-in-git-history-with-filter-branch/</guid>
       <description>&lt;p&gt;Last week, we tried at Atrapalo to migrate from our own git repository to Github. That should be easy, is just a matter of three commands already explained in &lt;a href=&#34;https://help.github.com/articles/importing-an-external-git-repository&#34; target=&#34;_blank&#34;&gt;Github&amp;#8217;s guide&lt;/a&gt;. The main problem appears when you have some sort of issue with your commits, so messages like &amp;#8220;invalid author email&amp;#8221; raises when trying to push your changes.&lt;/p&gt;</description>
     </item>
     

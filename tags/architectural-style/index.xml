@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>architectural style on Carlos Buenosvinos</title>
-    <link>https://carlosbuenosvinos.com/tags/architectural-style/</link>
+    <link>https://carlosbuenosvinos.github.io/tags/architectural-style/</link>
     <description>Recent content in architectural style on Carlos Buenosvinos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 11 Aug 2016 15:46:58 +0000</lastBuildDate>
     
-	<atom:link href="https://carlosbuenosvinos.com/tags/architectural-style/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://carlosbuenosvinos.github.io/tags/architectural-style/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Event Sourcing is not a messaging integration pattern</title>
-      <link>https://carlosbuenosvinos.com/event-sourcing-is-not-a-messaging-integration-pattern/</link>
+      <link>https://carlosbuenosvinos.github.io/event-sourcing-is-not-a-messaging-integration-pattern/</link>
       <pubDate>Thu, 11 Aug 2016 15:46:58 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/event-sourcing-is-not-a-messaging-integration-pattern/</guid>
+      <guid>https://carlosbuenosvinos.github.io/event-sourcing-is-not-a-messaging-integration-pattern/</guid>
       <description>&lt;p&gt;&lt;strong&gt;tl;dr: If you are sending messages to RabbitMQ to communicate one application to another, you are not doing Event Sourcing. You&amp;#8217;re just doing messaging ;)&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;In the last two months, I&amp;#8217;ve seen different nice talks using DDD, CQRS or Event Sourcing in the talk title. However, after watching the content, I think there are some general misunderstandings about some of the concepts. The most important one, in my honest opinion, is calling Event Sourcing to sending messaging to other applications using a broker. Event Sourcing is not about that. Let me explain a bit more.&lt;/p&gt;</description>

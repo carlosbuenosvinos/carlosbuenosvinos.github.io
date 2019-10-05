@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>phpunit on Carlos Buenosvinos</title>
-    <link>https://carlosbuenosvinos.com/tags/phpunit/</link>
+    <link>https://carlosbuenosvinos.github.io/tags/phpunit/</link>
     <description>Recent content in phpunit on Carlos Buenosvinos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 24 Jan 2017 09:30:36 +0000</lastBuildDate>
     
-	<atom:link href="https://carlosbuenosvinos.com/tags/phpunit/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://carlosbuenosvinos.github.io/tags/phpunit/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Rigor Talks – PHP – #12 – Mutant Testing (Spanish)</title>
-      <link>https://carlosbuenosvinos.com/rigor-talks-php-12-mutant-testing-spanish/</link>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-12-mutant-testing-spanish/</link>
       <pubDate>Tue, 24 Jan 2017 09:30:36 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/rigor-talks-php-12-mutant-testing-spanish/</guid>
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-12-mutant-testing-spanish/</guid>
       <description>&lt;p&gt;Hola Amigos del Rigor! Unit Testear nuestro código con un 100% de coverage no es suficiente. En este video, vamos a ver cómo aplicar &amp;#8220;Mutant Testing&amp;#8221; a nuestro código para mejorar la calidad de nuestros tests unitarios.&lt;/p&gt;
 
 &lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Espero que os guste!&lt;/p&gt;
@@ -28,10 +28,10 @@
     
     <item>
       <title>Rigor Talks – PHP – #11 – Immutability (Spanish)</title>
-      <link>https://carlosbuenosvinos.com/rigor-talks-php-11-immutability-spanish/</link>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-11-immutability-spanish/</link>
       <pubDate>Tue, 17 Jan 2017 09:30:16 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/rigor-talks-php-11-immutability-spanish/</guid>
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-11-immutability-spanish/</guid>
       <description>&lt;p&gt;Hola Amigos del Rigor! Continuamos con un video sobre inmutabilidad. Vamos a ver cómo poder hacer que nuestras clases, especialmente aquellas con las que modelamos Value Objects pueden ser inmutables.&lt;/p&gt;
 
 &lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Espero que os guste!&lt;/p&gt;
@@ -43,10 +43,10 @@
     
     <item>
       <title>Rigor Talks – PHP – #10 – Self-Shunt III (Spanish)</title>
-      <link>https://carlosbuenosvinos.com/rigor-talks-php-10-self-shunt-iii-spanish/</link>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-10-self-shunt-iii-spanish/</link>
       <pubDate>Tue, 10 Jan 2017 09:30:45 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/rigor-talks-php-10-self-shunt-iii-spanish/</guid>
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-10-self-shunt-iii-spanish/</guid>
       <description>&lt;p&gt;Hola Amigos del Rigor! Vamos a con el último de los tres videos sobre el patrón de testing &amp;#8220;Self-Shunt&amp;#8221;. En este video, veremos un truco muy sencillo para poder testear cadenas de invocaciones que incumplen la ley de Demeter.&lt;/p&gt;
 
 &lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Espero que os guste!&lt;/p&gt;
@@ -58,10 +58,10 @@
     
     <item>
       <title>Rigor Talks – PHP – #9 – Self-Shunt II (Spanish)</title>
-      <link>https://carlosbuenosvinos.com/rigor-talks-php-9-self-shunt-ii-spanish/</link>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-9-self-shunt-ii-spanish/</link>
       <pubDate>Tue, 03 Jan 2017 09:30:30 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/rigor-talks-php-9-self-shunt-ii-spanish/</guid>
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-9-self-shunt-ii-spanish/</guid>
       <description>&lt;p&gt;Hola Amigos del Rigor! Vamos a con el tercer de los cuatro videos sobre patrones de &amp;#8220;Unit Testing&amp;#8221;, especialmente, para código acoplado. En este video, veremos una implementación alternativa del &amp;#8220;Self-Shunt&amp;#8221; sólo para PHP7 usando clases anónimas.&lt;/p&gt;
 
 &lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Espero que os guste!&lt;/p&gt;
@@ -73,10 +73,10 @@
     
     <item>
       <title>Rigor Talks – PHP – #8 – Self-Shunt (Spanish)</title>
-      <link>https://carlosbuenosvinos.com/rigor-talks-php-8-self-shunt-spanish/</link>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-8-self-shunt-spanish/</link>
       <pubDate>Tue, 27 Dec 2016 09:30:03 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/rigor-talks-php-8-self-shunt-spanish/</guid>
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-8-self-shunt-spanish/</guid>
       <description>&lt;p&gt;Hola Amigos del Rigor! Vamos a con el segundo de los cuatro videos sobre patrones de &amp;#8220;Unit Testing&amp;#8221;, especialmente, para código acoplado. En este video, veremos un atajo para implementar &amp;#8220;Test Classes&amp;#8221; usando un patrón conocido como &amp;#8220;Self-Shunt&amp;#8221;.&lt;/p&gt;
 
 &lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Espero que os guste!&lt;/p&gt;
@@ -88,10 +88,10 @@
     
     <item>
       <title>Rigor Talks – PHP – #7 – Test Class (Spanish)</title>
-      <link>https://carlosbuenosvinos.com/rigor-talks-php-7-test-class-spanish/</link>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-7-test-class-spanish/</link>
       <pubDate>Tue, 20 Dec 2016 09:30:21 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/rigor-talks-php-7-test-class-spanish/</guid>
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-7-test-class-spanish/</guid>
       <description>&lt;p&gt;Hola Amigos del Rigor! Vamos a arrancar un serie de 4 videos sobre patrones de &amp;#8220;Unit Testing&amp;#8221;, especialmente, para código acoplado. Aquí os dejo el primero.&lt;/p&gt;
 
 &lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Espero que os guste!&lt;/p&gt;
@@ -103,10 +103,10 @@
     
     <item>
       <title>Rigor Talks – PHP – #6 – Named Constructors IV (Spanish)</title>
-      <link>https://carlosbuenosvinos.com/rigor-talks-php-6-named-constructors-iv-spanish/</link>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-6-named-constructors-iv-spanish/</link>
       <pubDate>Thu, 15 Dec 2016 10:00:26 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/rigor-talks-php-6-named-constructors-iv-spanish/</guid>
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-6-named-constructors-iv-spanish/</guid>
       <description>&lt;p&gt;Hola Amigos del Rigor! Acabamos con la serie sobre &amp;#8220;Named Constructors&amp;#8221; con el último video de los cuatro. He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Espero que os guste!&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -116,10 +116,10 @@
     
     <item>
       <title>Rigor Talks – PHP – #5 – Named Constructors III (Spanish)</title>
-      <link>https://carlosbuenosvinos.com/rigor-talks-php-5-named-constructors-iii-spanish/</link>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-5-named-constructors-iii-spanish/</link>
       <pubDate>Tue, 13 Dec 2016 10:00:17 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/rigor-talks-php-5-named-constructors-iii-spanish/</guid>
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-5-named-constructors-iii-spanish/</guid>
       <description>&lt;p&gt;Hola Amigos del Rigor! Seguimos con la serie sobre &amp;#8220;Named Constructors&amp;#8221; con el tercer de los cuatro videos. He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Espero que os guste!&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -129,10 +129,10 @@
     
     <item>
       <title>Rigor Talks – PHP – #4 – Named Constructors II (Spanish)</title>
-      <link>https://carlosbuenosvinos.com/rigor-talks-php-4-named-constructors-ii-spanish/</link>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-4-named-constructors-ii-spanish/</link>
       <pubDate>Thu, 08 Dec 2016 10:00:05 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/rigor-talks-php-4-named-constructors-ii-spanish/</guid>
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-4-named-constructors-ii-spanish/</guid>
       <description>&lt;p&gt;Hola Amigos del Rigor! Seguimos con la serie sobre &amp;#8220;Named Constructors&amp;#8221; con el segundo de los cuatro videos. He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Espero que os guste!&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -142,10 +142,10 @@
     
     <item>
       <title>Rigor Talks – PHP – #3 – Named Constructors I (Spanish)</title>
-      <link>https://carlosbuenosvinos.com/rigor-talks-php-3-named-constructors-i-spanish/</link>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-3-named-constructors-i-spanish/</link>
       <pubDate>Tue, 06 Dec 2016 10:00:05 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/rigor-talks-php-3-named-constructors-i-spanish/</guid>
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-3-named-constructors-i-spanish/</guid>
       <description>&lt;p&gt;Hola Amigos del Rigor! Vamos a arrancar un serie de 4 videos sobre &amp;#8220;Named Constructors&amp;#8221;. También conocidos como &amp;#8220;Semantic Constructors&amp;#8221; o &amp;#8220;Constructor Methods&amp;#8221;. Aquí os dejo el primero.&lt;/p&gt;
 
 &lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Espero que os guste!&lt;/p&gt;
@@ -157,10 +157,10 @@
     
     <item>
       <title>Awesome two days helping @Lowpost_es team</title>
-      <link>https://carlosbuenosvinos.com/awesome-two-days-helping-lowpost_es-team/</link>
+      <link>https://carlosbuenosvinos.github.io/awesome-two-days-helping-lowpost_es-team/</link>
       <pubDate>Tue, 22 Nov 2016 09:00:57 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/awesome-two-days-helping-lowpost_es-team/</guid>
+      <guid>https://carlosbuenosvinos.github.io/awesome-two-days-helping-lowpost_es-team/</guid>
       <description>&lt;p&gt;I have recently visited Valencia in order to help my friends at &lt;a href=&#34;http://lowpost.es/&#34; target=&#34;_blank&#34;&gt;Lowpost&lt;/a&gt;. It was great and I had a lot of fun! I would like to tell you a bit about how it was.&lt;/p&gt;
 
 &lt;h3 id=&#34;who-is-lowpost&#34;&gt;Who is Lowpost?&lt;/h3&gt;
@@ -174,56 +174,56 @@
     
     <item>
       <title>Some “basuritas”: PHP, list() and objects</title>
-      <link>https://carlosbuenosvinos.com/some-basuritas-php-list-and-objects/</link>
+      <link>https://carlosbuenosvinos.github.io/some-basuritas-php-list-and-objects/</link>
       <pubDate>Fri, 29 Jul 2016 11:27:28 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/some-basuritas-php-list-and-objects/</guid>
+      <guid>https://carlosbuenosvinos.github.io/some-basuritas-php-list-and-objects/</guid>
       <description>I was just playing around with the Symfony Expression Language Component. Suddenly, I started to play with list() and some objects and this example came up. You can use list() and _$this_ for assigning fields. I would not recommend it, but it just funny.
 class BasuritasTest extends \PHPUnit_Framework_TestCase { /** * @test * @dataProvider validUsersDataProvider * @param $id * @param $name */ public function listForObjects(int $id, string $name) { $user = new User($id, $name); $this-&amp;gt;assertSame($id, $user-&amp;gt;id()); $this-&amp;gt;assertSame($name, $user-&amp;gt;name()); } public function validUsersDataProvider() { return [ [1, &#34;</description>
     </item>
     
     <item>
       <title>Guía para el Desarrollo Profesional PHP (edición 2014)</title>
-      <link>https://carlosbuenosvinos.com/guia-para-el-desarrollo-profesional-php-edicion-2014/</link>
+      <link>https://carlosbuenosvinos.github.io/guia-para-el-desarrollo-profesional-php-edicion-2014/</link>
       <pubDate>Wed, 21 Oct 2015 08:00:39 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/guia-para-el-desarrollo-profesional-php-edicion-2014/</guid>
+      <guid>https://carlosbuenosvinos.github.io/guia-para-el-desarrollo-profesional-php-edicion-2014/</guid>
       <description>&lt;p&gt;Rascando por Youtube, encontré este vídeo de 2014, de una presentación que hice en LaSalle inspirada por &lt;a href=&#34;http://carlosbuenosvinos.com/desarrollo-php-profesional/&#34; target=&#34;_blank&#34;&gt;otra que hice en Castellón en 2011&lt;/a&gt;. La idea es hacer un overview del ecosistema PHP y puntos importantes a la hora de montar un ciclo de desarrollo basado en esta tecnología. Que la disfrutéis.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Tactical Domain-Driven Design Screencast at PHPBarcelona (Spanish)</title>
-      <link>https://carlosbuenosvinos.com/tactical-domain-driven-design-screencast-at-phpbarcelona-spanish/</link>
+      <link>https://carlosbuenosvinos.github.io/tactical-domain-driven-design-screencast-at-phpbarcelona-spanish/</link>
       <pubDate>Wed, 22 Oct 2014 05:59:28 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/tactical-domain-driven-design-screencast-at-phpbarcelona-spanish/</guid>
+      <guid>https://carlosbuenosvinos.github.io/tactical-domain-driven-design-screencast-at-phpbarcelona-spanish/</guid>
       <description>&lt;p&gt;Os dejo el video sobre DDD Tactical Design que hice en la Monthly Talk de PHPBarcelona. Nos dio tiempo a charlar un poco de estrategia, ver los Value Objects, Entities y algo de Repositories. La charla está basada en el libro que Christian, Keyvan y yo estamos escribiendo en leanpub: &lt;a href=&#34;https://leanpub.com/ddd-in-php&#34; target=&#34;_blank&#34;&gt;&amp;#8220;Domain-Driven Design with PHP by Examples&amp;#8221;&lt;/a&gt;. En los últimos 30 minutos hablo sobre cómo estamos gestionando la Integración Continua en Atrápalo.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Write your git hooks in PHP and keep them under git control</title>
-      <link>https://carlosbuenosvinos.com/write-your-git-hooks-in-php-and-keep-them-under-git-control/</link>
+      <link>https://carlosbuenosvinos.github.io/write-your-git-hooks-in-php-and-keep-them-under-git-control/</link>
       <pubDate>Fri, 11 Jul 2014 17:29:29 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/write-your-git-hooks-in-php-and-keep-them-under-git-control/</guid>
+      <guid>https://carlosbuenosvinos.github.io/write-your-git-hooks-in-php-and-keep-them-under-git-control/</guid>
       <description>&lt;p&gt;Last month, in the PHP Barcelona Monthly Talk, I was talking with some mates about the GitHub migration we have recently done at Atrápalo. They were interested in branches, deployments, code reviews and so on. However, they were specially surprised about who we are dealing with pre-commit hooks at Atrápalo. Let&amp;#8217;s see if there&amp;#8217;s more people out there interested in the subject.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Smash Tech: PHP 2014</title>
-      <link>https://carlosbuenosvinos.com/smash-tech-php-2014/</link>
+      <link>https://carlosbuenosvinos.github.io/smash-tech-php-2014/</link>
       <pubDate>Thu, 29 May 2014 09:04:44 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/smash-tech-php-2014/</guid>
+      <guid>https://carlosbuenosvinos.github.io/smash-tech-php-2014/</guid>
       <description>&lt;p&gt;El pasado día 28 de Mayo, participé en &lt;a href=&#34;http://smash-tech.com/&#34; target=&#34;_blank&#34;&gt;Smash Tech&lt;/a&gt; como ponente impartiendo una master class de 2 horas sobre el ecosistema PHP y en lo que se debe prestar atención para el 2015. Con los 50 asistentes que pagaron la entrada, repasamos desde Metodologías de desarrollo: Agile, Scrum y Extreme Programming. Sobre ésta última pivotó la gran mayoría de la presentación, viendo cómo se resuelven las dinámicas de TDD, Integración Continua, Coding Standards, etc.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>kata/php: PHP skeleton for doing coding katas</title>
-      <link>https://carlosbuenosvinos.com/kataphp-php-skeleton-for-doing-coding-katas/</link>
+      <link>https://carlosbuenosvinos.github.io/kataphp-php-skeleton-for-doing-coding-katas/</link>
       <pubDate>Fri, 03 Jan 2014 07:30:14 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/kataphp-php-skeleton-for-doing-coding-katas/</guid>
+      <guid>https://carlosbuenosvinos.github.io/kataphp-php-skeleton-for-doing-coding-katas/</guid>
       <description>&lt;p&gt;Something a bit annoying when doing a kata is setting up the environment so you can start. Typically, you need composer, define dependencies, setting up the autoloading policy, creating some folders and so on. All this work is not necessary anymore. I have created a silly but useful project in packagist in order to start with your kata in just one command.&lt;/p&gt;</description>
     </item>
     

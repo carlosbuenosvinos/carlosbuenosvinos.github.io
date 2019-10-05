@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>php7 on Carlos Buenosvinos</title>
-    <link>https://carlosbuenosvinos.com/tags/php7/</link>
+    <link>https://carlosbuenosvinos.github.io/tags/php7/</link>
     <description>Recent content in php7 on Carlos Buenosvinos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 03 Jan 2017 09:30:30 +0000</lastBuildDate>
     
-	<atom:link href="https://carlosbuenosvinos.com/tags/php7/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://carlosbuenosvinos.github.io/tags/php7/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Rigor Talks – PHP – #9 – Self-Shunt II (Spanish)</title>
-      <link>https://carlosbuenosvinos.com/rigor-talks-php-9-self-shunt-ii-spanish/</link>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-9-self-shunt-ii-spanish/</link>
       <pubDate>Tue, 03 Jan 2017 09:30:30 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/rigor-talks-php-9-self-shunt-ii-spanish/</guid>
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-9-self-shunt-ii-spanish/</guid>
       <description>&lt;p&gt;Hola Amigos del Rigor! Vamos a con el tercer de los cuatro videos sobre patrones de &amp;#8220;Unit Testing&amp;#8221;, especialmente, para código acoplado. En este video, veremos una implementación alternativa del &amp;#8220;Self-Shunt&amp;#8221; sólo para PHP7 usando clases anónimas.&lt;/p&gt;
 
 &lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Espero que os guste!&lt;/p&gt;
@@ -28,10 +28,10 @@
     
     <item>
       <title>First tests with #PHP7 in production at @AtrapaloEng</title>
-      <link>https://carlosbuenosvinos.com/first-tests-with-php7-in-production-at-atrapaloeng/</link>
+      <link>https://carlosbuenosvinos.github.io/first-tests-with-php7-in-production-at-atrapaloeng/</link>
       <pubDate>Wed, 16 Mar 2016 09:00:03 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/first-tests-with-php7-in-production-at-atrapaloeng/</guid>
+      <guid>https://carlosbuenosvinos.github.io/first-tests-with-php7-in-production-at-atrapaloeng/</guid>
       <description>&lt;p&gt;On Monday, Badoo blogged about its migration to PHP7 (&lt;a href=&#34;https://techblog.badoo.com/blog/2016/03/14/how-badoo-saved-one-million-dollars-switching-to-php7/&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;https://techblog.badoo.com/blog/2016/03/14/how-badoo-saved-one-million-dollars-switching-to-php7/&#34;&gt;https://techblog.badoo.com/blog/2016/03/14/how-badoo-saved-one-million-dollars-switching-to-php7/&lt;/a&gt;&lt;/a&gt;). Those are great results! At @AtrapaloEng, we&amp;#8217;re running already tests in production to perform the same step. We could have started some months before, but we&amp;#8217;ve been struggling with the php-msgpack extension and its (un)support for PHP7. We hope to deploy PHP7 in all our server during this week but we would like to share with you what we have seen so far. What we have done is adding another FPM node with the same capabilities as the current ones running in production with PHP 5.6. The new node is getting the same amount of traffic as the other ones. No special configurations or tweaks such as Huge Pages, just PHP7 upgrade. Data after more than 24 hours running.&lt;/p&gt;</description>
     </item>
     

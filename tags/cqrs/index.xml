@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>cqrs on Carlos Buenosvinos</title>
-    <link>https://carlosbuenosvinos.com/tags/cqrs/</link>
+    <link>https://carlosbuenosvinos.github.io/tags/cqrs/</link>
     <description>Recent content in cqrs on Carlos Buenosvinos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 15 Sep 2016 11:00:11 +0000</lastBuildDate>
     
-	<atom:link href="https://carlosbuenosvinos.com/tags/cqrs/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://carlosbuenosvinos.github.io/tags/cqrs/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>“Domain-Driven Design in PHP” (@dddbook) is finished</title>
-      <link>https://carlosbuenosvinos.com/domain-driven-design-in-php-book-is-finished/</link>
+      <link>https://carlosbuenosvinos.github.io/domain-driven-design-in-php-book-is-finished/</link>
       <pubDate>Thu, 15 Sep 2016 11:00:11 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/domain-driven-design-in-php-book-is-finished/</guid>
+      <guid>https://carlosbuenosvinos.github.io/domain-driven-design-in-php-book-is-finished/</guid>
       <description>&lt;p&gt;Today, Keyvan, Christian and me are very happy to announce that &lt;a href=&#34;https://leanpub.com/ddd-in-php&#34; target=&#34;_blank&#34;&gt;&amp;#8220;Domain-Driven Design in PHP&amp;#8221;&lt;/a&gt; book is 100% complete. &lt;strong&gt;380 pages&lt;/strong&gt; and around &lt;strong&gt;1400 readers&lt;/strong&gt; so far.&lt;/p&gt;
 
 &lt;h4 id=&#34;thanks&#34;&gt;Thanks&lt;/h4&gt;
@@ -44,10 +44,10 @@
     
     <item>
       <title>Rendimiento con Domain Events, Proyecciones y principios de CQRS</title>
-      <link>https://carlosbuenosvinos.com/rendimiento-con-domain-events-proyecciones-y-principios-de-cqrs/</link>
+      <link>https://carlosbuenosvinos.github.io/rendimiento-con-domain-events-proyecciones-y-principios-de-cqrs/</link>
       <pubDate>Mon, 29 Feb 2016 07:00:38 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/rendimiento-con-domain-events-proyecciones-y-principios-de-cqrs/</guid>
+      <guid>https://carlosbuenosvinos.github.io/rendimiento-con-domain-events-proyecciones-y-principios-de-cqrs/</guid>
       <description>&lt;p&gt;Cuando desarrollamos una aplicación nueva, todo va muy rapidito. Hay poco tráfico, pocas queries y si hay alguna más &amp;#8220;dura&amp;#8221; usamos alguna cache como Memcached o Redis. Pero a medida que agregamos más funcionalidad a una página, el número de queries a base de datos u otras infraestructuras va creciendo. Hasta que sin saber cómo, haces 300 queries, y no es broma, en la ficha de algún producto.&lt;/p&gt;
 
 &lt;p&gt;El problema es que estamos acostumbrados a hacer muchas queries de lectura y muy pocas de escritura en estructuras bastante normalizadas. Eso escala mal en base a nueva funcionalidad. Un buen approach en busca del máximo rendimiento es la consistencia eventual, estructuras desnormalizadas y proyecciones.&lt;/p&gt;

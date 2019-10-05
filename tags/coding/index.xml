@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>coding on Carlos Buenosvinos</title>
-    <link>https://carlosbuenosvinos.com/tags/coding/</link>
+    <link>https://carlosbuenosvinos.github.io/tags/coding/</link>
     <description>Recent content in coding on Carlos Buenosvinos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 21 Aug 2013 10:10:12 +0000</lastBuildDate>
     
-	<atom:link href="https://carlosbuenosvinos.com/tags/coding/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://carlosbuenosvinos.github.io/tags/coding/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Kata: Bowling Game</title>
-      <link>https://carlosbuenosvinos.com/kata-bowling-game/</link>
+      <link>https://carlosbuenosvinos.github.io/kata-bowling-game/</link>
       <pubDate>Wed, 21 Aug 2013 10:10:12 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/kata-bowling-game/</guid>
+      <guid>https://carlosbuenosvinos.github.io/kata-bowling-game/</guid>
       <description>&lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://i2.wp.com/carlosbuenosvinos.com/posts/images/2013/08/Bowling.png&#34;&gt;&lt;img class=&#34;alignnone size-medium wp-image-141&#34; alt=&#34;Bowling&#34; src=&#34;https://i2.wp.com/carlosbuenosvinos.com/posts/images/2013/08/Bowling-300x29.png?resize=300%2C29&#34; width=&#34;300&#34; height=&#34;29&#34; srcset=&#34;https://i2.wp.com/carlosbuenosvinos.com/posts/images/2013/08/Bowling.png?resize=300%2C29&amp;ssl=1 300w, https://i2.wp.com/carlosbuenosvinos.com/posts/images/2013/08/Bowling.png?w=776&amp;ssl=1 776w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; data-recalc-dims=&#34;1&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -26,10 +26,10 @@
     
     <item>
       <title>Kata: Prime Factors</title>
-      <link>https://carlosbuenosvinos.com/kata-prime-factors/</link>
+      <link>https://carlosbuenosvinos.github.io/kata-prime-factors/</link>
       <pubDate>Tue, 20 Aug 2013 14:00:37 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/kata-prime-factors/</guid>
+      <guid>https://carlosbuenosvinos.github.io/kata-prime-factors/</guid>
       <description>&lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;
 
 &lt;p&gt;Although quite short, this kata is fascinating in the way it shows how &amp;#8220;if&amp;#8221; statements become &amp;#8220;while&amp;#8221; statements as the number of test cases increase.  It’s also a wonderful example of how algorithms sometimes become simpler as they become more general.&lt;/p&gt;

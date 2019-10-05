@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>tell-dont-ask on Carlos Buenosvinos</title>
-    <link>https://carlosbuenosvinos.com/tags/tell-dont-ask/</link>
+    <link>https://carlosbuenosvinos.github.io/tags/tell-dont-ask/</link>
     <description>Recent content in tell-dont-ask on Carlos Buenosvinos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 07 Mar 2017 09:30:55 +0000</lastBuildDate>
     
-	<atom:link href="https://carlosbuenosvinos.com/tags/tell-dont-ask/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://carlosbuenosvinos.github.io/tags/tell-dont-ask/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Rigor Talks – PHP – #18 – Tell-Don’t-Ask (Spanish)</title>
-      <link>https://carlosbuenosvinos.com/rigor-talks-php-18-tell-dont-ask-spanish/</link>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-18-tell-dont-ask-spanish/</link>
       <pubDate>Tue, 07 Mar 2017 09:30:55 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/rigor-talks-php-18-tell-dont-ask-spanish/</guid>
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-18-tell-dont-ask-spanish/</guid>
       <description>&lt;p&gt;Hola Amigos del Rigor! Hacemos un parada en la serie de los videos sobre refactoring para explicar el principio de Tell-Don&amp;#8217;t-Ask. Lo hemos ido utilizando en los videos anteriores pero no lo había presentado formalmente.&lt;/p&gt;
 
 &lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Si los videos os gustan, no olvidéis suscribiros a mi canal. Espero que os guste!&lt;/p&gt;

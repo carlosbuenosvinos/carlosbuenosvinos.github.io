@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Rigor Talks on Carlos Buenosvinos</title>
-    <link>https://carlosbuenosvinos.com/categories/rigor-talks/</link>
+    <link>https://carlosbuenosvinos.github.io/categories/rigor-talks/</link>
     <description>Recent content in Rigor Talks on Carlos Buenosvinos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 01 Aug 2017 08:00:09 +0000</lastBuildDate>
     
-	<atom:link href="https://carlosbuenosvinos.com/categories/rigor-talks/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://carlosbuenosvinos.github.io/categories/rigor-talks/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Rigor Talks – PHP – #31 – Viewing Domain Events with Kibana (Spanish)</title>
-      <link>https://carlosbuenosvinos.com/rigor-talks-php-31-viewing-domain-events-with-kibana-spanish/</link>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-31-viewing-domain-events-with-kibana-spanish/</link>
       <pubDate>Tue, 01 Aug 2017 08:00:09 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/rigor-talks-php-31-viewing-domain-events-with-kibana-spanish/</guid>
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-31-viewing-domain-events-with-kibana-spanish/</guid>
       <description>&lt;p&gt;Hola Amigos del Rigor! Continuamos con la serie sobre Domain Events pero esta vez con un caso práctico de uso muy interesante para marcarse un tanto con negocio. Vamos a enviar los eventos de dominio contra un Elastic para que podamos finalmente agregar un Kibana y tener métricas en tiempo real de lo que ocurre en nuestra aplicación.&lt;/p&gt;
 
 &lt;p&gt;En este vídeo, vamos a configurar Kibana para montar gráficos y ver la información de los eventos que hemos enviado a Elastic de una forma que negocio flipe :)&lt;/p&gt;
@@ -30,10 +30,10 @@
     
     <item>
       <title>Rigor Talks – PHP – #30 – Sending Domain Events to Elastic III (Spanish)</title>
-      <link>https://carlosbuenosvinos.com/rigor-talks-php-30-sending-domain-events-to-elastic-iii-spanish/</link>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-30-sending-domain-events-to-elastic-iii-spanish/</link>
       <pubDate>Thu, 27 Jul 2017 08:00:39 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/rigor-talks-php-30-sending-domain-events-to-elastic-iii-spanish/</guid>
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-30-sending-domain-events-to-elastic-iii-spanish/</guid>
       <description>&lt;p&gt;Hola Amigos del Rigor! Continuamos con la serie sobre Domain Events pero esta vez con un caso práctico de uso muy interesante para marcarse un tanto con negocio. Vamos a enviar los eventos de dominio contra un Elastic para que podamos finalmente agregar un Kibana y tener métricas en tiempo real de lo que ocurre en nuestra aplicación.&lt;/p&gt;
 
 &lt;p&gt;En este vídeo, vamos a ver la cómo enriquecer el evento de dominio antes de enviarlo a Elastic. Agregaremos información sobre la request, memoria, etc. para traquear si algún servidor está procesando menos eventos de un cierto tipo.&lt;/p&gt;
@@ -47,10 +47,10 @@
     
     <item>
       <title>Rigor Talks – PHP – #29 – Sending Domain Events to Elastic II (Spanish)</title>
-      <link>https://carlosbuenosvinos.com/rigor-talks-php-29-sending-domain-events-to-elastic-ii-spanish/</link>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-29-sending-domain-events-to-elastic-ii-spanish/</link>
       <pubDate>Tue, 25 Jul 2017 08:00:59 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/rigor-talks-php-29-sending-domain-events-to-elastic-ii-spanish/</guid>
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-29-sending-domain-events-to-elastic-ii-spanish/</guid>
       <description>&lt;p&gt;Hola Amigos del Rigor! Continuamos con la serie sobre Domain Events pero esta vez con un caso práctico de uso muy interesante para marcarse un tanto con negocio. Vamos a enviar los eventos de dominio contra un Elastic para que podamos finalmente agregar un Kibana y tener métricas en tiempo real de lo que ocurre en nuestra aplicación. En este vídeo, vamos a ver la segunda alternativa para enviar todos los eventos juntos de una vez, después de ejecutar el command handler. Reducimos números de peticiones mejorando el rendimiento.&lt;/p&gt;
 
 &lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;aquí&lt;/a&gt;. Si los videos os gustan, no olvidéis suscribiros a mi canal. Espero que os guste!&lt;/p&gt;
@@ -62,10 +62,10 @@
     
     <item>
       <title>Rigor Talks – PHP – #28 – Sending Domain Events to Elastic (Spanish)</title>
-      <link>https://carlosbuenosvinos.com/rigor-talks-php-28-sending-domain-events-to-elastic-spanish/</link>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-28-sending-domain-events-to-elastic-spanish/</link>
       <pubDate>Thu, 20 Jul 2017 08:00:03 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/rigor-talks-php-28-sending-domain-events-to-elastic-spanish/</guid>
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-28-sending-domain-events-to-elastic-spanish/</guid>
       <description>&lt;p&gt;Hola Amigos del Rigor! Continuamos con la serie sobre Domain Events pero esta vez con un caso práctico de uso muy interesante para marcarse un tanto con negocio. Vamos a enviar los eventos de dominio contra un Elastic para que podamos finalmente agregar un Kibana y tener métricas en tiempo real de lo que ocurre en nuestra aplicación. En este vídeo, vamos a ver una de las alternativas para hacer esto, el envío síncrono a Elastic por cada eventos disparado.&lt;/p&gt;
 
 &lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;aquí&lt;/a&gt;. Si los videos os gustan, no olvidéis suscribiros a mi canal. Espero que os guste!&lt;/p&gt;
@@ -77,10 +77,10 @@
     
     <item>
       <title>Rigor Talks – PHP – #27 – Distributing Domain Events using RabbitMQ (Spanish)</title>
-      <link>https://carlosbuenosvinos.com/rigor-talks-php-27-distributing-domain-events-using-rabbitmq-spanish/</link>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-27-distributing-domain-events-using-rabbitmq-spanish/</link>
       <pubDate>Thu, 22 Jun 2017 08:00:22 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/rigor-talks-php-27-distributing-domain-events-using-rabbitmq-spanish/</guid>
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-27-distributing-domain-events-using-rabbitmq-spanish/</guid>
       <description>&lt;p&gt;Hola Amigos del Rigor! Continuamos con la serie sobre Domain Events. En este sexto video de la serie, vamos a distribuir los eventos, que tenemos persistidos en base de datos, hacia un sistema de colas como RabbitMQ. Veremos algunas consideraciones y trucos a tener en cuenta.&lt;/p&gt;
 
 &lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;aquí&lt;/a&gt;. Si los videos os gustan, no olvidéis suscribiros a mi canal. Espero que os guste!&lt;/p&gt;
@@ -92,10 +92,10 @@
     
     <item>
       <title>Rigor Talks – PHP – #26 – Distributing Domain Events using REST (Spanish)</title>
-      <link>https://carlosbuenosvinos.com/rigor-talks-php-26-distributing-domain-events-using-rest-spanish/</link>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-26-distributing-domain-events-using-rest-spanish/</link>
       <pubDate>Tue, 06 Jun 2017 08:00:02 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/rigor-talks-php-26-distributing-domain-events-using-rest-spanish/</guid>
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-26-distributing-domain-events-using-rest-spanish/</guid>
       <description>&lt;p&gt;Hola Amigos del Rigor! Continuamos con la serie sobre Domain Events. En este quinto video de la serie, vamos a empezar a discutir manera de distribuir los eventos. El primer método es quizá menos conocido, REST. Veremos qué beneficios tiene y algunos trucos para implementarlo.&lt;/p&gt;
 
 &lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;aquí&lt;/a&gt;. Si los videos os gustan, no olvidéis suscribiros a mi canal. Espero que os guste!&lt;/p&gt;
@@ -107,10 +107,10 @@
     
     <item>
       <title>Rigor Talks – PHP – #25 – Persisting Domain Events (Spanish)</title>
-      <link>https://carlosbuenosvinos.com/rigor-talks-php-25-persisting-domain-events-spanish/</link>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-25-persisting-domain-events-spanish/</link>
       <pubDate>Wed, 31 May 2017 08:00:23 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/rigor-talks-php-25-persisting-domain-events-spanish/</guid>
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-25-persisting-domain-events-spanish/</guid>
       <description>&lt;p&gt;Hola Amigos del Rigor! Continuamos con la serie sobre Domain Events. En este cuarto video, vamos a ver cómo implementar la persistencia de Eventos de Dominio, para qué es útil y cuáles son sus beneficios.&lt;/p&gt;
 
 &lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;aquí&lt;/a&gt;. Si los videos os gustan, no olvidéis suscribiros a mi canal. Espero que os guste!&lt;/p&gt;
@@ -122,10 +122,10 @@
     
     <item>
       <title>Rigor Talks – PHP – #24 – Domain Events III (Spanish)</title>
-      <link>https://carlosbuenosvinos.com/rigor-talks-php-24-domain-events-iii-spanish/</link>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-24-domain-events-iii-spanish/</link>
       <pubDate>Tue, 23 May 2017 08:00:16 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/rigor-talks-php-24-domain-events-iii-spanish/</guid>
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-24-domain-events-iii-spanish/</guid>
       <description>&lt;p&gt;Hola Amigos del Rigor! Continuamos con la serie sobre Domain Events. En este tercer video, veremos la segunda alternativa para disparar un evento de dominio: un publisher estático. Veremos sus puntos fuertes y flojos.&lt;/p&gt;
 
 &lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;aquí&lt;/a&gt;. Si los videos os gustan, no olvidéis suscribiros a mi canal. Espero que os guste!&lt;/p&gt;
@@ -137,10 +137,10 @@
     
     <item>
       <title>Rigor Talks – PHP – #23 – Domain Events II (Spanish)</title>
-      <link>https://carlosbuenosvinos.com/rigor-talks-php-23-domain-events-ii-spanish/</link>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-23-domain-events-ii-spanish/</link>
       <pubDate>Tue, 16 May 2017 08:00:48 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/rigor-talks-php-23-domain-events-ii-spanish/</guid>
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-23-domain-events-ii-spanish/</guid>
       <description>&lt;p&gt;Hola Amigos del Rigor! Continuamos con la serie sobre Domain Events. En este segundo video, veremos la primera alternativa para disparar un evento de dominio: acumularlos en la entidad. Veremos sus puntos fuertes y flojos.&lt;/p&gt;
 
 &lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;aquí&lt;/a&gt;. Si los videos os gustan, no olvidéis suscribiros a mi canal. Espero que os guste!&lt;/p&gt;
@@ -152,10 +152,10 @@
     
     <item>
       <title>Rigor Talks – PHP – #22 – Domain Events I (Spanish)</title>
-      <link>https://carlosbuenosvinos.com/rigor-talks-php-22-domain-events-i-spanish/</link>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-22-domain-events-i-spanish/</link>
       <pubDate>Tue, 09 May 2017 08:00:55 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/rigor-talks-php-22-domain-events-i-spanish/</guid>
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-22-domain-events-i-spanish/</guid>
       <description>&lt;p&gt;Hola Amigos del Rigor! Arrancamos una miniserie de videos sobre Domain Events. En este primer video, veremos cómo modelar un evento de dominio e introduciremos las diferentes manera de dispararlos. En los siguientes, veremos en detalle dichas alternativas, así como su relación con la persistencia y la distribución.&lt;/p&gt;
 
 &lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;aquí&lt;/a&gt;. Si los videos os gustan, no olvidéis suscribiros a mi canal. Espero que os guste!&lt;/p&gt;
@@ -167,10 +167,10 @@
     
     <item>
       <title>Rigor Talks – PHP – #21 – Command Bus (Spanish)</title>
-      <link>https://carlosbuenosvinos.com/rigor-talks-php-21-command-bus-spanish/</link>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-21-command-bus-spanish/</link>
       <pubDate>Wed, 19 Apr 2017 08:30:29 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/rigor-talks-php-21-command-bus-spanish/</guid>
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-21-command-bus-spanish/</guid>
       <description>&lt;p&gt;Hola Amigos del Rigor! Perdonad por el retraso pero estuve preparando la certificación de AWS Certified Solutions Architect &amp;#8211; Associate que al final conseguí la semana pasada.&lt;/p&gt;
 
 &lt;p&gt;En este video, vamos a continuar evolucionando los Command Handlers y su contexto de ejecución presentando el Command Bus. Veremos cuáles son sus objetivos y para qué nos resulta útil. Por último, hablaremos sobre Tactician.&lt;/p&gt;
@@ -184,10 +184,10 @@
     
     <item>
       <title>Rigor Talks – PHP – #20 – Application Services and Command Handlers (Spanish)</title>
-      <link>https://carlosbuenosvinos.com/rigor-talks-php-20-application-services-and-command-handlers-spanish/</link>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-20-application-services-and-command-handlers-spanish/</link>
       <pubDate>Fri, 24 Mar 2017 14:32:53 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/rigor-talks-php-20-application-services-and-command-handlers-spanish/</guid>
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-20-application-services-and-command-handlers-spanish/</guid>
       <description>&lt;p&gt;Hola Amigos del Rigor! Vamos con una entrega más. En esta ocasión, vamos a ver la diferencia entre Application Services y Command Handlers, así como algún truco sobre Command Handlers para decorarlos y facilitar tareas como el Logging o la gestión de Transacciones.&lt;/p&gt;
 
 &lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Si los videos os gustan, no olvidéis suscribiros a mi canal. Espero que os guste!&lt;/p&gt;
@@ -199,10 +199,10 @@
     
     <item>
       <title>Rigor Talks – PHP – #19 – Refactor Use Case VI (Spanish)</title>
-      <link>https://carlosbuenosvinos.com/rigor-talks-php-19-refactor-use-case-vi-spanish/</link>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-19-refactor-use-case-vi-spanish/</link>
       <pubDate>Tue, 14 Mar 2017 09:30:36 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/rigor-talks-php-19-refactor-use-case-vi-spanish/</guid>
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-19-refactor-use-case-vi-spanish/</guid>
       <description>&lt;p&gt;Hola Amigos del Rigor! Después de explicar el principio de Tell-Don&amp;#8217;t-Ask, continuamos con la serie de los videos de refactoring. En este video, vamos a ver cómo extraer dependencias como Loggers, Servicios para enviar notificaciones o similares usando una primera aproximación sencilla con un EventDispatcher.&lt;/p&gt;
 
 &lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Si los videos os gustan, no olvidéis suscribiros a mi canal. Espero que os guste!&lt;/p&gt;
@@ -214,10 +214,10 @@
     
     <item>
       <title>Rigor Talks – PHP – #18 – Tell-Don’t-Ask (Spanish)</title>
-      <link>https://carlosbuenosvinos.com/rigor-talks-php-18-tell-dont-ask-spanish/</link>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-18-tell-dont-ask-spanish/</link>
       <pubDate>Tue, 07 Mar 2017 09:30:55 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/rigor-talks-php-18-tell-dont-ask-spanish/</guid>
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-18-tell-dont-ask-spanish/</guid>
       <description>&lt;p&gt;Hola Amigos del Rigor! Hacemos un parada en la serie de los videos sobre refactoring para explicar el principio de Tell-Don&amp;#8217;t-Ask. Lo hemos ido utilizando en los videos anteriores pero no lo había presentado formalmente.&lt;/p&gt;
 
 &lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Si los videos os gustan, no olvidéis suscribiros a mi canal. Espero que os guste!&lt;/p&gt;
@@ -229,10 +229,10 @@
     
     <item>
       <title>Rigor Talks – PHP – #17 – Refactor Use Case V (Spanish)</title>
-      <link>https://carlosbuenosvinos.com/rigor-talks-php-17-refactor-use-case-v-spanish/</link>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-17-refactor-use-case-v-spanish/</link>
       <pubDate>Tue, 28 Feb 2017 09:30:28 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/rigor-talks-php-17-refactor-use-case-v-spanish/</guid>
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-17-refactor-use-case-v-spanish/</guid>
       <description>&lt;p&gt;Hola Amigos del Rigor! Seguimos con la serie sobre los videos de refactoring. Los Application Services deben coordinar pero no contener lógica de negocio. En este video, veremos varios trucos para mover la lógica de negocio del Application Service hacia Entidades y Repositorios.&lt;/p&gt;
 
 &lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Si los videos os gustan, no olvidéis suscribiros a mi canal. Espero que os guste!&lt;/p&gt;
@@ -244,10 +244,10 @@
     
     <item>
       <title>Rigor Talks – PHP – #16 – Refactor Use Case IV (Spanish)</title>
-      <link>https://carlosbuenosvinos.com/rigor-talks-php-16-refactor-use-case-iv-spanish/</link>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-16-refactor-use-case-iv-spanish/</link>
       <pubDate>Thu, 23 Feb 2017 09:32:29 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/rigor-talks-php-16-refactor-use-case-iv-spanish/</guid>
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-16-refactor-use-case-iv-spanish/</guid>
       <description>&lt;p&gt;Hola Amigos del Rigor! Seguimos con la serie sobre los videos de refactoring. En éste, vamos a mejorar la calidad de los tests unitarios acabando de agregar _assests_ que faltaban e introduciendo un &lt;em&gt;Spy.&lt;/em&gt; Con esto, nos aseguraremos que aún teniendo 100% de cobertura en los tests, tenemos que esta atentos a invocaciones que no tienen retorno, como logging, notifiers, publishers de eventos, etc.&lt;/p&gt;
 
 &lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Espero que os guste!&lt;/p&gt;
@@ -259,10 +259,10 @@
     
     <item>
       <title>Rigor Talks – PHP – #15 – Refactor Use Case III (Spanish)</title>
-      <link>https://carlosbuenosvinos.com/rigor-talks-php-15-refactor-use-case-iii-spanish/</link>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-15-refactor-use-case-iii-spanish/</link>
       <pubDate>Tue, 14 Feb 2017 09:30:19 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/rigor-talks-php-15-refactor-use-case-iii-spanish/</guid>
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-15-refactor-use-case-iii-spanish/</guid>
       <description>&lt;p&gt;Hola Amigos del Rigor! Seguimos con la serie sobre los videos de refactoring. En éste, vamos a acabar de testear por completo todo el Application Service del &lt;a href=&#34;https://carlosbuenosvinos.com/rigor-talks-php-13-refactor-use-case-i-spanish/&#34; target=&#34;_blank&#34;&gt;video anterior&lt;/a&gt; utilizando técnicas que vimos en los videos anteriores como &lt;a href=&#34;https://carlosbuenosvinos.com/rigor-talks-php-7-test-class-spanish/&#34; target=&#34;_blank&#34;&gt;Test Classes&lt;/a&gt; o &lt;a href=&#34;https://carlosbuenosvinos.com/rigor-talks-php-8-self-shunt-spanish/&#34; target=&#34;_blank&#34;&gt;Self-Shunt&lt;/a&gt;. En el siguiente video veremos cómo enriquecer nuestro dominio moviendo parte de la lógica a las entidades.&lt;/p&gt;
 
 &lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Espero que os guste!&lt;/p&gt;
@@ -274,10 +274,10 @@
     
     <item>
       <title>Rigor Talks – PHP – #14 – Refactor Use Case II (Spanish)</title>
-      <link>https://carlosbuenosvinos.com/rigor-talks-php-14-refactor-use-case-ii-spanish/</link>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-14-refactor-use-case-ii-spanish/</link>
       <pubDate>Tue, 07 Feb 2017 09:30:36 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/rigor-talks-php-14-refactor-use-case-ii-spanish/</guid>
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-14-refactor-use-case-ii-spanish/</guid>
       <description>&lt;p&gt;Hola Amigos del Rigor! Seguimos con la serie sobre los videos de refactoring. En éste, vamos a testear parte del Application Service que extrajimos en el &lt;a href=&#34;https://carlosbuenosvinos.com/rigor-talks-php-13-refactor-use-case-i-spanish/&#34; target=&#34;_blank&#34;&gt;video anterior&lt;/a&gt;. Aprovecharemos para mejorar el código con algunos casos no contemplados en el código original.&lt;/p&gt;
 
 &lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Espero que os guste!&lt;/p&gt;
@@ -289,10 +289,10 @@
     
     <item>
       <title>Rigor Talks – PHP – #13 – Refactor Use Case I (Spanish)</title>
-      <link>https://carlosbuenosvinos.com/rigor-talks-php-13-refactor-use-case-i-spanish/</link>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-13-refactor-use-case-i-spanish/</link>
       <pubDate>Tue, 31 Jan 2017 09:30:24 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/rigor-talks-php-13-refactor-use-case-i-spanish/</guid>
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-13-refactor-use-case-i-spanish/</guid>
       <description>&lt;p&gt;Hola Amigos del Rigor! Hoy es mi cumpleaños, 34 primaveras. He traído donuts a la oficina, pero como no podéis acceder a ellos :(, aquí os dejo un regalito para vosotros! Arranco una nueva serie de videos sobre Refactoring de código acoplado. En este video, vamos a ver cómo refactorizar código escrito directamente en el controlador web de cualquier framework donde se mezcla lógica de negocio y detalles de infraestructura.&lt;/p&gt;
 
 &lt;p&gt;Lo sacaremos a un Application Service, invertiremos todas las dependencias y lo dejaremos listo para poderlo testear.&lt;/p&gt;
@@ -306,10 +306,10 @@
     
     <item>
       <title>Rigor Talks – PHP – #12 – Mutant Testing (Spanish)</title>
-      <link>https://carlosbuenosvinos.com/rigor-talks-php-12-mutant-testing-spanish/</link>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-12-mutant-testing-spanish/</link>
       <pubDate>Tue, 24 Jan 2017 09:30:36 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/rigor-talks-php-12-mutant-testing-spanish/</guid>
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-12-mutant-testing-spanish/</guid>
       <description>&lt;p&gt;Hola Amigos del Rigor! Unit Testear nuestro código con un 100% de coverage no es suficiente. En este video, vamos a ver cómo aplicar &amp;#8220;Mutant Testing&amp;#8221; a nuestro código para mejorar la calidad de nuestros tests unitarios.&lt;/p&gt;
 
 &lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Espero que os guste!&lt;/p&gt;
@@ -321,10 +321,10 @@
     
     <item>
       <title>Rigor Talks – PHP – #11 – Immutability (Spanish)</title>
-      <link>https://carlosbuenosvinos.com/rigor-talks-php-11-immutability-spanish/</link>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-11-immutability-spanish/</link>
       <pubDate>Tue, 17 Jan 2017 09:30:16 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/rigor-talks-php-11-immutability-spanish/</guid>
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-11-immutability-spanish/</guid>
       <description>&lt;p&gt;Hola Amigos del Rigor! Continuamos con un video sobre inmutabilidad. Vamos a ver cómo poder hacer que nuestras clases, especialmente aquellas con las que modelamos Value Objects pueden ser inmutables.&lt;/p&gt;
 
 &lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Espero que os guste!&lt;/p&gt;
@@ -336,10 +336,10 @@
     
     <item>
       <title>Rigor Talks – PHP – #10 – Self-Shunt III (Spanish)</title>
-      <link>https://carlosbuenosvinos.com/rigor-talks-php-10-self-shunt-iii-spanish/</link>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-10-self-shunt-iii-spanish/</link>
       <pubDate>Tue, 10 Jan 2017 09:30:45 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/rigor-talks-php-10-self-shunt-iii-spanish/</guid>
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-10-self-shunt-iii-spanish/</guid>
       <description>&lt;p&gt;Hola Amigos del Rigor! Vamos a con el último de los tres videos sobre el patrón de testing &amp;#8220;Self-Shunt&amp;#8221;. En este video, veremos un truco muy sencillo para poder testear cadenas de invocaciones que incumplen la ley de Demeter.&lt;/p&gt;
 
 &lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Espero que os guste!&lt;/p&gt;
@@ -351,10 +351,10 @@
     
     <item>
       <title>Rigor Talks – PHP – #9 – Self-Shunt II (Spanish)</title>
-      <link>https://carlosbuenosvinos.com/rigor-talks-php-9-self-shunt-ii-spanish/</link>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-9-self-shunt-ii-spanish/</link>
       <pubDate>Tue, 03 Jan 2017 09:30:30 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/rigor-talks-php-9-self-shunt-ii-spanish/</guid>
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-9-self-shunt-ii-spanish/</guid>
       <description>&lt;p&gt;Hola Amigos del Rigor! Vamos a con el tercer de los cuatro videos sobre patrones de &amp;#8220;Unit Testing&amp;#8221;, especialmente, para código acoplado. En este video, veremos una implementación alternativa del &amp;#8220;Self-Shunt&amp;#8221; sólo para PHP7 usando clases anónimas.&lt;/p&gt;
 
 &lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Espero que os guste!&lt;/p&gt;
@@ -366,10 +366,10 @@
     
     <item>
       <title>Rigor Talks – PHP – #8 – Self-Shunt (Spanish)</title>
-      <link>https://carlosbuenosvinos.com/rigor-talks-php-8-self-shunt-spanish/</link>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-8-self-shunt-spanish/</link>
       <pubDate>Tue, 27 Dec 2016 09:30:03 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/rigor-talks-php-8-self-shunt-spanish/</guid>
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-8-self-shunt-spanish/</guid>
       <description>&lt;p&gt;Hola Amigos del Rigor! Vamos a con el segundo de los cuatro videos sobre patrones de &amp;#8220;Unit Testing&amp;#8221;, especialmente, para código acoplado. En este video, veremos un atajo para implementar &amp;#8220;Test Classes&amp;#8221; usando un patrón conocido como &amp;#8220;Self-Shunt&amp;#8221;.&lt;/p&gt;
 
 &lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Espero que os guste!&lt;/p&gt;
@@ -381,10 +381,10 @@
     
     <item>
       <title>Rigor Talks – PHP – #7 – Test Class (Spanish)</title>
-      <link>https://carlosbuenosvinos.com/rigor-talks-php-7-test-class-spanish/</link>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-7-test-class-spanish/</link>
       <pubDate>Tue, 20 Dec 2016 09:30:21 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/rigor-talks-php-7-test-class-spanish/</guid>
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-7-test-class-spanish/</guid>
       <description>&lt;p&gt;Hola Amigos del Rigor! Vamos a arrancar un serie de 4 videos sobre patrones de &amp;#8220;Unit Testing&amp;#8221;, especialmente, para código acoplado. Aquí os dejo el primero.&lt;/p&gt;
 
 &lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Espero que os guste!&lt;/p&gt;
@@ -396,10 +396,10 @@
     
     <item>
       <title>Rigor Talks – PHP – #6 – Named Constructors IV (Spanish)</title>
-      <link>https://carlosbuenosvinos.com/rigor-talks-php-6-named-constructors-iv-spanish/</link>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-6-named-constructors-iv-spanish/</link>
       <pubDate>Thu, 15 Dec 2016 10:00:26 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/rigor-talks-php-6-named-constructors-iv-spanish/</guid>
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-6-named-constructors-iv-spanish/</guid>
       <description>&lt;p&gt;Hola Amigos del Rigor! Acabamos con la serie sobre &amp;#8220;Named Constructors&amp;#8221; con el último video de los cuatro. He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Espero que os guste!&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -409,10 +409,10 @@
     
     <item>
       <title>Rigor Talks – PHP – #5 – Named Constructors III (Spanish)</title>
-      <link>https://carlosbuenosvinos.com/rigor-talks-php-5-named-constructors-iii-spanish/</link>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-5-named-constructors-iii-spanish/</link>
       <pubDate>Tue, 13 Dec 2016 10:00:17 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/rigor-talks-php-5-named-constructors-iii-spanish/</guid>
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-5-named-constructors-iii-spanish/</guid>
       <description>&lt;p&gt;Hola Amigos del Rigor! Seguimos con la serie sobre &amp;#8220;Named Constructors&amp;#8221; con el tercer de los cuatro videos. He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Espero que os guste!&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -422,10 +422,10 @@
     
     <item>
       <title>Rigor Talks – PHP – #4 – Named Constructors II (Spanish)</title>
-      <link>https://carlosbuenosvinos.com/rigor-talks-php-4-named-constructors-ii-spanish/</link>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-4-named-constructors-ii-spanish/</link>
       <pubDate>Thu, 08 Dec 2016 10:00:05 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/rigor-talks-php-4-named-constructors-ii-spanish/</guid>
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-4-named-constructors-ii-spanish/</guid>
       <description>&lt;p&gt;Hola Amigos del Rigor! Seguimos con la serie sobre &amp;#8220;Named Constructors&amp;#8221; con el segundo de los cuatro videos. He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Espero que os guste!&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -435,10 +435,10 @@
     
     <item>
       <title>Rigor Talks – PHP – #3 – Named Constructors I (Spanish)</title>
-      <link>https://carlosbuenosvinos.com/rigor-talks-php-3-named-constructors-i-spanish/</link>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-3-named-constructors-i-spanish/</link>
       <pubDate>Tue, 06 Dec 2016 10:00:05 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/rigor-talks-php-3-named-constructors-i-spanish/</guid>
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-3-named-constructors-i-spanish/</guid>
       <description>&lt;p&gt;Hola Amigos del Rigor! Vamos a arrancar un serie de 4 videos sobre &amp;#8220;Named Constructors&amp;#8221;. También conocidos como &amp;#8220;Semantic Constructors&amp;#8221; o &amp;#8220;Constructor Methods&amp;#8221;. Aquí os dejo el primero.&lt;/p&gt;
 
 &lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Espero que os guste!&lt;/p&gt;
@@ -450,10 +450,10 @@
     
     <item>
       <title>Rigor Talks – PHP – #2 Self-Encapsulation (Spanish)</title>
-      <link>https://carlosbuenosvinos.com/rigor-talks-php-2-self-encapsulation-spanish/</link>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-2-self-encapsulation-spanish/</link>
       <pubDate>Thu, 01 Dec 2016 09:00:09 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/rigor-talks-php-2-self-encapsulation-spanish/</guid>
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-2-self-encapsulation-spanish/</guid>
       <description>&lt;p&gt;Hola Amigos del Rigor! En este video voy a enseñar un ejemplo del concepto de &amp;#8220;Self-Encapsulation&amp;#8221; y la relación que guarda con las &amp;#8220;Guard Clauses&amp;#8221; que vimos en la &lt;a href=&#34;https://carlosbuenosvinos.com/rigor-talks-php-1-guard-clause-spanish/&#34;&gt;Rigor Talk anterior&lt;/a&gt;. He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Espero que os guste!&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -463,10 +463,10 @@
     
     <item>
       <title>Rigor Talks – PHP – #1 Guard Clause (Spanish)</title>
-      <link>https://carlosbuenosvinos.com/rigor-talks-php-1-guard-clause-spanish/</link>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-1-guard-clause-spanish/</link>
       <pubDate>Wed, 30 Nov 2016 09:30:05 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/rigor-talks-php-1-guard-clause-spanish/</guid>
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-1-guard-clause-spanish/</guid>
       <description>&lt;p&gt;Hola Amigos del Rigor! En este video voy a enseñar lo que son las cláusulas de guarda y cómo ayudan a tener un código un poco más legible. He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Espero que os guste!&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -476,10 +476,10 @@
     
     <item>
       <title>#MayTheRigorBeWithYou: Presentamos las “Rigor Talks”</title>
-      <link>https://carlosbuenosvinos.com/maytherigorbewithyou-presentamos-las-rigor-talks/</link>
+      <link>https://carlosbuenosvinos.github.io/maytherigorbewithyou-presentamos-las-rigor-talks/</link>
       <pubDate>Wed, 30 Nov 2016 09:00:14 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/maytherigorbewithyou-presentamos-las-rigor-talks/</guid>
+      <guid>https://carlosbuenosvinos.github.io/maytherigorbewithyou-presentamos-las-rigor-talks/</guid>
       <description>&lt;p&gt;Amigos del rigor! Hola! Siguiendo la senda de los más grandes como &lt;a href=&#34;https://cleancoders.com/&#34; target=&#34;_blank&#34;&gt;CleanCoders.com&lt;/a&gt; o &lt;a href=&#34;http://codely.tv/&#34; target=&#34;_blank&#34;&gt;CodelyTV&lt;/a&gt; a.k.a. #cosaMuyFina, tengo el placer de presentaros las &amp;#8220;Rigor Talks&amp;#8221;. Videos cortos de entre 5 y 10 minutos, en Español, que iré publicando de forma periódica con aquellos trucos sobre desarrollo de software que veo que se repiten en las consultorías que hago por esos mundos. Los videos están hechos con todo el cariño y amor para que os resulten útiles en vuestro día a día.&lt;/p&gt;
 
 &lt;p&gt;A fecha de hoy, tengo 12 ya grabados que iré publicando en YouTube y en el blog de forma regular. Para muestra de los primeros videos que iremos publicando (Guard Clauses, Self-Encapsulation, Named Constructors, Test Class, Self-Shunt, Inmutabilidad y Mutant Testing). Os dejo una imagencilla ;)&lt;/p&gt;</description>

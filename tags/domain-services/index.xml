@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>domain services on Carlos Buenosvinos</title>
-    <link>https://carlosbuenosvinos.com/tags/domain-services/</link>
+    <link>https://carlosbuenosvinos.github.io/tags/domain-services/</link>
     <description>Recent content in domain services on Carlos Buenosvinos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 15 Sep 2016 11:00:11 +0000</lastBuildDate>
     
-	<atom:link href="https://carlosbuenosvinos.com/tags/domain-services/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://carlosbuenosvinos.github.io/tags/domain-services/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>“Domain-Driven Design in PHP” (@dddbook) is finished</title>
-      <link>https://carlosbuenosvinos.com/domain-driven-design-in-php-book-is-finished/</link>
+      <link>https://carlosbuenosvinos.github.io/domain-driven-design-in-php-book-is-finished/</link>
       <pubDate>Thu, 15 Sep 2016 11:00:11 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/domain-driven-design-in-php-book-is-finished/</guid>
+      <guid>https://carlosbuenosvinos.github.io/domain-driven-design-in-php-book-is-finished/</guid>
       <description>&lt;p&gt;Today, Keyvan, Christian and me are very happy to announce that &lt;a href=&#34;https://leanpub.com/ddd-in-php&#34; target=&#34;_blank&#34;&gt;&amp;#8220;Domain-Driven Design in PHP&amp;#8221;&lt;/a&gt; book is 100% complete. &lt;strong&gt;380 pages&lt;/strong&gt; and around &lt;strong&gt;1400 readers&lt;/strong&gt; so far.&lt;/p&gt;
 
 &lt;h4 id=&#34;thanks&#34;&gt;Thanks&lt;/h4&gt;

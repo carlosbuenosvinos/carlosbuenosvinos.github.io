@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>team on Carlos Buenosvinos</title>
-    <link>https://carlosbuenosvinos.com/tags/team/</link>
+    <link>https://carlosbuenosvinos.github.io/tags/team/</link>
     <description>Recent content in team on Carlos Buenosvinos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 06 Jul 2013 08:00:20 +0000</lastBuildDate>
     
-	<atom:link href="https://carlosbuenosvinos.com/tags/team/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://carlosbuenosvinos.github.io/tags/team/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Tech Team Engagement</title>
-      <link>https://carlosbuenosvinos.com/tech-team-engagement/</link>
+      <link>https://carlosbuenosvinos.github.io/tech-team-engagement/</link>
       <pubDate>Sat, 06 Jul 2013 08:00:20 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/tech-team-engagement/</guid>
+      <guid>https://carlosbuenosvinos.github.io/tech-team-engagement/</guid>
       <description>&lt;p&gt;Me gustaría compartir con vosotros una de mis antiguas presentaciones sobre motivación de equipos técnicos que pude dar en la PHP Barcelona Conference hace algunos años. Me gusta ver que muchos conceptos todavía son vigentes. Si tenéis alguna duda sobre ella no dudéis en enviarme un tweet.&lt;/p&gt;</description>
     </item>
     

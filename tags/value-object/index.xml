@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>value object on Carlos Buenosvinos</title>
-    <link>https://carlosbuenosvinos.com/tags/value-object/</link>
+    <link>https://carlosbuenosvinos.github.io/tags/value-object/</link>
     <description>Recent content in value object on Carlos Buenosvinos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 17 Jan 2017 09:30:16 +0000</lastBuildDate>
     
-	<atom:link href="https://carlosbuenosvinos.com/tags/value-object/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://carlosbuenosvinos.github.io/tags/value-object/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Rigor Talks – PHP – #11 – Immutability (Spanish)</title>
-      <link>https://carlosbuenosvinos.com/rigor-talks-php-11-immutability-spanish/</link>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-11-immutability-spanish/</link>
       <pubDate>Tue, 17 Jan 2017 09:30:16 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/rigor-talks-php-11-immutability-spanish/</guid>
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-11-immutability-spanish/</guid>
       <description>&lt;p&gt;Hola Amigos del Rigor! Continuamos con un video sobre inmutabilidad. Vamos a ver cómo poder hacer que nuestras clases, especialmente aquellas con las que modelamos Value Objects pueden ser inmutables.&lt;/p&gt;
 
 &lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Espero que os guste!&lt;/p&gt;

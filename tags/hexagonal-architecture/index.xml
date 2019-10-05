@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>hexagonal architecture on Carlos Buenosvinos</title>
-    <link>https://carlosbuenosvinos.com/tags/hexagonal-architecture/</link>
+    <link>https://carlosbuenosvinos.github.io/tags/hexagonal-architecture/</link>
     <description>Recent content in hexagonal architecture on Carlos Buenosvinos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 22 Nov 2016 09:00:57 +0000</lastBuildDate>
     
-	<atom:link href="https://carlosbuenosvinos.com/tags/hexagonal-architecture/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://carlosbuenosvinos.github.io/tags/hexagonal-architecture/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Awesome two days helping @Lowpost_es team</title>
-      <link>https://carlosbuenosvinos.com/awesome-two-days-helping-lowpost_es-team/</link>
+      <link>https://carlosbuenosvinos.github.io/awesome-two-days-helping-lowpost_es-team/</link>
       <pubDate>Tue, 22 Nov 2016 09:00:57 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/awesome-two-days-helping-lowpost_es-team/</guid>
+      <guid>https://carlosbuenosvinos.github.io/awesome-two-days-helping-lowpost_es-team/</guid>
       <description>&lt;p&gt;I have recently visited Valencia in order to help my friends at &lt;a href=&#34;http://lowpost.es/&#34; target=&#34;_blank&#34;&gt;Lowpost&lt;/a&gt;. It was great and I had a lot of fun! I would like to tell you a bit about how it was.&lt;/p&gt;
 
 &lt;h3 id=&#34;who-is-lowpost&#34;&gt;Who is Lowpost?&lt;/h3&gt;
@@ -30,10 +30,10 @@
     
     <item>
       <title>“Domain-Driven Design in PHP” (@dddbook) is finished</title>
-      <link>https://carlosbuenosvinos.com/domain-driven-design-in-php-book-is-finished/</link>
+      <link>https://carlosbuenosvinos.github.io/domain-driven-design-in-php-book-is-finished/</link>
       <pubDate>Thu, 15 Sep 2016 11:00:11 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/domain-driven-design-in-php-book-is-finished/</guid>
+      <guid>https://carlosbuenosvinos.github.io/domain-driven-design-in-php-book-is-finished/</guid>
       <description>&lt;p&gt;Today, Keyvan, Christian and me are very happy to announce that &lt;a href=&#34;https://leanpub.com/ddd-in-php&#34; target=&#34;_blank&#34;&gt;&amp;#8220;Domain-Driven Design in PHP&amp;#8221;&lt;/a&gt; book is 100% complete. &lt;strong&gt;380 pages&lt;/strong&gt; and around &lt;strong&gt;1400 readers&lt;/strong&gt; so far.&lt;/p&gt;
 
 &lt;h4 id=&#34;thanks&#34;&gt;Thanks&lt;/h4&gt;
@@ -61,10 +61,10 @@
     
     <item>
       <title>“Hexagonal Architecture with PHP” was published in phparch|magazine</title>
-      <link>https://carlosbuenosvinos.com/hexagonal-architecture-with-php-was-published-in-phparch-magazine/</link>
+      <link>https://carlosbuenosvinos.github.io/hexagonal-architecture-with-php-was-published-in-phparch-magazine/</link>
       <pubDate>Fri, 25 Jul 2014 17:41:22 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/hexagonal-architecture-with-php-was-published-in-phparch-magazine/</guid>
+      <guid>https://carlosbuenosvinos.github.io/hexagonal-architecture-with-php-was-published-in-phparch-magazine/</guid>
       <description>&lt;p&gt;This week, the php|architect magazine has &lt;a href=&#34;http://www.phparch.com/magazine/2014-2/july/&#34; target=&#34;_blank&#34;&gt;published&lt;/a&gt; an article of mine about &amp;#8220;Hexagonal Architecture with PHP&amp;#8221;. Here&amp;#8217;s the introduction:&lt;/p&gt;
 
 &lt;p&gt;&amp;#8220;With the rise of DDD (domain-driven development), architectures promoting domain-centric designs are becoming more popular. This is the case with &lt;b style=&#34;color: #000000;&#34;&gt;Hexagonal Architecture&lt;/b&gt;, also known as &lt;b style=&#34;color: #000000;&#34;&gt;Ports and Adapters&lt;/b&gt;, that seems to have been rediscovered recently by PHP developers. Invented in 2005 by Alistair Cockburn, one of the Agile Manifesto authors, the Hexagonal Architecture allows an application to be equally driven by users, programs, automated tests, or batch scripts, while being developed and tested in isolation from its eventual run-time devices and databases. This results in infrastructure-agnostic web applications that are easier to test, write, and maintain. Let’s see how to apply it using real PHP examples.&amp;#8221;&lt;/p&gt;

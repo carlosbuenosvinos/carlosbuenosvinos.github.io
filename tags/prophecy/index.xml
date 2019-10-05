@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>prophecy on Carlos Buenosvinos</title>
+    <link>https://carlosbuenosvinos.com/tags/prophecy/</link>
+    <description>Recent content in prophecy on Carlos Buenosvinos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 03 Jan 2014 07:30:14 +0000</lastBuildDate>
+    
+	<atom:link href="https://carlosbuenosvinos.com/tags/prophecy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>kata/php: PHP skeleton for doing coding katas</title>
+      <link>https://carlosbuenosvinos.com/kataphp-php-skeleton-for-doing-coding-katas/</link>
+      <pubDate>Fri, 03 Jan 2014 07:30:14 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/kataphp-php-skeleton-for-doing-coding-katas/</guid>
+      <description>&lt;p&gt;Something a bit annoying when doing a kata is setting up the environment so you can start. Typically, you need composer, define dependencies, setting up the autoloading policy, creating some folders and so on. All this work is not necessary anymore. I have created a silly but useful project in packagist in order to start with your kata in just one command.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

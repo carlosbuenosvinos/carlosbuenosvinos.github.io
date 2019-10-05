@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>port forwarding on Carlos Buenosvinos</title>
+    <link>https://carlosbuenosvinos.com/tags/port-forwarding/</link>
+    <description>Recent content in port forwarding on Carlos Buenosvinos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 25 Oct 2016 08:01:46 +0000</lastBuildDate>
+    
+	<atom:link href="https://carlosbuenosvinos.com/tags/port-forwarding/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Accessing securely production services with SSH port forwarding</title>
+      <link>https://carlosbuenosvinos.com/accessing-securely-production-services-with-ssh-port-forwarding/</link>
+      <pubDate>Tue, 25 Oct 2016 08:01:46 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/accessing-securely-production-services-with-ssh-port-forwarding/</guid>
+      <description>&lt;p&gt;We&amp;#8217;ve already talked about &lt;a href=&#34;https://carlosbuenosvinos.com/github-ansible-deploy-your-public-ssh-keys-to-your-server/&#34; target=&#34;_blank&#34;&gt;how to deploy your public SSH keys into your server using Ansible and GitHub&lt;/a&gt;. This time, I just want to share a simple approach to have access to your production services (MySQL, Elastic, RabbitMQ, etc.) without exposing publicly your services. You have different alternatives, probably the most common are using a VPN or use SSH port forwarding. Let&amp;#8217;s see an example of the last one.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

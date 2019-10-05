@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>kent beck on Carlos Buenosvinos</title>
+    <link>https://carlosbuenosvinos.com/tags/kent-beck/</link>
+    <description>Recent content in kent beck on Carlos Buenosvinos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 09 May 2014 16:34:02 +0000</lastBuildDate>
+    
+	<atom:link href="https://carlosbuenosvinos.com/tags/kent-beck/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Comentarios al hangout “Is TDD dead?”</title>
+      <link>https://carlosbuenosvinos.com/comentarios-al-hangout-is-tdd-dead/</link>
+      <pubDate>Fri, 09 May 2014 16:34:02 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/comentarios-al-hangout-is-tdd-dead/</guid>
+      <description>Después del Hangout sobre TDD de Martin Fowler, Kent Beck y David Heinemeier (https://www.youtube.com/watch?v=z9quxZsLcfo), Christian Soronellas (@theUnic) y yo hemos hecho lo propio y hemos opinado sobre cómo ha ido y hemos incluido algunas reflexiones adicionales. Esperemos que os guste.</description>
+    </item>
+    
+    <item>
+      <title>Thanks Ron Jeffries – “Extreme Programming Installed” Book Review</title>
+      <link>https://carlosbuenosvinos.com/thanks-ron-jeffries-extreme-programming-installed-book-review/</link>
+      <pubDate>Sun, 13 Apr 2014 12:12:23 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/thanks-ron-jeffries-extreme-programming-installed-book-review/</guid>
+      <description>&lt;p&gt;I though that it was difficult to read a better book about XP than &lt;a href=&#34;http://www.amazon.es/Extreme-Programming-Explained-Embrace-Edition-ebook/dp/B000OZ0N5S&#34; target=&#34;_blank&#34;&gt;&amp;#8220;Extreme Programming Explained&amp;#8221;&lt;/a&gt; by &lt;a href=&#34;https://twitter.com/KentBeck&#34; target=&#34;_blank&#34;&gt;Kent Beck&lt;/a&gt;. Then, &lt;a href=&#34;http://www.amazon.es/Extreme-Programming-Installed-The-Series/dp/0201708426&#34; target=&#34;_blank&#34;&gt;&amp;#8220;Extreme Programming Installed&amp;#8221;&lt;/a&gt; by &lt;a href=&#34;https://twitter.com/RonJeffries&#34; target=&#34;_blank&#34;&gt;Ron Jeffries&lt;/a&gt; came to me. Last week, I finished it. Ron goes into the detail about the how-to in each XP detail. So, if you want to start with XP, read the explain one, but if you need to go deeper, the installed one is your book.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Extreme Programming Explained: Embrace Change, 2nd Edition (The XP Series) Review</title>
+      <link>https://carlosbuenosvinos.com/extreme-programming-explained-embrace-change-2nd-edition-the-xp-series-review/</link>
+      <pubDate>Wed, 01 Jan 2014 13:04:53 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/extreme-programming-explained-embrace-change-2nd-edition-the-xp-series-review/</guid>
+      <description>&lt;p&gt;Happy new year to everyone! Today it&amp;#8217;s January, 1st and I have finished reading &lt;a href=&#34;http://www.amazon.com/Extreme-Programming-Explained-Embrace-Edition/dp/0321278658&#34; target=&#34;_blank&#34;&gt;&amp;#8220;Extreme Programming Explained: Embrace Change, 2nd Edition&amp;#8221;&lt;/a&gt;. If you love software development and agile practices, this book was the rules changer in the agile methodologies and software development in general. As I have done with other book reviews, here are my remarks. &lt;strong&gt;Buy it, seriously&lt;/strong&gt;. You will fill the gaps about agile practices, so if you are doing Xp, Scrum, Kanban, Lean, etc. everything will gear together.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Courage on TDD (“Test Driven Development: By Example” – Part II)</title>
+      <link>https://carlosbuenosvinos.com/courage-on-tdd-test-driven-development-by-example-part-ii/</link>
+      <pubDate>Thu, 10 Oct 2013 21:28:03 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/courage-on-tdd-test-driven-development-by-example-part-ii/</guid>
+      <description>&lt;p&gt;La segunda parte del prólogo de &lt;a href=&#34;http://www.amazon.com/Test-Driven-Development-By-Example/dp/0321146530&#34;&gt;&amp;#8220;Test Driven Development: By Example&amp;#8221;&lt;/a&gt; es casi aún mejor (podéis ver la primera parte &lt;a href=&#34;http://carlosbuenosvinos.com/test-driven-development-by-example/&#34; title=&#34;Test Driven Development: By Example&#34;&gt;aquí&lt;/a&gt;). 34$ bien invertidos.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Test Driven Development: By Example</title>
+      <link>https://carlosbuenosvinos.com/test-driven-development-by-example/</link>
+      <pubDate>Tue, 08 Oct 2013 21:58:56 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/test-driven-development-by-example/</guid>
+      <description>&lt;p&gt;Siguiendo con mi andadura de lecturas técnicas, esta semanas voy a estar con &lt;a href=&#34;http://www.amazon.com/Test-Driven-Development-By-Example/dp/0321146530&#34;&gt;&amp;#8220;Test Driven Development: By Example&amp;#8221;&lt;/a&gt;. El enfoque del libro es totalmente práctico pero el prólogo me ha parecido tan simple, claro y delicioso que no he podido hacer otra cosa que compartirlo con vosotros para que os animéis con TDD y a la lectura de este fantástico libro.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

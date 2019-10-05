@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>atrapalo on Carlos Buenosvinos</title>
+    <link>https://carlosbuenosvinos.com/tags/atrapalo/</link>
+    <description>Recent content in atrapalo on Carlos Buenosvinos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 04 Nov 2016 18:17:46 +0000</lastBuildDate>
+    
+	<atom:link href="https://carlosbuenosvinos.com/tags/atrapalo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Entrevista en @CodelyTV</title>
+      <link>https://carlosbuenosvinos.com/entrevista-en-codelytv/</link>
+      <pubDate>Fri, 04 Nov 2016 18:17:46 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/entrevista-en-codelytv/</guid>
+      <description>&lt;p&gt;Aquí os dejo la entrevista que me hizo Javier Ferrer, la cara visible de &lt;a href=&#34;http://codely.tv/entrevistas/carlos-buenosvinos-director-tecnico-xing-cto-atrapalo/&#34; target=&#34;_blank&#34;&gt;CodelyTV&lt;/a&gt;, en Julio de 2016. A parte del video, se curró la &lt;a href=&#34;http://codely.tv/entrevistas/carlos-buenosvinos-director-tecnico-xing-cto-atrapalo/&#34; target=&#34;_blank&#34;&gt;transcripción&lt;/a&gt; de las cosas más relevantes. Me gustaría agradecerle personalmente el buen trato y el interés.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Adiós Atrápalo</title>
+      <link>https://carlosbuenosvinos.com/adios-atrapalo/</link>
+      <pubDate>Thu, 14 Apr 2016 15:30:43 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/adios-atrapalo/</guid>
+      <description>&lt;p&gt;Después de más de 2 años trabajando en &lt;a href=&#34;https://www.atrapalo.com&#34;&gt;Atrápalo&lt;/a&gt;, ha llegado el momento de partir a nuevos horizontes. Los que ya me conocéis un poco sabéis cómo soy: llegar, simplificar y marchar. Mis objetivos se han cumplido y es hora de ayudar a otros equipos. Después de estos dos años, Atrápalo es una compañía respetada técnicamente por la comunidad de Barcelona. En 2015, consiguió se le &lt;a href=&#34;http://awards.symfony.com/business&#34; target=&#34;_blank&#34;&gt;premiara por esa evolución&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Cada integrante del equipo técnico ha hecho un trabajo increíble adoptando las nuevas dinámicas y prácticas de trabajo, tanto en desarrollo, UX y Sistemas. Casi siempre, un equipo grande es una desventaja, normalmente es lento, pero me ha sorprendido cómo un equipo de casi 100 personas, aplicando Scrum, eXtreme Programming y otras buenas prácticas ha conseguido reducir deuda técnica muy rápidamente. Lo que me lleva a la frase que repito entre amiguetes: &amp;#8220;There is no legacy code, just legacy teams&amp;#8221;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Domain-Driven Design: Logging with Domain Events Webcast at @AtrapaloEng (Spanish)</title>
+      <link>https://carlosbuenosvinos.com/domain-driven-design-logging-with-domain-events-webcast-at-atrapaloeng-spanish/</link>
+      <pubDate>Mon, 19 Oct 2015 08:30:09 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/domain-driven-design-logging-with-domain-events-webcast-at-atrapaloeng-spanish/</guid>
+      <description>&lt;p&gt;Cuando trabajamos con aplicaciones DDD-style (aunque para las otras también aplica), una de las preguntas clásicas es como ejecutar tareas relacionadas con infraestructura desde las zonas más internas como Value Object o Entidades, sin violar la dependencias hacia capas superiores e incluso el SRP. Un ejemplo es logar información como acciones de usuario (tipo intento de acceso al sistema, alta de usuario, baja de usuario, etc.). El pasado Viernes, orientamos la formación de &lt;a href=&#34;https://twitter.com/AtrapaloEng&#34; target=&#34;_blank&#34;&gt;@AtrapaloEng&lt;/a&gt; sobre este tema. Os dejo el video y los ejercicios. Formación práctica basada en el proyecto de &lt;a href=&#34;https://github.com/dddinphp/last-wishes&#34; target=&#34;_blank&#34;&gt;LastWishes&lt;/a&gt; con múltiples ejercicios resueltos in live coding.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Migrating progressively to Symfony without pain with StackPHP</title>
+      <link>https://carlosbuenosvinos.com/migrating-progressively-to-symfony-without-pain-with-stackphp/</link>
+      <pubDate>Tue, 28 Jul 2015 03:00:09 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/migrating-progressively-to-symfony-without-pain-with-stackphp/</guid>
+      <description>&lt;p&gt;In the previous post, I talked about &lt;a href=&#34;http://carlosbuenosvinos.com/migrating-progressively-to-symfony-without-pain/&#34; target=&#34;_blank&#34;&gt;how to migrated to Symfony without pain using Apache Dumper&lt;/a&gt;. The idea was to generate Symfony routes in an Apache configuration file or .htaccess so it can be included in your virtual host. By including a fallback route to your current framework entry point, you can create new routes in Symfony without touching your previous framework. You can develop normally your new Symfony app, just defining new routes or the same old ones and regenerating the routes file.&lt;/p&gt;
+
+&lt;p&gt;This approach has some small pitfalls. Each time a new Symfony route is created, the Apache configuration file with the routes must be regenerated. If you&amp;#8217;re creating many routes, this can be annoying. As explained in the previous post, there is another option that fixes this issue and have more features, &lt;a href=&#34;http://stackphp.com/&#34; target=&#34;_blank&#34;&gt;Stack&lt;/a&gt;. Now, it&amp;#8217;s like in &lt;a href=&#34;http://www.atrapalo.com&#34; target=&#34;_blank&#34;&gt;Atrápalo&lt;/a&gt;, let&amp;#8217;s see how it&amp;#8217;s working.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Atrápalo Tech 2014 figures</title>
+      <link>https://carlosbuenosvinos.com/atrapalo-tech-2014-figures/</link>
+      <pubDate>Mon, 09 Feb 2015 12:31:28 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/atrapalo-tech-2014-figures/</guid>
+      <description>&lt;p&gt;It&amp;#8217;s almost a year ago since I started working at &lt;a href=&#34;http://www.atrapalo.com&#34; target=&#34;_blank&#34;&gt;Atrápalo&lt;/a&gt;. &lt;span style=&#34;line-height: 1.5;&#34;&gt;The team has done an amazing job learning and applying all the changes in our software development process including the new architecture, testing practices, Scrum changes, branching strategy, releasing process, bugfixing, and so much more. Changing the way ourselves work is probably the most difficult part from a &amp;#8220;status quo&amp;#8221; change.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;I will like to thank everyone in the team that has done the effort to make it possible. I know it&amp;#8217;s not easy and sometimes not fun at first. There is still so much to do and 2015 is going to be even so much funnier. Following, there are just some figures about 2014. Thanks to the &lt;a href=&#34;https://twitter.com/atrapaloeng&#34; target=&#34;_blank&#34;&gt;Atrapalo Team&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Domain-Driven Design: Code Structure and Application Services Webcast at @AtrapaloEng (Spanish)</title>
+      <link>https://carlosbuenosvinos.com/domain-driven-design-code-structure-and-application-services-webcast-at-atrapaloeng-spanish/</link>
+      <pubDate>Tue, 11 Nov 2014 10:00:06 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/domain-driven-design-code-structure-and-application-services-webcast-at-atrapaloeng-spanish/</guid>
+      <description>&lt;p&gt;Siguiendo con la formación de DDD en Atrápalo, os dejo la sesión de formación sobre Code Structure and Application Services. Que la disfrutéis.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Domain-Driven Design: Domain Events and BC Integration Webcast at @AtrapaloEng (Spanish)</title>
+      <link>https://carlosbuenosvinos.com/domain-driven-design-domain-events-and-bc-integration-webcast-at-atrapaloeng-spanish/</link>
+      <pubDate>Fri, 31 Oct 2014 06:57:10 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/domain-driven-design-domain-events-and-bc-integration-webcast-at-atrapaloeng-spanish/</guid>
+      <description>&lt;p&gt;Siguiendo con la formación de DDD en Atrápalo, os dejo la sesión de formación sobre Domain Events y BC Integration. Que la disfrutéis.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Domain-Driven Design: Entities and Value Objects Webcast at @AtrapaloEng (Spanish)</title>
+      <link>https://carlosbuenosvinos.com/domain-driven-design-entities-and-value-objects-webcast-at-atrapaloeng-spanish/</link>
+      <pubDate>Mon, 27 Oct 2014 08:00:39 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/domain-driven-design-entities-and-value-objects-webcast-at-atrapaloeng-spanish/</guid>
+      <description>&lt;p&gt;Siguiendo con las formaciones de DDD de Atrápalo, os dejo el video sobre Entities y Value Objects.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Domain-Driven Design: Aggregates Webcast at @AtrapaloEng (Spanish)</title>
+      <link>https://carlosbuenosvinos.com/domain-driven-design-aggregates-webcast-at-atrapaloeng-spanish/</link>
+      <pubDate>Thu, 23 Oct 2014 08:00:40 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/domain-driven-design-aggregates-webcast-at-atrapaloeng-spanish/</guid>
+      <description>&lt;p&gt;En Atrápalo, estamos haciendo formación semanal sobre DDD. Estoy grabando todos los screencast y los iré publicando semana a semana. El primero sobre Strategical no lo pudimos grabar pero gran parte del contenido lo podéis encontrar en la sesión que grabé en la &lt;a href=&#34;http://carlosbuenosvinos.com/tactical-domain-driven-design-screencast-at-phpbarcelona-spanish/&#34; title=&#34;Tactical Domain-Driven Design Screencast at PHPBarcelona (Spanish)&#34;&gt;Monthly Talk&lt;/a&gt; en Octubre de 2014. A continuación, os dejo la sesión de formación sobre Aggregates, al final hay discusión sobre SOLID, especialmente SRP. Que la disfrutéis.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hola Atrápalo</title>
+      <link>https://carlosbuenosvinos.com/hola-atrapalo/</link>
+      <pubDate>Thu, 20 Feb 2014 08:00:25 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/hola-atrapalo/</guid>
+      <description>&lt;p&gt;La &lt;a title=&#34;Adiós Emagister – 8 reflexiones sobre gestión de equipos&#34; href=&#34;http://carlosbuenosvinos.com/adios-emagister-8-reflexiones-sobre-gestion-de-equipos/&#34; target=&#34;_blank&#34;&gt;semana pasada&lt;/a&gt; os anunciaba mi salida de Emagister. Hoy, 20 de Febrero, es mi primer día en &lt;a href=&#34;http://www.atrapalo.com&#34; target=&#34;_blank&#34;&gt;Atrápalo&lt;/a&gt; como CTO. Me han atrapado. Estoy muy ilusionado por trabajar en una empresa tan conocida, con una misión y visión tan clara (&amp;#8220;ser líderes en el sector de ocio y turismo&amp;#8221;), con un posicionamiento y marca reconocidos, así como más de 10 años de historia y presencia en 10 países.&lt;/p&gt;
+
+&lt;p&gt;Desde su fundación en el 2000, no ha parado de crecer y convertirse en un referente del ecommerce copando el &amp;#8220;top of mind&amp;#8221; de los usuarios interesados en ofertas sobre vuelos, restaurantes, viajes, actividades, cruceros, etc.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

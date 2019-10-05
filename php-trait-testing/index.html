@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Carlos Buenosvinos  | PHP Trait testing</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.58.3" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.d98f2eb6bcd1eaedb7edf166bd16af26.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+    
+
+    
+    
+    <meta property="og:title" content="PHP Trait testing" />
+<meta property="og:description" content="I&#8217;d like to know how you test your traits and what&#8217;s your favourite way to do it. I have found two different approaches that I want to share with you. Please comment if you apply different techniques or have different opinions." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://carlosbuenosvinos.com/php-trait-testing/" />
+<meta property="article:published_time" content="2013-11-03T14:23:19+00:00" />
+<meta property="article:modified_time" content="2013-11-03T14:23:19+00:00" />
+<meta itemprop="name" content="PHP Trait testing">
+<meta itemprop="description" content="I&#8217;d like to know how you test your traits and what&#8217;s your favourite way to do it. I have found two different approaches that I want to share with you. Please comment if you apply different techniques or have different opinions.">
+
+
+<meta itemprop="datePublished" content="2013-11-03T14:23:19&#43;00:00" />
+<meta itemprop="dateModified" content="2013-11-03T14:23:19&#43;00:00" />
+<meta itemprop="wordCount" content="543">
+
+
+
+<meta itemprop="keywords" content="tdd,testing,trait," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="PHP Trait testing"/>
+<meta name="twitter:description" content="I&#8217;d like to know how you test your traits and what&#8217;s your favourite way to do it. I have found two different approaches that I want to share with you. Please comment if you apply different techniques or have different opinions."/>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="https://carlosbuenosvinos.com/" class="f3 fw2 hover-white no-underline white-90 dib">
+      Carlos Buenosvinos
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+
+    <header class="mt4 w-100">
+      <p class="f6 b helvetica tracked">
+          
+        POSTS
+      </p>
+      <h1 class="f1 athelas mb1">PHP Trait testing</h1>
+      
+      <p class="tracked">
+         By <strong>Carlos Buenosvinos</strong>
+      </p>
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2013-11-03T14:23:19Z">November 3, 2013</time>
+      
+      
+    </header>
+
+    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p><span style="color: #888888;">I&#8217;d like to know how you test your traits and what&#8217;s your favourite way to do it. I have found two different approaches that I want to share with you. Please comment if you apply different techniques or have different opinions.</span></p>
+
+<p>Imagine a Salesman entity that we want to change it&#8217;s name, the name is not allowed to be 255 longer. If so, we&#8217;ll throw an exception. We have decided to implemented with a trait (we&#8217;ll see why and what pattern is related to in another post), ValidationTrait. When want to unit test it, of course. Here is the trait:</p>
+
+<pre class="brush: php; gutter: true">&lt;?php
+
+namespace Domain\Model\Validation;
+
+/**
+ * Trait ValidationTrait
+ * @package Domain\Model\Validation
+ */
+trait ValidationTrait
+{
+    /**
+     * @param  string                 $value
+     * @param  int                    $maxLength
+     * @throws StringTooLongException
+     */
+    private function checkMaxLength($value, $maxLength)
+    {
+        if (strlen($value) &gt; $maxLength) {
+            throw new StringTooLongException();
+        }
+    }
+}</pre>
+
+<p>The two different approaches are:</p>
+
+<ol>
+<li>Direct &#8220;use&#8221; in TestCase</li>
+<li>Dummy class &#8220;using&#8221; Trait</li>
+</ol>
+
+<h2 id="direct-8220-use-8221-in-testcase">Direct &#8220;use&#8221; in TestCase</h2>
+
+<p>The first approach is using the Trait in the TestCase:</p>
+
+<pre class="brush: php; gutter: true">&lt;?php
+namespace Domain\Model\Validation;
+
+use Domain\Model\Validation\StringTooLongException;
+
+class ValidationTraitTest extends \PHPUnit_Framework_TestCase
+{
+    use ValidationTrait;
+
+    /**
+     * @test
+     * @dataProvider validStringsLengthLimitsDataProvider
+     */
+    public function validStringsLengthLimits($string, $maxlength)
+    {
+        $result = $this-&gt;checkMaxLength($string, $maxlength);
+        $this-&gt;assertNull($result);
+    }
+
+    public function validStringsLengthLimitsDataProvider()
+    {
+        return [
+            [null, 0],
+            [&#039;&#039;, 0],
+            [&#039;#&#039;, 1],
+            [&#039;#&#039;, 2],
+        ];
+    }
+
+    /**
+     * @test
+     * @dataProvider invalidStringsLengthLimitsDataProvider
+     * @expectedException StringTooLongException
+     */
+    public function invalidStringsLengthLimits($string, $maxlength)
+    {
+        $this-&gt;checkMaxLength($string, $maxlength);
+    }
+
+    public function invalidStringsLengthLimitsDataProvider()
+    {
+        return [
+            [null, -1],
+            [&#039;&#039;, -1],
+            [&#039;#&#039;, 0],
+            [&#039;##&#039;, 1],
+        ];
+    }
+}</pre>
+
+<p>Easy, elegant and no more elements needed. The only problem I see here, it&#8217;s a matter of naming collision with the methods in the tests and the Trait that could be resolved with the trait aliasing capabilities.</p>
+
+<h2 id="dummy-class-8220-using-8221-trait">Dummy class &#8220;using&#8221; Trait</h2>
+
+<p>The second approach means creating a dummy class that will use the trait and then unit test the dummy class. Let&#8217;s check a possible solution:</p>
+
+<pre class="brush: php; gutter: true">&lt;?php
+namespace Domain\Model\Validation;
+
+use Domain\Model\Validation\StringTooLongException;
+
+/**
+ * Class ValidationTraitDummyClass
+ * @package Domain\Model\Validation
+ */
+class ValidationTraitDummyClass
+{
+    use ValidationTrait;
+}
+
+class ValidationTraitTest extends \PHPUnit_Framework_TestCase
+{
+    /**
+     * @var ValidationTraitDummyClass
+     */
+    private $dummy;
+
+    protected function setUp()
+    {
+        $this-&gt;dummy = new ValidationTraitDummyClass();
+    }
+
+    /**
+     * @test
+     * @dataProvider validStringsLengthLimitsDataProvider
+     */
+    public function testValidStringsLengthLimits($string, $maxlength)
+    {
+        $result = $this-&gt;dummy-&gt;checkMaxLength($string, $maxlength);
+        $this-&gt;assertNull($result);
+    }
+
+    public function validStringsLengthLimitsDataProvider()
+    {
+        return [
+            [null, 0],
+            [&#039;&#039;, 0],
+            [&#039;#&#039;, 1],
+            [&#039;#&#039;, 2],
+        ];
+    }
+
+    /**
+     * @test
+     * @dataProvider invalidStringsLengthLimitsDataProvider
+     * @expectedException StringTooLongException
+     */
+    public function testInvalidStringsLengthLimits($string, $maxlength)
+    {
+        $this-&gt;dummy-&gt;checkMaxLength($string, $maxlength);
+    }
+
+    public function invalidStringsLengthLimitsDataProvider()
+    {
+        return [
+            [null, -1],
+            [&#039;&#039;, -1],
+            [&#039;#&#039;, 0],
+            [&#039;##&#039;, 1],
+        ];
+    }
+}</pre>
+
+<p>What&#8217;s the problem here? <strong>Our trait has a private method</strong>, so we have to tune a bit our example. Remark that with a public method, our example would be ready. So, let&#8217;s try to update our dummy class to make the work:</p>
+
+<pre class="brush: php; gutter: true">/**
+ * Class ValidationTraitDummyClass
+ * @package Domain\Model\Validation
+ */
+class ValidationTraitDummyClass
+{
+    use ValidationTrait;
+
+    public function checkMaxLength($string, $maxlength)
+    {
+        $this-&gt;checkMaxLength($string, $maxlength);
+    }
+}</pre>
+
+<p>Ok, that do the trick, but it&#8217;s not as elegant as the first approache, isn&#8217;t it?</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>Based on the different details and cases, in my opinion, the first approach, Direct &#8220;use&#8221; in the test case is better than the other one. It has no drawbacks and it&#8217;s more elegant for me. Thoughts?</p><ul class="pa0">
+  
+   <li class="list">
+     <a href="/tags/tdd" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">tdd</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/testing" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">testing</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/trait" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">trait</a>
+   </li>
+  
+</ul>
+<div class="mt6">
+      
+      
+      </div>
+    </section>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/courage-on-tdd-test-driven-development-by-example-part-ii/">Courage on TDD (“Test Driven Development: By Example” – Part II)</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/test-driven-development-by-example/">Test Driven Development: By Example</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/cual-es-el-verdadero-objetivo-de-tdd/">¿Cuál es el verdadero objetivo de TDD?</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/kata-bowling-game/">Kata: Bowling Game</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/kata-prime-factors/">Kata: Prime Factors</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/robert-c-martin-clean-code-collection-review-part-ii/">Robert C. Martin Clean Code Collection Review (Part II)</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://carlosbuenosvinos.com/" >
+    &copy; 2019 Carlos Buenosvinos
+  </a>
+    <div>
+
+
+
+
+
+
+
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>

@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Carlos Buenosvinos  | Test Driven Development: By Example</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.58.3" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.d98f2eb6bcd1eaedb7edf166bd16af26.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+    
+
+    
+    
+    <meta property="og:title" content="Test Driven Development: By Example" />
+<meta property="og:description" content="Siguiendo con mi andadura de lecturas técnicas, esta semanas voy a estar con &#8220;Test Driven Development: By Example&#8221;. El enfoque del libro es totalmente práctico pero el prólogo me ha parecido tan simple, claro y delicioso que no he podido hacer otra cosa que compartirlo con vosotros para que os animéis con TDD y a la lectura de este fantástico libro." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://carlosbuenosvinos.com/test-driven-development-by-example/" />
+<meta property="article:published_time" content="2013-10-08T21:58:56+00:00" />
+<meta property="article:modified_time" content="2013-10-08T21:58:56+00:00" />
+<meta itemprop="name" content="Test Driven Development: By Example">
+<meta itemprop="description" content="Siguiendo con mi andadura de lecturas técnicas, esta semanas voy a estar con &#8220;Test Driven Development: By Example&#8221;. El enfoque del libro es totalmente práctico pero el prólogo me ha parecido tan simple, claro y delicioso que no he podido hacer otra cosa que compartirlo con vosotros para que os animéis con TDD y a la lectura de este fantástico libro.">
+
+
+<meta itemprop="datePublished" content="2013-10-08T21:58:56&#43;00:00" />
+<meta itemprop="dateModified" content="2013-10-08T21:58:56&#43;00:00" />
+<meta itemprop="wordCount" content="576">
+
+
+
+<meta itemprop="keywords" content="kent beck,tdd," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Test Driven Development: By Example"/>
+<meta name="twitter:description" content="Siguiendo con mi andadura de lecturas técnicas, esta semanas voy a estar con &#8220;Test Driven Development: By Example&#8221;. El enfoque del libro es totalmente práctico pero el prólogo me ha parecido tan simple, claro y delicioso que no he podido hacer otra cosa que compartirlo con vosotros para que os animéis con TDD y a la lectura de este fantástico libro."/>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="https://carlosbuenosvinos.com/" class="f3 fw2 hover-white no-underline white-90 dib">
+      Carlos Buenosvinos
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+
+    <header class="mt4 w-100">
+      <p class="f6 b helvetica tracked">
+          
+        POSTS
+      </p>
+      <h1 class="f1 athelas mb1">Test Driven Development: By Example</h1>
+      
+      <p class="tracked">
+         By <strong>Carlos Buenosvinos</strong>
+      </p>
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2013-10-08T21:58:56Z">October 8, 2013</time>
+      
+      
+    </header>
+
+    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>Siguiendo con mi andadura de lecturas técnicas, esta semanas voy a estar con <a href="http://www.amazon.com/Test-Driven-Development-By-Example/dp/0321146530">&#8220;Test Driven Development: By Example&#8221;</a>. El enfoque del libro es totalmente práctico pero el prólogo me ha parecido tan simple, claro y delicioso que no he podido hacer otra cosa que compartirlo con vosotros para que os animéis con TDD y a la lectura de este fantástico libro.</p>
+
+<p>Clean code that works, in Ron Jeffries&#8217; pithy phrase, is the goal of Test-Driven Development (TDD). Clean code that works is a worthwhile goal for a whole bunch of reasons.</p>
+
+<ul>
+<li>It is a predictable way to develop. You know when you are finished, without having to worry about a long bug trail.</li>
+<li>It gives you a chance to learn all of the lessons that the code has to teach you. If you only slap together the first thing you think of, then you never have time to think of a second, better thing.</li>
+<li>It improves the lives of the users of your software.</li>
+<li>It lets your teammates count on you, and you on them.</li>
+<li>It feels good to write it.</li>
+</ul>
+
+<p>But how do we get to clean code that works? Many forces drive us away from clean code, and even from code that works. Without taking too much counsel of our fears, here&#8217;s what we do: we drive development with automated tests, a style of development called Test-Driven Development (TDD). In Test-Driven Development, we:</p>
+
+<ul>
+<li>Write new code only if an automated test has failed</li>
+<li>Eliminate duplication</li>
+</ul>
+
+<p>These are two simple rules, but they generate complex individual and group behavior with technical implications such as the following.</p>
+
+<ul>
+<li>We must design organically, with running code providing feedback between decisions.</li>
+<li>We must write our own tests, because we can&#8217;t wait 20 times per day for someone else to write a test.</li>
+<li>Our development environment must provide rapid response to small changes.</li>
+<li>Our designs must consist of many highly cohesive, loosely coupled components, just to make testing easy.</li>
+</ul>
+
+<p>The two rules imply an order to the tasks of programming.</p>
+
+<ol>
+<li>Red— Write a little test that doesn&#8217;t work, and perhaps doesn&#8217;t even compile at first.</li>
+<li>Green— Make the test work quickly, committing whatever sins necessary in the process.</li>
+<li>Refactor— Eliminate all of the duplication created in merely getting the test to work.</li>
+</ol>
+
+<p>Red/green/refactor—the TDD mantra.</p>
+
+<p>Assuming for the moment that such a programming style is possible, it further might be possible to dramatically reduce the defect density of code and make the subject of work crystal clear to all involved. If so, then writing only that code which is demanded by failing tests also has social implications.</p>
+
+<p>If the defect density can be reduced enough, then quality assurance (QA) can shift from reactive work to proactive work.</p>
+
+<p>If the number of nasty surprises can be reduced enough, then project managers can estimate accurately enough to involve real customers in daily development.</p>
+
+<p>If the topics of technical conversations can be made clear enough, then software engineers can work in minute-by-minute collaboration instead of daily or weekly collaboration.</p>
+
+<p>Again, if the defect density can be reduced enough, then we can have shippable software with new functionality every day, leading to new business relationships with customers.</p>
+
+<p>So the concept is simple, but what&#8217;s my motivation? Why would a software engineer take on the additional work of writing automated tests? Why would a software engineer work in tiny little steps when his or her mind is capable of great soaring swoops of design? <strong>Courage</strong></p><ul class="pa0">
+  
+   <li class="list">
+     <a href="/tags/kent-beck" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">kent beck</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/tdd" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">tdd</a>
+   </li>
+  
+</ul>
+<div class="mt6">
+      
+      
+      </div>
+    </section>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/cual-es-el-verdadero-objetivo-de-tdd/">¿Cuál es el verdadero objetivo de TDD?</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/kata-bowling-game/">Kata: Bowling Game</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/kata-prime-factors/">Kata: Prime Factors</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/robert-c-martin-clean-code-collection-review-part-ii/">Robert C. Martin Clean Code Collection Review (Part II)</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://carlosbuenosvinos.com/" >
+    &copy; 2019 Carlos Buenosvinos
+  </a>
+    <div>
+
+
+
+
+
+
+
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>

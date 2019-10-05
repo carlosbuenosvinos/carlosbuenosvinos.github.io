@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>migrating on Carlos Buenosvinos</title>
+    <link>https://carlosbuenosvinos.com/tags/migrating/</link>
+    <description>Recent content in migrating on Carlos Buenosvinos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 28 Jul 2015 03:00:09 +0000</lastBuildDate>
+    
+	<atom:link href="https://carlosbuenosvinos.com/tags/migrating/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Migrating progressively to Symfony without pain with StackPHP</title>
+      <link>https://carlosbuenosvinos.com/migrating-progressively-to-symfony-without-pain-with-stackphp/</link>
+      <pubDate>Tue, 28 Jul 2015 03:00:09 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/migrating-progressively-to-symfony-without-pain-with-stackphp/</guid>
+      <description>&lt;p&gt;In the previous post, I talked about &lt;a href=&#34;http://carlosbuenosvinos.com/migrating-progressively-to-symfony-without-pain/&#34; target=&#34;_blank&#34;&gt;how to migrated to Symfony without pain using Apache Dumper&lt;/a&gt;. The idea was to generate Symfony routes in an Apache configuration file or .htaccess so it can be included in your virtual host. By including a fallback route to your current framework entry point, you can create new routes in Symfony without touching your previous framework. You can develop normally your new Symfony app, just defining new routes or the same old ones and regenerating the routes file.&lt;/p&gt;
+
+&lt;p&gt;This approach has some small pitfalls. Each time a new Symfony route is created, the Apache configuration file with the routes must be regenerated. If you&amp;#8217;re creating many routes, this can be annoying. As explained in the previous post, there is another option that fixes this issue and have more features, &lt;a href=&#34;http://stackphp.com/&#34; target=&#34;_blank&#34;&gt;Stack&lt;/a&gt;. Now, it&amp;#8217;s like in &lt;a href=&#34;http://www.atrapalo.com&#34; target=&#34;_blank&#34;&gt;Atrápalo&lt;/a&gt;, let&amp;#8217;s see how it&amp;#8217;s working.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

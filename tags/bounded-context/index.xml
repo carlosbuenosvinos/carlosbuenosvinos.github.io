@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bounded context on Carlos Buenosvinos</title>
+    <link>https://carlosbuenosvinos.com/tags/bounded-context/</link>
+    <description>Recent content in bounded context on Carlos Buenosvinos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 27 Oct 2014 09:00:35 +0000</lastBuildDate>
+    
+	<atom:link href="https://carlosbuenosvinos.com/tags/bounded-context/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Domain-Driven Design: Bounded Context Integration (Spanish)</title>
+      <link>https://carlosbuenosvinos.com/domain-driven-design-bounded-context-integration-spanish/</link>
+      <pubDate>Mon, 27 Oct 2014 09:00:35 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/domain-driven-design-bounded-context-integration-spanish/</guid>
+      <description>&lt;p&gt;Os dejo el video de la charla que impartí el pasado 25 de Octubre de 2014 en la Barcelona Software Craftsmanship.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

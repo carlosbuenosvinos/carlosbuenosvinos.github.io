@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Carlos Buenosvinos  | Migrating progressively to Symfony without pain with StackPHP</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.58.3" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.d98f2eb6bcd1eaedb7edf166bd16af26.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+    
+
+    
+    
+    <meta property="og:title" content="Migrating progressively to Symfony without pain with StackPHP" />
+<meta property="og:description" content="In the previous post, I talked about how to migrated to Symfony without pain using Apache Dumper. The idea was to generate Symfony routes in an Apache configuration file or .htaccess so it can be included in your virtual host. By including a fallback route to your current framework entry point, you can create new routes in Symfony without touching your previous framework. You can develop normally your new Symfony app, just defining new routes or the same old ones and regenerating the routes file.
+
+This approach has some small pitfalls. Each time a new Symfony route is created, the Apache configuration file with the routes must be regenerated. If you&#8217;re creating many routes, this can be annoying. As explained in the previous post, there is another option that fixes this issue and have more features, Stack. Now, it&#8217;s like in Atrápalo, let&#8217;s see how it&#8217;s working." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://carlosbuenosvinos.com/migrating-progressively-to-symfony-without-pain-with-stackphp/" />
+<meta property="article:published_time" content="2015-07-28T03:00:09+00:00" />
+<meta property="article:modified_time" content="2015-07-28T03:00:09+00:00" />
+<meta itemprop="name" content="Migrating progressively to Symfony without pain with StackPHP">
+<meta itemprop="description" content="In the previous post, I talked about how to migrated to Symfony without pain using Apache Dumper. The idea was to generate Symfony routes in an Apache configuration file or .htaccess so it can be included in your virtual host. By including a fallback route to your current framework entry point, you can create new routes in Symfony without touching your previous framework. You can develop normally your new Symfony app, just defining new routes or the same old ones and regenerating the routes file.
+
+This approach has some small pitfalls. Each time a new Symfony route is created, the Apache configuration file with the routes must be regenerated. If you&#8217;re creating many routes, this can be annoying. As explained in the previous post, there is another option that fixes this issue and have more features, Stack. Now, it&#8217;s like in Atrápalo, let&#8217;s see how it&#8217;s working.">
+
+
+<meta itemprop="datePublished" content="2015-07-28T03:00:09&#43;00:00" />
+<meta itemprop="dateModified" content="2015-07-28T03:00:09&#43;00:00" />
+<meta itemprop="wordCount" content="773">
+
+
+
+<meta itemprop="keywords" content="apache dumper,atrapalo,framework,httpkernelinterface,migrating,php,stackphp,symfony," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Migrating progressively to Symfony without pain with StackPHP"/>
+<meta name="twitter:description" content="In the previous post, I talked about how to migrated to Symfony without pain using Apache Dumper. The idea was to generate Symfony routes in an Apache configuration file or .htaccess so it can be included in your virtual host. By including a fallback route to your current framework entry point, you can create new routes in Symfony without touching your previous framework. You can develop normally your new Symfony app, just defining new routes or the same old ones and regenerating the routes file.
+
+This approach has some small pitfalls. Each time a new Symfony route is created, the Apache configuration file with the routes must be regenerated. If you&#8217;re creating many routes, this can be annoying. As explained in the previous post, there is another option that fixes this issue and have more features, Stack. Now, it&#8217;s like in Atrápalo, let&#8217;s see how it&#8217;s working."/>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="https://carlosbuenosvinos.com/" class="f3 fw2 hover-white no-underline white-90 dib">
+      Carlos Buenosvinos
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+
+    <header class="mt4 w-100">
+      <p class="f6 b helvetica tracked">
+          
+        POSTS
+      </p>
+      <h1 class="f1 athelas mb1">Migrating progressively to Symfony without pain with StackPHP</h1>
+      
+      <p class="tracked">
+         By <strong>Carlos Buenosvinos</strong>
+      </p>
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2015-07-28T03:00:09Z">July 28, 2015</time>
+      
+      
+    </header>
+
+    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>In the previous post, I talked about <a href="http://carlosbuenosvinos.com/migrating-progressively-to-symfony-without-pain/" target="_blank">how to migrated to Symfony without pain using Apache Dumper</a>. The idea was to generate Symfony routes in an Apache configuration file or .htaccess so it can be included in your virtual host. By including a fallback route to your current framework entry point, you can create new routes in Symfony without touching your previous framework. You can develop normally your new Symfony app, just defining new routes or the same old ones and regenerating the routes file.</p>
+
+<p>This approach has some small pitfalls. Each time a new Symfony route is created, the Apache configuration file with the routes must be regenerated. If you&#8217;re creating many routes, this can be annoying. As explained in the previous post, there is another option that fixes this issue and have more features, <a href="http://stackphp.com/" target="_blank">Stack</a>. Now, it&#8217;s like in <a href="http://www.atrapalo.com" target="_blank">Atrápalo</a>, let&#8217;s see how it&#8217;s working.</p>
+
+<h3 id="what-is-stack">What is Stack?</h3>
+
+<p>Stack is a library to merge different applications that know how to handle Symfony Requests and Responses. A Request gets into the stack and each middleware in the stack can modify the Request, generate a new Response, directly serve the Response, set the authentication for all the middlewares, etc.</p>
+
+<p>Quoting its web, &#8220;The <a href="https://github.com/symfony/symfony/blob/master/src/Symfony/Component/HttpKernel/HttpKernelInterface.php">HttpKernelInterface</a> models web request and response as PHP objects, giving them value semantics. Stack is a convention for composing HttpKernelInterface middlewares. By wrapping your application in decorators you can add new behaviour from the outside. Current supported frameworks are Symfony, Silex, Laravel, Drupal, and much more.&#8221;</p>
+
+<p>In this case, we are going to use it in order to migrate from a custom framework to Symfony without pain.</p>
+
+<h3 id="how-have-atrápalo-integrated-its-previous-framework">How have Atrápalo integrated its previous framework?</h3>
+
+<p>To sum up, the idea is making your current framework stackable and stack the new Symfony app. If Symfony can resolve the url, it goes for it, if not, the next middleware, our previous app, takes the responsibility. With this situation, we don&#8217;t need to update any routing file, everything works as a Symfony Developer may expect.</p>
+
+<h3 id="what-are-the-steps">What are the steps?</h3>
+
+<p>Despite being a custom framework, Atrápalo has a single entry point and a bootstrapping process. If it&#8217;s not your situation, sorry dude. The trick is making your bootstrap implement the HttpKernelInterface. That means, receiving a HttpFoundation Request and returning a HttpFoundation Response.</p>
+
+<h3 id="making-any-framework-httpkernelinterface-compatible">Making any framework HttpKernelInterface compatible</h3>
+
+<p>It does not matter what framework you have, in the 90% of the cases, you can create a HttpFoundation Response using a simple technique. Let&#8217;s see an example.</p>
+
+<pre class="brush: php; gutter: true">ob_start();
+
+try {
+    // Your framework initialization and dispatching
+    $this-&gt;initializeApplication()-&gt;run();
+} catch (Exception $e) {
+    // serviceUnvailablePage($e);
+    // Die, page 404, etc.
+}
+
+// Getting the headers sent
+$headers = headers_list();
+
+// Remove them from the buffer not to send them duplicated
+header_remove();
+
+// Create the Symfony Response with the ob content
+$response = Response::create(ob_get_clean(), http_response_code());
+
+// Adding the headers
+foreach ($headers as $header) {
+    $pieces = explode(&#039;:&#039;, $header);
+    $headerName = array_shift($pieces);
+    $response-&gt;headers-&gt;set($headerName, trim(implode(&#039;:&#039;, $pieces)), false);
+}
+
+return $response;
+</pre>
+
+<p>The main idea is using output buffer to capture whatever happens in your framework, and build a Response with the content, response code, headers and cookies. With this trick, your framework is now compatible.In order to stack it, we need to make our Bootstrap class implement HttpKernelInterface and TerminableInterface, in case you have some shut down step.</p>
+
+<pre class="brush: php; gutter: true">class Bootstrap implements HttpKernelInterface
+{
+    public function initializeApplication()
+    {
+        // ...
+    }
+
+    public function run()
+    {
+        // ...
+    }
+
+    public function handle(Request $request, $type = self::MASTER_REQUEST, $catch = true)
+    {
+        ob_start();
+
+        try {
+            $this-&gt;initializeApplication()-&gt;run();
+        } catch (Exception $e) {
+            // serviceUnvailablePage($e);
+        }
+
+        $headers = headers_list();
+        header_remove();
+
+        $response = Response::create(ob_get_clean(), http_response_code());
+        foreach ($headers as $header) {
+            $pieces = explode(&#039;:&#039;, $header);
+            $headerName = array_shift($pieces);
+            $response-&gt;headers-&gt;set($headerName, trim(implode(&#039;:&#039;, $pieces)), false);
+        }
+
+        return $response;
+    }
+}
+</pre>
+
+<p>Now, our Bootstrap class is <strong>stackable</strong>.</p>
+
+<h3 id="the-new-entry-point">The new entry point</h3>
+
+<p>As a Symfony Developer, when you use StackPHP, your entry point changes a bit. Let&#8217;s see our new app.php entry point.</p>
+
+<pre class="brush: php; gutter: true">use MyOldApp\Bootstrap;
+use Mouf\StackPhp\SymfonyMiddleware;
+use Symfony\Component\HttpFoundation\Request;
+ 
+$loader = require __DIR__.&#039;/../app/bootstrap.php.cache&#039;;
+ 
+require_once __DIR__.&#039;/../app/AppKernel.php&#039;;
+$kernel = new AppKernel($_SERVER[&#039;SYMFONY_ENV&#039;], $_SERVER[&#039;SYMFONY_DEBUG&#039;]);
+$kernel-&gt;loadClassCache();
+ 
+// Let&#039;s create the Stack
+$stack = new Stack\Builder();
+ 
+// Let&#039;s stack our Symfony Application
+$stack-&gt;push(SymfonyMiddleware::class, $kernel);
+ 
+// Let&#039;s run the stack with our old app in a lazy load (so it does not get bootstrapped)
+Stack\run(
+    $stack-&gt;resolve(
+        Stack\lazy(function() {
+            return new Bootstrap();
+        })
+    )
+);
+</pre>
+
+<p>Done! You can develop your new routes in Symfony without restarting or generating any file. Let me know if it works for you. For your information, we are using stack for other features such as mobile redirection, caching, and much more. Hope it helps someone! Thanks to <a href="https://twitter.com/theUniC" target="_blank">@theUniC</a> for discovering to me StackPHP :)</p>
+
+<h3 id="references">References</h3>
+
+<p><a href="http://stackphp.com" target="_blank"><a href="http://stackphp.com">http://stackphp.com</a></a></p>
+
+<p><a href="https://github.com/thecodingmachine/symfony-middleware/" target="_blank"><a href="https://github.com/thecodingmachine/symfony-middleware/">https://github.com/thecodingmachine/symfony-middleware/</a></a></p>
+
+<p><a href="http://carlosbuenosvinos.com/migrating-progressively-to-symfony-without-pain/" target="_blank"><a href="http://carlosbuenosvinos.com/migrating-progressively-to-symfony-without-pain/">http://carlosbuenosvinos.com/migrating-progressively-to-symfony-without-pain/</a></a></p><ul class="pa0">
+  
+   <li class="list">
+     <a href="/tags/apache-dumper" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">apache dumper</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/atrapalo" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">atrapalo</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/framework" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">framework</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/httpkernelinterface" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">httpkernelinterface</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/migrating" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">migrating</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/php" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">php</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/stackphp" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">stackphp</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/symfony" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">symfony</a>
+   </li>
+  
+</ul>
+<div class="mt6">
+      
+      
+      </div>
+    </section>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/migrating-progressively-to-symfony-without-pain/">Migrating progressively to Symfony without pain</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/atrapalo-tech-2014-figures/">Atrápalo Tech 2014 figures</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/domain-driven-design-code-structure-and-application-services-webcast-at-atrapaloeng-spanish/">Domain-Driven Design: Code Structure and Application Services Webcast at @AtrapaloEng (Spanish)</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/domain-driven-design-entities-and-value-objects-webcast-at-atrapaloeng-spanish/">Domain-Driven Design: Entities and Value Objects Webcast at @AtrapaloEng (Spanish)</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/domain-driven-design-aggregates-webcast-at-atrapaloeng-spanish/">Domain-Driven Design: Aggregates Webcast at @AtrapaloEng (Spanish)</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/subscribe-yourself-to-php-internals/">Subscribe yourself to PHP internals</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/domain-driven-design-domain-events-and-bc-integration-webcast-at-atrapaloeng-spanish/">Domain-Driven Design: Domain Events and BC Integration Webcast at @AtrapaloEng (Spanish)</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/domain-driven-design-bounded-context-integration-spanish/">Domain-Driven Design: Bounded Context Integration (Spanish)</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/tactical-domain-driven-design-screencast-at-phpbarcelona-spanish/">Tactical Domain-Driven Design Screencast at PHPBarcelona (Spanish)</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/legacy-code-and-teams-series-composer/">Legacy Code and Teams Series: Composer</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/hexagonal-architecture-with-php-was-published-in-phparch-magazine/">“Hexagonal Architecture with PHP” was published in phparch|magazine</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/write-your-git-hooks-in-php-and-keep-them-under-git-control/">Write your git hooks in PHP and keep them under git control</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/smash-tech-php-2014/">Smash Tech: PHP 2014</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/hola-atrapalo/">Hola Atrápalo</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/remove-non-used-php-files-in-your-project/">Remove non used PHP files in your project</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://carlosbuenosvinos.com/" >
+    &copy; 2019 Carlos Buenosvinos
+  </a>
+    <div>
+
+
+
+
+
+
+
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>

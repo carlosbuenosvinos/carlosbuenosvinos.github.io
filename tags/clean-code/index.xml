@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>clean code on Carlos Buenosvinos</title>
+    <link>https://carlosbuenosvinos.com/tags/clean-code/</link>
+    <description>Recent content in clean code on Carlos Buenosvinos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 19 Apr 2017 08:30:29 +0000</lastBuildDate>
+    
+	<atom:link href="https://carlosbuenosvinos.com/tags/clean-code/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Rigor Talks – PHP – #21 – Command Bus (Spanish)</title>
+      <link>https://carlosbuenosvinos.com/rigor-talks-php-21-command-bus-spanish/</link>
+      <pubDate>Wed, 19 Apr 2017 08:30:29 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/rigor-talks-php-21-command-bus-spanish/</guid>
+      <description>&lt;p&gt;Hola Amigos del Rigor! Perdonad por el retraso pero estuve preparando la certificación de AWS Certified Solutions Architect &amp;#8211; Associate que al final conseguí la semana pasada.&lt;/p&gt;
+
+&lt;p&gt;En este video, vamos a continuar evolucionando los Command Handlers y su contexto de ejecución presentando el Command Bus. Veremos cuáles son sus objetivos y para qué nos resulta útil. Por último, hablaremos sobre Tactician.&lt;/p&gt;
+
+&lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Si los videos os gustan, no olvidéis suscribiros a mi canal. Espero que os guste!&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;#MayTheRigorBeWithYou&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rigor Talks – PHP – #20 – Application Services and Command Handlers (Spanish)</title>
+      <link>https://carlosbuenosvinos.com/rigor-talks-php-20-application-services-and-command-handlers-spanish/</link>
+      <pubDate>Fri, 24 Mar 2017 14:32:53 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/rigor-talks-php-20-application-services-and-command-handlers-spanish/</guid>
+      <description>&lt;p&gt;Hola Amigos del Rigor! Vamos con una entrega más. En esta ocasión, vamos a ver la diferencia entre Application Services y Command Handlers, así como algún truco sobre Command Handlers para decorarlos y facilitar tareas como el Logging o la gestión de Transacciones.&lt;/p&gt;
+
+&lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Si los videos os gustan, no olvidéis suscribiros a mi canal. Espero que os guste!&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;#MayTheRigorBeWithYou&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rigor Talks – PHP – #19 – Refactor Use Case VI (Spanish)</title>
+      <link>https://carlosbuenosvinos.com/rigor-talks-php-19-refactor-use-case-vi-spanish/</link>
+      <pubDate>Tue, 14 Mar 2017 09:30:36 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/rigor-talks-php-19-refactor-use-case-vi-spanish/</guid>
+      <description>&lt;p&gt;Hola Amigos del Rigor! Después de explicar el principio de Tell-Don&amp;#8217;t-Ask, continuamos con la serie de los videos de refactoring. En este video, vamos a ver cómo extraer dependencias como Loggers, Servicios para enviar notificaciones o similares usando una primera aproximación sencilla con un EventDispatcher.&lt;/p&gt;
+
+&lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Si los videos os gustan, no olvidéis suscribiros a mi canal. Espero que os guste!&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;#MayTheRigorBeWithYou&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rigor Talks – PHP – #18 – Tell-Don’t-Ask (Spanish)</title>
+      <link>https://carlosbuenosvinos.com/rigor-talks-php-18-tell-dont-ask-spanish/</link>
+      <pubDate>Tue, 07 Mar 2017 09:30:55 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/rigor-talks-php-18-tell-dont-ask-spanish/</guid>
+      <description>&lt;p&gt;Hola Amigos del Rigor! Hacemos un parada en la serie de los videos sobre refactoring para explicar el principio de Tell-Don&amp;#8217;t-Ask. Lo hemos ido utilizando en los videos anteriores pero no lo había presentado formalmente.&lt;/p&gt;
+
+&lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Si los videos os gustan, no olvidéis suscribiros a mi canal. Espero que os guste!&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;#MayTheRigorBeWithYou&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rigor Talks – PHP – #17 – Refactor Use Case V (Spanish)</title>
+      <link>https://carlosbuenosvinos.com/rigor-talks-php-17-refactor-use-case-v-spanish/</link>
+      <pubDate>Tue, 28 Feb 2017 09:30:28 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/rigor-talks-php-17-refactor-use-case-v-spanish/</guid>
+      <description>&lt;p&gt;Hola Amigos del Rigor! Seguimos con la serie sobre los videos de refactoring. Los Application Services deben coordinar pero no contener lógica de negocio. En este video, veremos varios trucos para mover la lógica de negocio del Application Service hacia Entidades y Repositorios.&lt;/p&gt;
+
+&lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Si los videos os gustan, no olvidéis suscribiros a mi canal. Espero que os guste!&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;#MayTheRigorBeWithYou&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rigor Talks – PHP – #16 – Refactor Use Case IV (Spanish)</title>
+      <link>https://carlosbuenosvinos.com/rigor-talks-php-16-refactor-use-case-iv-spanish/</link>
+      <pubDate>Thu, 23 Feb 2017 09:32:29 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/rigor-talks-php-16-refactor-use-case-iv-spanish/</guid>
+      <description>&lt;p&gt;Hola Amigos del Rigor! Seguimos con la serie sobre los videos de refactoring. En éste, vamos a mejorar la calidad de los tests unitarios acabando de agregar _assests_ que faltaban e introduciendo un &lt;em&gt;Spy.&lt;/em&gt; Con esto, nos aseguraremos que aún teniendo 100% de cobertura en los tests, tenemos que esta atentos a invocaciones que no tienen retorno, como logging, notifiers, publishers de eventos, etc.&lt;/p&gt;
+
+&lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Espero que os guste!&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;#MayTheRigorBeWithYou&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rigor Talks – PHP – #15 – Refactor Use Case III (Spanish)</title>
+      <link>https://carlosbuenosvinos.com/rigor-talks-php-15-refactor-use-case-iii-spanish/</link>
+      <pubDate>Tue, 14 Feb 2017 09:30:19 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/rigor-talks-php-15-refactor-use-case-iii-spanish/</guid>
+      <description>&lt;p&gt;Hola Amigos del Rigor! Seguimos con la serie sobre los videos de refactoring. En éste, vamos a acabar de testear por completo todo el Application Service del &lt;a href=&#34;https://carlosbuenosvinos.com/rigor-talks-php-13-refactor-use-case-i-spanish/&#34; target=&#34;_blank&#34;&gt;video anterior&lt;/a&gt; utilizando técnicas que vimos en los videos anteriores como &lt;a href=&#34;https://carlosbuenosvinos.com/rigor-talks-php-7-test-class-spanish/&#34; target=&#34;_blank&#34;&gt;Test Classes&lt;/a&gt; o &lt;a href=&#34;https://carlosbuenosvinos.com/rigor-talks-php-8-self-shunt-spanish/&#34; target=&#34;_blank&#34;&gt;Self-Shunt&lt;/a&gt;. En el siguiente video veremos cómo enriquecer nuestro dominio moviendo parte de la lógica a las entidades.&lt;/p&gt;
+
+&lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Espero que os guste!&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;#MayTheRigorBeWithYou&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rigor Talks – PHP – #14 – Refactor Use Case II (Spanish)</title>
+      <link>https://carlosbuenosvinos.com/rigor-talks-php-14-refactor-use-case-ii-spanish/</link>
+      <pubDate>Tue, 07 Feb 2017 09:30:36 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/rigor-talks-php-14-refactor-use-case-ii-spanish/</guid>
+      <description>&lt;p&gt;Hola Amigos del Rigor! Seguimos con la serie sobre los videos de refactoring. En éste, vamos a testear parte del Application Service que extrajimos en el &lt;a href=&#34;https://carlosbuenosvinos.com/rigor-talks-php-13-refactor-use-case-i-spanish/&#34; target=&#34;_blank&#34;&gt;video anterior&lt;/a&gt;. Aprovecharemos para mejorar el código con algunos casos no contemplados en el código original.&lt;/p&gt;
+
+&lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Espero que os guste!&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;#MayTheRigorBeWithYou&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rigor Talks – PHP – #13 – Refactor Use Case I (Spanish)</title>
+      <link>https://carlosbuenosvinos.com/rigor-talks-php-13-refactor-use-case-i-spanish/</link>
+      <pubDate>Tue, 31 Jan 2017 09:30:24 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/rigor-talks-php-13-refactor-use-case-i-spanish/</guid>
+      <description>&lt;p&gt;Hola Amigos del Rigor! Hoy es mi cumpleaños, 34 primaveras. He traído donuts a la oficina, pero como no podéis acceder a ellos :(, aquí os dejo un regalito para vosotros! Arranco una nueva serie de videos sobre Refactoring de código acoplado. En este video, vamos a ver cómo refactorizar código escrito directamente en el controlador web de cualquier framework donde se mezcla lógica de negocio y detalles de infraestructura.&lt;/p&gt;
+
+&lt;p&gt;Lo sacaremos a un Application Service, invertiremos todas las dependencias y lo dejaremos listo para poderlo testear.&lt;/p&gt;
+
+&lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Espero que os guste!&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;#MayTheRigorBeWithYou&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rigor Talks – PHP – #12 – Mutant Testing (Spanish)</title>
+      <link>https://carlosbuenosvinos.com/rigor-talks-php-12-mutant-testing-spanish/</link>
+      <pubDate>Tue, 24 Jan 2017 09:30:36 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/rigor-talks-php-12-mutant-testing-spanish/</guid>
+      <description>&lt;p&gt;Hola Amigos del Rigor! Unit Testear nuestro código con un 100% de coverage no es suficiente. En este video, vamos a ver cómo aplicar &amp;#8220;Mutant Testing&amp;#8221; a nuestro código para mejorar la calidad de nuestros tests unitarios.&lt;/p&gt;
+
+&lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Espero que os guste!&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;#MayTheRigorBeWithYou&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rigor Talks – PHP – #11 – Immutability (Spanish)</title>
+      <link>https://carlosbuenosvinos.com/rigor-talks-php-11-immutability-spanish/</link>
+      <pubDate>Tue, 17 Jan 2017 09:30:16 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/rigor-talks-php-11-immutability-spanish/</guid>
+      <description>&lt;p&gt;Hola Amigos del Rigor! Continuamos con un video sobre inmutabilidad. Vamos a ver cómo poder hacer que nuestras clases, especialmente aquellas con las que modelamos Value Objects pueden ser inmutables.&lt;/p&gt;
+
+&lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Espero que os guste!&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;#MayTheRigorBeWithYou&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rigor Talks – PHP – #10 – Self-Shunt III (Spanish)</title>
+      <link>https://carlosbuenosvinos.com/rigor-talks-php-10-self-shunt-iii-spanish/</link>
+      <pubDate>Tue, 10 Jan 2017 09:30:45 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/rigor-talks-php-10-self-shunt-iii-spanish/</guid>
+      <description>&lt;p&gt;Hola Amigos del Rigor! Vamos a con el último de los tres videos sobre el patrón de testing &amp;#8220;Self-Shunt&amp;#8221;. En este video, veremos un truco muy sencillo para poder testear cadenas de invocaciones que incumplen la ley de Demeter.&lt;/p&gt;
+
+&lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Espero que os guste!&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;#MayTheRigorBeWithYou&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rigor Talks – PHP – #9 – Self-Shunt II (Spanish)</title>
+      <link>https://carlosbuenosvinos.com/rigor-talks-php-9-self-shunt-ii-spanish/</link>
+      <pubDate>Tue, 03 Jan 2017 09:30:30 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/rigor-talks-php-9-self-shunt-ii-spanish/</guid>
+      <description>&lt;p&gt;Hola Amigos del Rigor! Vamos a con el tercer de los cuatro videos sobre patrones de &amp;#8220;Unit Testing&amp;#8221;, especialmente, para código acoplado. En este video, veremos una implementación alternativa del &amp;#8220;Self-Shunt&amp;#8221; sólo para PHP7 usando clases anónimas.&lt;/p&gt;
+
+&lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Espero que os guste!&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;#MayTheRigorBeWithYou&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rigor Talks – PHP – #8 – Self-Shunt (Spanish)</title>
+      <link>https://carlosbuenosvinos.com/rigor-talks-php-8-self-shunt-spanish/</link>
+      <pubDate>Tue, 27 Dec 2016 09:30:03 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/rigor-talks-php-8-self-shunt-spanish/</guid>
+      <description>&lt;p&gt;Hola Amigos del Rigor! Vamos a con el segundo de los cuatro videos sobre patrones de &amp;#8220;Unit Testing&amp;#8221;, especialmente, para código acoplado. En este video, veremos un atajo para implementar &amp;#8220;Test Classes&amp;#8221; usando un patrón conocido como &amp;#8220;Self-Shunt&amp;#8221;.&lt;/p&gt;
+
+&lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Espero que os guste!&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;#MayTheRigorBeWithYou&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rigor Talks – PHP – #7 – Test Class (Spanish)</title>
+      <link>https://carlosbuenosvinos.com/rigor-talks-php-7-test-class-spanish/</link>
+      <pubDate>Tue, 20 Dec 2016 09:30:21 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/rigor-talks-php-7-test-class-spanish/</guid>
+      <description>&lt;p&gt;Hola Amigos del Rigor! Vamos a arrancar un serie de 4 videos sobre patrones de &amp;#8220;Unit Testing&amp;#8221;, especialmente, para código acoplado. Aquí os dejo el primero.&lt;/p&gt;
+
+&lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Espero que os guste!&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;#MayTheRigorBeWithYou&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rigor Talks – PHP – #6 – Named Constructors IV (Spanish)</title>
+      <link>https://carlosbuenosvinos.com/rigor-talks-php-6-named-constructors-iv-spanish/</link>
+      <pubDate>Thu, 15 Dec 2016 10:00:26 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/rigor-talks-php-6-named-constructors-iv-spanish/</guid>
+      <description>&lt;p&gt;Hola Amigos del Rigor! Acabamos con la serie sobre &amp;#8220;Named Constructors&amp;#8221; con el último video de los cuatro. He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Espero que os guste!&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;#MayTheRigorBeWithYou&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rigor Talks – PHP – #5 – Named Constructors III (Spanish)</title>
+      <link>https://carlosbuenosvinos.com/rigor-talks-php-5-named-constructors-iii-spanish/</link>
+      <pubDate>Tue, 13 Dec 2016 10:00:17 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/rigor-talks-php-5-named-constructors-iii-spanish/</guid>
+      <description>&lt;p&gt;Hola Amigos del Rigor! Seguimos con la serie sobre &amp;#8220;Named Constructors&amp;#8221; con el tercer de los cuatro videos. He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Espero que os guste!&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;#MayTheRigorBeWithYou&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rigor Talks – PHP – #4 – Named Constructors II (Spanish)</title>
+      <link>https://carlosbuenosvinos.com/rigor-talks-php-4-named-constructors-ii-spanish/</link>
+      <pubDate>Thu, 08 Dec 2016 10:00:05 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/rigor-talks-php-4-named-constructors-ii-spanish/</guid>
+      <description>&lt;p&gt;Hola Amigos del Rigor! Seguimos con la serie sobre &amp;#8220;Named Constructors&amp;#8221; con el segundo de los cuatro videos. He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Espero que os guste!&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;#MayTheRigorBeWithYou&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rigor Talks – PHP – #3 – Named Constructors I (Spanish)</title>
+      <link>https://carlosbuenosvinos.com/rigor-talks-php-3-named-constructors-i-spanish/</link>
+      <pubDate>Tue, 06 Dec 2016 10:00:05 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/rigor-talks-php-3-named-constructors-i-spanish/</guid>
+      <description>&lt;p&gt;Hola Amigos del Rigor! Vamos a arrancar un serie de 4 videos sobre &amp;#8220;Named Constructors&amp;#8221;. También conocidos como &amp;#8220;Semantic Constructors&amp;#8221; o &amp;#8220;Constructor Methods&amp;#8221;. Aquí os dejo el primero.&lt;/p&gt;
+
+&lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Espero que os guste!&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;#MayTheRigorBeWithYou&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rigor Talks – PHP – #2 Self-Encapsulation (Spanish)</title>
+      <link>https://carlosbuenosvinos.com/rigor-talks-php-2-self-encapsulation-spanish/</link>
+      <pubDate>Thu, 01 Dec 2016 09:00:09 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/rigor-talks-php-2-self-encapsulation-spanish/</guid>
+      <description>&lt;p&gt;Hola Amigos del Rigor! En este video voy a enseñar un ejemplo del concepto de &amp;#8220;Self-Encapsulation&amp;#8221; y la relación que guarda con las &amp;#8220;Guard Clauses&amp;#8221; que vimos en la &lt;a href=&#34;https://carlosbuenosvinos.com/rigor-talks-php-1-guard-clause-spanish/&#34;&gt;Rigor Talk anterior&lt;/a&gt;. He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Espero que os guste!&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;#MayTheRigorBeWithYou&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rigor Talks – PHP – #1 Guard Clause (Spanish)</title>
+      <link>https://carlosbuenosvinos.com/rigor-talks-php-1-guard-clause-spanish/</link>
+      <pubDate>Wed, 30 Nov 2016 09:30:05 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/rigor-talks-php-1-guard-clause-spanish/</guid>
+      <description>&lt;p&gt;Hola Amigos del Rigor! En este video voy a enseñar lo que son las cláusulas de guarda y cómo ayudan a tener un código un poco más legible. He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Espero que os guste!&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;#MayTheRigorBeWithYou&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Guía para el Desarrollo Profesional PHP (edición 2014)</title>
+      <link>https://carlosbuenosvinos.com/guia-para-el-desarrollo-profesional-php-edicion-2014/</link>
+      <pubDate>Wed, 21 Oct 2015 08:00:39 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/guia-para-el-desarrollo-profesional-php-edicion-2014/</guid>
+      <description>&lt;p&gt;Rascando por Youtube, encontré este vídeo de 2014, de una presentación que hice en LaSalle inspirada por &lt;a href=&#34;http://carlosbuenosvinos.com/desarrollo-php-profesional/&#34; target=&#34;_blank&#34;&gt;otra que hice en Castellón en 2011&lt;/a&gt;. La idea es hacer un overview del ecosistema PHP y puntos importantes a la hora de montar un ciclo de desarrollo basado en esta tecnología. Que la disfrutéis.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Code Style: If and return</title>
+      <link>https://carlosbuenosvinos.com/code-style-if-and-return/</link>
+      <pubDate>Mon, 11 Nov 2013 19:09:42 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/code-style-if-and-return/</guid>
+      <description>&lt;p&gt;When contributing to opensource code at GitHub, I found some mistakes, or improvements when writing code, that are repetead over and over again for newbies and not so newbies developers. I&amp;#8217;ll try to write some posts about this, but for not, let&amp;#8217;s start with some &amp;#8220;if&amp;#8221; and &amp;#8220;return&amp;#8221; statements cases.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Remove non used PHP files in your project</title>
+      <link>https://carlosbuenosvinos.com/remove-non-used-php-files-in-your-project/</link>
+      <pubDate>Thu, 26 Sep 2013 07:40:56 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/remove-non-used-php-files-in-your-project/</guid>
+      <description>&lt;p&gt;When a project gets bigger, specially when using a framework, it&amp;#8217;s mandatory to have some processes that help you in removing code that is not used anymore such as models, classes, template files, etc.&lt;/p&gt;
+
+&lt;p&gt;That is not an easy task, however the benefits or removing non used coded are tons (code coverage, development speed, bugs, etc.). But what&amp;#8217;s the best approach to detect that a template file is not used anymore in your PHP project?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Robert C. Martin Clean Code Collection Review (Part II)</title>
+      <link>https://carlosbuenosvinos.com/robert-c-martin-clean-code-collection-review-part-ii/</link>
+      <pubDate>Sun, 18 Aug 2013 17:07:51 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/robert-c-martin-clean-code-collection-review-part-ii/</guid>
+      <description>&lt;p&gt;Hace una semana, publicaba un pequeño resumen y mis apuntes sobre el libro &amp;#8220;Clean Coder&amp;#8221; de Robert C. Martin &lt;a href=&#34;http://carlosbuenosvinos.com/robert-c-martin-clean-code-collection-review-part-i/&#34; title=&#34;Robert C. Martin Clean Code Collection Review (Part I)&#34;&gt;(ver parte I)&lt;/a&gt;. Hoy hago lo propio con el resumen del libro de la misma colección, &amp;#8220;Clean Code&amp;#8221;.&lt;/p&gt;
+
+&lt;p&gt;Os dejo cosas que subrayé y anoté del libro que me parecieron interesantes, espero que lo disfrutéis.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

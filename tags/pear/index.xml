@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pear on Carlos Buenosvinos</title>
+    <link>https://carlosbuenosvinos.com/tags/pear/</link>
+    <description>Recent content in pear on Carlos Buenosvinos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 29 Jul 2014 07:00:23 +0000</lastBuildDate>
+    
+	<atom:link href="https://carlosbuenosvinos.com/tags/pear/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Legacy Code and Teams Series: Composer</title>
+      <link>https://carlosbuenosvinos.com/legacy-code-and-teams-series-composer/</link>
+      <pubDate>Tue, 29 Jul 2014 07:00:23 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/legacy-code-and-teams-series-composer/</guid>
+      <description>&lt;p class=&#34;p1&#34;&gt;
+  After talking about &lt;a title=&#34;Legacy Code and Teams Series: Training Sessions and Technical Committee&#34; href=&#34;http://carlosbuenosvinos.com/legacy-code-and-teams-series-training-sessions-and-technical-committee/&#34; target=&#34;_blank&#34;&gt;Technical Committee and Training Sessions&lt;/a&gt; in the previous post of the series, today, I&amp;#8217;ll carry on with adding Composer to legacy projects without pain.
+&lt;/p&gt;
+
+&lt;p class=&#34;p1&#34;&gt;
+  The day I left Emagister, I was sat down with &lt;a href=&#34;https://twitter.com/eberhm&#34; target=&#34;_blank&#34;&gt;Eber&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/theUniC&#34; target=&#34;_blank&#34;&gt;Christian&lt;/a&gt; having beers and talking about all the cool things we did there. We were reviewing each of the changes, it cost, benefits, feelings in the team, etc. When I said, &amp;#8220;what about composer? that was cool!&amp;#8221;, Eber said, &lt;strong&gt;&amp;#8220;Composer is not just cool, it&amp;#8217;s a must.&amp;#8221;&lt;/strong&gt;. As always, he was too right. It has been also the first thing done at Atrápalo.
+&lt;/p&gt;
+
+&lt;p class=&#34;p1&#34;&gt;
+  Starting with a brand-new project using &lt;a href=&#34;https://getcomposer.org/doc/03-cli.md#create-project&#34; target=&#34;_blank&#34;&gt;create-project command&lt;/a&gt; it&amp;#8217;s easy, but, what about those developers dealing with a big legacy project, with custom autoloader, PEAR dependencies, hardcoded fixes in a external library, non PSR-0 code, etc. Don&amp;#8217;t worry, you can also take benefit of Composer. However, there are some tricks you should take care of in order to face those issues.
+&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>martin fowler on Carlos Buenosvinos</title>
+    <link>https://carlosbuenosvinos.com/tags/martin-fowler/</link>
+    <description>Recent content in martin fowler on Carlos Buenosvinos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 09 May 2014 16:34:02 +0000</lastBuildDate>
+    
+	<atom:link href="https://carlosbuenosvinos.com/tags/martin-fowler/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Comentarios al hangout “Is TDD dead?”</title>
+      <link>https://carlosbuenosvinos.com/comentarios-al-hangout-is-tdd-dead/</link>
+      <pubDate>Fri, 09 May 2014 16:34:02 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/comentarios-al-hangout-is-tdd-dead/</guid>
+      <description>Después del Hangout sobre TDD de Martin Fowler, Kent Beck y David Heinemeier (https://www.youtube.com/watch?v=z9quxZsLcfo), Christian Soronellas (@theUnic) y yo hemos hecho lo propio y hemos opinado sobre cómo ha ido y hemos incluido algunas reflexiones adicionales. Esperemos que os guste.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Carlos Buenosvinos  | ¿Cuál es el verdadero objetivo de TDD?</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.58.3" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.d98f2eb6bcd1eaedb7edf166bd16af26.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+    
+
+    
+    
+    <meta property="og:title" content="¿Cuál es el verdadero objetivo de TDD?" />
+<meta property="og:description" content="A todos aquellos que habéis pensado: &#8220;¡Demostrar que mi código funciona!&#8221;, lo siento, estáis equivocados. Aunque está asociado al 2º valor principal del desarrollo de software (según Robert C. Martin)." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://carlosbuenosvinos.com/cual-es-el-verdadero-objetivo-de-tdd/" />
+<meta property="article:published_time" content="2013-09-13T14:28:47+00:00" />
+<meta property="article:modified_time" content="2013-09-13T14:28:47+00:00" />
+<meta itemprop="name" content="¿Cuál es el verdadero objetivo de TDD?">
+<meta itemprop="description" content="A todos aquellos que habéis pensado: &#8220;¡Demostrar que mi código funciona!&#8221;, lo siento, estáis equivocados. Aunque está asociado al 2º valor principal del desarrollo de software (según Robert C. Martin).">
+
+
+<meta itemprop="datePublished" content="2013-09-13T14:28:47&#43;00:00" />
+<meta itemprop="dateModified" content="2013-09-13T14:28:47&#43;00:00" />
+<meta itemprop="wordCount" content="339">
+
+
+
+<meta itemprop="keywords" content="agile,robert c martin,software development cost,tdd," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="¿Cuál es el verdadero objetivo de TDD?"/>
+<meta name="twitter:description" content="A todos aquellos que habéis pensado: &#8220;¡Demostrar que mi código funciona!&#8221;, lo siento, estáis equivocados. Aunque está asociado al 2º valor principal del desarrollo de software (según Robert C. Martin)."/>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="https://carlosbuenosvinos.com/" class="f3 fw2 hover-white no-underline white-90 dib">
+      Carlos Buenosvinos
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+
+    <header class="mt4 w-100">
+      <p class="f6 b helvetica tracked">
+          
+        POSTS
+      </p>
+      <h1 class="f1 athelas mb1">¿Cuál es el verdadero objetivo de TDD?</h1>
+      
+      <p class="tracked">
+         By <strong>Carlos Buenosvinos</strong>
+      </p>
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2013-09-13T14:28:47Z">September 13, 2013</time>
+      
+      
+    </header>
+
+    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>A todos aquellos que habéis pensado: &#8220;¡Demostrar que mi código funciona!&#8221;, lo siento, estáis equivocados. Aunque está asociado al 2º valor principal del desarrollo de software (según Robert C. Martin).</p>
+
+<p><strong style="line-height: 1.5;">Los valores del desarrollo de software (los dos se deben cumplir):</strong></p>
+
+<ol>
+<li>Flexible (que se adapte fácilmente a los cambios del entorno, refactorización, etc.)</li>
+<li>Que haga lo que tiene que hacer (que funcione)</li>
+</ol>
+
+<p>Robert C. Martin considera que el software sea flexible es más importante ya que el gran porcentaje de tiempo nos lo pasamos manteniendo código, leyendo más que escribiendo, desarrollando nuevas funcionalidades, arreglando bugs, etc.</p>
+
+<blockquote>
+<p><span style="line-height: 1.5;">En comparación con otros sectores, la fase de desarrollar software (construirlo) es mucho más barato que diseñar software (pensar en cómo construirlo).</span></p>
+</blockquote>
+
+<p>Pensad en construir coches, hay que invertir millones en el diseño del coche y de su proceso de fabricación (planos, simulaciones, etc.) antes de construirlo, principalmente porque un buen diseño ahorrará millones a su fabricante.</p>
+
+<p>¿Qué porcentaje de tiempo invertimos haciendo mantenimiento (bugs y nuevas funcionalidades a un proyecto existente)?</p>
+
+<blockquote>
+<p>Las estadísticas están entre el <strong>80% y el 90%</strong>, lo que significa que representa la gran mayoría del tiempo.</p>
+</blockquote>
+
+<p>Así que necesitamos una manera o método de poder reducir los costes del tiempo asociado al mantenimiento del software. ¿Se os ocurre alguna?</p>
+
+<p>El verdadero objetivo de TDD es abaratar los proyectos haciendo más barata la fase de mantenimiento. ¿Cómo lo hace?</p>
+
+<ol>
+<li>Garantizando que nuestro código funciona como debería</li>
+<li>Ayudando a que la solución y su diseño emerja de los tests (no de un trabajo previo &#8211; acordaos de la incerteza del software)</li>
+<li>Facilita un diseño desacoplado</li>
+<li>A no desarrollar más de lo estrictamente necesario para que los juegos de pruebas pasen (&#8220;baby steps&#8221; + &#8220;until you need it&#8221;)</li>
+</ol>
+
+<p>Muchas veces he escuchado desarrolladores diciendo que &#8220;no hay tiempo&#8221; para desarrollar tests unitarios, que sale más caro, que es una pérdida de tiempo, sólo os dejo una reflexión, ¿cuánto tiempo pasáis usando el debugger? ¿cuánto tiempo pasáis resolviendo bugs que se podrían haber detectado con un test unitario?</p>
+
+<p>Feliz fin de semana!</p><ul class="pa0">
+  
+   <li class="list">
+     <a href="/tags/agile" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">agile</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/robert-c-martin" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">robert c martin</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/software-development-cost" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">software development cost</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/tdd" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">tdd</a>
+   </li>
+  
+</ul>
+<div class="mt6">
+      
+      
+      </div>
+    </section>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/robert-c-martin-clean-code-collection-review-part-ii/">Robert C. Martin Clean Code Collection Review (Part II)</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/kata-bowling-game/">Kata: Bowling Game</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/kata-prime-factors/">Kata: Prime Factors</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/robert-c-martin-clean-code-collection-review-part-i/">Robert C. Martin Clean Code Collection Review (Part I)</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/tech-team-engagement/">Tech Team Engagement</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/introduccion-a-scrum-y-agile/">Introducción a Scrum y Agile</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/desarrollo-php-profesional/">Guía para el desarrollo PHP Profesional</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://carlosbuenosvinos.com/" >
+    &copy; 2019 Carlos Buenosvinos
+  </a>
+    <div>
+
+
+
+
+
+
+
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>

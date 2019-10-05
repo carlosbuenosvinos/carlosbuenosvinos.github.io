@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Carlos Buenosvinos  | Kata: Bowling Game</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.58.3" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.d98f2eb6bcd1eaedb7edf166bd16af26.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+    
+
+    
+    
+    <meta property="og:title" content="Kata: Bowling Game" />
+<meta property="og:description" content="Context
+
+
+
+Scoring Bowling: The game consists of 10 frames as shown above.  In each frame the player has two opportunities to knock down 10 pins.  The score for the frame is the total number of pins knocked down, plus bonuses for strikes and spares." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://carlosbuenosvinos.com/kata-bowling-game/" />
+<meta property="article:published_time" content="2013-08-21T10:10:12+00:00" />
+<meta property="article:modified_time" content="2013-08-21T10:10:12+00:00" />
+<meta itemprop="name" content="Kata: Bowling Game">
+<meta itemprop="description" content="Context
+
+
+
+Scoring Bowling: The game consists of 10 frames as shown above.  In each frame the player has two opportunities to knock down 10 pins.  The score for the frame is the total number of pins knocked down, plus bonuses for strikes and spares.">
+
+
+<meta itemprop="datePublished" content="2013-08-21T10:10:12&#43;00:00" />
+<meta itemprop="dateModified" content="2013-08-21T10:10:12&#43;00:00" />
+<meta itemprop="wordCount" content="253">
+
+
+
+<meta itemprop="keywords" content="bowling scoring,coding,kata,tdd," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Kata: Bowling Game"/>
+<meta name="twitter:description" content="Context
+
+
+
+Scoring Bowling: The game consists of 10 frames as shown above.  In each frame the player has two opportunities to knock down 10 pins.  The score for the frame is the total number of pins knocked down, plus bonuses for strikes and spares."/>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="https://carlosbuenosvinos.com/" class="f3 fw2 hover-white no-underline white-90 dib">
+      Carlos Buenosvinos
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+
+    <header class="mt4 w-100">
+      <p class="f6 b helvetica tracked">
+          
+        POSTS
+      </p>
+      <h1 class="f1 athelas mb1">Kata: Bowling Game</h1>
+      
+      <p class="tracked">
+         By <strong>Carlos Buenosvinos</strong>
+      </p>
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2013-08-21T10:10:12Z">August 21, 2013</time>
+      
+      
+    </header>
+
+    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><h2 id="context">Context</h2>
+
+<p><a href="https://i2.wp.com/carlosbuenosvinos.com/posts/images/2013/08/Bowling.png"><img class="alignnone size-medium wp-image-141" alt="Bowling" src="https://i2.wp.com/carlosbuenosvinos.com/posts/images/2013/08/Bowling-300x29.png?resize=300%2C29" width="300" height="29" srcset="https://i2.wp.com/carlosbuenosvinos.com/posts/images/2013/08/Bowling.png?resize=300%2C29&ssl=1 300w, https://i2.wp.com/carlosbuenosvinos.com/posts/images/2013/08/Bowling.png?w=776&ssl=1 776w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a></p>
+
+<p>Scoring Bowling: The game consists of 10 frames as shown above.  In each frame the player has two opportunities to knock down 10 pins.  The score for the frame is the total number of pins knocked down, plus bonuses for strikes and spares.</p>
+
+<p><span style="line-height: 1.5;">A spare is when the player knocks down all 10 pins in two tries.  The bonus for </span>that frame is the number of pins knocked down by the next roll.  So in frame 3 above, the score is 10 (the total number knocked down) plus a bonus of 5 (the number of pins knocked down on the next roll.)</p>
+
+<p>A strike is when the player knocks down all 10 pins on his first try.  The bonus for that frame is the value of the next two balls rolled.</p>
+
+<p>In the tenth frame a player who rolls a spare or strike is allowed to roll the extra balls to complete the frame.  However no more than three balls can be rolled in tenth frame.</p>
+
+<h2 id="span-style-line-height-1-3-level-span"><span style="line-height: 1.3;">Level</span></h2>
+
+<p>Easy / 40 minutes<img style="font-family: 'Source Sans Pro', Helvetica, sans-serif; font-size: 16px; line-height: 1.5;" title="More..." alt="" src="https://i2.wp.com/carlosbuenosvinos.com/wp-includes/js/tinymce/plugins/wordpress/img/trans.gif?w=620" data-recalc-dims="1" /></p>
+
+<h2 id="requirements">Requirements</h2>
+
+<div>
+  <div>
+    Write a class named “Game” that has two methods:
+  </div>
+  
+
+<p><div>
+    <ul>
+      <li>
+        roll(pins : int) is called each time the player rolls a ball.  The argument is the number of pins knocked down.
+      </li>
+      <li>
+        score() : int is called only at the very end of the game.  It returns the total score for that game.
+      </li>
+    </ul>
+  </div>
+</div></p>
+
+<div>
+  <h2>
+    Goal
+  </h2>
+  
+  <p>
+    Resolve applying TDD, 100% code coverage is possible. When finish, comment on this post with your GitHub repository (or similiar) solution so others can check.
+  </p>
+  
+  <h2>
+    Origin
+  </h2>
+  
+  <p>
+    Adapted from <a href="http://butunclebob.com/ArticleS.UncleBob.TheBowlingGameKata">http://butunclebob.com/ArticleS.UncleBob.TheBowlingGameKata</a><a href="http://butunclebob.com/ArticleS.UncleBob.ThePrimeFactorsKata" target="_blank"><br /> </a>
+  </p>
+</div><ul class="pa0">
+  
+   <li class="list">
+     <a href="/tags/bowling-scoring" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">bowling scoring</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/coding" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">coding</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/kata" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">kata</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/tdd" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">tdd</a>
+   </li>
+  
+</ul>
+<div class="mt6">
+      
+      
+      </div>
+    </section>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/kata-prime-factors/">Kata: Prime Factors</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/robert-c-martin-clean-code-collection-review-part-ii/">Robert C. Martin Clean Code Collection Review (Part II)</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://carlosbuenosvinos.com/" >
+    &copy; 2019 Carlos Buenosvinos
+  </a>
+    <div>
+
+
+
+
+
+
+
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>

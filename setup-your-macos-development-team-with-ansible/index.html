@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Carlos Buenosvinos  | Setup your MacOS (or other OS) development team with Ansible</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.58.3" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.d98f2eb6bcd1eaedb7edf166bd16af26.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+    
+
+    
+    
+    <meta property="og:title" content="Setup your MacOS (or other OS) development team with Ansible" />
+<meta property="og:description" content="Imagine that a new developer joins your team, installing everything needed for developing, including the application being developed is not an easy o fast task. I&#8217;m sure you have a wiki process, a markdown file in your repo or something similar. For a normal PHP web application, there is so much to do: installing PHP, composer and global tools, npm and/or bower, mysql, redis, etc. or setting up you Docker/Vagrant environment if you choose an isolated environment.
+
+I remember when GitHub released Boxen in 2012. A tool for managing Mac development boxes with love. It&#8217;s based in Puppet. The main idea is use Puppet for provisioning not remote machines or servers but you local Mac. Let&#8217;s see a silly idea about how to do it with Ansible." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://carlosbuenosvinos.com/setup-your-macos-development-team-with-ansible/" />
+<meta property="article:published_time" content="2015-12-30T10:41:28+00:00" />
+<meta property="article:modified_time" content="2015-12-30T10:41:28+00:00" />
+<meta itemprop="name" content="Setup your MacOS (or other OS) development team with Ansible">
+<meta itemprop="description" content="Imagine that a new developer joins your team, installing everything needed for developing, including the application being developed is not an easy o fast task. I&#8217;m sure you have a wiki process, a markdown file in your repo or something similar. For a normal PHP web application, there is so much to do: installing PHP, composer and global tools, npm and/or bower, mysql, redis, etc. or setting up you Docker/Vagrant environment if you choose an isolated environment.
+
+I remember when GitHub released Boxen in 2012. A tool for managing Mac development boxes with love. It&#8217;s based in Puppet. The main idea is use Puppet for provisioning not remote machines or servers but you local Mac. Let&#8217;s see a silly idea about how to do it with Ansible.">
+
+
+<meta itemprop="datePublished" content="2015-12-30T10:41:28&#43;00:00" />
+<meta itemprop="dateModified" content="2015-12-30T10:41:28&#43;00:00" />
+<meta itemprop="wordCount" content="819">
+
+
+
+<meta itemprop="keywords" content="ansible,brew,local environment,macos,php," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Setup your MacOS (or other OS) development team with Ansible"/>
+<meta name="twitter:description" content="Imagine that a new developer joins your team, installing everything needed for developing, including the application being developed is not an easy o fast task. I&#8217;m sure you have a wiki process, a markdown file in your repo or something similar. For a normal PHP web application, there is so much to do: installing PHP, composer and global tools, npm and/or bower, mysql, redis, etc. or setting up you Docker/Vagrant environment if you choose an isolated environment.
+
+I remember when GitHub released Boxen in 2012. A tool for managing Mac development boxes with love. It&#8217;s based in Puppet. The main idea is use Puppet for provisioning not remote machines or servers but you local Mac. Let&#8217;s see a silly idea about how to do it with Ansible."/>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  
+  
+  <header class="cover bg-top" style="background-image: url('https://carlosbuenosvinos.com/posts/images/2015/12/ansible_circleA_red.png');">
+    <div class="pb3-m pb6-l bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="https://carlosbuenosvinos.com/" class="f3 fw2 hover-white no-underline white-90 dib">
+      Carlos Buenosvinos
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">Setup your MacOS (or other OS) development team with Ansible</h1>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+
+    <header class="mt4 w-100">
+      <p class="f6 b helvetica tracked">
+          
+        POSTS
+      </p>
+      <h1 class="f1 athelas mb1">Setup your MacOS (or other OS) development team with Ansible</h1>
+      
+      <p class="tracked">
+         By <strong>Carlos Buenosvinos</strong>
+      </p>
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2015-12-30T10:41:28Z">December 30, 2015</time>
+      
+      
+    </header>
+
+    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>Imagine that a new developer joins your team, installing everything needed for developing, including the application being developed is not an easy o fast task. I&#8217;m sure you have a wiki process, a markdown file in your repo or something similar. For a normal PHP web application, there is so much to do: installing PHP, composer and global tools, npm and/or bower, mysql, redis, etc. or setting up you Docker/Vagrant environment if you choose an isolated environment.</p>
+
+<p>I remember when GitHub released <a href="https://github.com/boxen" target="_blank">Boxen</a> in 2012. A tool for managing Mac development boxes with love. It&#8217;s based in Puppet. The main idea is use Puppet for provisioning not remote machines or servers but you local Mac. Let&#8217;s see a silly idea about how to do it with Ansible.</p>
+
+<h3 id="tl-dr">tl;dr</h3>
+
+<p>For set up MacOS local development environments, you can use <a href="http://www.ansible.com/" target="_blank">Ansible</a> with local connections (ansible_connection=local in your inventory file) and the <a href="http://docs.ansible.com/ansible/homebrew_module.html" target="_blank">homebrew</a> module.</p>
+
+<h3 id="introduction">Introduction</h3>
+
+<p>On a Mac, and also on other OS, there are different options for developing: local development with built-in web servers, Docker or Vagrant. The first one is the fastest one, but has its pitfalls (polluting your local environment with things you need for a specific project, routing tricks or lack of HTTPS support), the second one is still fast if you&#8217;re not in MacOS (that uses a VirtualBox machine for running Docker due to its lack of containers support) and the last one, the more flexible in all the environments but slower in performance due to its low sharing capabilities (Vbox Share folders, NFS, or Rsync).</p>
+
+<h3 id="set-the-environment-up">Set the environment up</h3>
+
+<p>What it&#8217;s a common issue is set up everything on your machine. You can do it step by step following a guide somewhere in your repo or wiki, or help the process using a provisioning tool such as Ansible. The trick is using Ansible, with local connection (in order to perform all the tasks in your local machine) and the Homebrew module. Let&#8217;s see a silly example about how to use all of this.</p>
+
+<h4 id="inventory-file">Inventory File</h4>
+
+<pre class="brush: php; gutter: true">localhost ansible_connection=local</pre>
+
+<h4 id="playbook">Playbook</h4>
+
+<pre class="brush: php; gutter: true">---
+- name: Ensure local development is ready
+  hosts: all
+  tasks:
+    - name: REDIS | Ensure REDIS is present
+      homebrew: name=redis state=latest
+    - name: REDIS | Ensure REDIS will run as daemon
+      replace: dest=/usr/local/etc/redis.conf regexp=&#039;^daemonize no$&#039; replace=&#039;daemonize yes&#039;
+    - name: REDIS | Ensure REDIS will run just in memory
+      replace: dest=/usr/local/etc/redis.conf regexp=&#039;^save (.*)$&#039; replace=&#039;#save \1&#039;
+    - name: REDIS | Ensure REDIS is stopped
+      command: launchctl unload /usr/local/opt/redis/homebrew.mxcl.redis.plist
+      ignore_errors: yes
+    - name: REDIS | Ensure REDIS is running
+      command: launchctl load /usr/local/opt/redis/homebrew.mxcl.redis.plist
+      ignore_errors: yes
+
+    - name: PHP | Tap repositories
+      command: brew tap {{ item }}
+      with_items:
+        - "homebrew/dupes"
+        - "homebrew/versions"
+        - "homebrew/homebrew-php"
+    - name: PHP | Ensure PHP is present
+      homebrew: name=php56 state=latest install_options=with-fpm
+    - name: PHP | Ensure PHP extensions are present
+      homebrew: name={{ item }} state=latest
+      with_items:
+        - php56-apcu
+        - php56-geoip
+        - php56-imagick
+        - php56-intl
+        - php56-mcrypt
+        - php56-msgpack
+        - php56-opcache
+        - php56-pdo-pgsql
+        - php56-ssh2
+        - php56-tidy
+        - php56-twig
+        - php56-xdebug
+    - name: PHP | Ensure PHP will run as daemon
+      replace: dest=/usr/local/etc/php/5.6/php-fpm.conf regexp="^daemonize = no$" replace=";daemonize = no"
+    - name: PHP | Ensure PHP is stopped
+      command: launchctl unload /usr/local/opt/php56/homebrew.mxcl.php56.plist
+      ignore_errors: yes
+    - name: PHP | Ensure PHP is running
+      command: launchctl load /usr/local/opt/php56/homebrew.mxcl.php56.plist
+      ignore_errors: yes
+
+    - name: NGINX | Ensure NGINX is present
+      homebrew: name=nginx state=latest
+    - file: path=/usr/local/etc/nginx/conf.d state=directory
+    - file: path=/usr/local/etc/nginx/sites-enabled state=directory
+    - file: path=/usr/local/etc/nginx/logs state=directory
+    - template: src=templates/nginx-fpm/nginx.nginx.conf dest=/usr/local/etc/nginx/nginx.conf
+    - name: NGINX | Ensure sites are installed
+      template: src=templates/nginx-fpm/sites-available/{{ item.src }} dest=/usr/local/etc/nginx/sites-enabled/{{ item.dest }}
+      with_items:
+        - { src: myproject.nginx.local.conf, dest: myproject.local.conf }
+    - name: NGINX | Ensure Nginx is stopped
+      command: nginx -s stop
+      ignore_errors: yes
+      sudo: yes
+    - name: NGINX | Ensure Nginx is running
+      command: nginx
+      sudo: yes
+
+    - name: Setting /etc/hosts file
+      lineinfile: dest=/etc/hosts regexp="^127\.0\.0\.1 {{ item }}$" line="127.0.0.1 {{ item }}" insertbefore="BOF"
+      sudo: yes
+      with_items:
+        - myproject.local
+
+    - name: PHP | Ensure PHP configuration is set up properly
+      ini_file: dest=/etc/php5/{{ item[0] }}/php.ini section={{ item[1].section }} option={{ item[1].option }} value={{ item[1].value }}
+      with_nested:
+       - [ "fpm", "cli" ]
+       - [
+            { option: "memory_limit",                     value: "512M",            section: "PHP" },
+            { option: "date.timezone",                    value: "Europe/Madrid",   section: "PHP" },
+            { option: "opcache.fast_shutdown",            value: "1",               section: "opcache" },
+            { option: "opcache.memory_consumption",       value: "360",             section: "opcache" },
+         ]
+    - name: PHP | Ensure XDebug is configured properly
+      lineinfile: dest=/usr/local/etc/php/5.6/conf.d/ext-xdebug.ini line="{{ item }}"
+      with_items:
+        - "xdebug.default_enable = 1;"
+        - "xdebug.remote_enable = 1;"
+        - "xdebug.remote_connect_back = 1;"
+        - "xdebug.remote_autostart = 1;"
+        - "xdebug.remote_port = 9000;"
+        - "xdebug.profiler_enable = 0;"
+        - "xdebug.profiler_enable_trigger = 1;"
+        - "xdebug.profiler_output_dir = /tmp/xdebug;"
+</pre>
+
+<p>And now, you can just run your environment with:</p>
+
+<pre>ansible-playbook setup-my-local-environment.yml -i local-inventory -v --ask-sudo-pass
+</pre>
+
+<h3 id="conclusion">Conclusion</h3>
+
+<p>You know, automate all the things. Including also your local development environment. If your playbook is checked in your project repository, a new developer just needs to install brew, ansible, checkout the project and run the playbook. I prefer Vagrant, but in some cases, this trick can be useful. Hope it helps!</p><ul class="pa0">
+  
+   <li class="list">
+     <a href="/tags/ansible" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">ansible</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/brew" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">brew</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/local-environment" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">local environment</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/macos" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">macos</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/php" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">php</a>
+   </li>
+  
+</ul>
+<div class="mt6">
+      
+      
+      </div>
+    </section>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/guia-para-el-desarrollo-profesional-php-edicion-2014/">Guía para el Desarrollo Profesional PHP (edición 2014)</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/deploying-symfony-and-php-apps-with-ansistrano/">Deploying Symfony (and PHP) apps with Ansistrano</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/consulta-sobre-ddd-1-entidades-identidad-uuid/">Consulta sobre DDD #1: Pregunta sobre las entidades en DDD (Identidad y UUID)</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/dot-puzzles-for-smart-masses/">Dot: Puzzles for smart masses</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/migrating-progressively-to-symfony-without-pain-with-stackphp/">Migrating progressively to Symfony without pain with StackPHP</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/migrating-progressively-to-symfony-without-pain/">Migrating progressively to Symfony without pain</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/atrapalo-tech-2014-figures/">Atrápalo Tech 2014 figures</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/subscribe-yourself-to-php-internals/">Subscribe yourself to PHP internals</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/domain-driven-design-code-structure-and-application-services-webcast-at-atrapaloeng-spanish/">Domain-Driven Design: Code Structure and Application Services Webcast at @AtrapaloEng (Spanish)</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/domain-driven-design-bounded-context-integration-spanish/">Domain-Driven Design: Bounded Context Integration (Spanish)</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/domain-driven-design-entities-and-value-objects-webcast-at-atrapaloeng-spanish/">Domain-Driven Design: Entities and Value Objects Webcast at @AtrapaloEng (Spanish)</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/domain-driven-design-aggregates-webcast-at-atrapaloeng-spanish/">Domain-Driven Design: Aggregates Webcast at @AtrapaloEng (Spanish)</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/tactical-domain-driven-design-screencast-at-phpbarcelona-spanish/">Tactical Domain-Driven Design Screencast at PHPBarcelona (Spanish)</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/legacy-code-and-teams-series-composer/">Legacy Code and Teams Series: Composer</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/hexagonal-architecture-with-php-was-published-in-phparch-magazine/">“Hexagonal Architecture with PHP” was published in phparch|magazine</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://carlosbuenosvinos.com/" >
+    &copy; 2019 Carlos Buenosvinos
+  </a>
+    <div>
+
+
+
+
+
+
+
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>

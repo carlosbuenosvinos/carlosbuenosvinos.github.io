@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Carlos Buenosvinos  | Legacy Code and Teams Series: Composer</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.58.3" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.d98f2eb6bcd1eaedb7edf166bd16af26.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+    
+
+    
+    
+    <meta property="og:title" content="Legacy Code and Teams Series: Composer" />
+<meta property="og:description" content="
+  After talking about Technical Committee and Training Sessions in the previous post of the series, today, I&#8217;ll carry on with adding Composer to legacy projects without pain.
+
+
+
+  The day I left Emagister, I was sat down with Eber and Christian having beers and talking about all the cool things we did there. We were reviewing each of the changes, it cost, benefits, feelings in the team, etc. When I said, &#8220;what about composer? that was cool!&#8221;, Eber said, &#8220;Composer is not just cool, it&#8217;s a must.&#8221;. As always, he was too right. It has been also the first thing done at Atrápalo.
+
+
+
+  Starting with a brand-new project using create-project command it&#8217;s easy, but, what about those developers dealing with a big legacy project, with custom autoloader, PEAR dependencies, hardcoded fixes in a external library, non PSR-0 code, etc. Don&#8217;t worry, you can also take benefit of Composer. However, there are some tricks you should take care of in order to face those issues.
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://carlosbuenosvinos.com/legacy-code-and-teams-series-composer/" />
+<meta property="article:published_time" content="2014-07-29T07:00:23+00:00" />
+<meta property="article:modified_time" content="2014-07-29T07:00:23+00:00" />
+<meta itemprop="name" content="Legacy Code and Teams Series: Composer">
+<meta itemprop="description" content="
+  After talking about Technical Committee and Training Sessions in the previous post of the series, today, I&#8217;ll carry on with adding Composer to legacy projects without pain.
+
+
+
+  The day I left Emagister, I was sat down with Eber and Christian having beers and talking about all the cool things we did there. We were reviewing each of the changes, it cost, benefits, feelings in the team, etc. When I said, &#8220;what about composer? that was cool!&#8221;, Eber said, &#8220;Composer is not just cool, it&#8217;s a must.&#8221;. As always, he was too right. It has been also the first thing done at Atrápalo.
+
+
+
+  Starting with a brand-new project using create-project command it&#8217;s easy, but, what about those developers dealing with a big legacy project, with custom autoloader, PEAR dependencies, hardcoded fixes in a external library, non PSR-0 code, etc. Don&#8217;t worry, you can also take benefit of Composer. However, there are some tricks you should take care of in order to face those issues.
+">
+
+
+<meta itemprop="datePublished" content="2014-07-29T07:00:23&#43;00:00" />
+<meta itemprop="dateModified" content="2014-07-29T07:00:23&#43;00:00" />
+<meta itemprop="wordCount" content="946">
+
+
+
+<meta itemprop="keywords" content="composer,legacy code,legacy teams,pear,php," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Legacy Code and Teams Series: Composer"/>
+<meta name="twitter:description" content="
+  After talking about Technical Committee and Training Sessions in the previous post of the series, today, I&#8217;ll carry on with adding Composer to legacy projects without pain.
+
+
+
+  The day I left Emagister, I was sat down with Eber and Christian having beers and talking about all the cool things we did there. We were reviewing each of the changes, it cost, benefits, feelings in the team, etc. When I said, &#8220;what about composer? that was cool!&#8221;, Eber said, &#8220;Composer is not just cool, it&#8217;s a must.&#8221;. As always, he was too right. It has been also the first thing done at Atrápalo.
+
+
+
+  Starting with a brand-new project using create-project command it&#8217;s easy, but, what about those developers dealing with a big legacy project, with custom autoloader, PEAR dependencies, hardcoded fixes in a external library, non PSR-0 code, etc. Don&#8217;t worry, you can also take benefit of Composer. However, there are some tricks you should take care of in order to face those issues.
+"/>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="https://carlosbuenosvinos.com/" class="f3 fw2 hover-white no-underline white-90 dib">
+      Carlos Buenosvinos
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+
+    <header class="mt4 w-100">
+      <p class="f6 b helvetica tracked">
+          
+        POSTS
+      </p>
+      <h1 class="f1 athelas mb1">Legacy Code and Teams Series: Composer</h1>
+      
+      <p class="tracked">
+         By <strong>Carlos Buenosvinos</strong>
+      </p>
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2014-07-29T07:00:23Z">July 29, 2014</time>
+      
+      
+    </header>
+
+    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p class="p1">
+  After talking about <a title="Legacy Code and Teams Series: Training Sessions and Technical Committee" href="http://carlosbuenosvinos.com/legacy-code-and-teams-series-training-sessions-and-technical-committee/" target="_blank">Technical Committee and Training Sessions</a> in the previous post of the series, today, I&#8217;ll carry on with adding Composer to legacy projects without pain.
+</p>
+
+<p class="p1">
+  The day I left Emagister, I was sat down with <a href="https://twitter.com/eberhm" target="_blank">Eber</a> and <a href="https://twitter.com/theUniC" target="_blank">Christian</a> having beers and talking about all the cool things we did there. We were reviewing each of the changes, it cost, benefits, feelings in the team, etc. When I said, &#8220;what about composer? that was cool!&#8221;, Eber said, <strong>&#8220;Composer is not just cool, it&#8217;s a must.&#8221;</strong>. As always, he was too right. It has been also the first thing done at Atrápalo.
+</p>
+
+<p class="p1">
+  Starting with a brand-new project using <a href="https://getcomposer.org/doc/03-cli.md#create-project" target="_blank">create-project command</a> it&#8217;s easy, but, what about those developers dealing with a big legacy project, with custom autoloader, PEAR dependencies, hardcoded fixes in a external library, non PSR-0 code, etc. Don&#8217;t worry, you can also take benefit of Composer. However, there are some tricks you should take care of in order to face those issues.
+</p>
+
+<h3 id="my-code-does-not-follow-psr-0-p1">My code does not follow PSR-0 {.p1}</h3>
+
+<p class="p1">
+  The autoloading options for Composer are really well defined in its <a href="https://getcomposer.org/doc/04-schema.md#autoload" target="_blank">documentation</a>. People just don&#8217;t read them. If your code follows PSR-0 or PSR-4, you have to define in your composer.json the &#8220;psr-0&#8221; or &#8220;psr-4&#8221; directive and specified what prefixes point to what directories. Easy.
+</p>
+
+<p class="p1">
+  But, if your code does not follow any of those standards, you can always use the <a href="https://getcomposer.org/doc/04-schema.md#classmap" target="_blank">&#8220;classmap&#8221; option</a>.
+</p>
+
+<pre class="brush: javascript; gutter: true">{
+    "autoload": {
+        "classmap": ["src/", "lib/", "Something.php"]
+    }
+}</pre>
+
+<p class="p1">
+  When running <em>composer install</em> or <em>composer update</em>, it will go through all the folders and files identifying any class definition. It will generate a file ./<em>vendor/composer/autoload_classmap.php</em> with an array with all the class names and their corresponding path files. So, when you require a file, composer goes to this dictionary, find the class by name and requires the file associated with it.
+</p>
+
+<p class="p1">
+  <span style="text-decoration: underline;">Cons:</span> What it&#8217;s annoying is that if any developer in your team adds a new class in those folders, you will need to run <em>composer dump-autoload</em> in order to regenerate the classmap. If you want to update the classmap automatically, you can add a hook in your Composer, but it&#8217;s an approach I just don&#8217;t like.
+</p>
+
+<h3 id="i-already-have-a-custom-autoloader-p1">I already have a custom autoloader {.p1}</h3>
+
+<p>You may have an existing autoloader that you want to preserve. However, if the previous autoloader trick does not fix your situation, you really have something strange such as classes defined with the same name in different files you load dynamically. My suggestion is to use just one autoloader. So, while you move to composer ;) you may need to live with both autoloaders in your application. Is there an option to do it? Of course! You can achieve this mixing your current  &#8220;spl_auto_register&#8221; and composer&#8217;s autoload require famous code line:</p>
+
+<pre class="brush: actionscript3; gutter: true">&lt;?php
+// Somewhere in your bootstrap file
+spl_auto_register([&#039;MyCustomAutoloader&#039;, &#039;load&#039;]);
+require __DIR__ . &#039;/../../vendor/autoload.php&#039;; 
+//...
+</pre>
+
+<p class="p1">
+  If you need to live with both autoloaders, you may need to run your autoloader <strong>before</strong> Composer&#8217;s. In order to do it, you will have to take a look to &#8220;prepend-autoloader&#8221; Composer option. By default, Composer will always prepend its autoloader to any others registered.
+</p>
+
+<p class="p1">
+  <em><strong>&#8220;prepend-autoloader:</strong> Defaults to <code>true</code>. If false, the composer autoloader will not be prepended to existing autoloaders. This is sometimes required to fix interoperability issues with other autoloaders.&#8221;</em>
+</p>
+
+<p class="p1">
+  The reason, take a look to /vendor/composer/ClassLoader.php:
+</p>
+
+<pre class="brush: php; gutter: true">/**
+ * Registers this instance as an autoloader.
+ *
+ * @param bool $prepend Whether to prepend the autoloader or not
+ */
+public function register($prepend = false)
+{
+    spl_autoload_register(array($this, &#039;loadClass&#039;), true, $prepend);
+}</pre>
+
+<p class="p1">
+  So probably, you will need to play with this configuration if you need to tune what are the order you need to make your autoloader and Composer&#8217;s live together. Tricks apart, it&#8217;s possible to mix them, so don&#8217;t worry. Do it while you move to composer.
+</p>
+
+<h3 id="i-have-dependencies-directly-in-my-code-p1">I have dependencies directly in my code {.p1}</h3>
+
+<p class="p1">
+  For each library you have in your project, find it in <a href="https://packagist.org/" target="_blank">Packagist</a>. If it&#8217;s there, great! just define the library in your <em>require </em>configuration section. Everything is explain in Composer doc. If the library is in other place rather than Packagist, you can define your own <a href="https://getcomposer.org/doc/05-repositories.md" target="_blank">repository</a> in Composer and require your library normally. Let&#8217;s see an example.
+</p>
+
+<p class="p1">
+  If you want to import the Google Analytics API library, you&#8217;ll need to define your own repository.
+</p>
+
+<pre class="brush: javascript; gutter: true">"repositories": [
+    {
+        "type": "package",
+        "package": {
+            "name": "gapi/gapi",
+            "version": "1.3.0",
+            "dist": {
+                "url": "https://gapi-google-analytics-php-interface.googlecode.com/files/gapi-1.3.zip",
+                "type": "zip"
+            },
+            "source": {
+                "url": "http://gapi-google-analytics-php-interface.googlecode.com/svn",
+                "type": "svn",
+                "reference": "trunk/"
+            },
+            "autoload": {
+                "files": [
+                    "gapi.class.php"
+                ]
+            }
+        }
+    },
+    ...
+],
+"require": {
+    "gapi/gapi": "1.3.0",
+    ...
+</pre>
+
+<p class="p1">
+  For more information, just take a look to how to <a href="https://getcomposer.org/doc/05-repositories.md" target="_blank">create a custom repository Composer documentation</a>.
+</p>
+
+<h3 id="i-have-some-dependencies-that-are-not-in-packagist-p1">I have some dependencies that are not in Packagist {.p1}</h3>
+
+<p class="p1">
+  If some libraries are not there, you can just create your own library in Packagist. Register your account, put your code in GitHub and link your project. I&#8217;m sure you are not the only one that needs that library in Packagist. Community power!
+</p>
+
+<h3 id="i-have-some-dependencies-i-cannot-update-due-to-own-modifications-p1">I have some dependencies I cannot update due to own modifications {.p1}</h3>
+
+<p>Bad, bad, bad. This is something you should never do. Try always to extend a library but not to modify it directly. You may get stuck in that version and updates may be imposible to apply. So, the options you have are: move your version to Packagist as the previous tip, try to use the official Packagist version extending the library you are using or take your modifications and make a pull request to library&#8217;s owner.</p>
+
+<h3 id="i-still-use-some-pear-libraries-p1">I still use some PEAR libraries {.p1}</h3>
+
+<p>Some of the most typical PEAR libraries have been ported to Packagist. Just <a href="https://packagist.org/search/?q=pear" target="_blank">search for &#8220;pear&#8221;</a>.</p>
+
+<h3 id="sum-up-p1">Sum up {.p1}</h3>
+
+<p class="p1">
+  Just use Composer, seriously. More tips are welcome.
+</p><ul class="pa0">
+  
+   <li class="list">
+     <a href="/tags/composer" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">composer</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/legacy-code" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">legacy code</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/legacy-teams" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">legacy teams</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/pear" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">pear</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/php" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">php</a>
+   </li>
+  
+</ul>
+<div class="mt6">
+      
+      
+      </div>
+    </section>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/legacy-code-and-teams-series-training-sessions-and-technical-committee/">Legacy Code and Teams Series: Training Sessions and Technical Committee</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/ipackagist-the-packagist-client-for-iphone/">iPackagist, the Packagist Client for iPhone</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/hexagonal-architecture-with-php-was-published-in-phparch-magazine/">“Hexagonal Architecture with PHP” was published in phparch|magazine</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/write-your-git-hooks-in-php-and-keep-them-under-git-control/">Write your git hooks in PHP and keep them under git control</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/smash-tech-php-2014/">Smash Tech: PHP 2014</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/zend-certification-more-than-20000-views/">Zend PHP 5.3 Demo Certification Test: More than 20.000 views!</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/desarrollo-php-profesional/">Guía para el desarrollo PHP Profesional</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://carlosbuenosvinos.com/" >
+    &copy; 2019 Carlos Buenosvinos
+  </a>
+    <div>
+
+
+
+
+
+
+
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>

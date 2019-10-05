@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Carlos Buenosvinos  | Consulta sobre DDD #1: Pregunta sobre las entidades en DDD (Identidad y UUID)</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.58.3" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.d98f2eb6bcd1eaedb7edf166bd16af26.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+    
+
+    
+    
+    <meta property="og:title" content="Consulta sobre DDD #1: Pregunta sobre las entidades en DDD (Identidad y UUID)" />
+<meta property="og:description" content="A raíz del libro &#8220;Domain-Driven Design in PHP&#8221; y los videos que tengo en Youtube, semanalmente, me van llegando consultas sobre temas de relacionados. Son bastante interesantes y me gustaría compartirlas así como mis respuestas. A los autores de los mails les he pedido permiso para publicar la conversión. Las iré agregando en la medida que pueda. La primera es de Álex sobre Entidades, Identidad y UUIDs." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://carlosbuenosvinos.com/consulta-sobre-ddd-1-entidades-identidad-uuid/" />
+<meta property="article:published_time" content="2015-10-15T07:30:53+00:00" />
+<meta property="article:modified_time" content="2015-10-15T07:30:53+00:00" />
+<meta itemprop="name" content="Consulta sobre DDD #1: Pregunta sobre las entidades en DDD (Identidad y UUID)">
+<meta itemprop="description" content="A raíz del libro &#8220;Domain-Driven Design in PHP&#8221; y los videos que tengo en Youtube, semanalmente, me van llegando consultas sobre temas de relacionados. Son bastante interesantes y me gustaría compartirlas así como mis respuestas. A los autores de los mails les he pedido permiso para publicar la conversión. Las iré agregando en la medida que pueda. La primera es de Álex sobre Entidades, Identidad y UUIDs.">
+
+
+<meta itemprop="datePublished" content="2015-10-15T07:30:53&#43;00:00" />
+<meta itemprop="dateModified" content="2015-10-15T07:30:53&#43;00:00" />
+<meta itemprop="wordCount" content="968">
+
+
+
+<meta itemprop="keywords" content="database,ddd,domain-driven design,entities,identity,php,sequences,uuid," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Consulta sobre DDD #1: Pregunta sobre las entidades en DDD (Identidad y UUID)"/>
+<meta name="twitter:description" content="A raíz del libro &#8220;Domain-Driven Design in PHP&#8221; y los videos que tengo en Youtube, semanalmente, me van llegando consultas sobre temas de relacionados. Son bastante interesantes y me gustaría compartirlas así como mis respuestas. A los autores de los mails les he pedido permiso para publicar la conversión. Las iré agregando en la medida que pueda. La primera es de Álex sobre Entidades, Identidad y UUIDs."/>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="https://carlosbuenosvinos.com/" class="f3 fw2 hover-white no-underline white-90 dib">
+      Carlos Buenosvinos
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+
+    <header class="mt4 w-100">
+      <p class="f6 b helvetica tracked">
+          
+        POSTS
+      </p>
+      <h1 class="f1 athelas mb1">Consulta sobre DDD #1: Pregunta sobre las entidades en DDD (Identidad y UUID)</h1>
+      
+      <p class="tracked">
+         By <strong>Carlos Buenosvinos</strong>
+      </p>
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2015-10-15T07:30:53Z">October 15, 2015</time>
+      
+      
+    </header>
+
+    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>A raíz del libro <a href="https://leanpub.com/ddd-in-php" target="_blank">&#8220;Domain-Driven Design in PHP&#8221;</a> y los videos que tengo en <a href="https://www.youtube.com/playlist?list=PLfgj7DYkKH3DjmXTOxIMs-5fcOgDg_Dd2" target="_blank">Youtube</a>, semanalmente, me van llegando consultas sobre temas de relacionados. Son bastante interesantes y me gustaría compartirlas así como mis respuestas. A los autores de los mails les he pedido permiso para publicar la conversión. Las iré agregando en la medida que pueda. La primera es de Álex sobre Entidades, Identidad y UUIDs.</p>
+
+<hr />
+
+<p>Hola Carlos,</p>
+
+<p>Hace unos días he empezado a buscar información sobre DDD y me topé con tu repositorio en GitHub donde tienes un ejemplo que al parecer estas utilizando en el libro que estás haciendo. Lo primero felicitarte porque tiene buena pinta y seguro que merece mucho la pena.</p>
+
+<p>Quería hacerte una pequeña pregunta sobre la identificación de entidades. En todos los sitios donde se habla sobre esto se cuenta que las entidades cuando se crean (vía constructor o vía factorías) deberían ser creadas ya con su ID y para ello hay mecanismos como los GUID o los UUID como el que muestras en el ejemplo de &#8220;last-wishes&#8221;, los cuales permiten generar ID&#8217;s a nivel de dominio.</p>
+
+<p>Esto me ha chocado con lo que nos han estado enseñando todo este tiempo en el instituto. Siempre nos han mostrado crear bases de datos relacionales ligando tablas a través de ID&#8217;S autoincrementables y estos ID&#8217;s solamente se pueden conocer una vez que se hayan insertado en la base de datos mediante una operación Insert. Bueno, también se podría hacer una consulta a la tabla para obtener el máximo y después sumar 1 pero eso creo que podría causar problemas si se realizan varias peticiones a la vez.</p>
+
+<p>Mis preguntas son: ¿En este tipo de diseño a caso se ha desplazado por completo la generación de identificación desde la base de datos al dominio? ¿Eso significa que debo de dejar de usar ID&#8217;s autoincrementables? ¿Utilizar un UUID no va a resultar en consultas más lentas al buscar por ejemplo por ID o relacionando con otras tablas? Parece que es más costoso buscar por ejemplo un post con un id así 550e8400-e29b-41d4-a716-446655440000 que con un número autoincrementable.</p>
+
+<p>Perdona si me he enrollado mucho y si no ha sido el medio más apropiado para formularte la consulta.</p>
+
+<p>Un saludo, Álex.</p>
+
+<hr />
+
+<p>Hola Álex,</p>
+
+<div>
+  Conocer el ID de un objecto antes de persistirlo tiene muchas ventajas. Los UUIDs se usan para esto, garantizar identidad y tener identidad antes de persistir. Recuerda que las entidades existen cuando se crean, no cuando se persisten ;). La persistencia es un detalle de implementación.
+</div>
+
+<div>
+</div>
+
+<div>
+  Para aplicaciones sencillas puedes usar IDs autoincrementales. Pero si estás con temas de DDD, llegarás rápido a darte cuenta que un UUID, te será más útil. En la Uni o el instituto te enseñaron a relacionar entidades por identidad, pero no que la identidad fuera autoincremental necesariamente ;).
+</div>
+
+<div>
+</div>
+
+<div>
+  Si quieres tener un comportamiento al estilo DDD con autoincrementales, la implementación de los Repositorios, del nextId, tendrá que hacer una query a quien guarda la secuencia. En Oracle, SQLServer es fácil porque funcionan con secuencias, pero en MySQL necesitará emularlo: <a href="https://www.google.es/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=mysql+sequences+nextval" target="_blank">https://www.google.<wbr />es/webhp?sourceid=chrome-<wbr />instant&ion=1&espv=2&ie=UTF-8#<wbr />q=mysql+sequences+nextval</a>
+</div>
+
+<div>
+</div>
+
+<div>
+  Con las BBDD actuales, las búsquedas por UUID son igual de rápidas, no notarás la diferencia.
+</div>
+
+<div>
+</div>
+
+<div>
+  ¿He respondido a todo?
+</div>
+
+<div>
+</div>
+
+<div>
+  Puedo poner tu pregunta en mi blog de forma anónima para ayudar a otros? ;)
+</div>
+
+<div>
+</div>
+
+<div>
+  Saludos,<br /> Carlos
+</div>
+
+<div>
+  <hr />
+  
+  <p>
+    Hola de nuevo
+  </p>
+  
+  <p>
+    ¡Vaya, no me esperaba una contestación tan rápida! No sabes cuanto te lo agradezco.
+  </p>
+  
+  <p>
+    Me ha quedado todo bastante claro.  Es la primera vez que leo sobre los UUID y eso unido a que soy todavía un principiante tal vez no me han hecho ver todo ese potencial que me comentas pero ya poco a poco voy identificando sus ventajas. Me ha impresionado eso de que las búsquedas sean igual (o casi) de rápidas.
+  </p>
+  
+  <p>
+    Seguramente acabe utilizándolo pero la posibilidad que me has dicho de que sí es posible usar IDs autoincrementales me abre una pregunta que ya por solo curiosidad me gustaría hacértela. Si tenemos un centenar de usuarios que acceden al mismo servicio, por ejemplo, &#8220;Crear post&#8221;, ¿el método nextId() del repositorio no devolvería en ciertos casos el mismo ID al tener a tantísimos usuarios acceciendo de manera concurrente al mismo repositorio? Nunca he utilizado secuencias y no sé si eso resolvería ese problema, o directamente si esto es un problema que me he imagino yo (el de la concurrencia me refiero) y si no se pudiese dar nunca.
+  </p>
+  
+  <p>
+    Me parece buena idea lo de añadir la pregunta al blog. He buscado mucho por internet (todo inglés porque en castellano lamentablemente hay poca información) y no he encontrado una respuesta concreta a lo que he planteado así que creo que sí estaría bien que si otros tienen la misma duda pudiese también resolverla de manera rápida. Agradecería también lo me ha dicho de que sea de forma anónima, :P porque de hecho pienso que tal vez ha sido una pregunta un poco tonta y simple.
+  </p>
+  
+  <p>
+    Bueno, creo que ya esta todo. Me ha resulto de manera muy clara todas mis dudas. Solamente esa pequeña curiosidad que me había surgido a raíz de lo de los ids autoincrementables, pero por lo demás está todo listo. :)
+  </p>
+  
+  <p>
+    Muchas gracias por su amabilidad y su tiempo :)<br /> Álex
+  </p>
+</div>
+
+<div>
+  <hr />
+  
+  <p>
+    Hoy en día búsquedas exactas en BBDD son muy rápidas, así que no te preocupes. Sobre el tema de las secuencias, son seguras, si lo haces bien, dos invocaciones a la secuencia no deben devolver el mismo valor, por lo menos, las de Oracle así funcionan. Las únicas &#8220;quejas&#8221; son que requieres un acceso para una entidad que igual luego no se persiste, y que en caso de no persistir siempre, te quedan &#8220;huecos&#8221; en las secuentas y hay gente a la que le molesta.
+  </p>
+</div>
+
+<div>
+  <hr />
+</div>
+
+<div>
+  Ajá, todo entendido! Gracias una vez más! <img class="CToWUd" src="https://ci6.googleusercontent.com/proxy/uZLFH0xFxu1BDuAesWdAoMwebWf5yJe-yuXoxIgzbQUtuN6H0cOMQDpJ99zuyf3xZE5js1qi=s0-d-e1-ft#https://a.gfx.ms/Emoji_1F44D.png" alt="Emoji" /><br /> ¡Seguiré de cerca el libro de DDD en php!
+</div><ul class="pa0">
+  
+   <li class="list">
+     <a href="/tags/database" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">database</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/ddd" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">ddd</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/domain-driven-design" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">domain-driven design</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/entities" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">entities</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/identity" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">identity</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/php" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">php</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/sequences" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">sequences</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/uuid" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">uuid</a>
+   </li>
+  
+</ul>
+<div class="mt6">
+      
+      
+      </div>
+    </section>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/tactical-domain-driven-design-screencast-at-phpbarcelona-spanish/">Tactical Domain-Driven Design Screencast at PHPBarcelona (Spanish)</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/domain-driven-design-code-structure-and-application-services-webcast-at-atrapaloeng-spanish/">Domain-Driven Design: Code Structure and Application Services Webcast at @AtrapaloEng (Spanish)</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/domain-driven-design-bounded-context-integration-spanish/">Domain-Driven Design: Bounded Context Integration (Spanish)</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/domain-driven-design-entities-and-value-objects-webcast-at-atrapaloeng-spanish/">Domain-Driven Design: Entities and Value Objects Webcast at @AtrapaloEng (Spanish)</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/domain-driven-design-aggregates-webcast-at-atrapaloeng-spanish/">Domain-Driven Design: Aggregates Webcast at @AtrapaloEng (Spanish)</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/implementing-domain-driven-design-workshop-in-barcelona/">“Implementing Domain-Driven Design” Workshop in Barcelona</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/domain-driven-design-domain-events-and-bc-integration-webcast-at-atrapaloeng-spanish/">Domain-Driven Design: Domain Events and BC Integration Webcast at @AtrapaloEng (Spanish)</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/hexagonal-architecture-with-php-was-published-in-phparch-magazine/">“Hexagonal Architecture with PHP” was published in phparch|magazine</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/dot-puzzles-for-smart-masses/">Dot: Puzzles for smart masses</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/migrating-progressively-to-symfony-without-pain-with-stackphp/">Migrating progressively to Symfony without pain with StackPHP</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/migrating-progressively-to-symfony-without-pain/">Migrating progressively to Symfony without pain</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/atrapalo-tech-2014-figures/">Atrápalo Tech 2014 figures</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/subscribe-yourself-to-php-internals/">Subscribe yourself to PHP internals</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/legacy-code-and-teams-series-composer/">Legacy Code and Teams Series: Composer</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/write-your-git-hooks-in-php-and-keep-them-under-git-control/">Write your git hooks in PHP and keep them under git control</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://carlosbuenosvinos.com/" >
+    &copy; 2019 Carlos Buenosvinos
+  </a>
+    <div>
+
+
+
+
+
+
+
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>

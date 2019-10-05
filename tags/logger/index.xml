@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>logger on Carlos Buenosvinos</title>
+    <link>https://carlosbuenosvinos.com/tags/logger/</link>
+    <description>Recent content in logger on Carlos Buenosvinos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 19 Apr 2017 08:30:29 +0000</lastBuildDate>
+    
+	<atom:link href="https://carlosbuenosvinos.com/tags/logger/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Rigor Talks – PHP – #21 – Command Bus (Spanish)</title>
+      <link>https://carlosbuenosvinos.com/rigor-talks-php-21-command-bus-spanish/</link>
+      <pubDate>Wed, 19 Apr 2017 08:30:29 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/rigor-talks-php-21-command-bus-spanish/</guid>
+      <description>&lt;p&gt;Hola Amigos del Rigor! Perdonad por el retraso pero estuve preparando la certificación de AWS Certified Solutions Architect &amp;#8211; Associate que al final conseguí la semana pasada.&lt;/p&gt;
+
+&lt;p&gt;En este video, vamos a continuar evolucionando los Command Handlers y su contexto de ejecución presentando el Command Bus. Veremos cuáles son sus objetivos y para qué nos resulta útil. Por último, hablaremos sobre Tactician.&lt;/p&gt;
+
+&lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Si los videos os gustan, no olvidéis suscribiros a mi canal. Espero que os guste!&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;#MayTheRigorBeWithYou&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rigor Talks – PHP – #20 – Application Services and Command Handlers (Spanish)</title>
+      <link>https://carlosbuenosvinos.com/rigor-talks-php-20-application-services-and-command-handlers-spanish/</link>
+      <pubDate>Fri, 24 Mar 2017 14:32:53 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/rigor-talks-php-20-application-services-and-command-handlers-spanish/</guid>
+      <description>&lt;p&gt;Hola Amigos del Rigor! Vamos con una entrega más. En esta ocasión, vamos a ver la diferencia entre Application Services y Command Handlers, así como algún truco sobre Command Handlers para decorarlos y facilitar tareas como el Logging o la gestión de Transacciones.&lt;/p&gt;
+
+&lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Si los videos os gustan, no olvidéis suscribiros a mi canal. Espero que os guste!&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;#MayTheRigorBeWithYou&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rigor Talks – PHP – #19 – Refactor Use Case VI (Spanish)</title>
+      <link>https://carlosbuenosvinos.com/rigor-talks-php-19-refactor-use-case-vi-spanish/</link>
+      <pubDate>Tue, 14 Mar 2017 09:30:36 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/rigor-talks-php-19-refactor-use-case-vi-spanish/</guid>
+      <description>&lt;p&gt;Hola Amigos del Rigor! Después de explicar el principio de Tell-Don&amp;#8217;t-Ask, continuamos con la serie de los videos de refactoring. En este video, vamos a ver cómo extraer dependencias como Loggers, Servicios para enviar notificaciones o similares usando una primera aproximación sencilla con un EventDispatcher.&lt;/p&gt;
+
+&lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Si los videos os gustan, no olvidéis suscribiros a mi canal. Espero que os guste!&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;#MayTheRigorBeWithYou&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

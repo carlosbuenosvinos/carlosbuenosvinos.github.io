@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>appcelerator on Carlos Buenosvinos</title>
+    <link>https://carlosbuenosvinos.com/tags/appcelerator/</link>
+    <description>Recent content in appcelerator on Carlos Buenosvinos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 09 Aug 2013 18:55:48 +0000</lastBuildDate>
+    
+	<atom:link href="https://carlosbuenosvinos.com/tags/appcelerator/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Adding a custom font on a titanium window title</title>
+      <link>https://carlosbuenosvinos.com/adding-a-custom-font-on-a-titanium-window-title/</link>
+      <pubDate>Fri, 09 Aug 2013 18:55:48 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/adding-a-custom-font-on-a-titanium-window-title/</guid>
+      <description>&lt;p&gt;If you are working with Titanium and you need to customize the font you are using as a title in a window, there is no predefined solution to do this, but there is a trick, the &amp;#8220;titleControl&amp;#8221; window property with a label control.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Introducción a Appcelerator Titanium</title>
+      <link>https://carlosbuenosvinos.com/introduccion-a-appcelerator-titanium/</link>
+      <pubDate>Wed, 03 Jul 2013 10:00:33 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/introduccion-a-appcelerator-titanium/</guid>
+      <description>&lt;p&gt;Uno de los productos que está funcionando mejor para el desarrollo de aplicaciones nativas para móviles utilizando Javascript es &lt;a href=&#34;http://www.appcelerator.com&#34; target=&#34;_blank&#34;&gt;Titanium Appcelerator&lt;/a&gt;. Aprovecho para colgar una de las presentaciones al respecto que hice en la BetaBeers de Barcelona.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

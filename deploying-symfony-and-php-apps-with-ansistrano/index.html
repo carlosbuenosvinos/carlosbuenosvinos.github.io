@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Carlos Buenosvinos  | Deploying Symfony (and PHP) apps with Ansistrano</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.58.3" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.d98f2eb6bcd1eaedb7edf166bd16af26.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+    
+
+    
+    
+    <meta property="og:title" content="Deploying Symfony (and PHP) apps with Ansistrano" />
+<meta property="og:description" content="
+  For a long time, Capifony was, without any doubt, the facto option for deploying Symfony2 applications. Capifony is a ruby gem based in Capistrano v2, an open source tool for running scripts on multiple servers with a deployment flow built-in. It’s primary use is for easily deploying applications. While it was built specifically for deploying Rails apps, it’s pretty simple to customize it to deploy other types of applications. At that time, alternatives were shell scripting or Fabric. Now there&#8217;s a better one, Ansistrano.
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://carlosbuenosvinos.com/deploying-symfony-and-php-apps-with-ansistrano/" />
+<meta property="article:published_time" content="2015-10-20T08:00:30+00:00" />
+<meta property="article:modified_time" content="2015-10-20T08:00:30+00:00" />
+<meta itemprop="name" content="Deploying Symfony (and PHP) apps with Ansistrano">
+<meta itemprop="description" content="
+  For a long time, Capifony was, without any doubt, the facto option for deploying Symfony2 applications. Capifony is a ruby gem based in Capistrano v2, an open source tool for running scripts on multiple servers with a deployment flow built-in. It’s primary use is for easily deploying applications. While it was built specifically for deploying Rails apps, it’s pretty simple to customize it to deploy other types of applications. At that time, alternatives were shell scripting or Fabric. Now there&#8217;s a better one, Ansistrano.
+">
+
+
+<meta itemprop="datePublished" content="2015-10-20T08:00:30&#43;00:00" />
+<meta itemprop="dateModified" content="2015-10-20T08:00:30&#43;00:00" />
+<meta itemprop="wordCount" content="240">
+
+
+
+<meta itemprop="keywords" content="ansible,ansistrano,capistrano,deploy,deployment,rollback,silex,symfony," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Deploying Symfony (and PHP) apps with Ansistrano"/>
+<meta name="twitter:description" content="
+  For a long time, Capifony was, without any doubt, the facto option for deploying Symfony2 applications. Capifony is a ruby gem based in Capistrano v2, an open source tool for running scripts on multiple servers with a deployment flow built-in. It’s primary use is for easily deploying applications. While it was built specifically for deploying Rails apps, it’s pretty simple to customize it to deploy other types of applications. At that time, alternatives were shell scripting or Fabric. Now there&#8217;s a better one, Ansistrano.
+"/>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  
+  
+  <header class="cover bg-top" style="background-image: url('https://carlosbuenosvinos.com/posts/images/2015/10/ansistrano-flow.png');">
+    <div class="pb3-m pb6-l bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="https://carlosbuenosvinos.com/" class="f3 fw2 hover-white no-underline white-90 dib">
+      Carlos Buenosvinos
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">Deploying Symfony (and PHP) apps with Ansistrano</h1>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+
+    <header class="mt4 w-100">
+      <p class="f6 b helvetica tracked">
+          
+        POSTS
+      </p>
+      <h1 class="f1 athelas mb1">Deploying Symfony (and PHP) apps with Ansistrano</h1>
+      
+      <p class="tracked">
+         By <strong>Carlos Buenosvinos</strong>
+      </p>
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2015-10-20T08:00:30Z">October 20, 2015</time>
+      
+      
+    </header>
+
+    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p class="p1">
+  <span class="s1">For a long time, <a href="http://capifony.org/" target="_blank">Capifony</a> was, without any doubt, the facto option for deploying Symfony2 applications. Capifony is a ruby gem based in </span><a href="https://github.com/capistrano/capistrano" target="_blank">Capistrano</a> v2, an open source tool for running scripts on multiple servers with a deployment flow built-in. It’s primary use is for easily deploying applications. While it was built specifically for deploying <a href="http://rubyonrails.org/" target="_blank">Rails</a> apps, it’s pretty simple to customize it to deploy other types of applications. At that time, alternatives were shell scripting or Fabric. Now there&#8217;s a better one, Ansistrano.
+</p>
+
+<p class="p1">
+  Capistrano v3 were released but without the features of its previous version. v2 was not maintained anymore, so that was a problem for the ones using Capistrano v2 for deploying. Then the whole DevOps started with Puppet, Chef and Ansible. With this provisioning systems, executing remote commands is so easy, specially if you are not Sysadmin, that thinking about using another tool is not worthy. So, why don&#8217;t put together the best of both worlds? Why don&#8217;t put together the power of Ansible and its community and the easy flow of Capistrano v2 for deploying apps?
+</p>
+
+<p class="p1">
+  Today, I’m happy to announce <a href="https://github.com/ansistrano" target="_blank">Ansistrano</a>, an <a href="http://www.ansible.com/" target="_blank">Ansible</a> role for deploying and rollbacking your PHP (and another scripting language Ruby, Python, NodeJS, etc.) apps. It has almost 200 stars on Github and some companies already using it. Ricard Clau (<a href="https://twitter.com/ricardclau" target="_blank">@ricardclau</a>), project&#8217;s cofounder, is showing us how easy can be deploying <a href="http://silex.sensiolabs.org/" target="_blank">Silex</a> applications with Ansistrano. Please, help us spread the love.
+</p>
+
+<p><span class="embed-youtube" style="text-align:center; display: block;"></span></p><ul class="pa0">
+  
+   <li class="list">
+     <a href="/tags/ansible" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">ansible</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/ansistrano" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">ansistrano</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/capistrano" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">capistrano</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/deploy" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">deploy</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/deployment" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">deployment</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/rollback" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">rollback</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/silex" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">silex</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/symfony" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">symfony</a>
+   </li>
+  
+</ul>
+<div class="mt6">
+      
+      
+      </div>
+    </section>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/tactical-domain-driven-design-screencast-at-phpbarcelona-spanish/">Tactical Domain-Driven Design Screencast at PHPBarcelona (Spanish)</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/migrating-progressively-to-symfony-without-pain-with-stackphp/">Migrating progressively to Symfony without pain with StackPHP</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/migrating-progressively-to-symfony-without-pain/">Migrating progressively to Symfony without pain</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/domain-driven-design-domain-events-and-bc-integration-webcast-at-atrapaloeng-spanish/">Domain-Driven Design: Domain Events and BC Integration Webcast at @AtrapaloEng (Spanish)</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/remove-non-used-php-files-in-your-project/">Remove non used PHP files in your project</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://carlosbuenosvinos.com/" >
+    &copy; 2019 Carlos Buenosvinos
+  </a>
+    <div>
+
+
+
+
+
+
+
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>

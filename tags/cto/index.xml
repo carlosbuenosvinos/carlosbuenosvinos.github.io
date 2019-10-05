@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cto on Carlos Buenosvinos</title>
+    <link>https://carlosbuenosvinos.com/tags/cto/</link>
+    <description>Recent content in cto on Carlos Buenosvinos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 14 Feb 2014 08:00:24 +0000</lastBuildDate>
+    
+	<atom:link href="https://carlosbuenosvinos.com/tags/cto/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Adiós Emagister – 8 reflexiones sobre gestión de equipos</title>
+      <link>https://carlosbuenosvinos.com/adios-emagister-8-reflexiones-sobre-gestion-de-equipos/</link>
+      <pubDate>Fri, 14 Feb 2014 08:00:24 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/adios-emagister-8-reflexiones-sobre-gestion-de-equipos/</guid>
+      <description>&lt;p&gt;Hoy, 14 de Febrero, es mi último día en Emagister. Después de casi 4 años ha llegado el momento de decir adiós y marchar hacia nuevas aventuras y retos profesionales. Con este post, quiero compartir algunos consejos e ideas basados en mi experiencia en la gestión del equipo técnico que espero que os resulten útiles.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

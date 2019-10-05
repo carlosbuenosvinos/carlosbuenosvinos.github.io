@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>velocity on Carlos Buenosvinos</title>
+    <link>https://carlosbuenosvinos.com/tags/velocity/</link>
+    <description>Recent content in velocity on Carlos Buenosvinos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 30 May 2014 17:38:10 +0000</lastBuildDate>
+    
+	<atom:link href="https://carlosbuenosvinos.com/tags/velocity/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Detalles sobre Scrum: ¿Cómo atacar el sprint?</title>
+      <link>https://carlosbuenosvinos.com/detalles-sobre-scrum-como-atacar-el-sprint/</link>
+      <pubDate>Fri, 30 May 2014 17:38:10 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/detalles-sobre-scrum-como-atacar-el-sprint/</guid>
+      <description>&lt;p&gt;Os presento un pequeño ejercicio que llevo utilizando un mes y que me está dando buenos resultados a la hora de ilustrar la importancia de cómo atacar el sprint y la obsesión por entregar valor lo antes posible.&lt;/p&gt;
+
+&lt;p&gt;&amp;#8220;Es lunes, perteneces a un equipo de Scrum de 6 personas. Habéis acabado el planning meeting y habéis enviado un mail con el commitment. Montáis la ScrumBoard y os queda de la siguiente manera&amp;#8221;.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>extreme programming on Carlos Buenosvinos</title>
+    <link>https://carlosbuenosvinos.com/tags/extreme-programming/</link>
+    <description>Recent content in extreme programming on Carlos Buenosvinos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 02 Dec 2016 08:00:57 +0000</lastBuildDate>
+    
+	<atom:link href="https://carlosbuenosvinos.com/tags/extreme-programming/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Integración Continua y Deployment Continuo</title>
+      <link>https://carlosbuenosvinos.com/integracion-continua-y-deployment-continuo/</link>
+      <pubDate>Fri, 02 Dec 2016 08:00:57 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/integracion-continua-y-deployment-continuo/</guid>
+      <description>&lt;p&gt;Os dejo por aquí, una de mis charlas impartida en la asignatura &amp;#8220;Técnicas para el desarrollo de software en producción&amp;#8221; dentro del Máster en Tecnologías Informáticas de la Universidad de La Rioja. Se grabó hace un año (26/11/2015), pero no lo había encontrado hasta hace unas semanas. Espero que sea útil.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>“Scrum, no eres tú, soy yo”: Charla en la #geekdeveloperday organizada por @geekhubs</title>
+      <link>https://carlosbuenosvinos.com/scrum-no-eres-tu-soy-yo-charla-en-la-geekdeveloperday-organizada-por-geekhubs/</link>
+      <pubDate>Mon, 21 Nov 2016 08:30:55 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/scrum-no-eres-tu-soy-yo-charla-en-la-geekdeveloperday-organizada-por-geekhubs/</guid>
+      <description>&lt;p&gt;El pasado 2 de Noviembre estuve en Madrid. &lt;a href=&#34;http://geekshubsacademy.com/&#34; target=&#34;_blank&#34;&gt;GeeksHubs Academy&lt;/a&gt; organizaba el II Geek Developer Day y me invitaron a dar una charla sobre Scrum y la manera de mejorar la implementación en las empresas. Aquí os dejo el video y las slides.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>What happens if we don’t do it? – 4 ways to speed teams up</title>
+      <link>https://carlosbuenosvinos.com/what-happens-if-we-dont-do-it/</link>
+      <pubDate>Mon, 09 May 2016 08:00:57 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/what-happens-if-we-dont-do-it/</guid>
+      <description>&lt;p class=&#34;p1&#34;&gt;
+  &lt;span class=&#34;s1&#34;&gt;I became Certified Scrum Master (CSM) on 2010. I took a CSM course at beautiful Oporto. My instructor was Mitch Lacey (&lt;a href=&#34;https://www.mitchlacey.com/&#34;&gt;&lt;span class=&#34;s2&#34;&gt;https://www.mitchlacey.com/&lt;/span&gt;&lt;/a&gt;). Amazing instructor. If you can attend any of his courses, go ahead. On 2012, he published an amazing book about Scrum, I totally recommend, “The Scrum Field Guide: Practical Advice for Your First Year” (&lt;a href=&#34;http://www.amazon.com/Scrum-Field-Guide-Addison-Wesley-Signature/dp/0133853624&#34;&gt;&lt;span class=&#34;s2&#34;&gt;http://www.amazon.com/Scrum-Field-Guide-Addison-Wesley-Signature/dp/0133853624&lt;/span&gt;&lt;/a&gt;). So practical, so full of examples to understand how to properly apply Scrum and get most of it.&lt;/span&gt;
+&lt;/p&gt;
+
+&lt;p class=&#34;p1&#34;&gt;
+  &lt;span class=&#34;s1&#34;&gt;During the CSM training session, when talking about INVEST (&lt;a href=&#34;https://en.wikipedia.org/wiki/INVEST_(mnemonic)&#34;&gt;&lt;span class=&#34;s2&#34;&gt;https://en.wikipedia.org/wiki/INVEST_(mnemonic)&lt;/span&gt;&lt;/a&gt;) in your product backlog, value of User Stories and priorities he said, &amp;#8220;the first question to ask yourself about a user story, task or process is what happens if we just don’t do it?”. Everyone laughed. Not doing something useless you were supposed to do, it&amp;#8217;s a high productive activity.&lt;/span&gt;
+&lt;/p&gt;
+
+&lt;p class=&#34;p1&#34;&gt;
+  &lt;span class=&#34;s1&#34;&gt;The more I meet teams, project managers, developers, sysops, etc., the stronger my feeling is that we always try to improve things adding stuff not removing waste. More process, more abstraction, more code, more tools. My recommendation is that the &lt;b&gt;best way to speed teams up is to remove useless or low value things&lt;/b&gt;. Let’s see some suggestions.&lt;/span&gt;
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Smash Tech: PHP 2014</title>
+      <link>https://carlosbuenosvinos.com/smash-tech-php-2014/</link>
+      <pubDate>Thu, 29 May 2014 09:04:44 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/smash-tech-php-2014/</guid>
+      <description>&lt;p&gt;El pasado día 28 de Mayo, participé en &lt;a href=&#34;http://smash-tech.com/&#34; target=&#34;_blank&#34;&gt;Smash Tech&lt;/a&gt; como ponente impartiendo una master class de 2 horas sobre el ecosistema PHP y en lo que se debe prestar atención para el 2015. Con los 50 asistentes que pagaron la entrada, repasamos desde Metodologías de desarrollo: Agile, Scrum y Extreme Programming. Sobre ésta última pivotó la gran mayoría de la presentación, viendo cómo se resuelven las dinámicas de TDD, Integración Continua, Coding Standards, etc.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Thanks Ron Jeffries – “Extreme Programming Installed” Book Review</title>
+      <link>https://carlosbuenosvinos.com/thanks-ron-jeffries-extreme-programming-installed-book-review/</link>
+      <pubDate>Sun, 13 Apr 2014 12:12:23 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/thanks-ron-jeffries-extreme-programming-installed-book-review/</guid>
+      <description>&lt;p&gt;I though that it was difficult to read a better book about XP than &lt;a href=&#34;http://www.amazon.es/Extreme-Programming-Explained-Embrace-Edition-ebook/dp/B000OZ0N5S&#34; target=&#34;_blank&#34;&gt;&amp;#8220;Extreme Programming Explained&amp;#8221;&lt;/a&gt; by &lt;a href=&#34;https://twitter.com/KentBeck&#34; target=&#34;_blank&#34;&gt;Kent Beck&lt;/a&gt;. Then, &lt;a href=&#34;http://www.amazon.es/Extreme-Programming-Installed-The-Series/dp/0201708426&#34; target=&#34;_blank&#34;&gt;&amp;#8220;Extreme Programming Installed&amp;#8221;&lt;/a&gt; by &lt;a href=&#34;https://twitter.com/RonJeffries&#34; target=&#34;_blank&#34;&gt;Ron Jeffries&lt;/a&gt; came to me. Last week, I finished it. Ron goes into the detail about the how-to in each XP detail. So, if you want to start with XP, read the explain one, but if you need to go deeper, the installed one is your book.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Extreme Programming Explained: Embrace Change, 2nd Edition (The XP Series) Review</title>
+      <link>https://carlosbuenosvinos.com/extreme-programming-explained-embrace-change-2nd-edition-the-xp-series-review/</link>
+      <pubDate>Wed, 01 Jan 2014 13:04:53 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/extreme-programming-explained-embrace-change-2nd-edition-the-xp-series-review/</guid>
+      <description>&lt;p&gt;Happy new year to everyone! Today it&amp;#8217;s January, 1st and I have finished reading &lt;a href=&#34;http://www.amazon.com/Extreme-Programming-Explained-Embrace-Edition/dp/0321278658&#34; target=&#34;_blank&#34;&gt;&amp;#8220;Extreme Programming Explained: Embrace Change, 2nd Edition&amp;#8221;&lt;/a&gt;. If you love software development and agile practices, this book was the rules changer in the agile methodologies and software development in general. As I have done with other book reviews, here are my remarks. &lt;strong&gt;Buy it, seriously&lt;/strong&gt;. You will fill the gaps about agile practices, so if you are doing Xp, Scrum, Kanban, Lean, etc. everything will gear together.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

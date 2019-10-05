@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Carlos Buenosvinos  | Robert C. Martin Clean Code Collection Review (Part II)</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.58.3" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.d98f2eb6bcd1eaedb7edf166bd16af26.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+    
+
+    
+    
+    <meta property="og:title" content="Robert C. Martin Clean Code Collection Review (Part II)" />
+<meta property="og:description" content="Hace una semana, publicaba un pequeño resumen y mis apuntes sobre el libro &#8220;Clean Coder&#8221; de Robert C. Martin (ver parte I). Hoy hago lo propio con el resumen del libro de la misma colección, &#8220;Clean Code&#8221;.
+
+Os dejo cosas que subrayé y anoté del libro que me parecieron interesantes, espero que lo disfrutéis." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://carlosbuenosvinos.com/robert-c-martin-clean-code-collection-review-part-ii/" />
+<meta property="article:published_time" content="2013-08-18T17:07:51+00:00" />
+<meta property="article:modified_time" content="2013-08-18T17:07:51+00:00" />
+<meta itemprop="name" content="Robert C. Martin Clean Code Collection Review (Part II)">
+<meta itemprop="description" content="Hace una semana, publicaba un pequeño resumen y mis apuntes sobre el libro &#8220;Clean Coder&#8221; de Robert C. Martin (ver parte I). Hoy hago lo propio con el resumen del libro de la misma colección, &#8220;Clean Code&#8221;.
+
+Os dejo cosas que subrayé y anoté del libro que me parecieron interesantes, espero que lo disfrutéis.">
+
+
+<meta itemprop="datePublished" content="2013-08-18T17:07:51&#43;00:00" />
+<meta itemprop="dateModified" content="2013-08-18T17:07:51&#43;00:00" />
+<meta itemprop="wordCount" content="1278">
+
+
+
+<meta itemprop="keywords" content="agile,clean code,robert c martin,tdd," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Robert C. Martin Clean Code Collection Review (Part II)"/>
+<meta name="twitter:description" content="Hace una semana, publicaba un pequeño resumen y mis apuntes sobre el libro &#8220;Clean Coder&#8221; de Robert C. Martin (ver parte I). Hoy hago lo propio con el resumen del libro de la misma colección, &#8220;Clean Code&#8221;.
+
+Os dejo cosas que subrayé y anoté del libro que me parecieron interesantes, espero que lo disfrutéis."/>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  
+  
+  <header class="cover bg-top" style="background-image: url('https://carlosbuenosvinos.com/posts/images/2013/08/CleanCodeCollection-500x270.jpg');">
+    <div class="pb3-m pb6-l bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="https://carlosbuenosvinos.com/" class="f3 fw2 hover-white no-underline white-90 dib">
+      Carlos Buenosvinos
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">Robert C. Martin Clean Code Collection Review (Part II)</h1>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+
+    <header class="mt4 w-100">
+      <p class="f6 b helvetica tracked">
+          
+        POSTS
+      </p>
+      <h1 class="f1 athelas mb1">Robert C. Martin Clean Code Collection Review (Part II)</h1>
+      
+      <p class="tracked">
+         By <strong>Carlos Buenosvinos</strong>
+      </p>
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2013-08-18T17:07:51Z">August 18, 2013</time>
+      
+      
+    </header>
+
+    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>Hace una semana, publicaba un pequeño resumen y mis apuntes sobre el libro &#8220;Clean Coder&#8221; de Robert C. Martin <a href="http://carlosbuenosvinos.com/robert-c-martin-clean-code-collection-review-part-i/" title="Robert C. Martin Clean Code Collection Review (Part I)">(ver parte I)</a>. Hoy hago lo propio con el resumen del libro de la misma colección, &#8220;Clean Code&#8221;.</p>
+
+<p>Os dejo cosas que subrayé y anoté del libro que me parecieron interesantes, espero que lo disfrutéis.</p>
+
+<blockquote>
+<p>In software, 80% or more of what we do is quaintly called “maintenance”: the act of repair.</p>
+
+<p>&nbsp;</p>
+
+<p>In about 1951, a quality approach called Total Productive Maintenance (TPM) came on the Japanese scene. Its focus is on maintenance rather than on production. One of the major pillars of TPM is the set of so—called 5S principles. 58 is a set of disciplines— and here I use the term “discipline” instructively. These 58 principles are in fact at the foundations of Lean</p>
+
+<p>&nbsp;</p>
+
+<p>The 5S philosophy comprises these concepts:</p>
+
+<p>&#8211; Seiri, or organization (think “sort” in English). Knowing where things are—using approaches such as suitable naming—is crucial. You think naming identifiers isn’t important? Read on in the following chapters.</p>
+
+<p>&#8211; Seiton, or tidiness (think “systematize” in English). There is an old American saying: A place for everything, and everything in its place. A piece of code should be where you expect to find it—and, if not, you should re-factor to get it there.</p>
+
+<p>&#8211; Seiso, or cleaning (think “shine” in English): Keep the workplace free of hanging wires, grease, scraps, and waste. What do the authors here say about littering your code with comments and commented-out code lines that capture history or wishes for the future? Get rid of them.</p>
+
+<p>&#8211; Seiketsu, or standardization: The group agrees about how to keep the workplace clean. Do you think this book says anything about having a consistent coding style and set of practices within the group? Where do those standards come from? Read on.</p>
+
+<p>&#8211; Shutsuke, or discipline (self-discipline). This means having the discipline to follow the practices and to frequently reflect on one’s work and be willing to change.</p>
+
+<p>&nbsp;</p>
+
+<p>There are two parts to learning craftsmanship: knowledge and work. You must gain the knowledge of principles, patterns, practices, and heuristics that a craftsman knows, and you must also grind that knowledge into your fingers, eyes, and gut by working hard and practicing.</p>
+
+<p>&nbsp;</p>
+
+<p>Learning to write clean code is hard work.</p>
+
+<p>&nbsp;</p>
+
+<p>You must see them agonize over decisions and see the price they pay for making those decisions the wrong way.</p>
+
+<p>&nbsp;</p>
+
+<p>You are reading this book for two reasons. First, you are a programmer. Second, you want to be a better programmer. Good. We need better programmers.</p>
+
+<p>&nbsp;</p>
+
+<p>LeBlanc’s law: Later equals never.</p>
+
+<p>&nbsp;</p>
+
+<p>But the fault, dear Dilbert, is not in our stars, but in ourselves. We are unprofessional.</p>
+
+<p>&nbsp;</p>
+
+<p>So too it is unprofessional for programmers to bend to the will of managers who don’t understand the risks of making messes.</p>
+
+<p>&nbsp;</p>
+
+<p>The only way to make the deadline—the only way to go fast—is to keep the code as clean as possible at all times.</p>
+
+<p>&nbsp;</p>
+
+<p>Clean code is focused.</p>
+
+<p>&nbsp;</p>
+
+<p>Leave the campground cleaner than you found it.</p>
+
+<p>&nbsp;</p>
+
+<p>If a name requires a comment, then the name does not reveal its intent.</p>
+
+<p>&nbsp;</p>
+
+<p>We should avoid words whose entrenched meanings vary from our intended meaning.</p>
+
+<p>&nbsp;</p>
+
+<p>Spelling similar concepts similarly is information. Using inconsistent spellings is disinformation.</p>
+
+<p>&nbsp;</p>
+
+<p><em>If a variable or constant might be seen or used in multiple places in a body of code, it is imperative to give it a search-friendly name. </em></p>
+
+<p>&nbsp;</p>
+
+<p>One difference between a smart programmer and a professional programmer is that the professional understands that clarity is king. Professionals use their powers for good and write code that others can understand.</p>
+
+<p>&nbsp;</p>
+
+<p>A class name should not be a verb.</p>
+
+<p>&nbsp;</p>
+
+<p>The first rule of functions is that they should be small. The second rule of functions is that they should be smaller than that.</p>
+
+<p>&nbsp;</p>
+
+<p>So, another way to know that a function is doing more than “one thing” is if you can extract another function from it with a name that is not merely a restatement of its implementation</p>
+
+<p>&nbsp;</p>
+
+<p>A long descriptive name is better than a long descriptive comment.</p>
+
+<p>&nbsp;</p>
+
+<p>Flag arguments are ugly. Passing a boolean into a function is a truly terrible practice. It immediately complicates the signature of the method, loudly proclaiming that this function does more than one thing. It does one thing if the flag is true and another if the flag is false!</p>
+
+<p>&nbsp;</p>
+
+<p>We should never ignore any part of code. The parts we ignore are where the bugs will hide.</p>
+
+<p>&nbsp;</p>
+
+<p>In general output arguments should be avoided. If your function must change the state of something, have it change the state of this owning object.</p>
+
+<p>&nbsp;</p>
+
+<p>Functions should either do something or answer something, but not both.</p>
+
+<p>&nbsp;</p>
+
+<p>But never forget that your real goal is to tell the story of the system, and that the functions you write need to fit cleanly together into a clear and precise language to help you with that telling.</p>
+
+<p>&nbsp;</p>
+
+<p>“Don ’t comment bad code— rewrite it.&#8221;</p>
+
+<p>&nbsp;</p>
+
+<p>The proper use of comments is to compensate for our failure to express ourself in code</p>
+
+<p>&nbsp;</p>
+
+<p>Comments are always failures</p>
+
+<p>&nbsp;</p>
+
+<p>Truth can only be found in one place: the code.</p>
+
+<p>&nbsp;</p>
+
+<p>Objects hide their data behind abstractions and expose functions that operate on that data. Data structure expose their data and have no meaningful functions.</p>
+
+<p>&nbsp;</p>
+
+<p>Procedural code (code using data structures) makes it easy to add new functions without changing the existing data structures. OO code, on the other hand, makes it easy to add new classes without changing existing functions.</p>
+
+<p>&nbsp;</p>
+
+<p>The Law of Demeter says that a method f of a class C should only call the methods of these:</p>
+
+<p>&#8211; An object created by f</p>
+
+<p>&#8211; An object passed as an argument to f</p>
+
+<p>&#8211; An object held in an instance variable of C</p>
+
+<p>The method should not invoke methods on objects that are returned by any of the allowed functions. In other words, talk to friends, not to strangers.</p>
+
+<p>&nbsp;</p>
+
+<p>In learning tests we call the third-party API, as we expect to use it in our application. We’re essentially doing controlled experiments that check our understanding of that API. The tests focus on what we want out of the API.</p>
+
+<p>&nbsp;</p>
+
+<p>Three laws of TDD</p>
+
+<p>First Law: You may not write production code until you have written a failing unit test.</p>
+
+<p>Second Law: You may not write more of a unit test than is sufficient to fail, and not compiling is failing.</p>
+
+<p>Third Law: You may not write more production code than is sufficient to pass the currently failing testing.</p>
+
+<p>&nbsp;</p>
+
+<p><em>Test code is just as important as production code.</em></p>
+
+<p>&nbsp;</p>
+
+<p><em>F.I.R.S.T.</em></p>
+
+<p>Fast: Tests should be fast.</p>
+
+<p>Independent: Tests should not depend on each other.</p>
+
+<p>Repeatable: Tests should be repeatable in any environment.</p>
+
+<p>Self-Validating: The tests should have a boolean output. Either they pass or fail.</p>
+
+<p>Timely: The tests need to be written in a timely fashion.</p>
+
+<p>&nbsp;</p>
+
+<p>The problem is that too many of us think that we are done once the program works.</p>
+
+<p>&nbsp;</p>
+
+<p>The startup process of object construction and wiring is no exception. We should modularize this process separately from the normal runtime logic and we should make sure that we have a global, consistent strategy for resolving our major dependencies.</p>
+
+<p>&nbsp;</p>
+
+<p>According to Kent, 21 design is “simple” if it follows these rules:</p>
+
+<ul>
+<li>Runs all the tests</li>
+<li>Contains no duplication</li>
+<li>Expresses the intent of the programmer</li>
+<li>Minimizes the number of classes and methods</li>
+</ul>
+
+<p>The rules are given in order of importance.</p>
+</blockquote><ul class="pa0">
+  
+   <li class="list">
+     <a href="/tags/agile" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">agile</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/clean-code" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">clean code</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/robert-c-martin" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">robert c martin</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/tdd" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">tdd</a>
+   </li>
+  
+</ul>
+<div class="mt6">
+      
+      
+      </div>
+    </section>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/robert-c-martin-clean-code-collection-review-part-i/">Robert C. Martin Clean Code Collection Review (Part I)</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/tech-team-engagement/">Tech Team Engagement</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/introduccion-a-scrum-y-agile/">Introducción a Scrum y Agile</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/desarrollo-php-profesional/">Guía para el desarrollo PHP Profesional</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://carlosbuenosvinos.com/" >
+    &copy; 2019 Carlos Buenosvinos
+  </a>
+    <div>
+
+
+
+
+
+
+
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>

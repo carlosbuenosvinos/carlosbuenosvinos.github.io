@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Scrum on Carlos Buenosvinos</title>
+    <link>https://carlosbuenosvinos.com/categories/scrum/</link>
+    <description>Recent content in Scrum on Carlos Buenosvinos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 30 Nov 2016 09:00:14 +0000</lastBuildDate>
+    
+	<atom:link href="https://carlosbuenosvinos.com/categories/scrum/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>#MayTheRigorBeWithYou: Presentamos las “Rigor Talks”</title>
+      <link>https://carlosbuenosvinos.com/maytherigorbewithyou-presentamos-las-rigor-talks/</link>
+      <pubDate>Wed, 30 Nov 2016 09:00:14 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/maytherigorbewithyou-presentamos-las-rigor-talks/</guid>
+      <description>&lt;p&gt;Amigos del rigor! Hola! Siguiendo la senda de los más grandes como &lt;a href=&#34;https://cleancoders.com/&#34; target=&#34;_blank&#34;&gt;CleanCoders.com&lt;/a&gt; o &lt;a href=&#34;http://codely.tv/&#34; target=&#34;_blank&#34;&gt;CodelyTV&lt;/a&gt; a.k.a. #cosaMuyFina, tengo el placer de presentaros las &amp;#8220;Rigor Talks&amp;#8221;. Videos cortos de entre 5 y 10 minutos, en Español, que iré publicando de forma periódica con aquellos trucos sobre desarrollo de software que veo que se repiten en las consultorías que hago por esos mundos. Los videos están hechos con todo el cariño y amor para que os resulten útiles en vuestro día a día.&lt;/p&gt;
+
+&lt;p&gt;A fecha de hoy, tengo 12 ya grabados que iré publicando en YouTube y en el blog de forma regular. Para muestra de los primeros videos que iremos publicando (Guard Clauses, Self-Encapsulation, Named Constructors, Test Class, Self-Shunt, Inmutabilidad y Mutant Testing). Os dejo una imagencilla ;)&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Awesome two days helping @Lowpost_es team</title>
+      <link>https://carlosbuenosvinos.com/awesome-two-days-helping-lowpost_es-team/</link>
+      <pubDate>Tue, 22 Nov 2016 09:00:57 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/awesome-two-days-helping-lowpost_es-team/</guid>
+      <description>&lt;p&gt;I have recently visited Valencia in order to help my friends at &lt;a href=&#34;http://lowpost.es/&#34; target=&#34;_blank&#34;&gt;Lowpost&lt;/a&gt;. It was great and I had a lot of fun! I would like to tell you a bit about how it was.&lt;/p&gt;
+
+&lt;h3 id=&#34;who-is-lowpost&#34;&gt;Who is Lowpost?&lt;/h3&gt;
+
+&lt;p&gt;Lowpost is a cool start-up that are focused in Content Marketing. Lowpost connects companies that need interesting content with authors that can write about such topics. Authors bet for the open jobs and then they deliver the content to the final customer. Everything around such process is managed by the Lowpost platform.&lt;/p&gt;
+
+&lt;p&gt;As a start-up, they have grown quite fast, so their code. They started with Drupal, as many start-ups, and then they added a Silex application. You know that testing is difficult, however, doing unit testing for Drupal is a challenge.&lt;/p&gt;
+
+&lt;h3 id=&#34;what-we-did&#34;&gt;What we did?&lt;/h3&gt;</description>
+    </item>
+    
+    <item>
+      <title>“Scrum, no eres tú, soy yo”: Charla en la #geekdeveloperday organizada por @geekhubs</title>
+      <link>https://carlosbuenosvinos.com/scrum-no-eres-tu-soy-yo-charla-en-la-geekdeveloperday-organizada-por-geekhubs/</link>
+      <pubDate>Mon, 21 Nov 2016 08:30:55 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/scrum-no-eres-tu-soy-yo-charla-en-la-geekdeveloperday-organizada-por-geekhubs/</guid>
+      <description>&lt;p&gt;El pasado 2 de Noviembre estuve en Madrid. &lt;a href=&#34;http://geekshubsacademy.com/&#34; target=&#34;_blank&#34;&gt;GeeksHubs Academy&lt;/a&gt; organizaba el II Geek Developer Day y me invitaron a dar una charla sobre Scrum y la manera de mejorar la implementación en las empresas. Aquí os dejo el video y las slides.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>What happens if we don’t do it? – 4 ways to speed teams up</title>
+      <link>https://carlosbuenosvinos.com/what-happens-if-we-dont-do-it/</link>
+      <pubDate>Mon, 09 May 2016 08:00:57 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/what-happens-if-we-dont-do-it/</guid>
+      <description>&lt;p class=&#34;p1&#34;&gt;
+  &lt;span class=&#34;s1&#34;&gt;I became Certified Scrum Master (CSM) on 2010. I took a CSM course at beautiful Oporto. My instructor was Mitch Lacey (&lt;a href=&#34;https://www.mitchlacey.com/&#34;&gt;&lt;span class=&#34;s2&#34;&gt;https://www.mitchlacey.com/&lt;/span&gt;&lt;/a&gt;). Amazing instructor. If you can attend any of his courses, go ahead. On 2012, he published an amazing book about Scrum, I totally recommend, “The Scrum Field Guide: Practical Advice for Your First Year” (&lt;a href=&#34;http://www.amazon.com/Scrum-Field-Guide-Addison-Wesley-Signature/dp/0133853624&#34;&gt;&lt;span class=&#34;s2&#34;&gt;http://www.amazon.com/Scrum-Field-Guide-Addison-Wesley-Signature/dp/0133853624&lt;/span&gt;&lt;/a&gt;). So practical, so full of examples to understand how to properly apply Scrum and get most of it.&lt;/span&gt;
+&lt;/p&gt;
+
+&lt;p class=&#34;p1&#34;&gt;
+  &lt;span class=&#34;s1&#34;&gt;During the CSM training session, when talking about INVEST (&lt;a href=&#34;https://en.wikipedia.org/wiki/INVEST_(mnemonic)&#34;&gt;&lt;span class=&#34;s2&#34;&gt;https://en.wikipedia.org/wiki/INVEST_(mnemonic)&lt;/span&gt;&lt;/a&gt;) in your product backlog, value of User Stories and priorities he said, &amp;#8220;the first question to ask yourself about a user story, task or process is what happens if we just don’t do it?”. Everyone laughed. Not doing something useless you were supposed to do, it&amp;#8217;s a high productive activity.&lt;/span&gt;
+&lt;/p&gt;
+
+&lt;p class=&#34;p1&#34;&gt;
+  &lt;span class=&#34;s1&#34;&gt;The more I meet teams, project managers, developers, sysops, etc., the stronger my feeling is that we always try to improve things adding stuff not removing waste. More process, more abstraction, more code, more tools. My recommendation is that the &lt;b&gt;best way to speed teams up is to remove useless or low value things&lt;/b&gt;. Let’s see some suggestions.&lt;/span&gt;
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Adiós Atrápalo</title>
+      <link>https://carlosbuenosvinos.com/adios-atrapalo/</link>
+      <pubDate>Thu, 14 Apr 2016 15:30:43 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/adios-atrapalo/</guid>
+      <description>&lt;p&gt;Después de más de 2 años trabajando en &lt;a href=&#34;https://www.atrapalo.com&#34;&gt;Atrápalo&lt;/a&gt;, ha llegado el momento de partir a nuevos horizontes. Los que ya me conocéis un poco sabéis cómo soy: llegar, simplificar y marchar. Mis objetivos se han cumplido y es hora de ayudar a otros equipos. Después de estos dos años, Atrápalo es una compañía respetada técnicamente por la comunidad de Barcelona. En 2015, consiguió se le &lt;a href=&#34;http://awards.symfony.com/business&#34; target=&#34;_blank&#34;&gt;premiara por esa evolución&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Cada integrante del equipo técnico ha hecho un trabajo increíble adoptando las nuevas dinámicas y prácticas de trabajo, tanto en desarrollo, UX y Sistemas. Casi siempre, un equipo grande es una desventaja, normalmente es lento, pero me ha sorprendido cómo un equipo de casi 100 personas, aplicando Scrum, eXtreme Programming y otras buenas prácticas ha conseguido reducir deuda técnica muy rápidamente. Lo que me lleva a la frase que repito entre amiguetes: &amp;#8220;There is no legacy code, just legacy teams&amp;#8221;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Guía para el Desarrollo Profesional PHP (edición 2014)</title>
+      <link>https://carlosbuenosvinos.com/guia-para-el-desarrollo-profesional-php-edicion-2014/</link>
+      <pubDate>Wed, 21 Oct 2015 08:00:39 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/guia-para-el-desarrollo-profesional-php-edicion-2014/</guid>
+      <description>&lt;p&gt;Rascando por Youtube, encontré este vídeo de 2014, de una presentación que hice en LaSalle inspirada por &lt;a href=&#34;http://carlosbuenosvinos.com/desarrollo-php-profesional/&#34; target=&#34;_blank&#34;&gt;otra que hice en Castellón en 2011&lt;/a&gt;. La idea es hacer un overview del ecosistema PHP y puntos importantes a la hora de montar un ciclo de desarrollo basado en esta tecnología. Que la disfrutéis.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Economía del Desarrollo de Software – PHP Barcelona – Marzo 2015</title>
+      <link>https://carlosbuenosvinos.com/economia-del-desarrollo-de-software-php-barcelona-marzo-2015/</link>
+      <pubDate>Wed, 11 Mar 2015 21:55:43 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/economia-del-desarrollo-de-software-php-barcelona-marzo-2015/</guid>
+      <description>&lt;p&gt;Aquí os dejo las slides y el video de mi charla sobre &amp;#8220;Economía del Desarrollo de Software&amp;#8221; impartida en la &lt;a href=&#34;http://phpbarcelona.org/eventos/php-barcelona-monthly-talks-march-software-economics&#34; target=&#34;_blank&#34;&gt;Barcelona PHP Monthly Talk de Marzo&lt;/a&gt; y en la &lt;a href=&#34;http://smash-tech.com/developers/&#34; target=&#34;_blank&#34;&gt;SmashTech &amp;#8220;I&amp;#8217;m a Developer&amp;#8221;&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Atrápalo Tech 2014 figures</title>
+      <link>https://carlosbuenosvinos.com/atrapalo-tech-2014-figures/</link>
+      <pubDate>Mon, 09 Feb 2015 12:31:28 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/atrapalo-tech-2014-figures/</guid>
+      <description>&lt;p&gt;It&amp;#8217;s almost a year ago since I started working at &lt;a href=&#34;http://www.atrapalo.com&#34; target=&#34;_blank&#34;&gt;Atrápalo&lt;/a&gt;. &lt;span style=&#34;line-height: 1.5;&#34;&gt;The team has done an amazing job learning and applying all the changes in our software development process including the new architecture, testing practices, Scrum changes, branching strategy, releasing process, bugfixing, and so much more. Changing the way ourselves work is probably the most difficult part from a &amp;#8220;status quo&amp;#8221; change.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;I will like to thank everyone in the team that has done the effort to make it possible. I know it&amp;#8217;s not easy and sometimes not fun at first. There is still so much to do and 2015 is going to be even so much funnier. Following, there are just some figures about 2014. Thanks to the &lt;a href=&#34;https://twitter.com/atrapaloeng&#34; target=&#34;_blank&#34;&gt;Atrapalo Team&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Detalles sobre Scrum: ¿Cómo atacar el sprint?</title>
+      <link>https://carlosbuenosvinos.com/detalles-sobre-scrum-como-atacar-el-sprint/</link>
+      <pubDate>Fri, 30 May 2014 17:38:10 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/detalles-sobre-scrum-como-atacar-el-sprint/</guid>
+      <description>&lt;p&gt;Os presento un pequeño ejercicio que llevo utilizando un mes y que me está dando buenos resultados a la hora de ilustrar la importancia de cómo atacar el sprint y la obsesión por entregar valor lo antes posible.&lt;/p&gt;
+
+&lt;p&gt;&amp;#8220;Es lunes, perteneces a un equipo de Scrum de 6 personas. Habéis acabado el planning meeting y habéis enviado un mail con el commitment. Montáis la ScrumBoard y os queda de la siguiente manera&amp;#8221;.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

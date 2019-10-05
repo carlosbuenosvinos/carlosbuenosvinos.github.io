@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Carlos Buenosvinos  | “Domain-Driven Design in PHP” (@dddbook) is finished</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.58.3" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.d98f2eb6bcd1eaedb7edf166bd16af26.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+    
+
+    
+    
+    <meta property="og:title" content="“Domain-Driven Design in PHP” (@dddbook) is finished" />
+<meta property="og:description" content="Today, Keyvan, Christian and me are very happy to announce that &#8220;Domain-Driven Design in PHP&#8221; book is 100% complete. 380 pages and around 1400 readers so far.
+
+Thanks
+
+Thanks, thanks, thanks.
+
+Thanks to everyone that has supported us in this project.
+
+Thanks to Christian and Keyvan. We don&#8217;t need words to understand each other.
+
+Thanks to our families and friends. Love is what you need to keep pushing.
+
+Thanks to Edd Mann for helping at the beginning with the language implementation details ;).
+
+Thanks to Matthias Noback for his suggestions and his foreword.
+
+Thanks to Vaughn Vernon for being pragmatic and inspiring.
+
+Thanks to Ricard Clau, Albert Casademont, Victor Guardiola and Jordi Abad for your contributions.
+
+Thanks to Natalye Childress for non stopping asking about uppercase or lowercase. With your work, the book can be read.
+
+Thanks to everyone that committed fixes, you are great: Jonathan Wondrusch, César Rodríguez, Yannick Voyer, Oriol González, Henry Snoek, Tom Jowitt, Sascha Schimke, Sven Herrmann, Daniel Abad, Luis Rovirosa, Luis Cordova, Raúl Ramos, Juan Maturana, Nil Portugués, Nikolay Zujev, Fernando Pradas, Raúl Araya, Neal Brooks, Hubert Béague, Aleksander Rekść, Sebastian Machuca, Nicolas Oelgart, and Marc Aube." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://carlosbuenosvinos.com/domain-driven-design-in-php-book-is-finished/" />
+<meta property="article:published_time" content="2016-09-15T11:00:11+00:00" />
+<meta property="article:modified_time" content="2016-09-15T11:00:11+00:00" />
+<meta itemprop="name" content="“Domain-Driven Design in PHP” (@dddbook) is finished">
+<meta itemprop="description" content="Today, Keyvan, Christian and me are very happy to announce that &#8220;Domain-Driven Design in PHP&#8221; book is 100% complete. 380 pages and around 1400 readers so far.
+
+Thanks
+
+Thanks, thanks, thanks.
+
+Thanks to everyone that has supported us in this project.
+
+Thanks to Christian and Keyvan. We don&#8217;t need words to understand each other.
+
+Thanks to our families and friends. Love is what you need to keep pushing.
+
+Thanks to Edd Mann for helping at the beginning with the language implementation details ;).
+
+Thanks to Matthias Noback for his suggestions and his foreword.
+
+Thanks to Vaughn Vernon for being pragmatic and inspiring.
+
+Thanks to Ricard Clau, Albert Casademont, Victor Guardiola and Jordi Abad for your contributions.
+
+Thanks to Natalye Childress for non stopping asking about uppercase or lowercase. With your work, the book can be read.
+
+Thanks to everyone that committed fixes, you are great: Jonathan Wondrusch, César Rodríguez, Yannick Voyer, Oriol González, Henry Snoek, Tom Jowitt, Sascha Schimke, Sven Herrmann, Daniel Abad, Luis Rovirosa, Luis Cordova, Raúl Ramos, Juan Maturana, Nil Portugués, Nikolay Zujev, Fernando Pradas, Raúl Araya, Neal Brooks, Hubert Béague, Aleksander Rekść, Sebastian Machuca, Nicolas Oelgart, and Marc Aube.">
+
+
+<meta itemprop="datePublished" content="2016-09-15T11:00:11&#43;00:00" />
+<meta itemprop="dateModified" content="2016-09-15T11:00:11&#43;00:00" />
+<meta itemprop="wordCount" content="683">
+
+
+
+<meta itemprop="keywords" content="application services,book,cqrs,ddd,domain events,domain services,domain-driven design,entities,examples,hexagonal architecture,php,rabbitmq,repositories,silex,symfony,value objects," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="“Domain-Driven Design in PHP” (@dddbook) is finished"/>
+<meta name="twitter:description" content="Today, Keyvan, Christian and me are very happy to announce that &#8220;Domain-Driven Design in PHP&#8221; book is 100% complete. 380 pages and around 1400 readers so far.
+
+Thanks
+
+Thanks, thanks, thanks.
+
+Thanks to everyone that has supported us in this project.
+
+Thanks to Christian and Keyvan. We don&#8217;t need words to understand each other.
+
+Thanks to our families and friends. Love is what you need to keep pushing.
+
+Thanks to Edd Mann for helping at the beginning with the language implementation details ;).
+
+Thanks to Matthias Noback for his suggestions and his foreword.
+
+Thanks to Vaughn Vernon for being pragmatic and inspiring.
+
+Thanks to Ricard Clau, Albert Casademont, Victor Guardiola and Jordi Abad for your contributions.
+
+Thanks to Natalye Childress for non stopping asking about uppercase or lowercase. With your work, the book can be read.
+
+Thanks to everyone that committed fixes, you are great: Jonathan Wondrusch, César Rodríguez, Yannick Voyer, Oriol González, Henry Snoek, Tom Jowitt, Sascha Schimke, Sven Herrmann, Daniel Abad, Luis Rovirosa, Luis Cordova, Raúl Ramos, Juan Maturana, Nil Portugués, Nikolay Zujev, Fernando Pradas, Raúl Araya, Neal Brooks, Hubert Béague, Aleksander Rekść, Sebastian Machuca, Nicolas Oelgart, and Marc Aube."/>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  
+  
+  <header class="cover bg-top" style="background-image: url('https://carlosbuenosvinos.com/posts/images/2016/09/1500x500.jpeg');">
+    <div class="pb3-m pb6-l bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="https://carlosbuenosvinos.com/" class="f3 fw2 hover-white no-underline white-90 dib">
+      Carlos Buenosvinos
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">“Domain-Driven Design in PHP” (@dddbook) is finished</h1>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+
+    <header class="mt4 w-100">
+      <p class="f6 b helvetica tracked">
+          
+        POSTS
+      </p>
+      <h1 class="f1 athelas mb1">“Domain-Driven Design in PHP” (@dddbook) is finished</h1>
+      
+      <p class="tracked">
+         By <strong>Carlos Buenosvinos</strong>
+      </p>
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2016-09-15T11:00:11Z">September 15, 2016</time>
+      
+      
+    </header>
+
+    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>Today, Keyvan, Christian and me are very happy to announce that <a href="https://leanpub.com/ddd-in-php" target="_blank">&#8220;Domain-Driven Design in PHP&#8221;</a> book is 100% complete. <strong>380 pages</strong> and around <strong>1400 readers</strong> so far.</p>
+
+<h4 id="thanks">Thanks</h4>
+
+<p>Thanks, thanks, thanks.</p>
+
+<p>Thanks to everyone that has supported us in this project.</p>
+
+<p>Thanks to <strong>Christian</strong> and <strong>Keyvan</strong>. We don&#8217;t need words to understand each other.</p>
+
+<p>Thanks to our <strong>families</strong> and <strong>friends</strong>. Love is what you need to keep pushing.</p>
+
+<p>Thanks to <strong>Edd Mann</strong> for helping at the beginning with the language implementation details ;).</p>
+
+<p>Thanks to <strong>Matthias Noback</strong> for his suggestions and his foreword.</p>
+
+<p>Thanks to <strong>Vaughn Vernon</strong> for being pragmatic and inspiring.</p>
+
+<p>Thanks to <strong>Ricard Clau, Albert Casademont, Victor Guardiola</strong> and <strong>Jordi Abad</strong> for your contributions.</p>
+
+<p>Thanks to <strong>Natalye Childress</strong> for non stopping asking about uppercase or lowercase. With your work, the book can be read.</p>
+
+<p>Thanks to everyone that committed fixes, you are great: <strong>Jonathan Wondrusch, César Rodríguez, Yannick Voyer, Oriol González, Henry Snoek, Tom Jowitt, Sascha Schimke, Sven Herrmann, Daniel Abad, Luis Rovirosa, Luis Cordova, Raúl Ramos, Juan Maturana, Nil Portugués, Nikolay Zujev, Fernando Pradas, Raúl Araya, Neal Brooks, Hubert Béague, Aleksander Rekść, Sebastian Machuca, Nicolas Oelgart, and Marc Aube.</strong></p>
+
+<h4 id="a-bit-of-history">A bit of history</h4>
+
+<p>In 2014, after two years of reading about and working with Domain-Driven Design, Carlos and Christian, friends and workmates, traveled to Berlin to participate in Vaughn Vernon&#8217;s <a href="https://idddworkshop.com" target="_blank">Implementing Domain-Driven Design Workshop</a>. The training was fantastic, and all the concepts that were swirling around in their minds prior to the trip suddenly became very real. However, they were the only two PHP developers in a room full of Java and .NET developers.</p>
+
+<p>Around the same time, <a href="https://tek.phparch.com" target="_blank">php[tek]</a>, an annual PHP conference, opened its call for papers, and Carlos sent one about Hexagonal Architecture. His talk was rejected, but Eli White — of musketeers.me and <a href="https://www.phparch.com" target="_blank">php[architect]</a> fame — got in touch with him a month later wondering if he was interested in writing an article about Hexagonal Architecture for the magazine php[architect]. So in June 2014, <strong>Hexagonal Architecture with PHP</strong> was published. That article, which you&#8217;ll find in the appendix, was the origin of this book.</p>
+
+<p>In late 2014, Carlos and Christian talked about extending the article and sharing all their knowledge of and experience in applying Domain-Driven Design in production. They were very excited about the idea behind the book: helping the PHP community delve into Domain-Driven Design from a practical approach. At that time, concepts such as Rich Domain Models and framework-agnostic applications weren&#8217;t so common in the PHP community. So in December 2014, the first commit to the GitHub book repository was pushed.</p>
+
+<p>Around the same time, in a parallel universe, Keyvan co-founded Funddy, a crowdfunding platform for the masses built on top of the concepts and building blocks of Domain-Driven Design. Domain-Driven Design proved itself effective in the exploratory process and modeling of building an early-stage startup like Funddy. It also helped handle the complexity of the company, with its constantly changing environment and requirements. And after connecting with Carlos and Christian and discussing the book, Keyvan proudly signed on as the third writer.</p>
+
+<p>Together, we&#8217;ve written the book we wanted to have when we started with Domain-Driven Design. It&#8217;s full of examples, production-ready code, shortcuts, and our recommendations based on our experiences of what worked and what didn&#8217;t for our respective teams. We arrived at Domain-Driven Design via its building blocks — Tactical Patterns — which is why this book is mainly about them. Reading it will help you learn them, write them, and implement them. You&#8217;ll also discover how to integrate Bounded Contexts using synchronous and asynchronous approaches, which will open your world to strategic design — though the latter is a road you&#8217;ll have to discover on your own.</p>
+
+<h4 id="what-8217-s-next">What&#8217;s next</h4>
+
+<p>We&#8217;ll promote a bit the book. There are two publishers that are interested in the printed version. Also, some friends interested in translating it into Japanese, Italian and Spanish. If you are interested in participating, let us know at <a href="https://twitter.com/dddbook" target="_blank">@dddbook</a>. Christian, Keyvan and me really enjoyed the experience about writing a book so maybe we could write another one. Why not?</p><ul class="pa0">
+  
+   <li class="list">
+     <a href="/tags/application-services" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">application services</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/book" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">book</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/cqrs" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">cqrs</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/ddd" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">ddd</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/domain-events" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">domain events</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/domain-services" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">domain services</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/domain-driven-design" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">domain-driven design</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/entities" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">entities</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/examples" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">examples</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/hexagonal-architecture" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">hexagonal architecture</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/php" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">php</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/rabbitmq" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">rabbitmq</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/repositories" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">repositories</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/silex" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">silex</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/symfony" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">symfony</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/value-objects" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">value objects</a>
+   </li>
+  
+</ul>
+<div class="mt6">
+      
+      
+      </div>
+    </section>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/tactical-domain-driven-design-screencast-at-phpbarcelona-spanish/">Tactical Domain-Driven Design Screencast at PHPBarcelona (Spanish)</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/rendimiento-con-domain-events-proyecciones-y-principios-de-cqrs/">Rendimiento con Domain Events, Proyecciones y principios de CQRS</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/domain-driven-design-domain-events-and-bc-integration-webcast-at-atrapaloeng-spanish/">Domain-Driven Design: Domain Events and BC Integration Webcast at @AtrapaloEng (Spanish)</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/guia-para-el-desarrollo-profesional-php-edicion-2014/">Guía para el Desarrollo Profesional PHP (edición 2014)</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/consulta-sobre-ddd-1-entidades-identidad-uuid/">Consulta sobre DDD #1: Pregunta sobre las entidades en DDD (Identidad y UUID)</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/domain-driven-design-code-structure-and-application-services-webcast-at-atrapaloeng-spanish/">Domain-Driven Design: Code Structure and Application Services Webcast at @AtrapaloEng (Spanish)</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/domain-driven-design-bounded-context-integration-spanish/">Domain-Driven Design: Bounded Context Integration (Spanish)</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/domain-driven-design-entities-and-value-objects-webcast-at-atrapaloeng-spanish/">Domain-Driven Design: Entities and Value Objects Webcast at @AtrapaloEng (Spanish)</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/doctrine-25-ddd-entities-and-identities/">Doctrine 2.5, DDD, Entities and Identities</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/domain-driven-design-logging-with-domain-events-webcast-at-atrapaloeng-spanish/">Domain-Driven Design: Logging with Domain Events Webcast at @AtrapaloEng (Spanish)</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/domain-driven-design-aggregates-webcast-at-atrapaloeng-spanish/">Domain-Driven Design: Aggregates Webcast at @AtrapaloEng (Spanish)</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/hexagonal-architecture-with-php-was-published-in-phparch-magazine/">“Hexagonal Architecture with PHP” was published in phparch|magazine</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/event-sourcing-is-not-a-messaging-integration-pattern/">Event Sourcing is not a messaging integration pattern</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/see-you-at-dpcon-2016/">See you at @dpcon 2016</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/restgames-more-than-katas/">RESTGames – More than katas</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://carlosbuenosvinos.com/" >
+    &copy; 2019 Carlos Buenosvinos
+  </a>
+    <div>
+
+
+
+
+
+
+
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>

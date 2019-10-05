@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Carlos Buenosvinos  | Some “basuritas”: PHP, list() and objects</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.58.3" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.d98f2eb6bcd1eaedb7edf166bd16af26.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+    
+
+    
+    
+    <meta property="og:title" content="Some “basuritas”: PHP, list() and objects" />
+<meta property="og:description" content="I was just playing around with the Symfony Expression Language Component. Suddenly, I started to play with list() and some objects and this example came up. You can use list() and _$this_ for assigning fields. I would not recommend it, but it just funny.
+class BasuritasTest extends \PHPUnit_Framework_TestCase { /** * @test * @dataProvider validUsersDataProvider * @param $id * @param $name */ public function listForObjects(int $id, string $name) { $user = new User($id, $name); $this-&gt;assertSame($id, $user-&gt;id()); $this-&gt;assertSame($name, $user-&gt;name()); } public function validUsersDataProvider() { return [ [1, &#34;" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://carlosbuenosvinos.com/some-basuritas-php-list-and-objects/" />
+<meta property="article:published_time" content="2016-07-29T11:27:28+00:00" />
+<meta property="article:modified_time" content="2016-07-29T11:27:28+00:00" />
+<meta itemprop="name" content="Some “basuritas”: PHP, list() and objects">
+<meta itemprop="description" content="I was just playing around with the Symfony Expression Language Component. Suddenly, I started to play with list() and some objects and this example came up. You can use list() and _$this_ for assigning fields. I would not recommend it, but it just funny.
+class BasuritasTest extends \PHPUnit_Framework_TestCase { /** * @test * @dataProvider validUsersDataProvider * @param $id * @param $name */ public function listForObjects(int $id, string $name) { $user = new User($id, $name); $this-&gt;assertSame($id, $user-&gt;id()); $this-&gt;assertSame($name, $user-&gt;name()); } public function validUsersDataProvider() { return [ [1, &#34;">
+
+
+<meta itemprop="datePublished" content="2016-07-29T11:27:28&#43;00:00" />
+<meta itemprop="dateModified" content="2016-07-29T11:27:28&#43;00:00" />
+<meta itemprop="wordCount" content="168">
+
+
+
+<meta itemprop="keywords" content="list(),objects,php,phpunit," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Some “basuritas”: PHP, list() and objects"/>
+<meta name="twitter:description" content="I was just playing around with the Symfony Expression Language Component. Suddenly, I started to play with list() and some objects and this example came up. You can use list() and _$this_ for assigning fields. I would not recommend it, but it just funny.
+class BasuritasTest extends \PHPUnit_Framework_TestCase { /** * @test * @dataProvider validUsersDataProvider * @param $id * @param $name */ public function listForObjects(int $id, string $name) { $user = new User($id, $name); $this-&gt;assertSame($id, $user-&gt;id()); $this-&gt;assertSame($name, $user-&gt;name()); } public function validUsersDataProvider() { return [ [1, &#34;"/>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="https://carlosbuenosvinos.com/" class="f3 fw2 hover-white no-underline white-90 dib">
+      Carlos Buenosvinos
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+
+    <header class="mt4 w-100">
+      <p class="f6 b helvetica tracked">
+          
+        POSTS
+      </p>
+      <h1 class="f1 athelas mb1">Some “basuritas”: PHP, list() and objects</h1>
+      
+      <p class="tracked">
+         By <strong>Carlos Buenosvinos</strong>
+      </p>
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2016-07-29T11:27:28Z">July 29, 2016</time>
+      
+      
+    </header>
+
+    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>I was just playing around with the <a href="http://symfony.com/doc/current/components/expression_language.html" target="_blank">Symfony Expression Language Component</a>. Suddenly, I started to play with <a href="http://php.net/manual/en/function.list.php" target="_blank"><em>list()</em></a> and some objects and this example came up. You can use <strong><em>list()</em></strong> and _<strong>$this</strong>_ for assigning fields. I would not recommend it, but it just funny.</p>
+
+<pre class="brush: php; gutter: true">class BasuritasTest extends \PHPUnit_Framework_TestCase
+{
+    /**
+     * @test
+     * @dataProvider validUsersDataProvider
+     * @param $id
+     * @param $name
+     */
+    public function listForObjects(int $id, string $name)
+    {
+        $user = new User($id, $name); 
+        $this-&gt;assertSame($id, $user-&gt;id());
+        $this-&gt;assertSame($name, $user-&gt;name());
+    }
+
+    public function validUsersDataProvider()
+    {
+        return [
+            [1, "Carlos"],
+            [2, "Christian"],
+            [3, "Keyvan"],
+            [4, "Ricard"]
+        ];
+    }
+}
+
+class User
+{
+    private $id;
+    private $name;
+
+    public function __construct($id, $name)
+    {
+        list($this-&gt;id, $this-&gt;name) = [$id, $name];
+    }
+
+    public function id() : int 
+    {
+        return $this-&gt;id;
+    }
+
+    public function name() : string
+    {
+        return $this-&gt;name;
+    }
+}</pre>
+
+<p>The interesting thing is the line 34. The output:</p>
+
+<pre class="brush: bash; gutter: false">PHPUnit 5.4.8 by Sebastian Bergmann and contributors.
+
+....                                          4 / 4 (100%)
+
+Time: 56 ms, Memory: 4.00MB
+
+OK (4 tests, 8 assertions)</pre>
+
+<p>That&#8217;s it. Happy Friday.</p>
+<ul class="pa0">
+  
+   <li class="list">
+     <a href="/tags/list" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">list()</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/objects" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">objects</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/php" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">php</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/phpunit" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">phpunit</a>
+   </li>
+  
+</ul>
+<div class="mt6">
+      
+      
+      </div>
+    </section>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/guia-para-el-desarrollo-profesional-php-edicion-2014/">Guía para el Desarrollo Profesional PHP (edición 2014)</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/tactical-domain-driven-design-screencast-at-phpbarcelona-spanish/">Tactical Domain-Driven Design Screencast at PHPBarcelona (Spanish)</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/write-your-git-hooks-in-php-and-keep-them-under-git-control/">Write your git hooks in PHP and keep them under git control</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/smash-tech-php-2014/">Smash Tech: PHP 2014</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/see-you-at-dpcon-2016/">See you at @dpcon 2016</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/saved-500-kbytes-of-autoload-classmap-with-autoload-dev-at-atrapaloeng/">Saved 500 Kbytes of autoload classmap with autoload-dev at @AtrapaloEng</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/first-tests-with-php7-in-production-at-atrapaloeng/">First tests with #PHP7 in production at @AtrapaloEng</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/restgames-more-than-katas/">RESTGames – More than katas</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/rendimiento-con-domain-events-proyecciones-y-principios-de-cqrs/">Rendimiento con Domain Events, Proyecciones y principios de CQRS</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/setup-your-macos-development-team-with-ansible/">Setup your MacOS (or other OS) development team with Ansible</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/consulta-sobre-ddd-1-entidades-identidad-uuid/">Consulta sobre DDD #1: Pregunta sobre las entidades en DDD (Identidad y UUID)</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/dot-puzzles-for-smart-masses/">Dot: Puzzles for smart masses</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/migrating-progressively-to-symfony-without-pain-with-stackphp/">Migrating progressively to Symfony without pain with StackPHP</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/migrating-progressively-to-symfony-without-pain/">Migrating progressively to Symfony without pain</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/atrapalo-tech-2014-figures/">Atrápalo Tech 2014 figures</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://carlosbuenosvinos.com/" >
+    &copy; 2019 Carlos Buenosvinos
+  </a>
+    <div>
+
+
+
+
+
+
+
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>

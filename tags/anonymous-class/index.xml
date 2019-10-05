@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>anonymous class on Carlos Buenosvinos</title>
+    <link>https://carlosbuenosvinos.com/tags/anonymous-class/</link>
+    <description>Recent content in anonymous class on Carlos Buenosvinos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 03 Jan 2017 09:30:30 +0000</lastBuildDate>
+    
+	<atom:link href="https://carlosbuenosvinos.com/tags/anonymous-class/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Rigor Talks – PHP – #9 – Self-Shunt II (Spanish)</title>
+      <link>https://carlosbuenosvinos.com/rigor-talks-php-9-self-shunt-ii-spanish/</link>
+      <pubDate>Tue, 03 Jan 2017 09:30:30 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/rigor-talks-php-9-self-shunt-ii-spanish/</guid>
+      <description>&lt;p&gt;Hola Amigos del Rigor! Vamos a con el tercer de los cuatro videos sobre patrones de &amp;#8220;Unit Testing&amp;#8221;, especialmente, para código acoplado. En este video, veremos una implementación alternativa del &amp;#8220;Self-Shunt&amp;#8221; sólo para PHP7 usando clases anónimas.&lt;/p&gt;
+
+&lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Espero que os guste!&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;#MayTheRigorBeWithYou&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

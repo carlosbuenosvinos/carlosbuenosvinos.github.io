@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>docker on Carlos Buenosvinos</title>
+    <link>https://carlosbuenosvinos.com/tags/docker/</link>
+    <description>Recent content in docker on Carlos Buenosvinos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 14 Dec 2015 08:00:47 +0000</lastBuildDate>
+    
+	<atom:link href="https://carlosbuenosvinos.com/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>3 commands for working with remote machines</title>
+      <link>https://carlosbuenosvinos.com/3-commands-for-working-with-remote-machines/</link>
+      <pubDate>Mon, 14 Dec 2015 08:00:47 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/3-commands-for-working-with-remote-machines/</guid>
+      <description>&lt;p&gt;These days I&amp;#8217;m playing a bit with 5 Raspberries 2B (4 cores and 1 GB of RAM) in order to build a Docker cluster. There are different options: Docker Swarm over Consul/Etcd/Zookeper, Kubernetes by Google, etc. I just want to share some interesting commands for working with remote machines that have helped me to build such a cluster: ssh-copy-id, nmap and csshx.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

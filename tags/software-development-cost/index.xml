@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>software development cost on Carlos Buenosvinos</title>
+    <link>https://carlosbuenosvinos.com/tags/software-development-cost/</link>
+    <description>Recent content in software development cost on Carlos Buenosvinos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 13 Sep 2013 14:28:47 +0000</lastBuildDate>
+    
+	<atom:link href="https://carlosbuenosvinos.com/tags/software-development-cost/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>¿Cuál es el verdadero objetivo de TDD?</title>
+      <link>https://carlosbuenosvinos.com/cual-es-el-verdadero-objetivo-de-tdd/</link>
+      <pubDate>Fri, 13 Sep 2013 14:28:47 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/cual-es-el-verdadero-objetivo-de-tdd/</guid>
+      <description>&lt;p&gt;A todos aquellos que habéis pensado: &amp;#8220;¡Demostrar que mi código funciona!&amp;#8221;, lo siento, estáis equivocados. Aunque está asociado al 2º valor principal del desarrollo de software (según Robert C. Martin).&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

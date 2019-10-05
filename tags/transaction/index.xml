@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>transaction on Carlos Buenosvinos</title>
+    <link>https://carlosbuenosvinos.com/tags/transaction/</link>
+    <description>Recent content in transaction on Carlos Buenosvinos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 31 May 2017 08:00:23 +0000</lastBuildDate>
+    
+	<atom:link href="https://carlosbuenosvinos.com/tags/transaction/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Rigor Talks – PHP – #25 – Persisting Domain Events (Spanish)</title>
+      <link>https://carlosbuenosvinos.com/rigor-talks-php-25-persisting-domain-events-spanish/</link>
+      <pubDate>Wed, 31 May 2017 08:00:23 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/rigor-talks-php-25-persisting-domain-events-spanish/</guid>
+      <description>&lt;p&gt;Hola Amigos del Rigor! Continuamos con la serie sobre Domain Events. En este cuarto video, vamos a ver cómo implementar la persistencia de Eventos de Dominio, para qué es útil y cuáles son sus beneficios.&lt;/p&gt;
+
+&lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;aquí&lt;/a&gt;. Si los videos os gustan, no olvidéis suscribiros a mi canal. Espero que os guste!&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;#MayTheRigorBeWithYou&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

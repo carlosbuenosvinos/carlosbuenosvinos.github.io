@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Carlos Buenosvinos  | Code Style: If and return</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.58.3" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.d98f2eb6bcd1eaedb7edf166bd16af26.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+    
+
+    
+    
+    <meta property="og:title" content="Code Style: If and return" />
+<meta property="og:description" content="When contributing to opensource code at GitHub, I found some mistakes, or improvements when writing code, that are repetead over and over again for newbies and not so newbies developers. I&#8217;ll try to write some posts about this, but for not, let&#8217;s start with some &#8220;if&#8221; and &#8220;return&#8221; statements cases." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://carlosbuenosvinos.com/code-style-if-and-return/" />
+<meta property="article:published_time" content="2013-11-11T19:09:42+00:00" />
+<meta property="article:modified_time" content="2013-11-11T19:09:42+00:00" />
+<meta itemprop="name" content="Code Style: If and return">
+<meta itemprop="description" content="When contributing to opensource code at GitHub, I found some mistakes, or improvements when writing code, that are repetead over and over again for newbies and not so newbies developers. I&#8217;ll try to write some posts about this, but for not, let&#8217;s start with some &#8220;if&#8221; and &#8220;return&#8221; statements cases.">
+
+
+<meta itemprop="datePublished" content="2013-11-11T19:09:42&#43;00:00" />
+<meta itemprop="dateModified" content="2013-11-11T19:09:42&#43;00:00" />
+<meta itemprop="wordCount" content="400">
+
+
+
+<meta itemprop="keywords" content="check style,clean code,coding standard,if,return,style," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Code Style: If and return"/>
+<meta name="twitter:description" content="When contributing to opensource code at GitHub, I found some mistakes, or improvements when writing code, that are repetead over and over again for newbies and not so newbies developers. I&#8217;ll try to write some posts about this, but for not, let&#8217;s start with some &#8220;if&#8221; and &#8220;return&#8221; statements cases."/>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="https://carlosbuenosvinos.com/" class="f3 fw2 hover-white no-underline white-90 dib">
+      Carlos Buenosvinos
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+
+    <header class="mt4 w-100">
+      <p class="f6 b helvetica tracked">
+          
+        POSTS
+      </p>
+      <h1 class="f1 athelas mb1">Code Style: If and return</h1>
+      
+      <p class="tracked">
+         By <strong>Carlos Buenosvinos</strong>
+      </p>
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2013-11-11T19:09:42Z">November 11, 2013</time>
+      
+      
+    </header>
+
+    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>When contributing to opensource code at GitHub, I found some mistakes, or improvements when writing code, that are repetead over and over again for newbies and not so newbies developers. I&#8217;ll try to write some posts about this, but for not, let&#8217;s start with some &#8220;if&#8221; and &#8220;return&#8221; statements cases.</p>
+
+<h3 id="return-1-if-big-code-small-else">Return #1: If + big code + small else</h3>
+
+<p>When you have and if-else, I&#8217;d prefer to have the shortest block first so I can see more information at once. Specially, the first flow related with the conditional cases.</p>
+
+<p>Bad:</p>
+
+<pre>public function foo($user)
+{
+    if ($user-&gt;hasAvatar()) {
+        // tons of amazing code that make you scroll to the infinity
+        // ...
+    } else {
+        // typical check
+        return false;
+    }
+}</pre>
+
+<p>Better:</p>
+
+<pre>public function foo($user)
+{
+    if (!$user-&gt;hasAvatar()) {
+        return false;
+    } else {
+        // tons of code that you should refactor :)
+        // btw, check the next one for this case
+    }    
+}</pre>
+
+<h3 id="return-2-if-return-useless-else">Return #2: If + return + useless else</h3>
+
+<p>If you return something in the first case, &#8220;else&#8221; is useless. Removing it reduces lines of code, cyclomatic complexity and so on.</p>
+
+<p>Bad:</p>
+
+<pre>public function foo($user)
+{
+    if (!$user-&gt;hasAvatar()) {
+        return false;
+    } else {
+        // do something...
+    }
+}</pre>
+
+<p>Better:</p>
+
+<pre>public function foo($user)
+{
+    if (!$user-&gt;hasAvatar()) {
+        return false;
+    }
+
+    // do something...
+}</pre>
+
+<h3 id="return-3-if-return-true-else-return-false">Return #3: If + return true + else return false</h3>
+
+<p>I don&#8217;t know why, but this is typical. If you are returning booleans, please, return the conditional evaluation.</p>
+
+<p>Bad:</p>
+
+<pre>public function foo($user)
+{
+    if ($user-&gt;hasAvatar()) {
+        return true;
+    } else {
+        return false;
+    }
+}</pre>
+
+<p>Better:</p>
+
+<pre>public function foo($user)
+{
+    return $user-&gt;hasAvatar();
+}</pre>
+
+<h3 id="return-4-if-return-a-else-return-b">Return #4: If + return A + else return B</h3>
+
+<p>Exactly the same with other types.</p>
+
+<p>Bad:</p>
+
+<pre>public function foo($user)
+{
+    if ($user-&gt;hasAvatar()) {
+        return &#039;yeah!&#039;;
+    } else {
+        return &#039;woo!&#039;;
+    }
+}</pre>
+
+<p>Better:</p>
+
+<pre>public function foo($user)
+{
+    return $user-&gt;hasAvatar() ? &#039;yeah!&#039; : &#039;woo!&#039;;
+}</pre>
+
+<h3 id="return-5-if-else-that-holds-a-default-value">Return #5: If + else that holds a default value</h3>
+
+<p>One variation for case #2.</p>
+
+<p>Bad:</p>
+
+<pre>public function foo($user)
+{
+    if ($user-&gt;hasAvatar()) {
+        $result = &#039;yeah!&#039;;
+    } else {
+        $result = null;
+    }
+
+    // Do whatever with $result...
+    return $result;
+}</pre>
+
+<p>Better:</p>
+
+<pre>public function foo($user)
+{
+    $result = null;
+    if ($user-&gt;hasAvatar()) {
+        $result = &#039;yeah!&#039;;
+    }
+
+    // Do whatever with $result...
+    return $result;
+}</pre>
+
+<p>Feel free to comment for adding other examples that may help others. Please, make your mates live easier. Happy Clean Coding!</p><ul class="pa0">
+  
+   <li class="list">
+     <a href="/tags/check-style" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">check style</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/clean-code" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">clean code</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/coding-standard" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">coding standard</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/if" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">if</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/return" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">return</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/style" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">style</a>
+   </li>
+  
+</ul>
+<div class="mt6">
+      
+      
+      </div>
+    </section>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/remove-non-used-php-files-in-your-project/">Remove non used PHP files in your project</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/robert-c-martin-clean-code-collection-review-part-ii/">Robert C. Martin Clean Code Collection Review (Part II)</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://carlosbuenosvinos.com/" >
+    &copy; 2019 Carlos Buenosvinos
+  </a>
+    <div>
+
+
+
+
+
+
+
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>

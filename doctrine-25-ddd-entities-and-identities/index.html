@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Carlos Buenosvinos  | Doctrine 2.5, DDD, Entities and Identities</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.58.3" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.d98f2eb6bcd1eaedb7edf166bd16af26.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+    
+
+    
+    
+    <meta property="og:title" content="Doctrine 2.5, DDD, Entities and Identities" />
+<meta property="og:description" content="If you&#8217;re developing applications in a Domain-Driven Design style and using Doctrine 2.5, you may be struggling with implementing your entities identities, I mean, UserId, ProductId, and so on. Embeddables are cool, but limited. Surrogates are not necessary anymore. Here are some short tips and examples about how to proceed." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://carlosbuenosvinos.com/doctrine-25-ddd-entities-and-identities/" />
+<meta property="article:published_time" content="2015-10-28T08:00:22+00:00" />
+<meta property="article:modified_time" content="2015-10-28T08:00:22+00:00" />
+<meta itemprop="name" content="Doctrine 2.5, DDD, Entities and Identities">
+<meta itemprop="description" content="If you&#8217;re developing applications in a Domain-Driven Design style and using Doctrine 2.5, you may be struggling with implementing your entities identities, I mean, UserId, ProductId, and so on. Embeddables are cool, but limited. Surrogates are not necessary anymore. Here are some short tips and examples about how to proceed.">
+
+
+<meta itemprop="datePublished" content="2015-10-28T08:00:22&#43;00:00" />
+<meta itemprop="dateModified" content="2015-10-28T08:00:22&#43;00:00" />
+<meta itemprop="wordCount" content="616">
+
+
+
+<meta itemprop="keywords" content="custom types,ddd,doctrine,domain-driven design,embeddables,entities,id," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Doctrine 2.5, DDD, Entities and Identities"/>
+<meta name="twitter:description" content="If you&#8217;re developing applications in a Domain-Driven Design style and using Doctrine 2.5, you may be struggling with implementing your entities identities, I mean, UserId, ProductId, and so on. Embeddables are cool, but limited. Surrogates are not necessary anymore. Here are some short tips and examples about how to proceed."/>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="https://carlosbuenosvinos.com/" class="f3 fw2 hover-white no-underline white-90 dib">
+      Carlos Buenosvinos
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+
+    <header class="mt4 w-100">
+      <p class="f6 b helvetica tracked">
+          
+        POSTS
+      </p>
+      <h1 class="f1 athelas mb1">Doctrine 2.5, DDD, Entities and Identities</h1>
+      
+      <p class="tracked">
+         By <strong>Carlos Buenosvinos</strong>
+      </p>
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2015-10-28T08:00:22Z">October 28, 2015</time>
+      
+      
+    </header>
+
+    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>If you&#8217;re developing applications in a Domain-Driven Design style and using Doctrine 2.5, you may be struggling with implementing your entities identities, I mean, UserId, ProductId, and so on. Embeddables are cool, but limited. Surrogates are not necessary anymore. Here are some short tips and examples about how to proceed.</p>
+
+<h3 id="tl-dr">tl;dr</h3>
+
+<p>If using Doctrine 2.5, <a href="http://doctrine-orm.readthedocs.org/projects/doctrine-orm/en/latest/tutorials/embeddables.html" target="_blank">embeddables</a> are not an option yet for implementing your identities. The best option is using <a href="http://doctrine-orm.readthedocs.org/projects/doctrine-orm/en/latest/cookbook/custom-mapping-types.html" target="_blank">Custom Types</a>.</p>
+
+<h3 id="what-8217-s-new-in-doctrine-2-5">What&#8217;s new in Doctrine 2.5</h3>
+
+<p>An interesting new feature about Doctrine 2.5, is that now, it&#8217;s possible to use <a href="http://doctrine-orm.readthedocs.org/projects/doctrine-orm/en/latest/changelog/migration_2_5.html#support-for-objects-as-identifiers" target="_blank">Objects as identifiers for Entities</a> as long as they implement the magic method <code class="docutils literal">&lt;span class=&ldquo;pre&rdquo;&gt;__toString()&lt;/span&gt;</code>. So we can add __toString to our Identities Value Objects and use them in our mappings. Let&#8217;s see.</p>
+
+<h3 id="introduction">Introduction</h3>
+
+<p>Consider the context of <a href="https://github.com/dddinphp/last-wishes" target="_blank">Last Wishes</a>. To sum up, users that have wishes. Users are identified by a UserId, a value object that holds a UUID. Wishes are identified by a WishId and have a reference to its owner, a UserId.</p>
+
+<h3 id="our-identity-vo">Our Identity VO</h3>
+
+<p>First of all, let&#8217;s see our current identity objects. Remember, we need to add the __toString() method. First, UserId.</p>
+
+<pre class="brush: php; gutter: true">namespace Lw\Domain\Model\User;
+
+use Rhumsaa\Uuid\Uuid;
+
+/**
+ * Class UserId.
+ */
+class UserId
+{
+    /**
+     * @var string
+     */
+    private $id;
+
+    /**
+     * @param string $id
+     */
+    public function __construct($id = null)
+    {
+        $this-&gt;id = null === $id ? Uuid::uuid4()-&gt;toString() : $id;
+    }
+
+    /**
+     * @return string
+     */
+    public function id()
+    {
+        return $this-&gt;id;
+    }
+
+    /**
+     * @param UserId $userId
+     *
+     * @return bool
+     */
+    public function equals(UserId $userId)
+    {
+        return $this-&gt;id() === $userId-&gt;id();
+    }
+
+    /**
+     * @return string
+     */
+    public function __toString()
+    {
+        return $this-&gt;id();
+    }
+}</pre>
+
+<p>Now, WishId.</p>
+
+<pre class="brush: php; gutter: true">namespace Lw\Domain\Model\Wish;
+
+use Rhumsaa\Uuid\Uuid;
+
+/**
+ * Class WishId.
+ */
+class WishId
+{
+    /**
+     * @var string
+     */
+    private $id;
+
+    /**
+     * @param string $id
+     */
+    public function __construct($id = null)
+    {
+        $this-&gt;id = $id ?: Uuid::uuid4()-&gt;toString();
+    }
+
+    /**
+     * @return string
+     */
+    public function id()
+    {
+        return $this-&gt;id;
+    }
+
+    /**
+     * @param WishId $wishId
+     *
+     * @return bool
+     */
+    public function equals(WishId $wishId)
+    {
+        return $this-&gt;id() === $wishId-&gt;id();
+    }
+
+    /**
+     * @return string
+     */
+    public function __toString()
+    {
+        return $this-&gt;id();
+    }
+}</pre>
+
+<h3 id="custom-types">Custom Types</h3>
+
+<p>Check the implementation of the Doctrine Custom Types. They inherit from GuidType, so their internal representation will be an UUID. We need to specify what&#8217;s the database back and forward conversion. Last, we need to register our custom types before use them.</p>
+
+<p>First, a base type for the UserId and WishId custom types.</p>
+
+<pre class="brush: php; gutter: true">namespace Lw\Infrastructure\Domain\Model;
+
+use Doctrine\DBAL\Platforms\AbstractPlatform;
+use Doctrine\DBAL\Types\GuidType;
+
+class DoctrineEntityId extends GuidType
+{
+    public function convertToDatabaseValue($value, AbstractPlatform $platform)
+    {
+        return $value-&gt;id();
+    }
+
+    public function convertToPHPValue($value, AbstractPlatform $platform)
+    {
+        $className = $this-&gt;getNamespace().&#039;\\&#039;.$this-&gt;getName();
+
+        return new $className($value);
+    }
+}</pre>
+
+<p>Now, the UserId custom type.</p>
+
+<pre class="brush: php; gutter: true">namespace Lw\Infrastructure\Domain\Model\User;
+
+use Lw\Infrastructure\Domain\Model\DoctrineEntityId;
+
+class DoctrineUserId extends DoctrineEntityId
+{
+    public function getName()
+    {
+        return &#039;UserId&#039;;
+    }
+
+    protected function getNamespace()
+    {
+        return &#039;Lw\Domain\Model\User&#039;;
+    }
+}</pre>
+
+<p>Time for the WishId custom type.</p>
+
+<pre class="brush: php; gutter: true">namespace Lw\Infrastructure\Domain\Model\Wish;
+
+use Lw\Infrastructure\Domain\Model\DoctrineEntityId;
+
+class DoctrineWishId extends DoctrineEntityId
+{
+    public function getName()
+    {
+        return &#039;WishId&#039;;
+    }
+
+    protected function getNamespace()
+    {
+        return &#039;Lw\Domain\Model\Wish&#039;;
+    }
+}</pre>
+
+<p>Last, custom types registration.</p>
+
+<pre class="brush: php; gutter: true">namespace Lw\Infrastructure\Persistence\Doctrine;
+
+use Doctrine\ORM\EntityManager;
+use Doctrine\ORM\Tools\Setup;
+
+class EntityManagerFactory
+{
+    /**
+     * @return EntityManager
+     */
+    public function build()
+    {
+        \Doctrine\DBAL\Types\Type::addType(&#039;UserId&#039;, &#039;Lw\Infrastructure\Domain\Model\User\DoctrineUserId&#039;);
+        \Doctrine\DBAL\Types\Type::addType(&#039;WishId&#039;, &#039;Lw\Infrastructure\Domain\Model\Wish\DoctrineWishId&#039;);
+
+        return EntityManager::create(
+            array(
+                &#039;driver&#039; =&gt; &#039;pdo_sqlite&#039;,
+                &#039;path&#039; =&gt; __DIR__.&#039;/../../../../../db.sqlite&#039;,
+            ),
+            Setup::createYAMLMetadataConfiguration([__DIR__.&#039;/config&#039;], true)
+        );
+    }
+}
+</pre>
+
+<h3 id="mappings">Mappings</h3>
+
+<p>Check now Doctrine mappings. See how we&#8217;re using our custom types in the &#8220;type&#8221; field.</p>
+
+<pre class="brush: php; gutter: true">Lw\Domain\Model\User\User:
+  type: entity
+  id:
+    userId:
+      column: id
+      type: UserId
+  table: lw_user
+  repositoryClass: Lw\Infrastructure\Domain\Model\User\DoctrineUserRepository
+  fields:
+    email:
+      type: string
+    password:
+      type: string
+
+Lw\Domain\Model\Wish\Wish:
+  type: entity
+  table: lw_wish
+  repositoryClass: Lw\Infrastructure\Domain\Model\Wish\DoctrineWishRepository
+  id:
+    wishId:
+      column: id
+      type: WishId
+  fields:
+    address:
+      type: string
+    content:
+      type: text
+    userId:
+      type: UserId
+      column: user_id
+</pre>
+
+<p>Hope it helps to all the DDD lovers!</p><ul class="pa0">
+  
+   <li class="list">
+     <a href="/tags/custom-types" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">custom types</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/ddd" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">ddd</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/doctrine" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">doctrine</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/domain-driven-design" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">domain-driven design</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/embeddables" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">embeddables</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/entities" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">entities</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/id" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">id</a>
+   </li>
+  
+</ul>
+<div class="mt6">
+      
+      
+      </div>
+    </section>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/tactical-domain-driven-design-screencast-at-phpbarcelona-spanish/">Tactical Domain-Driven Design Screencast at PHPBarcelona (Spanish)</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/consulta-sobre-ddd-1-entidades-identidad-uuid/">Consulta sobre DDD #1: Pregunta sobre las entidades en DDD (Identidad y UUID)</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/guia-para-el-desarrollo-profesional-php-edicion-2014/">Guía para el Desarrollo Profesional PHP (edición 2014)</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/domain-driven-design-logging-with-domain-events-webcast-at-atrapaloeng-spanish/">Domain-Driven Design: Logging with Domain Events Webcast at @AtrapaloEng (Spanish)</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/implementing-domain-driven-design-workshop-in-barcelona/">“Implementing Domain-Driven Design” Workshop in Barcelona</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/domain-driven-design-code-structure-and-application-services-webcast-at-atrapaloeng-spanish/">Domain-Driven Design: Code Structure and Application Services Webcast at @AtrapaloEng (Spanish)</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/domain-driven-design-domain-events-and-bc-integration-webcast-at-atrapaloeng-spanish/">Domain-Driven Design: Domain Events and BC Integration Webcast at @AtrapaloEng (Spanish)</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/domain-driven-design-bounded-context-integration-spanish/">Domain-Driven Design: Bounded Context Integration (Spanish)</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/domain-driven-design-entities-and-value-objects-webcast-at-atrapaloeng-spanish/">Domain-Driven Design: Entities and Value Objects Webcast at @AtrapaloEng (Spanish)</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/domain-driven-design-aggregates-webcast-at-atrapaloeng-spanish/">Domain-Driven Design: Aggregates Webcast at @AtrapaloEng (Spanish)</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/hexagonal-architecture-with-php-was-published-in-phparch-magazine/">“Hexagonal Architecture with PHP” was published in phparch|magazine</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://carlosbuenosvinos.com/" >
+    &copy; 2019 Carlos Buenosvinos
+  </a>
+    <div>
+
+
+
+
+
+
+
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>

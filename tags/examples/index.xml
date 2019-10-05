@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>examples on Carlos Buenosvinos</title>
+    <link>https://carlosbuenosvinos.github.io/tags/examples/</link>
+    <description>Recent content in examples on Carlos Buenosvinos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 15 Sep 2016 11:00:11 +0000</lastBuildDate>
+    
+	<atom:link href="https://carlosbuenosvinos.github.io/tags/examples/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>“Domain-Driven Design in PHP” (@dddbook) is finished</title>
+      <link>https://carlosbuenosvinos.github.io/domain-driven-design-in-php-book-is-finished/</link>
+      <pubDate>Thu, 15 Sep 2016 11:00:11 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/domain-driven-design-in-php-book-is-finished/</guid>
+      <description>&lt;p&gt;Today, Keyvan, Christian and me are very happy to announce that &lt;a href=&#34;https://leanpub.com/ddd-in-php&#34; target=&#34;_blank&#34;&gt;&amp;#8220;Domain-Driven Design in PHP&amp;#8221;&lt;/a&gt; book is 100% complete. &lt;strong&gt;380 pages&lt;/strong&gt; and around &lt;strong&gt;1400 readers&lt;/strong&gt; so far.&lt;/p&gt;
+
+&lt;h4 id=&#34;thanks&#34;&gt;Thanks&lt;/h4&gt;
+
+&lt;p&gt;Thanks, thanks, thanks.&lt;/p&gt;
+
+&lt;p&gt;Thanks to everyone that has supported us in this project.&lt;/p&gt;
+
+&lt;p&gt;Thanks to &lt;strong&gt;Christian&lt;/strong&gt; and &lt;strong&gt;Keyvan&lt;/strong&gt;. We don&amp;#8217;t need words to understand each other.&lt;/p&gt;
+
+&lt;p&gt;Thanks to our &lt;strong&gt;families&lt;/strong&gt; and &lt;strong&gt;friends&lt;/strong&gt;. Love is what you need to keep pushing.&lt;/p&gt;
+
+&lt;p&gt;Thanks to &lt;strong&gt;Edd Mann&lt;/strong&gt; for helping at the beginning with the language implementation details ;).&lt;/p&gt;
+
+&lt;p&gt;Thanks to &lt;strong&gt;Matthias Noback&lt;/strong&gt; for his suggestions and his foreword.&lt;/p&gt;
+
+&lt;p&gt;Thanks to &lt;strong&gt;Vaughn Vernon&lt;/strong&gt; for being pragmatic and inspiring.&lt;/p&gt;
+
+&lt;p&gt;Thanks to &lt;strong&gt;Ricard Clau, Albert Casademont, Victor Guardiola&lt;/strong&gt; and &lt;strong&gt;Jordi Abad&lt;/strong&gt; for your contributions.&lt;/p&gt;
+
+&lt;p&gt;Thanks to &lt;strong&gt;Natalye Childress&lt;/strong&gt; for non stopping asking about uppercase or lowercase. With your work, the book can be read.&lt;/p&gt;
+
+&lt;p&gt;Thanks to everyone that committed fixes, you are great: &lt;strong&gt;Jonathan Wondrusch, César Rodríguez, Yannick Voyer, Oriol González, Henry Snoek, Tom Jowitt, Sascha Schimke, Sven Herrmann, Daniel Abad, Luis Rovirosa, Luis Cordova, Raúl Ramos, Juan Maturana, Nil Portugués, Nikolay Zujev, Fernando Pradas, Raúl Araya, Neal Brooks, Hubert Béague, Aleksander Rekść, Sebastian Machuca, Nicolas Oelgart, and Marc Aube.&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

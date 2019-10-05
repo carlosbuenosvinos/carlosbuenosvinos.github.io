@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>packagist on Carlos Buenosvinos</title>
+    <link>https://carlosbuenosvinos.github.io/tags/packagist/</link>
+    <description>Recent content in packagist on Carlos Buenosvinos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 24 Mar 2016 15:36:10 +0000</lastBuildDate>
+    
+	<atom:link href="https://carlosbuenosvinos.github.io/tags/packagist/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Working at the same time in a project and its dependencies: Composer and path type repository</title>
+      <link>https://carlosbuenosvinos.github.io/working-at-the-same-time-in-a-project-and-its-dependencies-composer-and-path-type-repository/</link>
+      <pubDate>Thu, 24 Mar 2016 15:36:10 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/working-at-the-same-time-in-a-project-and-its-dependencies-composer-and-path-type-repository/</guid>
+      <description>&lt;p&gt;With the Domain-Driven Design, Microservices and API explosion, I see more teams working in a base project, such as a Web, and integrating other private packages they develop in a different repository. For example, working on the Web and an API client for a external REST service at the same time.&lt;/p&gt;
+
+&lt;p&gt;For example, at @AtrapaloEng, our sales development team (checkout process, purchases, orders, payments, etc.) integrates different payment methods into the web so users, specially Latam ones, can be happier using their preferred payment methods. They create a repository for each of the new payment methods we support as a external package. Sometimes a developer in the team must work with different projects at the same time, the Web and the payment method in development.&lt;/p&gt;
+
+&lt;p&gt;In this scenario, one option is work on the payment package, tag, push, go to the base project and update dependencies with Composer. As you can see, it&amp;#8217;s a bit slower, how we can improve this process? Composer to the rescue!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>iPackagist, the Packagist Client for iPhone</title>
+      <link>https://carlosbuenosvinos.github.io/ipackagist-the-packagist-client-for-iphone/</link>
+      <pubDate>Mon, 01 Jul 2013 12:36:06 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/ipackagist-the-packagist-client-for-iphone/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Packagist&lt;/strong&gt; is a &lt;strong&gt;Composer&lt;/strong&gt; package repository. It aggregates all sorts of PHP packages that are installable with Composer. You can use Composer to manage your project or libraries&amp;#8217; dependencies. Read more at &lt;a href=&#34;http://packagist.org&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://packagist.org&#34;&gt;http://packagist.org&lt;/a&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;**&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

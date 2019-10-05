@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mobile on Carlos Buenosvinos</title>
+    <link>https://carlosbuenosvinos.github.io/categories/mobile/</link>
+    <description>Recent content in Mobile on Carlos Buenosvinos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 30 Sep 2015 03:00:40 +0000</lastBuildDate>
+    
+	<atom:link href="https://carlosbuenosvinos.github.io/categories/mobile/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dot: Puzzles for smart masses</title>
+      <link>https://carlosbuenosvinos.github.io/dot-puzzles-for-smart-masses/</link>
+      <pubDate>Wed, 30 Sep 2015 03:00:40 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/dot-puzzles-for-smart-masses/</guid>
+      <description>&lt;p&gt;I have always been interested in games, just for fun, nothing serious. A game is IMHO the most difficult piece of software to write. Think for a second. It needs support for user input devices (mouse, keywords, gamepads, etc.), graphics (2D or 3D), sounds and music, physics, AI, networking when playing with more players and it has to perform really, really fast. That&amp;#8217;s not the typical PHP web, is it? Today, I would like to present my first really small and silly game, and probably the last one :) for iOS/Android and the technologies behind it. Hope you like it.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Adding a custom font on a titanium window title</title>
+      <link>https://carlosbuenosvinos.github.io/adding-a-custom-font-on-a-titanium-window-title/</link>
+      <pubDate>Fri, 09 Aug 2013 18:55:48 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/adding-a-custom-font-on-a-titanium-window-title/</guid>
+      <description>&lt;p&gt;If you are working with Titanium and you need to customize the font you are using as a title in a window, there is no predefined solution to do this, but there is a trick, the &amp;#8220;titleControl&amp;#8221; window property with a label control.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>AlterEgo, el juego de Desarrollo Personal para iPhone</title>
+      <link>https://carlosbuenosvinos.github.io/alterego-el-juego-de-desarrollo-personal-para-iphone/</link>
+      <pubDate>Fri, 05 Jul 2013 08:00:07 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/alterego-el-juego-de-desarrollo-personal-para-iphone/</guid>
+      <description>&lt;p&gt;AlterEgo es un excitante juego de autoconocimiento. Enfréntate a tí mismo en partidas de 10 retos (de los 60 disponibles) que te harán avanzar en conocerte y vivir más equilibrado tanto con tu familia, amigos y pareja. Cada reto representa un ejercicio, tarea o reflexión en la que tendrás que trabajar. Quizás necesites varios días para superar un reto pero no te rindas. Para más información, visita la Wikipedia (&lt;a href=&#34;http://es.wikipedia.org/wiki/Desarrollo_personal&#34;&gt;http://es.wikipedia.org/wiki/Desarrollo_personal&lt;/a&gt;)&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Introducción a Appcelerator Titanium</title>
+      <link>https://carlosbuenosvinos.github.io/introduccion-a-appcelerator-titanium/</link>
+      <pubDate>Wed, 03 Jul 2013 10:00:33 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/introduccion-a-appcelerator-titanium/</guid>
+      <description>&lt;p&gt;Uno de los productos que está funcionando mejor para el desarrollo de aplicaciones nativas para móviles utilizando Javascript es &lt;a href=&#34;http://www.appcelerator.com&#34; target=&#34;_blank&#34;&gt;Titanium Appcelerator&lt;/a&gt;. Aprovecho para colgar una de las presentaciones al respecto que hice en la BetaBeers de Barcelona.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>iPackagist, the Packagist Client for iPhone</title>
+      <link>https://carlosbuenosvinos.github.io/ipackagist-the-packagist-client-for-iphone/</link>
+      <pubDate>Mon, 01 Jul 2013 12:36:06 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/ipackagist-the-packagist-client-for-iphone/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Packagist&lt;/strong&gt; is a &lt;strong&gt;Composer&lt;/strong&gt; package repository. It aggregates all sorts of PHP packages that are installable with Composer. You can use Composer to manage your project or libraries&amp;#8217; dependencies. Read more at &lt;a href=&#34;http://packagist.org&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://packagist.org&#34;&gt;http://packagist.org&lt;/a&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;**&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>iGravatar, the Gravatar client for iPhone</title>
+      <link>https://carlosbuenosvinos.github.io/igravatar-the-gravatar-client-for-iphone/</link>
+      <pubDate>Sun, 30 Jun 2013 21:53:22 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/igravatar-the-gravatar-client-for-iphone/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;iGravatar&lt;/strong&gt; is your &lt;strong&gt;iPhone&lt;/strong&gt; app for managing your Gravatar account. You will be able to upload new pictures from your iPhone library or directly from your camera, assign pictures to your email addresses and so on. Sync your contacts picture in case they have a Gravatar account!&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>anemic domain model on Carlos Buenosvinos</title>
+    <link>https://carlosbuenosvinos.github.io/tags/anemic-domain-model/</link>
+    <description>Recent content in anemic domain model on Carlos Buenosvinos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 03 Apr 2017 09:00:15 +0000</lastBuildDate>
+    
+	<atom:link href="https://carlosbuenosvinos.github.io/tags/anemic-domain-model/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>No necesitáis consultoría sobre DDD: Caso Motor de Reservas</title>
+      <link>https://carlosbuenosvinos.github.io/no-necesitais-consultoria-o-formacion-sobre-ddd-caso-1/</link>
+      <pubDate>Mon, 03 Apr 2017 09:00:15 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/no-necesitais-consultoria-o-formacion-sobre-ddd-caso-1/</guid>
+      <description>&lt;p&gt;Cuando una empresa me contacta para hacer consultoría, monto un Skype para entender mejor las necesidades y la situación en la que se encuentra. Normalmente, hablo con un par de técnicos y/o el CTO que me cuentan sus dificultades. Tengo varias de éstas al mes. Algunas son empresas grandes (50 developers o más) y más pequeñas (menos de 10 developers). Como no me gano la vida haciendo consultoría, soy muy imparcial con lo que necesitan y &lt;strong&gt;sobretodo con lo que no necesitan&lt;/strong&gt;. En sus dificultades, algunos patrones se repiten (miedos, prejuicios, presiones, modas, etc.). Me gustaría resumir cómo fue una de esas video conferencias por si podéis estar en la misma situación.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

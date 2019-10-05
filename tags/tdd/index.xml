@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tdd on Carlos Buenosvinos</title>
+    <link>https://carlosbuenosvinos.github.io/tags/tdd/</link>
+    <description>Recent content in tdd on Carlos Buenosvinos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 02 Dec 2016 08:00:57 +0000</lastBuildDate>
+    
+	<atom:link href="https://carlosbuenosvinos.github.io/tags/tdd/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Integración Continua y Deployment Continuo</title>
+      <link>https://carlosbuenosvinos.github.io/integracion-continua-y-deployment-continuo/</link>
+      <pubDate>Fri, 02 Dec 2016 08:00:57 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/integracion-continua-y-deployment-continuo/</guid>
+      <description>&lt;p&gt;Os dejo por aquí, una de mis charlas impartida en la asignatura &amp;#8220;Técnicas para el desarrollo de software en producción&amp;#8221; dentro del Máster en Tecnologías Informáticas de la Universidad de La Rioja. Se grabó hace un año (26/11/2015), pero no lo había encontrado hasta hace unas semanas. Espero que sea útil.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Awesome two days helping @Lowpost_es team</title>
+      <link>https://carlosbuenosvinos.github.io/awesome-two-days-helping-lowpost_es-team/</link>
+      <pubDate>Tue, 22 Nov 2016 09:00:57 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/awesome-two-days-helping-lowpost_es-team/</guid>
+      <description>&lt;p&gt;I have recently visited Valencia in order to help my friends at &lt;a href=&#34;http://lowpost.es/&#34; target=&#34;_blank&#34;&gt;Lowpost&lt;/a&gt;. It was great and I had a lot of fun! I would like to tell you a bit about how it was.&lt;/p&gt;
+
+&lt;h3 id=&#34;who-is-lowpost&#34;&gt;Who is Lowpost?&lt;/h3&gt;
+
+&lt;p&gt;Lowpost is a cool start-up that are focused in Content Marketing. Lowpost connects companies that need interesting content with authors that can write about such topics. Authors bet for the open jobs and then they deliver the content to the final customer. Everything around such process is managed by the Lowpost platform.&lt;/p&gt;
+
+&lt;p&gt;As a start-up, they have grown quite fast, so their code. They started with Drupal, as many start-ups, and then they added a Silex application. You know that testing is difficult, however, doing unit testing for Drupal is a challenge.&lt;/p&gt;
+
+&lt;h3 id=&#34;what-we-did&#34;&gt;What we did?&lt;/h3&gt;</description>
+    </item>
+    
+    <item>
+      <title>Guía para el Desarrollo Profesional PHP (edición 2014)</title>
+      <link>https://carlosbuenosvinos.github.io/guia-para-el-desarrollo-profesional-php-edicion-2014/</link>
+      <pubDate>Wed, 21 Oct 2015 08:00:39 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/guia-para-el-desarrollo-profesional-php-edicion-2014/</guid>
+      <description>&lt;p&gt;Rascando por Youtube, encontré este vídeo de 2014, de una presentación que hice en LaSalle inspirada por &lt;a href=&#34;http://carlosbuenosvinos.com/desarrollo-php-profesional/&#34; target=&#34;_blank&#34;&gt;otra que hice en Castellón en 2011&lt;/a&gt;. La idea es hacer un overview del ecosistema PHP y puntos importantes a la hora de montar un ciclo de desarrollo basado en esta tecnología. Que la disfrutéis.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Economía del Desarrollo de Software – PHP Barcelona – Marzo 2015</title>
+      <link>https://carlosbuenosvinos.github.io/economia-del-desarrollo-de-software-php-barcelona-marzo-2015/</link>
+      <pubDate>Wed, 11 Mar 2015 21:55:43 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/economia-del-desarrollo-de-software-php-barcelona-marzo-2015/</guid>
+      <description>&lt;p&gt;Aquí os dejo las slides y el video de mi charla sobre &amp;#8220;Economía del Desarrollo de Software&amp;#8221; impartida en la &lt;a href=&#34;http://phpbarcelona.org/eventos/php-barcelona-monthly-talks-march-software-economics&#34; target=&#34;_blank&#34;&gt;Barcelona PHP Monthly Talk de Marzo&lt;/a&gt; y en la &lt;a href=&#34;http://smash-tech.com/developers/&#34; target=&#34;_blank&#34;&gt;SmashTech &amp;#8220;I&amp;#8217;m a Developer&amp;#8221;&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Smash Tech: PHP 2014</title>
+      <link>https://carlosbuenosvinos.github.io/smash-tech-php-2014/</link>
+      <pubDate>Thu, 29 May 2014 09:04:44 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/smash-tech-php-2014/</guid>
+      <description>&lt;p&gt;El pasado día 28 de Mayo, participé en &lt;a href=&#34;http://smash-tech.com/&#34; target=&#34;_blank&#34;&gt;Smash Tech&lt;/a&gt; como ponente impartiendo una master class de 2 horas sobre el ecosistema PHP y en lo que se debe prestar atención para el 2015. Con los 50 asistentes que pagaron la entrada, repasamos desde Metodologías de desarrollo: Agile, Scrum y Extreme Programming. Sobre ésta última pivotó la gran mayoría de la presentación, viendo cómo se resuelven las dinámicas de TDD, Integración Continua, Coding Standards, etc.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Comentarios al hangout “Is TDD dead?”</title>
+      <link>https://carlosbuenosvinos.github.io/comentarios-al-hangout-is-tdd-dead/</link>
+      <pubDate>Fri, 09 May 2014 16:34:02 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/comentarios-al-hangout-is-tdd-dead/</guid>
+      <description>Después del Hangout sobre TDD de Martin Fowler, Kent Beck y David Heinemeier (https://www.youtube.com/watch?v=z9quxZsLcfo), Christian Soronellas (@theUnic) y yo hemos hecho lo propio y hemos opinado sobre cómo ha ido y hemos incluido algunas reflexiones adicionales. Esperemos que os guste.</description>
+    </item>
+    
+    <item>
+      <title>Unit Testing y TDD no son lo mismo</title>
+      <link>https://carlosbuenosvinos.github.io/unit-testing-y-tdd-no-son-lo-mismo/</link>
+      <pubDate>Wed, 19 Feb 2014 10:43:41 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/unit-testing-y-tdd-no-son-lo-mismo/</guid>
+      <description>&lt;p&gt;Resumiendo y sin entrar en volver a explicar los conceptos de TDD. Hacer Unit Testing es escribir Unit Tests, hacer TDD es seguir la metodología (3 reglas, ciclos cortos, diseño emergente, etc.)&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>kata/php: PHP skeleton for doing coding katas</title>
+      <link>https://carlosbuenosvinos.github.io/kataphp-php-skeleton-for-doing-coding-katas/</link>
+      <pubDate>Fri, 03 Jan 2014 07:30:14 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/kataphp-php-skeleton-for-doing-coding-katas/</guid>
+      <description>&lt;p&gt;Something a bit annoying when doing a kata is setting up the environment so you can start. Typically, you need composer, define dependencies, setting up the autoloading policy, creating some folders and so on. All this work is not necessary anymore. I have created a silly but useful project in packagist in order to start with your kata in just one command.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Extreme Programming Explained: Embrace Change, 2nd Edition (The XP Series) Review</title>
+      <link>https://carlosbuenosvinos.github.io/extreme-programming-explained-embrace-change-2nd-edition-the-xp-series-review/</link>
+      <pubDate>Wed, 01 Jan 2014 13:04:53 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/extreme-programming-explained-embrace-change-2nd-edition-the-xp-series-review/</guid>
+      <description>&lt;p&gt;Happy new year to everyone! Today it&amp;#8217;s January, 1st and I have finished reading &lt;a href=&#34;http://www.amazon.com/Extreme-Programming-Explained-Embrace-Edition/dp/0321278658&#34; target=&#34;_blank&#34;&gt;&amp;#8220;Extreme Programming Explained: Embrace Change, 2nd Edition&amp;#8221;&lt;/a&gt;. If you love software development and agile practices, this book was the rules changer in the agile methodologies and software development in general. As I have done with other book reviews, here are my remarks. &lt;strong&gt;Buy it, seriously&lt;/strong&gt;. You will fill the gaps about agile practices, so if you are doing Xp, Scrum, Kanban, Lean, etc. everything will gear together.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Test Doubles</title>
+      <link>https://carlosbuenosvinos.github.io/test-doubles/</link>
+      <pubDate>Sun, 15 Dec 2013 17:36:59 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/test-doubles/</guid>
+      <description>&lt;p&gt;Last week, another awesome &lt;a href=&#34;http://cleancoders.com&#34; target=&#34;_blank&#34;&gt;cleancoders&lt;/a&gt; episode was published. It comes in two parts. I really recommend to buy &lt;a href=&#34;http://cleancoders.com/codecast/clean-code-episode-23-p1/show&#34; target=&#34;_blank&#34;&gt;it&lt;/a&gt;. Let&amp;#8217;s review the most important concept taught in the first one: Test Doubles.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>PHP Trait testing</title>
+      <link>https://carlosbuenosvinos.github.io/php-trait-testing/</link>
+      <pubDate>Sun, 03 Nov 2013 14:23:19 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/php-trait-testing/</guid>
+      <description>&lt;p&gt;&lt;span style=&#34;color: #888888;&#34;&gt;I&amp;#8217;d like to know how you test your traits and what&amp;#8217;s your favourite way to do it. I have found two different approaches that I want to share with you. Please comment if you apply different techniques or have different opinions.&lt;/span&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Courage on TDD (“Test Driven Development: By Example” – Part II)</title>
+      <link>https://carlosbuenosvinos.github.io/courage-on-tdd-test-driven-development-by-example-part-ii/</link>
+      <pubDate>Thu, 10 Oct 2013 21:28:03 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/courage-on-tdd-test-driven-development-by-example-part-ii/</guid>
+      <description>&lt;p&gt;La segunda parte del prólogo de &lt;a href=&#34;http://www.amazon.com/Test-Driven-Development-By-Example/dp/0321146530&#34;&gt;&amp;#8220;Test Driven Development: By Example&amp;#8221;&lt;/a&gt; es casi aún mejor (podéis ver la primera parte &lt;a href=&#34;http://carlosbuenosvinos.com/test-driven-development-by-example/&#34; title=&#34;Test Driven Development: By Example&#34;&gt;aquí&lt;/a&gt;). 34$ bien invertidos.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Test Driven Development: By Example</title>
+      <link>https://carlosbuenosvinos.github.io/test-driven-development-by-example/</link>
+      <pubDate>Tue, 08 Oct 2013 21:58:56 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/test-driven-development-by-example/</guid>
+      <description>&lt;p&gt;Siguiendo con mi andadura de lecturas técnicas, esta semanas voy a estar con &lt;a href=&#34;http://www.amazon.com/Test-Driven-Development-By-Example/dp/0321146530&#34;&gt;&amp;#8220;Test Driven Development: By Example&amp;#8221;&lt;/a&gt;. El enfoque del libro es totalmente práctico pero el prólogo me ha parecido tan simple, claro y delicioso que no he podido hacer otra cosa que compartirlo con vosotros para que os animéis con TDD y a la lectura de este fantástico libro.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>¿Cuál es el verdadero objetivo de TDD?</title>
+      <link>https://carlosbuenosvinos.github.io/cual-es-el-verdadero-objetivo-de-tdd/</link>
+      <pubDate>Fri, 13 Sep 2013 14:28:47 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/cual-es-el-verdadero-objetivo-de-tdd/</guid>
+      <description>&lt;p&gt;A todos aquellos que habéis pensado: &amp;#8220;¡Demostrar que mi código funciona!&amp;#8221;, lo siento, estáis equivocados. Aunque está asociado al 2º valor principal del desarrollo de software (según Robert C. Martin).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Kata: Bowling Game</title>
+      <link>https://carlosbuenosvinos.github.io/kata-bowling-game/</link>
+      <pubDate>Wed, 21 Aug 2013 10:10:12 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/kata-bowling-game/</guid>
+      <description>&lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://i2.wp.com/carlosbuenosvinos.com/posts/images/2013/08/Bowling.png&#34;&gt;&lt;img class=&#34;alignnone size-medium wp-image-141&#34; alt=&#34;Bowling&#34; src=&#34;https://i2.wp.com/carlosbuenosvinos.com/posts/images/2013/08/Bowling-300x29.png?resize=300%2C29&#34; width=&#34;300&#34; height=&#34;29&#34; srcset=&#34;https://i2.wp.com/carlosbuenosvinos.com/posts/images/2013/08/Bowling.png?resize=300%2C29&amp;ssl=1 300w, https://i2.wp.com/carlosbuenosvinos.com/posts/images/2013/08/Bowling.png?w=776&amp;ssl=1 776w&#34; sizes=&#34;(max-width: 300px) 100vw, 300px&#34; data-recalc-dims=&#34;1&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Scoring Bowling: The game consists of 10 frames as shown above.  In each frame the player has two opportunities to knock down 10 pins.  The score for the frame is the total number of pins knocked down, plus bonuses for strikes and spares.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Kata: Prime Factors</title>
+      <link>https://carlosbuenosvinos.github.io/kata-prime-factors/</link>
+      <pubDate>Tue, 20 Aug 2013 14:00:37 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/kata-prime-factors/</guid>
+      <description>&lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;
+
+&lt;p&gt;Although quite short, this kata is fascinating in the way it shows how &amp;#8220;if&amp;#8221; statements become &amp;#8220;while&amp;#8221; statements as the number of test cases increase.  It’s also a wonderful example of how algorithms sometimes become simpler as they become more general.&lt;/p&gt;
+
+&lt;h2 id=&#34;level&#34;&gt;Level&lt;/h2&gt;
+
+&lt;p&gt;Easy / 40 minutes&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Robert C. Martin Clean Code Collection Review (Part II)</title>
+      <link>https://carlosbuenosvinos.github.io/robert-c-martin-clean-code-collection-review-part-ii/</link>
+      <pubDate>Sun, 18 Aug 2013 17:07:51 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/robert-c-martin-clean-code-collection-review-part-ii/</guid>
+      <description>&lt;p&gt;Hace una semana, publicaba un pequeño resumen y mis apuntes sobre el libro &amp;#8220;Clean Coder&amp;#8221; de Robert C. Martin &lt;a href=&#34;http://carlosbuenosvinos.com/robert-c-martin-clean-code-collection-review-part-i/&#34; title=&#34;Robert C. Martin Clean Code Collection Review (Part I)&#34;&gt;(ver parte I)&lt;/a&gt;. Hoy hago lo propio con el resumen del libro de la misma colección, &amp;#8220;Clean Code&amp;#8221;.&lt;/p&gt;
+
+&lt;p&gt;Os dejo cosas que subrayé y anoté del libro que me parecieron interesantes, espero que lo disfrutéis.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

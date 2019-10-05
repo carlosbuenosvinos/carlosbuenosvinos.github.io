@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>constructor on Carlos Buenosvinos</title>
+    <link>https://carlosbuenosvinos.github.io/tags/constructor/</link>
+    <description>Recent content in constructor on Carlos Buenosvinos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 24 Nov 2016 13:24:02 +0000</lastBuildDate>
+    
+	<atom:link href="https://carlosbuenosvinos.github.io/tags/constructor/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Firing Domain Events in the __constructor</title>
+      <link>https://carlosbuenosvinos.github.io/firing-domain-events-in-the-__constructor/</link>
+      <pubDate>Thu, 24 Nov 2016 13:24:02 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/firing-domain-events-in-the-__constructor/</guid>
+      <description>&lt;p&gt;After my post about &lt;a href=&#34;https://carlosbuenosvinos.com/good-orms-do-not-call-__construct/&#34; target=&#34;_blank&#34;&gt;&amp;#8220;Good ORMs do not call __construct a.k.a. where to fire my Domain Events&amp;#8221;&lt;/a&gt;, nice discussions (and trolling) are happening in the Barcelona Engineering Slack Channel. &lt;strong&gt;Thanks to everyone for the feedback, ideas and concerns. You are more than welcome!&lt;/strong&gt; The main concerns are:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;How do I fetch an Entity from ElasticSearch, using new and without firing the Event?&lt;/li&gt;
+&lt;li&gt;How do I create stubs on the Entity that is firing the Domain Event?&lt;/li&gt;
+&lt;li&gt;What are pros and cons of firing the Domain Event in the __constructor or in the named constructor?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;So, I&amp;#8217;ll take the original code as a starting point, and I&amp;#8217;ll suggest different strategies to answer those questions. &lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Good ORMs do not call __construct a.k.a. where to fire my Domain Events</title>
+      <link>https://carlosbuenosvinos.github.io/good-orms-do-not-call-__construct/</link>
+      <pubDate>Thu, 24 Nov 2016 08:00:31 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/good-orms-do-not-call-__construct/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;tl;dr: Entity constructor should be called once in its entire life. That&amp;#8217;s why good ORMs don&amp;#8217;t use constructor to reconstitute objects from the database. Good ORMs use reflection, deserialization or proxies. So, fire your Domain Events in the constructor.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Last week, I saw a presentation about going from &lt;a href=&#34;http://codely.tv/screencasts/codigo-acoplado-framework-microservicios-ddd/&#34; target=&#34;_blank&#34;&gt;coupled-to-framework code to a Domain-Driven Design approach&lt;/a&gt; in a sample application. It was a good talk. However, in my honest opinion, there were some mistakes that are important to address. In order not to troll, I have checked with the speakers to write this post ;).&lt;/p&gt;
+
+&lt;p&gt;One of the mistakes, that I would like to point is &lt;em&gt;where a Domain Event about &amp;#8220;a new product was created&amp;#8221;&lt;/em&gt; should be trigger specifically inside the Product Entity.&lt;/p&gt;
+
+&lt;p&gt;Speakers were showing a &amp;#8220;Video&amp;#8221; Entity with a named constructor called &amp;#8220;create&amp;#8221;. They were calling _new _inside the named constructor &lt;strong&gt;and then&lt;/strong&gt; firing the event. I mean, the Domain Event was not fired inside of the real constructor. Let&amp;#8217;s see the code we&amp;#8217;re talking about (the whole repository can be found &lt;a href=&#34;https://github.com/CodelyTV/cqrs-ddd-example&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;):&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

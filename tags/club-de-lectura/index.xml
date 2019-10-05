@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>club de lectura on Carlos Buenosvinos</title>
+    <link>https://carlosbuenosvinos.github.io/tags/club-de-lectura/</link>
+    <description>Recent content in club de lectura on Carlos Buenosvinos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 13 Apr 2014 10:23:57 +0000</lastBuildDate>
+    
+	<atom:link href="https://carlosbuenosvinos.github.io/tags/club-de-lectura/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cómo conseguir que tu equipo técnico lea: Club de lectura</title>
+      <link>https://carlosbuenosvinos.github.io/como-conseguir-que-tu-equipo-tecnico-lea-club-de-lectura/</link>
+      <pubDate>Sun, 13 Apr 2014 10:23:57 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/como-conseguir-que-tu-equipo-tecnico-lea-club-de-lectura/</guid>
+      <description>&lt;p&gt;Un &lt;a href=&#34;http://en.wikipedia.org/wiki/Software_craftsmanship&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;software craftsman&lt;/em&gt;&lt;/a&gt; lee. Lee mucho.&lt;/p&gt;
+
+&lt;p&gt;A título individual, leer desarrolla nuestras habilidades técnicas, afianza lo que sabemos con ejemplos y experiencias de los autores, matiza conceptos complejos y abre nuevos horizontes hacia nuevas disciplinas. A nivel de equipo, sube el listón global, ayuda a ejecutar el roadmap técnico del departamento y mejora el entusiasmo general incitando la innovación.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Desarrollar el hábito de la lectura técnica, no es fácil.&lt;/strong&gt; Es lectura densa, compleja y en inglés. Con este post, me gustaría presentar una dinámica genial para introducir la lectura en tu equipo técnico, los clubs de lectura. Fácil de montar y con muy buenos resultados. Ya me lo diréis.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

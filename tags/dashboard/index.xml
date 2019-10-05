@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dashboard on Carlos Buenosvinos</title>
+    <link>https://carlosbuenosvinos.github.io/tags/dashboard/</link>
+    <description>Recent content in dashboard on Carlos Buenosvinos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 21 Nov 2013 07:23:25 +0000</lastBuildDate>
+    
+	<atom:link href="https://carlosbuenosvinos.github.io/tags/dashboard/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>New PHP OPCache Dashboard</title>
+      <link>https://carlosbuenosvinos.github.io/php-opcache-dashboard/</link>
+      <pubDate>Thu, 21 Nov 2013 07:23:25 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/php-opcache-dashboard/</guid>
+      <description>&lt;p&gt;If you are not using any PHP opcache accelerator, you &lt;a href=&#34;http://en.wikipedia.org/wiki/List_of_PHP_accelerators&#34; target=&#34;_blank&#34;&gt;should&lt;/a&gt;. If you are using APC, you should move to &lt;a href=&#34;https://github.com/zendtech/ZendOptimizerPlus/&#34; target=&#34;_blank&#34;&gt;OPCache&lt;/a&gt;. If you are already using it, you should use &lt;a href=&#34;https://github.com/carlosbuenosvinos/opcache-dashboard&#34; target=&#34;_blank&#34;&gt;opcache-dashboard&lt;/a&gt; also.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

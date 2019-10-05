@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>kpi on Carlos Buenosvinos</title>
+    <link>https://carlosbuenosvinos.github.io/tags/kpi/</link>
+    <description>Recent content in kpi on Carlos Buenosvinos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 21 Jul 2014 07:49:58 +0000</lastBuildDate>
+    
+	<atom:link href="https://carlosbuenosvinos.github.io/tags/kpi/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Legacy Code and Teams Series: Training Sessions and Technical Committee</title>
+      <link>https://carlosbuenosvinos.github.io/legacy-code-and-teams-series-training-sessions-and-technical-committee/</link>
+      <pubDate>Mon, 21 Jul 2014 07:49:58 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/legacy-code-and-teams-series-training-sessions-and-technical-committee/</guid>
+      <description>&lt;p&gt;(Next: &lt;a title=&#34;Legacy Code and Teams Series: Composer&#34; href=&#34;http://carlosbuenosvinos.com/legacy-code-and-teams-series-composer/&#34; target=&#34;_blank&#34;&gt;Legacy Code and Teams Series: Composer&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;When talking with some friends about how we are improving Atrápalo legacy code and development process, they asked for creating a presentation and give a talk about the steps we are following, hows, whys, and so on. It sound to me interesting so I would like to help sharing my experiences, not just the Atrápalo ones because when working at Emagister we did something quite similar with Christian, Eber, Dario, Lluís, Jordi, Jose Luís and the rest of the team with great results.&lt;/p&gt;
+
+&lt;p&gt;Before jumping into a talk, I would like to start a serie of posts about my way dealing with legacy projects. I&amp;#8217;m really interested in listening from you and your comments in order to enrich the final result. So, any suggestion or experience is really welcomed.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

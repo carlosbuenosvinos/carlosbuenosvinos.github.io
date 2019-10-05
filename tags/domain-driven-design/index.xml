@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>domain-driven design on Carlos Buenosvinos</title>
+    <link>https://carlosbuenosvinos.github.io/tags/domain-driven-design/</link>
+    <description>Recent content in domain-driven design on Carlos Buenosvinos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 24 Nov 2016 08:00:31 +0000</lastBuildDate>
+    
+	<atom:link href="https://carlosbuenosvinos.github.io/tags/domain-driven-design/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Good ORMs do not call __construct a.k.a. where to fire my Domain Events</title>
+      <link>https://carlosbuenosvinos.github.io/good-orms-do-not-call-__construct/</link>
+      <pubDate>Thu, 24 Nov 2016 08:00:31 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/good-orms-do-not-call-__construct/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;tl;dr: Entity constructor should be called once in its entire life. That&amp;#8217;s why good ORMs don&amp;#8217;t use constructor to reconstitute objects from the database. Good ORMs use reflection, deserialization or proxies. So, fire your Domain Events in the constructor.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Last week, I saw a presentation about going from &lt;a href=&#34;http://codely.tv/screencasts/codigo-acoplado-framework-microservicios-ddd/&#34; target=&#34;_blank&#34;&gt;coupled-to-framework code to a Domain-Driven Design approach&lt;/a&gt; in a sample application. It was a good talk. However, in my honest opinion, there were some mistakes that are important to address. In order not to troll, I have checked with the speakers to write this post ;).&lt;/p&gt;
+
+&lt;p&gt;One of the mistakes, that I would like to point is &lt;em&gt;where a Domain Event about &amp;#8220;a new product was created&amp;#8221;&lt;/em&gt; should be trigger specifically inside the Product Entity.&lt;/p&gt;
+
+&lt;p&gt;Speakers were showing a &amp;#8220;Video&amp;#8221; Entity with a named constructor called &amp;#8220;create&amp;#8221;. They were calling _new _inside the named constructor &lt;strong&gt;and then&lt;/strong&gt; firing the event. I mean, the Domain Event was not fired inside of the real constructor. Let&amp;#8217;s see the code we&amp;#8217;re talking about (the whole repository can be found &lt;a href=&#34;https://github.com/CodelyTV/cqrs-ddd-example&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;):&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>“Domain-Driven Design in PHP” (@dddbook) is finished</title>
+      <link>https://carlosbuenosvinos.github.io/domain-driven-design-in-php-book-is-finished/</link>
+      <pubDate>Thu, 15 Sep 2016 11:00:11 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/domain-driven-design-in-php-book-is-finished/</guid>
+      <description>&lt;p&gt;Today, Keyvan, Christian and me are very happy to announce that &lt;a href=&#34;https://leanpub.com/ddd-in-php&#34; target=&#34;_blank&#34;&gt;&amp;#8220;Domain-Driven Design in PHP&amp;#8221;&lt;/a&gt; book is 100% complete. &lt;strong&gt;380 pages&lt;/strong&gt; and around &lt;strong&gt;1400 readers&lt;/strong&gt; so far.&lt;/p&gt;
+
+&lt;h4 id=&#34;thanks&#34;&gt;Thanks&lt;/h4&gt;
+
+&lt;p&gt;Thanks, thanks, thanks.&lt;/p&gt;
+
+&lt;p&gt;Thanks to everyone that has supported us in this project.&lt;/p&gt;
+
+&lt;p&gt;Thanks to &lt;strong&gt;Christian&lt;/strong&gt; and &lt;strong&gt;Keyvan&lt;/strong&gt;. We don&amp;#8217;t need words to understand each other.&lt;/p&gt;
+
+&lt;p&gt;Thanks to our &lt;strong&gt;families&lt;/strong&gt; and &lt;strong&gt;friends&lt;/strong&gt;. Love is what you need to keep pushing.&lt;/p&gt;
+
+&lt;p&gt;Thanks to &lt;strong&gt;Edd Mann&lt;/strong&gt; for helping at the beginning with the language implementation details ;).&lt;/p&gt;
+
+&lt;p&gt;Thanks to &lt;strong&gt;Matthias Noback&lt;/strong&gt; for his suggestions and his foreword.&lt;/p&gt;
+
+&lt;p&gt;Thanks to &lt;strong&gt;Vaughn Vernon&lt;/strong&gt; for being pragmatic and inspiring.&lt;/p&gt;
+
+&lt;p&gt;Thanks to &lt;strong&gt;Ricard Clau, Albert Casademont, Victor Guardiola&lt;/strong&gt; and &lt;strong&gt;Jordi Abad&lt;/strong&gt; for your contributions.&lt;/p&gt;
+
+&lt;p&gt;Thanks to &lt;strong&gt;Natalye Childress&lt;/strong&gt; for non stopping asking about uppercase or lowercase. With your work, the book can be read.&lt;/p&gt;
+
+&lt;p&gt;Thanks to everyone that committed fixes, you are great: &lt;strong&gt;Jonathan Wondrusch, César Rodríguez, Yannick Voyer, Oriol González, Henry Snoek, Tom Jowitt, Sascha Schimke, Sven Herrmann, Daniel Abad, Luis Rovirosa, Luis Cordova, Raúl Ramos, Juan Maturana, Nil Portugués, Nikolay Zujev, Fernando Pradas, Raúl Araya, Neal Brooks, Hubert Béague, Aleksander Rekść, Sebastian Machuca, Nicolas Oelgart, and Marc Aube.&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>See you at @dpcon 2016</title>
+      <link>https://carlosbuenosvinos.github.io/see-you-at-dpcon-2016/</link>
+      <pubDate>Mon, 18 Apr 2016 13:22:43 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/see-you-at-dpcon-2016/</guid>
+      <description>I would like to let you know that I&amp;#8217;ll be presenting on the DPC 2016. This year, the Dutch PHP conference celebrates its 10th anniversary. It will be held on June 23rd-25th. I&amp;#8217;m more than happy to be there and talk about &amp;#8220;Integrating Bounded Contexts&amp;#8221;.</description>
+    </item>
+    
+    <item>
+      <title>Rendimiento con Domain Events, Proyecciones y principios de CQRS</title>
+      <link>https://carlosbuenosvinos.github.io/rendimiento-con-domain-events-proyecciones-y-principios-de-cqrs/</link>
+      <pubDate>Mon, 29 Feb 2016 07:00:38 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/rendimiento-con-domain-events-proyecciones-y-principios-de-cqrs/</guid>
+      <description>&lt;p&gt;Cuando desarrollamos una aplicación nueva, todo va muy rapidito. Hay poco tráfico, pocas queries y si hay alguna más &amp;#8220;dura&amp;#8221; usamos alguna cache como Memcached o Redis. Pero a medida que agregamos más funcionalidad a una página, el número de queries a base de datos u otras infraestructuras va creciendo. Hasta que sin saber cómo, haces 300 queries, y no es broma, en la ficha de algún producto.&lt;/p&gt;
+
+&lt;p&gt;El problema es que estamos acostumbrados a hacer muchas queries de lectura y muy pocas de escritura en estructuras bastante normalizadas. Eso escala mal en base a nueva funcionalidad. Un buen approach en busca del máximo rendimiento es la consistencia eventual, estructuras desnormalizadas y proyecciones.&lt;/p&gt;
+
+&lt;p&gt;Os dejo el video de la formación de @AtrapaloEng sobre cómo el uso de Eventos de Dominio y el uso de conceptos de CQRS nos pueden ayudar enormemente a mejorar el rendimiento de nuestras aplicaciones.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Doctrine 2.5, DDD, Entities and Identities</title>
+      <link>https://carlosbuenosvinos.github.io/doctrine-25-ddd-entities-and-identities/</link>
+      <pubDate>Wed, 28 Oct 2015 08:00:22 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/doctrine-25-ddd-entities-and-identities/</guid>
+      <description>&lt;p&gt;If you&amp;#8217;re developing applications in a Domain-Driven Design style and using Doctrine 2.5, you may be struggling with implementing your entities identities, I mean, UserId, ProductId, and so on. Embeddables are cool, but limited. Surrogates are not necessary anymore. Here are some short tips and examples about how to proceed.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Guía para el Desarrollo Profesional PHP (edición 2014)</title>
+      <link>https://carlosbuenosvinos.github.io/guia-para-el-desarrollo-profesional-php-edicion-2014/</link>
+      <pubDate>Wed, 21 Oct 2015 08:00:39 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/guia-para-el-desarrollo-profesional-php-edicion-2014/</guid>
+      <description>&lt;p&gt;Rascando por Youtube, encontré este vídeo de 2014, de una presentación que hice en LaSalle inspirada por &lt;a href=&#34;http://carlosbuenosvinos.com/desarrollo-php-profesional/&#34; target=&#34;_blank&#34;&gt;otra que hice en Castellón en 2011&lt;/a&gt;. La idea es hacer un overview del ecosistema PHP y puntos importantes a la hora de montar un ciclo de desarrollo basado en esta tecnología. Que la disfrutéis.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Domain-Driven Design: Logging with Domain Events Webcast at @AtrapaloEng (Spanish)</title>
+      <link>https://carlosbuenosvinos.github.io/domain-driven-design-logging-with-domain-events-webcast-at-atrapaloeng-spanish/</link>
+      <pubDate>Mon, 19 Oct 2015 08:30:09 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/domain-driven-design-logging-with-domain-events-webcast-at-atrapaloeng-spanish/</guid>
+      <description>&lt;p&gt;Cuando trabajamos con aplicaciones DDD-style (aunque para las otras también aplica), una de las preguntas clásicas es como ejecutar tareas relacionadas con infraestructura desde las zonas más internas como Value Object o Entidades, sin violar la dependencias hacia capas superiores e incluso el SRP. Un ejemplo es logar información como acciones de usuario (tipo intento de acceso al sistema, alta de usuario, baja de usuario, etc.). El pasado Viernes, orientamos la formación de &lt;a href=&#34;https://twitter.com/AtrapaloEng&#34; target=&#34;_blank&#34;&gt;@AtrapaloEng&lt;/a&gt; sobre este tema. Os dejo el video y los ejercicios. Formación práctica basada en el proyecto de &lt;a href=&#34;https://github.com/dddinphp/last-wishes&#34; target=&#34;_blank&#34;&gt;LastWishes&lt;/a&gt; con múltiples ejercicios resueltos in live coding.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Consulta sobre DDD #1: Pregunta sobre las entidades en DDD (Identidad y UUID)</title>
+      <link>https://carlosbuenosvinos.github.io/consulta-sobre-ddd-1-entidades-identidad-uuid/</link>
+      <pubDate>Thu, 15 Oct 2015 07:30:53 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/consulta-sobre-ddd-1-entidades-identidad-uuid/</guid>
+      <description>&lt;p&gt;A raíz del libro &lt;a href=&#34;https://leanpub.com/ddd-in-php&#34; target=&#34;_blank&#34;&gt;&amp;#8220;Domain-Driven Design in PHP&amp;#8221;&lt;/a&gt; y los videos que tengo en &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3DjmXTOxIMs-5fcOgDg_Dd2&#34; target=&#34;_blank&#34;&gt;Youtube&lt;/a&gt;, semanalmente, me van llegando consultas sobre temas de relacionados. Son bastante interesantes y me gustaría compartirlas así como mis respuestas. A los autores de los mails les he pedido permiso para publicar la conversión. Las iré agregando en la medida que pueda. La primera es de Álex sobre Entidades, Identidad y UUIDs.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>“Implementing Domain-Driven Design” Workshop in Barcelona</title>
+      <link>https://carlosbuenosvinos.github.io/implementing-domain-driven-design-workshop-in-barcelona/</link>
+      <pubDate>Thu, 27 Nov 2014 07:33:12 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/implementing-domain-driven-design-workshop-in-barcelona/</guid>
+      <description>&lt;p&gt;Since 2012 and after two years reading and working with Domain-Driven Design approaches, in 2014, Christian (&lt;a href=&#34;https://twitter.com/theUniC&#34; target=&#34;_blank&#34;&gt;@theUniC&lt;/a&gt;) and me went to Berlin to get trained by Vaughn Vernon, author of &amp;#8220;Implementing Domain-Driven Design&amp;#8221; book. The training was fantastic, all the concepts that were going around on their minds up to that moment, got stuck into the ground in the 3 days IDDD workshop. However, they were the only two PHP developers there in a room full of Java and .NET. That was quite funny.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Domain-Driven Design: Code Structure and Application Services Webcast at @AtrapaloEng (Spanish)</title>
+      <link>https://carlosbuenosvinos.github.io/domain-driven-design-code-structure-and-application-services-webcast-at-atrapaloeng-spanish/</link>
+      <pubDate>Tue, 11 Nov 2014 10:00:06 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/domain-driven-design-code-structure-and-application-services-webcast-at-atrapaloeng-spanish/</guid>
+      <description>&lt;p&gt;Siguiendo con la formación de DDD en Atrápalo, os dejo la sesión de formación sobre Code Structure and Application Services. Que la disfrutéis.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Domain-Driven Design: Domain Events and BC Integration Webcast at @AtrapaloEng (Spanish)</title>
+      <link>https://carlosbuenosvinos.github.io/domain-driven-design-domain-events-and-bc-integration-webcast-at-atrapaloeng-spanish/</link>
+      <pubDate>Fri, 31 Oct 2014 06:57:10 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/domain-driven-design-domain-events-and-bc-integration-webcast-at-atrapaloeng-spanish/</guid>
+      <description>&lt;p&gt;Siguiendo con la formación de DDD en Atrápalo, os dejo la sesión de formación sobre Domain Events y BC Integration. Que la disfrutéis.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Domain-Driven Design: Bounded Context Integration (Spanish)</title>
+      <link>https://carlosbuenosvinos.github.io/domain-driven-design-bounded-context-integration-spanish/</link>
+      <pubDate>Mon, 27 Oct 2014 09:00:35 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/domain-driven-design-bounded-context-integration-spanish/</guid>
+      <description>&lt;p&gt;Os dejo el video de la charla que impartí el pasado 25 de Octubre de 2014 en la Barcelona Software Craftsmanship.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Domain-Driven Design: Entities and Value Objects Webcast at @AtrapaloEng (Spanish)</title>
+      <link>https://carlosbuenosvinos.github.io/domain-driven-design-entities-and-value-objects-webcast-at-atrapaloeng-spanish/</link>
+      <pubDate>Mon, 27 Oct 2014 08:00:39 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/domain-driven-design-entities-and-value-objects-webcast-at-atrapaloeng-spanish/</guid>
+      <description>&lt;p&gt;Siguiendo con las formaciones de DDD de Atrápalo, os dejo el video sobre Entities y Value Objects.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Domain-Driven Design: Aggregates Webcast at @AtrapaloEng (Spanish)</title>
+      <link>https://carlosbuenosvinos.github.io/domain-driven-design-aggregates-webcast-at-atrapaloeng-spanish/</link>
+      <pubDate>Thu, 23 Oct 2014 08:00:40 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/domain-driven-design-aggregates-webcast-at-atrapaloeng-spanish/</guid>
+      <description>&lt;p&gt;En Atrápalo, estamos haciendo formación semanal sobre DDD. Estoy grabando todos los screencast y los iré publicando semana a semana. El primero sobre Strategical no lo pudimos grabar pero gran parte del contenido lo podéis encontrar en la sesión que grabé en la &lt;a href=&#34;http://carlosbuenosvinos.com/tactical-domain-driven-design-screencast-at-phpbarcelona-spanish/&#34; title=&#34;Tactical Domain-Driven Design Screencast at PHPBarcelona (Spanish)&#34;&gt;Monthly Talk&lt;/a&gt; en Octubre de 2014. A continuación, os dejo la sesión de formación sobre Aggregates, al final hay discusión sobre SOLID, especialmente SRP. Que la disfrutéis.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Tactical Domain-Driven Design Screencast at PHPBarcelona (Spanish)</title>
+      <link>https://carlosbuenosvinos.github.io/tactical-domain-driven-design-screencast-at-phpbarcelona-spanish/</link>
+      <pubDate>Wed, 22 Oct 2014 05:59:28 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/tactical-domain-driven-design-screencast-at-phpbarcelona-spanish/</guid>
+      <description>&lt;p&gt;Os dejo el video sobre DDD Tactical Design que hice en la Monthly Talk de PHPBarcelona. Nos dio tiempo a charlar un poco de estrategia, ver los Value Objects, Entities y algo de Repositories. La charla está basada en el libro que Christian, Keyvan y yo estamos escribiendo en leanpub: &lt;a href=&#34;https://leanpub.com/ddd-in-php&#34; target=&#34;_blank&#34;&gt;&amp;#8220;Domain-Driven Design with PHP by Examples&amp;#8221;&lt;/a&gt;. En los últimos 30 minutos hablo sobre cómo estamos gestionando la Integración Continua en Atrápalo.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

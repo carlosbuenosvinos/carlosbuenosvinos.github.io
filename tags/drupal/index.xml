@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>drupal on Carlos Buenosvinos</title>
+    <link>https://carlosbuenosvinos.github.io/tags/drupal/</link>
+    <description>Recent content in drupal on Carlos Buenosvinos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 22 Nov 2016 09:00:57 +0000</lastBuildDate>
+    
+	<atom:link href="https://carlosbuenosvinos.github.io/tags/drupal/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Awesome two days helping @Lowpost_es team</title>
+      <link>https://carlosbuenosvinos.github.io/awesome-two-days-helping-lowpost_es-team/</link>
+      <pubDate>Tue, 22 Nov 2016 09:00:57 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/awesome-two-days-helping-lowpost_es-team/</guid>
+      <description>&lt;p&gt;I have recently visited Valencia in order to help my friends at &lt;a href=&#34;http://lowpost.es/&#34; target=&#34;_blank&#34;&gt;Lowpost&lt;/a&gt;. It was great and I had a lot of fun! I would like to tell you a bit about how it was.&lt;/p&gt;
+
+&lt;h3 id=&#34;who-is-lowpost&#34;&gt;Who is Lowpost?&lt;/h3&gt;
+
+&lt;p&gt;Lowpost is a cool start-up that are focused in Content Marketing. Lowpost connects companies that need interesting content with authors that can write about such topics. Authors bet for the open jobs and then they deliver the content to the final customer. Everything around such process is managed by the Lowpost platform.&lt;/p&gt;
+
+&lt;p&gt;As a start-up, they have grown quite fast, so their code. They started with Drupal, as many start-ups, and then they added a Silex application. You know that testing is difficult, however, doing unit testing for Drupal is a challenge.&lt;/p&gt;
+
+&lt;h3 id=&#34;what-we-did&#34;&gt;What we did?&lt;/h3&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

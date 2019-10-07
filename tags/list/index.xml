@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>list() on Carlos Buenosvinos</title>
+    <link>https://carlosbuenosvinos.github.io/tags/list/</link>
+    <description>Recent content in list() on Carlos Buenosvinos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 29 Jul 2016 11:27:28 +0000</lastBuildDate>
+    
+	<atom:link href="https://carlosbuenosvinos.github.io/tags/list/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Some “basuritas”: PHP, list() and objects</title>
+      <link>https://carlosbuenosvinos.github.io/some-basuritas-php-list-and-objects/</link>
+      <pubDate>Fri, 29 Jul 2016 11:27:28 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/some-basuritas-php-list-and-objects/</guid>
+      <description>I was just playing around with the Symfony Expression Language Component. Suddenly, I started to play with list() and some objects and this example came up. You can use list() and _$this_ for assigning fields. I would not recommend it, but it just funny.
+class BasuritasTest extends \PHPUnit_Framework_TestCase { /** * @test * @dataProvider validUsersDataProvider * @param $id * @param $name */ public function listForObjects(int $id, string $name) { $user = new User($id, $name); $this-&amp;gt;assertSame($id, $user-&amp;gt;id()); $this-&amp;gt;assertSame($name, $user-&amp;gt;name()); } public function validUsersDataProvider() { return [ [1, &#34;</description>
+    </item>
+    
+  </channel>
+</rss>

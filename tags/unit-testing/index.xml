@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>unit testing on Carlos Buenosvinos</title>
+    <link>https://carlosbuenosvinos.github.io/tags/unit-testing/</link>
+    <description>Recent content in unit testing on Carlos Buenosvinos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 03 Apr 2017 09:00:15 +0000</lastBuildDate>
+    
+	<atom:link href="https://carlosbuenosvinos.github.io/tags/unit-testing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>No necesitáis consultoría sobre DDD: Caso Motor de Reservas</title>
+      <link>https://carlosbuenosvinos.github.io/no-necesitais-consultoria-o-formacion-sobre-ddd-caso-1/</link>
+      <pubDate>Mon, 03 Apr 2017 09:00:15 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/no-necesitais-consultoria-o-formacion-sobre-ddd-caso-1/</guid>
+      <description>&lt;p&gt;Cuando una empresa me contacta para hacer consultoría, monto un Skype para entender mejor las necesidades y la situación en la que se encuentra. Normalmente, hablo con un par de técnicos y/o el CTO que me cuentan sus dificultades. Tengo varias de éstas al mes. Algunas son empresas grandes (50 developers o más) y más pequeñas (menos de 10 developers). Como no me gano la vida haciendo consultoría, soy muy imparcial con lo que necesitan y &lt;strong&gt;sobretodo con lo que no necesitan&lt;/strong&gt;. En sus dificultades, algunos patrones se repiten (miedos, prejuicios, presiones, modas, etc.). Me gustaría resumir cómo fue una de esas video conferencias por si podéis estar en la misma situación.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rigor Talks – PHP – #16 – Refactor Use Case IV (Spanish)</title>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-16-refactor-use-case-iv-spanish/</link>
+      <pubDate>Thu, 23 Feb 2017 09:32:29 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-16-refactor-use-case-iv-spanish/</guid>
+      <description>&lt;p&gt;Hola Amigos del Rigor! Seguimos con la serie sobre los videos de refactoring. En éste, vamos a mejorar la calidad de los tests unitarios acabando de agregar _assests_ que faltaban e introduciendo un &lt;em&gt;Spy.&lt;/em&gt; Con esto, nos aseguraremos que aún teniendo 100% de cobertura en los tests, tenemos que esta atentos a invocaciones que no tienen retorno, como logging, notifiers, publishers de eventos, etc.&lt;/p&gt;
+
+&lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Espero que os guste!&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;#MayTheRigorBeWithYou&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rigor Talks – PHP – #12 – Mutant Testing (Spanish)</title>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-12-mutant-testing-spanish/</link>
+      <pubDate>Tue, 24 Jan 2017 09:30:36 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-12-mutant-testing-spanish/</guid>
+      <description>&lt;p&gt;Hola Amigos del Rigor! Unit Testear nuestro código con un 100% de coverage no es suficiente. En este video, vamos a ver cómo aplicar &amp;#8220;Mutant Testing&amp;#8221; a nuestro código para mejorar la calidad de nuestros tests unitarios.&lt;/p&gt;
+
+&lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Espero que os guste!&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;#MayTheRigorBeWithYou&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rigor Talks – PHP – #11 – Immutability (Spanish)</title>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-11-immutability-spanish/</link>
+      <pubDate>Tue, 17 Jan 2017 09:30:16 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-11-immutability-spanish/</guid>
+      <description>&lt;p&gt;Hola Amigos del Rigor! Continuamos con un video sobre inmutabilidad. Vamos a ver cómo poder hacer que nuestras clases, especialmente aquellas con las que modelamos Value Objects pueden ser inmutables.&lt;/p&gt;
+
+&lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Espero que os guste!&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;#MayTheRigorBeWithYou&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rigor Talks – PHP – #10 – Self-Shunt III (Spanish)</title>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-10-self-shunt-iii-spanish/</link>
+      <pubDate>Tue, 10 Jan 2017 09:30:45 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-10-self-shunt-iii-spanish/</guid>
+      <description>&lt;p&gt;Hola Amigos del Rigor! Vamos a con el último de los tres videos sobre el patrón de testing &amp;#8220;Self-Shunt&amp;#8221;. En este video, veremos un truco muy sencillo para poder testear cadenas de invocaciones que incumplen la ley de Demeter.&lt;/p&gt;
+
+&lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Espero que os guste!&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;#MayTheRigorBeWithYou&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rigor Talks – PHP – #9 – Self-Shunt II (Spanish)</title>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-9-self-shunt-ii-spanish/</link>
+      <pubDate>Tue, 03 Jan 2017 09:30:30 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-9-self-shunt-ii-spanish/</guid>
+      <description>&lt;p&gt;Hola Amigos del Rigor! Vamos a con el tercer de los cuatro videos sobre patrones de &amp;#8220;Unit Testing&amp;#8221;, especialmente, para código acoplado. En este video, veremos una implementación alternativa del &amp;#8220;Self-Shunt&amp;#8221; sólo para PHP7 usando clases anónimas.&lt;/p&gt;
+
+&lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Espero que os guste!&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;#MayTheRigorBeWithYou&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rigor Talks – PHP – #8 – Self-Shunt (Spanish)</title>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-8-self-shunt-spanish/</link>
+      <pubDate>Tue, 27 Dec 2016 09:30:03 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-8-self-shunt-spanish/</guid>
+      <description>&lt;p&gt;Hola Amigos del Rigor! Vamos a con el segundo de los cuatro videos sobre patrones de &amp;#8220;Unit Testing&amp;#8221;, especialmente, para código acoplado. En este video, veremos un atajo para implementar &amp;#8220;Test Classes&amp;#8221; usando un patrón conocido como &amp;#8220;Self-Shunt&amp;#8221;.&lt;/p&gt;
+
+&lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Espero que os guste!&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;#MayTheRigorBeWithYou&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rigor Talks – PHP – #7 – Test Class (Spanish)</title>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-7-test-class-spanish/</link>
+      <pubDate>Tue, 20 Dec 2016 09:30:21 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-7-test-class-spanish/</guid>
+      <description>&lt;p&gt;Hola Amigos del Rigor! Vamos a arrancar un serie de 4 videos sobre patrones de &amp;#8220;Unit Testing&amp;#8221;, especialmente, para código acoplado. Aquí os dejo el primero.&lt;/p&gt;
+
+&lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Espero que os guste!&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;#MayTheRigorBeWithYou&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Integración Continua y Deployment Continuo</title>
+      <link>https://carlosbuenosvinos.github.io/integracion-continua-y-deployment-continuo/</link>
+      <pubDate>Fri, 02 Dec 2016 08:00:57 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/integracion-continua-y-deployment-continuo/</guid>
+      <description>&lt;p&gt;Os dejo por aquí, una de mis charlas impartida en la asignatura &amp;#8220;Técnicas para el desarrollo de software en producción&amp;#8221; dentro del Máster en Tecnologías Informáticas de la Universidad de La Rioja. Se grabó hace un año (26/11/2015), pero no lo había encontrado hasta hace unas semanas. Espero que sea útil.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Awesome two days helping @Lowpost_es team</title>
+      <link>https://carlosbuenosvinos.github.io/awesome-two-days-helping-lowpost_es-team/</link>
+      <pubDate>Tue, 22 Nov 2016 09:00:57 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/awesome-two-days-helping-lowpost_es-team/</guid>
+      <description>&lt;p&gt;I have recently visited Valencia in order to help my friends at &lt;a href=&#34;http://lowpost.es/&#34; target=&#34;_blank&#34;&gt;Lowpost&lt;/a&gt;. It was great and I had a lot of fun! I would like to tell you a bit about how it was.&lt;/p&gt;
+
+&lt;h3 id=&#34;who-is-lowpost&#34;&gt;Who is Lowpost?&lt;/h3&gt;
+
+&lt;p&gt;Lowpost is a cool start-up that are focused in Content Marketing. Lowpost connects companies that need interesting content with authors that can write about such topics. Authors bet for the open jobs and then they deliver the content to the final customer. Everything around such process is managed by the Lowpost platform.&lt;/p&gt;
+
+&lt;p&gt;As a start-up, they have grown quite fast, so their code. They started with Drupal, as many start-ups, and then they added a Silex application. You know that testing is difficult, however, doing unit testing for Drupal is a challenge.&lt;/p&gt;
+
+&lt;h3 id=&#34;what-we-did&#34;&gt;What we did?&lt;/h3&gt;</description>
+    </item>
+    
+    <item>
+      <title>What happens if we don’t do it? – 4 ways to speed teams up</title>
+      <link>https://carlosbuenosvinos.github.io/what-happens-if-we-dont-do-it/</link>
+      <pubDate>Mon, 09 May 2016 08:00:57 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/what-happens-if-we-dont-do-it/</guid>
+      <description>&lt;p class=&#34;p1&#34;&gt;
+  &lt;span class=&#34;s1&#34;&gt;I became Certified Scrum Master (CSM) on 2010. I took a CSM course at beautiful Oporto. My instructor was Mitch Lacey (&lt;a href=&#34;https://www.mitchlacey.com/&#34;&gt;&lt;span class=&#34;s2&#34;&gt;https://www.mitchlacey.com/&lt;/span&gt;&lt;/a&gt;). Amazing instructor. If you can attend any of his courses, go ahead. On 2012, he published an amazing book about Scrum, I totally recommend, “The Scrum Field Guide: Practical Advice for Your First Year” (&lt;a href=&#34;http://www.amazon.com/Scrum-Field-Guide-Addison-Wesley-Signature/dp/0133853624&#34;&gt;&lt;span class=&#34;s2&#34;&gt;http://www.amazon.com/Scrum-Field-Guide-Addison-Wesley-Signature/dp/0133853624&lt;/span&gt;&lt;/a&gt;). So practical, so full of examples to understand how to properly apply Scrum and get most of it.&lt;/span&gt;
+&lt;/p&gt;
+
+&lt;p class=&#34;p1&#34;&gt;
+  &lt;span class=&#34;s1&#34;&gt;During the CSM training session, when talking about INVEST (&lt;a href=&#34;https://en.wikipedia.org/wiki/INVEST_(mnemonic)&#34;&gt;&lt;span class=&#34;s2&#34;&gt;https://en.wikipedia.org/wiki/INVEST_(mnemonic)&lt;/span&gt;&lt;/a&gt;) in your product backlog, value of User Stories and priorities he said, &amp;#8220;the first question to ask yourself about a user story, task or process is what happens if we just don’t do it?”. Everyone laughed. Not doing something useless you were supposed to do, it&amp;#8217;s a high productive activity.&lt;/span&gt;
+&lt;/p&gt;
+
+&lt;p class=&#34;p1&#34;&gt;
+  &lt;span class=&#34;s1&#34;&gt;The more I meet teams, project managers, developers, sysops, etc., the stronger my feeling is that we always try to improve things adding stuff not removing waste. More process, more abstraction, more code, more tools. My recommendation is that the &lt;b&gt;best way to speed teams up is to remove useless or low value things&lt;/b&gt;. Let’s see some suggestions.&lt;/span&gt;
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Unit Testing y TDD no son lo mismo</title>
+      <link>https://carlosbuenosvinos.github.io/unit-testing-y-tdd-no-son-lo-mismo/</link>
+      <pubDate>Wed, 19 Feb 2014 10:43:41 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/unit-testing-y-tdd-no-son-lo-mismo/</guid>
+      <description>&lt;p&gt;Resumiendo y sin entrar en volver a explicar los conceptos de TDD. Hacer Unit Testing es escribir Unit Tests, hacer TDD es seguir la metodología (3 reglas, ciclos cortos, diseño emergente, etc.)&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

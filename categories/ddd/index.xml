@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DDD on Carlos Buenosvinos</title>
+    <link>https://carlosbuenosvinos.github.io/categories/ddd/</link>
+    <description>Recent content in DDD on Carlos Buenosvinos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 01 Aug 2017 08:00:09 +0000</lastBuildDate>
+    
+	<atom:link href="https://carlosbuenosvinos.github.io/categories/ddd/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Rigor Talks – PHP – #31 – Viewing Domain Events with Kibana (Spanish)</title>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-31-viewing-domain-events-with-kibana-spanish/</link>
+      <pubDate>Tue, 01 Aug 2017 08:00:09 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-31-viewing-domain-events-with-kibana-spanish/</guid>
+      <description>&lt;p&gt;Hola Amigos del Rigor! Continuamos con la serie sobre Domain Events pero esta vez con un caso práctico de uso muy interesante para marcarse un tanto con negocio. Vamos a enviar los eventos de dominio contra un Elastic para que podamos finalmente agregar un Kibana y tener métricas en tiempo real de lo que ocurre en nuestra aplicación.&lt;/p&gt;
+
+&lt;p&gt;En este vídeo, vamos a configurar Kibana para montar gráficos y ver la información de los eventos que hemos enviado a Elastic de una forma que negocio flipe :)&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rigor Talks – PHP – #30 – Sending Domain Events to Elastic III (Spanish)</title>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-30-sending-domain-events-to-elastic-iii-spanish/</link>
+      <pubDate>Thu, 27 Jul 2017 08:00:39 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-30-sending-domain-events-to-elastic-iii-spanish/</guid>
+      <description>&lt;p&gt;Hola Amigos del Rigor! Continuamos con la serie sobre Domain Events pero esta vez con un caso práctico de uso muy interesante para marcarse un tanto con negocio. Vamos a enviar los eventos de dominio contra un Elastic para que podamos finalmente agregar un Kibana y tener métricas en tiempo real de lo que ocurre en nuestra aplicación.&lt;/p&gt;
+
+&lt;p&gt;En este vídeo, vamos a ver la cómo enriquecer el evento de dominio antes de enviarlo a Elastic. Agregaremos información sobre la request, memoria, etc. para traquear si algún servidor está procesando menos eventos de un cierto tipo.&lt;/p&gt;
+
+&lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;aquí&lt;/a&gt;. Si los videos os gustan, no olvidéis suscribiros a mi canal. Espero que os guste!&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;#MayTheRigorBeWithYou&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rigor Talks – PHP – #29 – Sending Domain Events to Elastic II (Spanish)</title>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-29-sending-domain-events-to-elastic-ii-spanish/</link>
+      <pubDate>Tue, 25 Jul 2017 08:00:59 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-29-sending-domain-events-to-elastic-ii-spanish/</guid>
+      <description>&lt;p&gt;Hola Amigos del Rigor! Continuamos con la serie sobre Domain Events pero esta vez con un caso práctico de uso muy interesante para marcarse un tanto con negocio. Vamos a enviar los eventos de dominio contra un Elastic para que podamos finalmente agregar un Kibana y tener métricas en tiempo real de lo que ocurre en nuestra aplicación. En este vídeo, vamos a ver la segunda alternativa para enviar todos los eventos juntos de una vez, después de ejecutar el command handler. Reducimos números de peticiones mejorando el rendimiento.&lt;/p&gt;
+
+&lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;aquí&lt;/a&gt;. Si los videos os gustan, no olvidéis suscribiros a mi canal. Espero que os guste!&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;#MayTheRigorBeWithYou&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rigor Talks – PHP – #28 – Sending Domain Events to Elastic (Spanish)</title>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-28-sending-domain-events-to-elastic-spanish/</link>
+      <pubDate>Thu, 20 Jul 2017 08:00:03 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-28-sending-domain-events-to-elastic-spanish/</guid>
+      <description>&lt;p&gt;Hola Amigos del Rigor! Continuamos con la serie sobre Domain Events pero esta vez con un caso práctico de uso muy interesante para marcarse un tanto con negocio. Vamos a enviar los eventos de dominio contra un Elastic para que podamos finalmente agregar un Kibana y tener métricas en tiempo real de lo que ocurre en nuestra aplicación. En este vídeo, vamos a ver una de las alternativas para hacer esto, el envío síncrono a Elastic por cada eventos disparado.&lt;/p&gt;
+
+&lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;aquí&lt;/a&gt;. Si los videos os gustan, no olvidéis suscribiros a mi canal. Espero que os guste!&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;#MayTheRigorBeWithYou&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rigor Talks – PHP – #27 – Distributing Domain Events using RabbitMQ (Spanish)</title>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-27-distributing-domain-events-using-rabbitmq-spanish/</link>
+      <pubDate>Thu, 22 Jun 2017 08:00:22 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-27-distributing-domain-events-using-rabbitmq-spanish/</guid>
+      <description>&lt;p&gt;Hola Amigos del Rigor! Continuamos con la serie sobre Domain Events. En este sexto video de la serie, vamos a distribuir los eventos, que tenemos persistidos en base de datos, hacia un sistema de colas como RabbitMQ. Veremos algunas consideraciones y trucos a tener en cuenta.&lt;/p&gt;
+
+&lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;aquí&lt;/a&gt;. Si los videos os gustan, no olvidéis suscribiros a mi canal. Espero que os guste!&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;#MayTheRigorBeWithYou&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rigor Talks – PHP – #26 – Distributing Domain Events using REST (Spanish)</title>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-26-distributing-domain-events-using-rest-spanish/</link>
+      <pubDate>Tue, 06 Jun 2017 08:00:02 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-26-distributing-domain-events-using-rest-spanish/</guid>
+      <description>&lt;p&gt;Hola Amigos del Rigor! Continuamos con la serie sobre Domain Events. En este quinto video de la serie, vamos a empezar a discutir manera de distribuir los eventos. El primer método es quizá menos conocido, REST. Veremos qué beneficios tiene y algunos trucos para implementarlo.&lt;/p&gt;
+
+&lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;aquí&lt;/a&gt;. Si los videos os gustan, no olvidéis suscribiros a mi canal. Espero que os guste!&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;#MayTheRigorBeWithYou&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rigor Talks – PHP – #25 – Persisting Domain Events (Spanish)</title>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-25-persisting-domain-events-spanish/</link>
+      <pubDate>Wed, 31 May 2017 08:00:23 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-25-persisting-domain-events-spanish/</guid>
+      <description>&lt;p&gt;Hola Amigos del Rigor! Continuamos con la serie sobre Domain Events. En este cuarto video, vamos a ver cómo implementar la persistencia de Eventos de Dominio, para qué es útil y cuáles son sus beneficios.&lt;/p&gt;
+
+&lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;aquí&lt;/a&gt;. Si los videos os gustan, no olvidéis suscribiros a mi canal. Espero que os guste!&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;#MayTheRigorBeWithYou&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rigor Talks – PHP – #24 – Domain Events III (Spanish)</title>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-24-domain-events-iii-spanish/</link>
+      <pubDate>Tue, 23 May 2017 08:00:16 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-24-domain-events-iii-spanish/</guid>
+      <description>&lt;p&gt;Hola Amigos del Rigor! Continuamos con la serie sobre Domain Events. En este tercer video, veremos la segunda alternativa para disparar un evento de dominio: un publisher estático. Veremos sus puntos fuertes y flojos.&lt;/p&gt;
+
+&lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;aquí&lt;/a&gt;. Si los videos os gustan, no olvidéis suscribiros a mi canal. Espero que os guste!&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;#MayTheRigorBeWithYou&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rigor Talks – PHP – #23 – Domain Events II (Spanish)</title>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-23-domain-events-ii-spanish/</link>
+      <pubDate>Tue, 16 May 2017 08:00:48 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-23-domain-events-ii-spanish/</guid>
+      <description>&lt;p&gt;Hola Amigos del Rigor! Continuamos con la serie sobre Domain Events. En este segundo video, veremos la primera alternativa para disparar un evento de dominio: acumularlos en la entidad. Veremos sus puntos fuertes y flojos.&lt;/p&gt;
+
+&lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;aquí&lt;/a&gt;. Si los videos os gustan, no olvidéis suscribiros a mi canal. Espero que os guste!&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;#MayTheRigorBeWithYou&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rigor Talks – PHP – #22 – Domain Events I (Spanish)</title>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-22-domain-events-i-spanish/</link>
+      <pubDate>Tue, 09 May 2017 08:00:55 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-22-domain-events-i-spanish/</guid>
+      <description>&lt;p&gt;Hola Amigos del Rigor! Arrancamos una miniserie de videos sobre Domain Events. En este primer video, veremos cómo modelar un evento de dominio e introduciremos las diferentes manera de dispararlos. En los siguientes, veremos en detalle dichas alternativas, así como su relación con la persistencia y la distribución.&lt;/p&gt;
+
+&lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;aquí&lt;/a&gt;. Si los videos os gustan, no olvidéis suscribiros a mi canal. Espero que os guste!&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;#MayTheRigorBeWithYou&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rigor Talks – PHP – #21 – Command Bus (Spanish)</title>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-21-command-bus-spanish/</link>
+      <pubDate>Wed, 19 Apr 2017 08:30:29 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-21-command-bus-spanish/</guid>
+      <description>&lt;p&gt;Hola Amigos del Rigor! Perdonad por el retraso pero estuve preparando la certificación de AWS Certified Solutions Architect &amp;#8211; Associate que al final conseguí la semana pasada.&lt;/p&gt;
+
+&lt;p&gt;En este video, vamos a continuar evolucionando los Command Handlers y su contexto de ejecución presentando el Command Bus. Veremos cuáles son sus objetivos y para qué nos resulta útil. Por último, hablaremos sobre Tactician.&lt;/p&gt;
+
+&lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Si los videos os gustan, no olvidéis suscribiros a mi canal. Espero que os guste!&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;#MayTheRigorBeWithYou&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>No necesitáis consultoría sobre DDD: Caso Motor de Reservas</title>
+      <link>https://carlosbuenosvinos.github.io/no-necesitais-consultoria-o-formacion-sobre-ddd-caso-1/</link>
+      <pubDate>Mon, 03 Apr 2017 09:00:15 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/no-necesitais-consultoria-o-formacion-sobre-ddd-caso-1/</guid>
+      <description>&lt;p&gt;Cuando una empresa me contacta para hacer consultoría, monto un Skype para entender mejor las necesidades y la situación en la que se encuentra. Normalmente, hablo con un par de técnicos y/o el CTO que me cuentan sus dificultades. Tengo varias de éstas al mes. Algunas son empresas grandes (50 developers o más) y más pequeñas (menos de 10 developers). Como no me gano la vida haciendo consultoría, soy muy imparcial con lo que necesitan y &lt;strong&gt;sobretodo con lo que no necesitan&lt;/strong&gt;. En sus dificultades, algunos patrones se repiten (miedos, prejuicios, presiones, modas, etc.). Me gustaría resumir cómo fue una de esas video conferencias por si podéis estar en la misma situación.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rigor Talks – PHP – #20 – Application Services and Command Handlers (Spanish)</title>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-20-application-services-and-command-handlers-spanish/</link>
+      <pubDate>Fri, 24 Mar 2017 14:32:53 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-20-application-services-and-command-handlers-spanish/</guid>
+      <description>&lt;p&gt;Hola Amigos del Rigor! Vamos con una entrega más. En esta ocasión, vamos a ver la diferencia entre Application Services y Command Handlers, así como algún truco sobre Command Handlers para decorarlos y facilitar tareas como el Logging o la gestión de Transacciones.&lt;/p&gt;
+
+&lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Si los videos os gustan, no olvidéis suscribiros a mi canal. Espero que os guste!&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;#MayTheRigorBeWithYou&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rigor Talks – PHP – #19 – Refactor Use Case VI (Spanish)</title>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-19-refactor-use-case-vi-spanish/</link>
+      <pubDate>Tue, 14 Mar 2017 09:30:36 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-19-refactor-use-case-vi-spanish/</guid>
+      <description>&lt;p&gt;Hola Amigos del Rigor! Después de explicar el principio de Tell-Don&amp;#8217;t-Ask, continuamos con la serie de los videos de refactoring. En este video, vamos a ver cómo extraer dependencias como Loggers, Servicios para enviar notificaciones o similares usando una primera aproximación sencilla con un EventDispatcher.&lt;/p&gt;
+
+&lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Si los videos os gustan, no olvidéis suscribiros a mi canal. Espero que os guste!&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;#MayTheRigorBeWithYou&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rigor Talks – PHP – #18 – Tell-Don’t-Ask (Spanish)</title>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-18-tell-dont-ask-spanish/</link>
+      <pubDate>Tue, 07 Mar 2017 09:30:55 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-18-tell-dont-ask-spanish/</guid>
+      <description>&lt;p&gt;Hola Amigos del Rigor! Hacemos un parada en la serie de los videos sobre refactoring para explicar el principio de Tell-Don&amp;#8217;t-Ask. Lo hemos ido utilizando en los videos anteriores pero no lo había presentado formalmente.&lt;/p&gt;
+
+&lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Si los videos os gustan, no olvidéis suscribiros a mi canal. Espero que os guste!&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;#MayTheRigorBeWithYou&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rigor Talks – PHP – #17 – Refactor Use Case V (Spanish)</title>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-17-refactor-use-case-v-spanish/</link>
+      <pubDate>Tue, 28 Feb 2017 09:30:28 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-17-refactor-use-case-v-spanish/</guid>
+      <description>&lt;p&gt;Hola Amigos del Rigor! Seguimos con la serie sobre los videos de refactoring. Los Application Services deben coordinar pero no contener lógica de negocio. En este video, veremos varios trucos para mover la lógica de negocio del Application Service hacia Entidades y Repositorios.&lt;/p&gt;
+
+&lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Si los videos os gustan, no olvidéis suscribiros a mi canal. Espero que os guste!&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;#MayTheRigorBeWithYou&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rigor Talks – PHP – #16 – Refactor Use Case IV (Spanish)</title>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-16-refactor-use-case-iv-spanish/</link>
+      <pubDate>Thu, 23 Feb 2017 09:32:29 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-16-refactor-use-case-iv-spanish/</guid>
+      <description>&lt;p&gt;Hola Amigos del Rigor! Seguimos con la serie sobre los videos de refactoring. En éste, vamos a mejorar la calidad de los tests unitarios acabando de agregar _assests_ que faltaban e introduciendo un &lt;em&gt;Spy.&lt;/em&gt; Con esto, nos aseguraremos que aún teniendo 100% de cobertura en los tests, tenemos que esta atentos a invocaciones que no tienen retorno, como logging, notifiers, publishers de eventos, etc.&lt;/p&gt;
+
+&lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Espero que os guste!&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;#MayTheRigorBeWithYou&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rigor Talks – PHP – #15 – Refactor Use Case III (Spanish)</title>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-15-refactor-use-case-iii-spanish/</link>
+      <pubDate>Tue, 14 Feb 2017 09:30:19 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-15-refactor-use-case-iii-spanish/</guid>
+      <description>&lt;p&gt;Hola Amigos del Rigor! Seguimos con la serie sobre los videos de refactoring. En éste, vamos a acabar de testear por completo todo el Application Service del &lt;a href=&#34;https://carlosbuenosvinos.com/rigor-talks-php-13-refactor-use-case-i-spanish/&#34; target=&#34;_blank&#34;&gt;video anterior&lt;/a&gt; utilizando técnicas que vimos en los videos anteriores como &lt;a href=&#34;https://carlosbuenosvinos.com/rigor-talks-php-7-test-class-spanish/&#34; target=&#34;_blank&#34;&gt;Test Classes&lt;/a&gt; o &lt;a href=&#34;https://carlosbuenosvinos.com/rigor-talks-php-8-self-shunt-spanish/&#34; target=&#34;_blank&#34;&gt;Self-Shunt&lt;/a&gt;. En el siguiente video veremos cómo enriquecer nuestro dominio moviendo parte de la lógica a las entidades.&lt;/p&gt;
+
+&lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Espero que os guste!&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;#MayTheRigorBeWithYou&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rigor Talks – PHP – #14 – Refactor Use Case II (Spanish)</title>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-14-refactor-use-case-ii-spanish/</link>
+      <pubDate>Tue, 07 Feb 2017 09:30:36 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-14-refactor-use-case-ii-spanish/</guid>
+      <description>&lt;p&gt;Hola Amigos del Rigor! Seguimos con la serie sobre los videos de refactoring. En éste, vamos a testear parte del Application Service que extrajimos en el &lt;a href=&#34;https://carlosbuenosvinos.com/rigor-talks-php-13-refactor-use-case-i-spanish/&#34; target=&#34;_blank&#34;&gt;video anterior&lt;/a&gt;. Aprovecharemos para mejorar el código con algunos casos no contemplados en el código original.&lt;/p&gt;
+
+&lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Espero que os guste!&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;#MayTheRigorBeWithYou&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rigor Talks – PHP – #13 – Refactor Use Case I (Spanish)</title>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-13-refactor-use-case-i-spanish/</link>
+      <pubDate>Tue, 31 Jan 2017 09:30:24 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-13-refactor-use-case-i-spanish/</guid>
+      <description>&lt;p&gt;Hola Amigos del Rigor! Hoy es mi cumpleaños, 34 primaveras. He traído donuts a la oficina, pero como no podéis acceder a ellos :(, aquí os dejo un regalito para vosotros! Arranco una nueva serie de videos sobre Refactoring de código acoplado. En este video, vamos a ver cómo refactorizar código escrito directamente en el controlador web de cualquier framework donde se mezcla lógica de negocio y detalles de infraestructura.&lt;/p&gt;
+
+&lt;p&gt;Lo sacaremos a un Application Service, invertiremos todas las dependencias y lo dejaremos listo para poderlo testear.&lt;/p&gt;
+
+&lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Espero que os guste!&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;#MayTheRigorBeWithYou&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rigor Talks – PHP – #12 – Mutant Testing (Spanish)</title>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-12-mutant-testing-spanish/</link>
+      <pubDate>Tue, 24 Jan 2017 09:30:36 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-12-mutant-testing-spanish/</guid>
+      <description>&lt;p&gt;Hola Amigos del Rigor! Unit Testear nuestro código con un 100% de coverage no es suficiente. En este video, vamos a ver cómo aplicar &amp;#8220;Mutant Testing&amp;#8221; a nuestro código para mejorar la calidad de nuestros tests unitarios.&lt;/p&gt;
+
+&lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Espero que os guste!&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;#MayTheRigorBeWithYou&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rigor Talks – PHP – #11 – Immutability (Spanish)</title>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-11-immutability-spanish/</link>
+      <pubDate>Tue, 17 Jan 2017 09:30:16 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-11-immutability-spanish/</guid>
+      <description>&lt;p&gt;Hola Amigos del Rigor! Continuamos con un video sobre inmutabilidad. Vamos a ver cómo poder hacer que nuestras clases, especialmente aquellas con las que modelamos Value Objects pueden ser inmutables.&lt;/p&gt;
+
+&lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Espero que os guste!&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;#MayTheRigorBeWithYou&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rigor Talks – PHP – #10 – Self-Shunt III (Spanish)</title>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-10-self-shunt-iii-spanish/</link>
+      <pubDate>Tue, 10 Jan 2017 09:30:45 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-10-self-shunt-iii-spanish/</guid>
+      <description>&lt;p&gt;Hola Amigos del Rigor! Vamos a con el último de los tres videos sobre el patrón de testing &amp;#8220;Self-Shunt&amp;#8221;. En este video, veremos un truco muy sencillo para poder testear cadenas de invocaciones que incumplen la ley de Demeter.&lt;/p&gt;
+
+&lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Espero que os guste!&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;#MayTheRigorBeWithYou&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rigor Talks – PHP – #9 – Self-Shunt II (Spanish)</title>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-9-self-shunt-ii-spanish/</link>
+      <pubDate>Tue, 03 Jan 2017 09:30:30 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-9-self-shunt-ii-spanish/</guid>
+      <description>&lt;p&gt;Hola Amigos del Rigor! Vamos a con el tercer de los cuatro videos sobre patrones de &amp;#8220;Unit Testing&amp;#8221;, especialmente, para código acoplado. En este video, veremos una implementación alternativa del &amp;#8220;Self-Shunt&amp;#8221; sólo para PHP7 usando clases anónimas.&lt;/p&gt;
+
+&lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Espero que os guste!&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;#MayTheRigorBeWithYou&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rigor Talks – PHP – #8 – Self-Shunt (Spanish)</title>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-8-self-shunt-spanish/</link>
+      <pubDate>Tue, 27 Dec 2016 09:30:03 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-8-self-shunt-spanish/</guid>
+      <description>&lt;p&gt;Hola Amigos del Rigor! Vamos a con el segundo de los cuatro videos sobre patrones de &amp;#8220;Unit Testing&amp;#8221;, especialmente, para código acoplado. En este video, veremos un atajo para implementar &amp;#8220;Test Classes&amp;#8221; usando un patrón conocido como &amp;#8220;Self-Shunt&amp;#8221;.&lt;/p&gt;
+
+&lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Espero que os guste!&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;#MayTheRigorBeWithYou&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rigor Talks – PHP – #7 – Test Class (Spanish)</title>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-7-test-class-spanish/</link>
+      <pubDate>Tue, 20 Dec 2016 09:30:21 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-7-test-class-spanish/</guid>
+      <description>&lt;p&gt;Hola Amigos del Rigor! Vamos a arrancar un serie de 4 videos sobre patrones de &amp;#8220;Unit Testing&amp;#8221;, especialmente, para código acoplado. Aquí os dejo el primero.&lt;/p&gt;
+
+&lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Espero que os guste!&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;#MayTheRigorBeWithYou&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rigor Talks – PHP – #6 – Named Constructors IV (Spanish)</title>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-6-named-constructors-iv-spanish/</link>
+      <pubDate>Thu, 15 Dec 2016 10:00:26 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-6-named-constructors-iv-spanish/</guid>
+      <description>&lt;p&gt;Hola Amigos del Rigor! Acabamos con la serie sobre &amp;#8220;Named Constructors&amp;#8221; con el último video de los cuatro. He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Espero que os guste!&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;#MayTheRigorBeWithYou&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rigor Talks – PHP – #5 – Named Constructors III (Spanish)</title>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-5-named-constructors-iii-spanish/</link>
+      <pubDate>Tue, 13 Dec 2016 10:00:17 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-5-named-constructors-iii-spanish/</guid>
+      <description>&lt;p&gt;Hola Amigos del Rigor! Seguimos con la serie sobre &amp;#8220;Named Constructors&amp;#8221; con el tercer de los cuatro videos. He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Espero que os guste!&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;#MayTheRigorBeWithYou&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rigor Talks – PHP – #4 – Named Constructors II (Spanish)</title>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-4-named-constructors-ii-spanish/</link>
+      <pubDate>Thu, 08 Dec 2016 10:00:05 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-4-named-constructors-ii-spanish/</guid>
+      <description>&lt;p&gt;Hola Amigos del Rigor! Seguimos con la serie sobre &amp;#8220;Named Constructors&amp;#8221; con el segundo de los cuatro videos. He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Espero que os guste!&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;#MayTheRigorBeWithYou&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rigor Talks – PHP – #3 – Named Constructors I (Spanish)</title>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-3-named-constructors-i-spanish/</link>
+      <pubDate>Tue, 06 Dec 2016 10:00:05 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-3-named-constructors-i-spanish/</guid>
+      <description>&lt;p&gt;Hola Amigos del Rigor! Vamos a arrancar un serie de 4 videos sobre &amp;#8220;Named Constructors&amp;#8221;. También conocidos como &amp;#8220;Semantic Constructors&amp;#8221; o &amp;#8220;Constructor Methods&amp;#8221;. Aquí os dejo el primero.&lt;/p&gt;
+
+&lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Espero que os guste!&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;#MayTheRigorBeWithYou&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rigor Talks – PHP – #2 Self-Encapsulation (Spanish)</title>
+      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-2-self-encapsulation-spanish/</link>
+      <pubDate>Thu, 01 Dec 2016 09:00:09 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-2-self-encapsulation-spanish/</guid>
+      <description>&lt;p&gt;Hola Amigos del Rigor! En este video voy a enseñar un ejemplo del concepto de &amp;#8220;Self-Encapsulation&amp;#8221; y la relación que guarda con las &amp;#8220;Guard Clauses&amp;#8221; que vimos en la &lt;a href=&#34;https://carlosbuenosvinos.com/rigor-talks-php-1-guard-clause-spanish/&#34;&gt;Rigor Talk anterior&lt;/a&gt;. He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Espero que os guste!&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;#MayTheRigorBeWithYou&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>#MayTheRigorBeWithYou: Presentamos las “Rigor Talks”</title>
+      <link>https://carlosbuenosvinos.github.io/maytherigorbewithyou-presentamos-las-rigor-talks/</link>
+      <pubDate>Wed, 30 Nov 2016 09:00:14 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/maytherigorbewithyou-presentamos-las-rigor-talks/</guid>
+      <description>&lt;p&gt;Amigos del rigor! Hola! Siguiendo la senda de los más grandes como &lt;a href=&#34;https://cleancoders.com/&#34; target=&#34;_blank&#34;&gt;CleanCoders.com&lt;/a&gt; o &lt;a href=&#34;http://codely.tv/&#34; target=&#34;_blank&#34;&gt;CodelyTV&lt;/a&gt; a.k.a. #cosaMuyFina, tengo el placer de presentaros las &amp;#8220;Rigor Talks&amp;#8221;. Videos cortos de entre 5 y 10 minutos, en Español, que iré publicando de forma periódica con aquellos trucos sobre desarrollo de software que veo que se repiten en las consultorías que hago por esos mundos. Los videos están hechos con todo el cariño y amor para que os resulten útiles en vuestro día a día.&lt;/p&gt;
+
+&lt;p&gt;A fecha de hoy, tengo 12 ya grabados que iré publicando en YouTube y en el blog de forma regular. Para muestra de los primeros videos que iremos publicando (Guard Clauses, Self-Encapsulation, Named Constructors, Test Class, Self-Shunt, Inmutabilidad y Mutant Testing). Os dejo una imagencilla ;)&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Firing Domain Events in the __constructor</title>
+      <link>https://carlosbuenosvinos.github.io/firing-domain-events-in-the-__constructor/</link>
+      <pubDate>Thu, 24 Nov 2016 13:24:02 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/firing-domain-events-in-the-__constructor/</guid>
+      <description>&lt;p&gt;After my post about &lt;a href=&#34;https://carlosbuenosvinos.com/good-orms-do-not-call-__construct/&#34; target=&#34;_blank&#34;&gt;&amp;#8220;Good ORMs do not call __construct a.k.a. where to fire my Domain Events&amp;#8221;&lt;/a&gt;, nice discussions (and trolling) are happening in the Barcelona Engineering Slack Channel. &lt;strong&gt;Thanks to everyone for the feedback, ideas and concerns. You are more than welcome!&lt;/strong&gt; The main concerns are:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;How do I fetch an Entity from ElasticSearch, using new and without firing the Event?&lt;/li&gt;
+&lt;li&gt;How do I create stubs on the Entity that is firing the Domain Event?&lt;/li&gt;
+&lt;li&gt;What are pros and cons of firing the Domain Event in the __constructor or in the named constructor?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;So, I&amp;#8217;ll take the original code as a starting point, and I&amp;#8217;ll suggest different strategies to answer those questions. &lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Good ORMs do not call __construct a.k.a. where to fire my Domain Events</title>
+      <link>https://carlosbuenosvinos.github.io/good-orms-do-not-call-__construct/</link>
+      <pubDate>Thu, 24 Nov 2016 08:00:31 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/good-orms-do-not-call-__construct/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;tl;dr: Entity constructor should be called once in its entire life. That&amp;#8217;s why good ORMs don&amp;#8217;t use constructor to reconstitute objects from the database. Good ORMs use reflection, deserialization or proxies. So, fire your Domain Events in the constructor.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Last week, I saw a presentation about going from &lt;a href=&#34;http://codely.tv/screencasts/codigo-acoplado-framework-microservicios-ddd/&#34; target=&#34;_blank&#34;&gt;coupled-to-framework code to a Domain-Driven Design approach&lt;/a&gt; in a sample application. It was a good talk. However, in my honest opinion, there were some mistakes that are important to address. In order not to troll, I have checked with the speakers to write this post ;).&lt;/p&gt;
+
+&lt;p&gt;One of the mistakes, that I would like to point is &lt;em&gt;where a Domain Event about &amp;#8220;a new product was created&amp;#8221;&lt;/em&gt; should be trigger specifically inside the Product Entity.&lt;/p&gt;
+
+&lt;p&gt;Speakers were showing a &amp;#8220;Video&amp;#8221; Entity with a named constructor called &amp;#8220;create&amp;#8221;. They were calling _new _inside the named constructor &lt;strong&gt;and then&lt;/strong&gt; firing the event. I mean, the Domain Event was not fired inside of the real constructor. Let&amp;#8217;s see the code we&amp;#8217;re talking about (the whole repository can be found &lt;a href=&#34;https://github.com/CodelyTV/cqrs-ddd-example&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;):&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Awesome two days helping @Lowpost_es team</title>
+      <link>https://carlosbuenosvinos.github.io/awesome-two-days-helping-lowpost_es-team/</link>
+      <pubDate>Tue, 22 Nov 2016 09:00:57 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/awesome-two-days-helping-lowpost_es-team/</guid>
+      <description>&lt;p&gt;I have recently visited Valencia in order to help my friends at &lt;a href=&#34;http://lowpost.es/&#34; target=&#34;_blank&#34;&gt;Lowpost&lt;/a&gt;. It was great and I had a lot of fun! I would like to tell you a bit about how it was.&lt;/p&gt;
+
+&lt;h3 id=&#34;who-is-lowpost&#34;&gt;Who is Lowpost?&lt;/h3&gt;
+
+&lt;p&gt;Lowpost is a cool start-up that are focused in Content Marketing. Lowpost connects companies that need interesting content with authors that can write about such topics. Authors bet for the open jobs and then they deliver the content to the final customer. Everything around such process is managed by the Lowpost platform.&lt;/p&gt;
+
+&lt;p&gt;As a start-up, they have grown quite fast, so their code. They started with Drupal, as many start-ups, and then they added a Silex application. You know that testing is difficult, however, doing unit testing for Drupal is a challenge.&lt;/p&gt;
+
+&lt;h3 id=&#34;what-we-did&#34;&gt;What we did?&lt;/h3&gt;</description>
+    </item>
+    
+    <item>
+      <title>“Domain-Driven Design in PHP” (@dddbook) is finished</title>
+      <link>https://carlosbuenosvinos.github.io/domain-driven-design-in-php-book-is-finished/</link>
+      <pubDate>Thu, 15 Sep 2016 11:00:11 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/domain-driven-design-in-php-book-is-finished/</guid>
+      <description>&lt;p&gt;Today, Keyvan, Christian and me are very happy to announce that &lt;a href=&#34;https://leanpub.com/ddd-in-php&#34; target=&#34;_blank&#34;&gt;&amp;#8220;Domain-Driven Design in PHP&amp;#8221;&lt;/a&gt; book is 100% complete. &lt;strong&gt;380 pages&lt;/strong&gt; and around &lt;strong&gt;1400 readers&lt;/strong&gt; so far.&lt;/p&gt;
+
+&lt;h4 id=&#34;thanks&#34;&gt;Thanks&lt;/h4&gt;
+
+&lt;p&gt;Thanks, thanks, thanks.&lt;/p&gt;
+
+&lt;p&gt;Thanks to everyone that has supported us in this project.&lt;/p&gt;
+
+&lt;p&gt;Thanks to &lt;strong&gt;Christian&lt;/strong&gt; and &lt;strong&gt;Keyvan&lt;/strong&gt;. We don&amp;#8217;t need words to understand each other.&lt;/p&gt;
+
+&lt;p&gt;Thanks to our &lt;strong&gt;families&lt;/strong&gt; and &lt;strong&gt;friends&lt;/strong&gt;. Love is what you need to keep pushing.&lt;/p&gt;
+
+&lt;p&gt;Thanks to &lt;strong&gt;Edd Mann&lt;/strong&gt; for helping at the beginning with the language implementation details ;).&lt;/p&gt;
+
+&lt;p&gt;Thanks to &lt;strong&gt;Matthias Noback&lt;/strong&gt; for his suggestions and his foreword.&lt;/p&gt;
+
+&lt;p&gt;Thanks to &lt;strong&gt;Vaughn Vernon&lt;/strong&gt; for being pragmatic and inspiring.&lt;/p&gt;
+
+&lt;p&gt;Thanks to &lt;strong&gt;Ricard Clau, Albert Casademont, Victor Guardiola&lt;/strong&gt; and &lt;strong&gt;Jordi Abad&lt;/strong&gt; for your contributions.&lt;/p&gt;
+
+&lt;p&gt;Thanks to &lt;strong&gt;Natalye Childress&lt;/strong&gt; for non stopping asking about uppercase or lowercase. With your work, the book can be read.&lt;/p&gt;
+
+&lt;p&gt;Thanks to everyone that committed fixes, you are great: &lt;strong&gt;Jonathan Wondrusch, César Rodríguez, Yannick Voyer, Oriol González, Henry Snoek, Tom Jowitt, Sascha Schimke, Sven Herrmann, Daniel Abad, Luis Rovirosa, Luis Cordova, Raúl Ramos, Juan Maturana, Nil Portugués, Nikolay Zujev, Fernando Pradas, Raúl Araya, Neal Brooks, Hubert Béague, Aleksander Rekść, Sebastian Machuca, Nicolas Oelgart, and Marc Aube.&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Event Sourcing is not a messaging integration pattern</title>
+      <link>https://carlosbuenosvinos.github.io/event-sourcing-is-not-a-messaging-integration-pattern/</link>
+      <pubDate>Thu, 11 Aug 2016 15:46:58 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/event-sourcing-is-not-a-messaging-integration-pattern/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;tl;dr: If you are sending messages to RabbitMQ to communicate one application to another, you are not doing Event Sourcing. You&amp;#8217;re just doing messaging ;)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In the last two months, I&amp;#8217;ve seen different nice talks using DDD, CQRS or Event Sourcing in the talk title. However, after watching the content, I think there are some general misunderstandings about some of the concepts. The most important one, in my honest opinion, is calling Event Sourcing to sending messaging to other applications using a broker. Event Sourcing is not about that. Let me explain a bit more.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>See you at @dpcon 2016</title>
+      <link>https://carlosbuenosvinos.github.io/see-you-at-dpcon-2016/</link>
+      <pubDate>Mon, 18 Apr 2016 13:22:43 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/see-you-at-dpcon-2016/</guid>
+      <description>I would like to let you know that I&amp;#8217;ll be presenting on the DPC 2016. This year, the Dutch PHP conference celebrates its 10th anniversary. It will be held on June 23rd-25th. I&amp;#8217;m more than happy to be there and talk about &amp;#8220;Integrating Bounded Contexts&amp;#8221;.</description>
+    </item>
+    
+    <item>
+      <title>Working at the same time in a project and its dependencies: Composer and path type repository</title>
+      <link>https://carlosbuenosvinos.github.io/working-at-the-same-time-in-a-project-and-its-dependencies-composer-and-path-type-repository/</link>
+      <pubDate>Thu, 24 Mar 2016 15:36:10 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/working-at-the-same-time-in-a-project-and-its-dependencies-composer-and-path-type-repository/</guid>
+      <description>&lt;p&gt;With the Domain-Driven Design, Microservices and API explosion, I see more teams working in a base project, such as a Web, and integrating other private packages they develop in a different repository. For example, working on the Web and an API client for a external REST service at the same time.&lt;/p&gt;
+
+&lt;p&gt;For example, at @AtrapaloEng, our sales development team (checkout process, purchases, orders, payments, etc.) integrates different payment methods into the web so users, specially Latam ones, can be happier using their preferred payment methods. They create a repository for each of the new payment methods we support as a external package. Sometimes a developer in the team must work with different projects at the same time, the Web and the payment method in development.&lt;/p&gt;
+
+&lt;p&gt;In this scenario, one option is work on the payment package, tag, push, go to the base project and update dependencies with Composer. As you can see, it&amp;#8217;s a bit slower, how we can improve this process? Composer to the rescue!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rendimiento con Domain Events, Proyecciones y principios de CQRS</title>
+      <link>https://carlosbuenosvinos.github.io/rendimiento-con-domain-events-proyecciones-y-principios-de-cqrs/</link>
+      <pubDate>Mon, 29 Feb 2016 07:00:38 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/rendimiento-con-domain-events-proyecciones-y-principios-de-cqrs/</guid>
+      <description>&lt;p&gt;Cuando desarrollamos una aplicación nueva, todo va muy rapidito. Hay poco tráfico, pocas queries y si hay alguna más &amp;#8220;dura&amp;#8221; usamos alguna cache como Memcached o Redis. Pero a medida que agregamos más funcionalidad a una página, el número de queries a base de datos u otras infraestructuras va creciendo. Hasta que sin saber cómo, haces 300 queries, y no es broma, en la ficha de algún producto.&lt;/p&gt;
+
+&lt;p&gt;El problema es que estamos acostumbrados a hacer muchas queries de lectura y muy pocas de escritura en estructuras bastante normalizadas. Eso escala mal en base a nueva funcionalidad. Un buen approach en busca del máximo rendimiento es la consistencia eventual, estructuras desnormalizadas y proyecciones.&lt;/p&gt;
+
+&lt;p&gt;Os dejo el video de la formación de @AtrapaloEng sobre cómo el uso de Eventos de Dominio y el uso de conceptos de CQRS nos pueden ayudar enormemente a mejorar el rendimiento de nuestras aplicaciones.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Doctrine 2.5, DDD, Entities and Identities</title>
+      <link>https://carlosbuenosvinos.github.io/doctrine-25-ddd-entities-and-identities/</link>
+      <pubDate>Wed, 28 Oct 2015 08:00:22 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/doctrine-25-ddd-entities-and-identities/</guid>
+      <description>&lt;p&gt;If you&amp;#8217;re developing applications in a Domain-Driven Design style and using Doctrine 2.5, you may be struggling with implementing your entities identities, I mean, UserId, ProductId, and so on. Embeddables are cool, but limited. Surrogates are not necessary anymore. Here are some short tips and examples about how to proceed.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Domain-Driven Design: Logging with Domain Events Webcast at @AtrapaloEng (Spanish)</title>
+      <link>https://carlosbuenosvinos.github.io/domain-driven-design-logging-with-domain-events-webcast-at-atrapaloeng-spanish/</link>
+      <pubDate>Mon, 19 Oct 2015 08:30:09 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/domain-driven-design-logging-with-domain-events-webcast-at-atrapaloeng-spanish/</guid>
+      <description>&lt;p&gt;Cuando trabajamos con aplicaciones DDD-style (aunque para las otras también aplica), una de las preguntas clásicas es como ejecutar tareas relacionadas con infraestructura desde las zonas más internas como Value Object o Entidades, sin violar la dependencias hacia capas superiores e incluso el SRP. Un ejemplo es logar información como acciones de usuario (tipo intento de acceso al sistema, alta de usuario, baja de usuario, etc.). El pasado Viernes, orientamos la formación de &lt;a href=&#34;https://twitter.com/AtrapaloEng&#34; target=&#34;_blank&#34;&gt;@AtrapaloEng&lt;/a&gt; sobre este tema. Os dejo el video y los ejercicios. Formación práctica basada en el proyecto de &lt;a href=&#34;https://github.com/dddinphp/last-wishes&#34; target=&#34;_blank&#34;&gt;LastWishes&lt;/a&gt; con múltiples ejercicios resueltos in live coding.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Consulta sobre DDD #1: Pregunta sobre las entidades en DDD (Identidad y UUID)</title>
+      <link>https://carlosbuenosvinos.github.io/consulta-sobre-ddd-1-entidades-identidad-uuid/</link>
+      <pubDate>Thu, 15 Oct 2015 07:30:53 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/consulta-sobre-ddd-1-entidades-identidad-uuid/</guid>
+      <description>&lt;p&gt;A raíz del libro &lt;a href=&#34;https://leanpub.com/ddd-in-php&#34; target=&#34;_blank&#34;&gt;&amp;#8220;Domain-Driven Design in PHP&amp;#8221;&lt;/a&gt; y los videos que tengo en &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3DjmXTOxIMs-5fcOgDg_Dd2&#34; target=&#34;_blank&#34;&gt;Youtube&lt;/a&gt;, semanalmente, me van llegando consultas sobre temas de relacionados. Son bastante interesantes y me gustaría compartirlas así como mis respuestas. A los autores de los mails les he pedido permiso para publicar la conversión. Las iré agregando en la medida que pueda. La primera es de Álex sobre Entidades, Identidad y UUIDs.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>“Implementing Domain-Driven Design” Workshop in Barcelona</title>
+      <link>https://carlosbuenosvinos.github.io/implementing-domain-driven-design-workshop-in-barcelona/</link>
+      <pubDate>Thu, 27 Nov 2014 07:33:12 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/implementing-domain-driven-design-workshop-in-barcelona/</guid>
+      <description>&lt;p&gt;Since 2012 and after two years reading and working with Domain-Driven Design approaches, in 2014, Christian (&lt;a href=&#34;https://twitter.com/theUniC&#34; target=&#34;_blank&#34;&gt;@theUniC&lt;/a&gt;) and me went to Berlin to get trained by Vaughn Vernon, author of &amp;#8220;Implementing Domain-Driven Design&amp;#8221; book. The training was fantastic, all the concepts that were going around on their minds up to that moment, got stuck into the ground in the 3 days IDDD workshop. However, they were the only two PHP developers there in a room full of Java and .NET. That was quite funny.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Domain-Driven Design: Code Structure and Application Services Webcast at @AtrapaloEng (Spanish)</title>
+      <link>https://carlosbuenosvinos.github.io/domain-driven-design-code-structure-and-application-services-webcast-at-atrapaloeng-spanish/</link>
+      <pubDate>Tue, 11 Nov 2014 10:00:06 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/domain-driven-design-code-structure-and-application-services-webcast-at-atrapaloeng-spanish/</guid>
+      <description>&lt;p&gt;Siguiendo con la formación de DDD en Atrápalo, os dejo la sesión de formación sobre Code Structure and Application Services. Que la disfrutéis.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Domain-Driven Design: Domain Events and BC Integration Webcast at @AtrapaloEng (Spanish)</title>
+      <link>https://carlosbuenosvinos.github.io/domain-driven-design-domain-events-and-bc-integration-webcast-at-atrapaloeng-spanish/</link>
+      <pubDate>Fri, 31 Oct 2014 06:57:10 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/domain-driven-design-domain-events-and-bc-integration-webcast-at-atrapaloeng-spanish/</guid>
+      <description>&lt;p&gt;Siguiendo con la formación de DDD en Atrápalo, os dejo la sesión de formación sobre Domain Events y BC Integration. Que la disfrutéis.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Domain-Driven Design: Bounded Context Integration (Spanish)</title>
+      <link>https://carlosbuenosvinos.github.io/domain-driven-design-bounded-context-integration-spanish/</link>
+      <pubDate>Mon, 27 Oct 2014 09:00:35 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/domain-driven-design-bounded-context-integration-spanish/</guid>
+      <description>&lt;p&gt;Os dejo el video de la charla que impartí el pasado 25 de Octubre de 2014 en la Barcelona Software Craftsmanship.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Domain-Driven Design: Entities and Value Objects Webcast at @AtrapaloEng (Spanish)</title>
+      <link>https://carlosbuenosvinos.github.io/domain-driven-design-entities-and-value-objects-webcast-at-atrapaloeng-spanish/</link>
+      <pubDate>Mon, 27 Oct 2014 08:00:39 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/domain-driven-design-entities-and-value-objects-webcast-at-atrapaloeng-spanish/</guid>
+      <description>&lt;p&gt;Siguiendo con las formaciones de DDD de Atrápalo, os dejo el video sobre Entities y Value Objects.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Domain-Driven Design: Aggregates Webcast at @AtrapaloEng (Spanish)</title>
+      <link>https://carlosbuenosvinos.github.io/domain-driven-design-aggregates-webcast-at-atrapaloeng-spanish/</link>
+      <pubDate>Thu, 23 Oct 2014 08:00:40 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/domain-driven-design-aggregates-webcast-at-atrapaloeng-spanish/</guid>
+      <description>&lt;p&gt;En Atrápalo, estamos haciendo formación semanal sobre DDD. Estoy grabando todos los screencast y los iré publicando semana a semana. El primero sobre Strategical no lo pudimos grabar pero gran parte del contenido lo podéis encontrar en la sesión que grabé en la &lt;a href=&#34;http://carlosbuenosvinos.com/tactical-domain-driven-design-screencast-at-phpbarcelona-spanish/&#34; title=&#34;Tactical Domain-Driven Design Screencast at PHPBarcelona (Spanish)&#34;&gt;Monthly Talk&lt;/a&gt; en Octubre de 2014. A continuación, os dejo la sesión de formación sobre Aggregates, al final hay discusión sobre SOLID, especialmente SRP. Que la disfrutéis.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Tactical Domain-Driven Design Screencast at PHPBarcelona (Spanish)</title>
+      <link>https://carlosbuenosvinos.github.io/tactical-domain-driven-design-screencast-at-phpbarcelona-spanish/</link>
+      <pubDate>Wed, 22 Oct 2014 05:59:28 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/tactical-domain-driven-design-screencast-at-phpbarcelona-spanish/</guid>
+      <description>&lt;p&gt;Os dejo el video sobre DDD Tactical Design que hice en la Monthly Talk de PHPBarcelona. Nos dio tiempo a charlar un poco de estrategia, ver los Value Objects, Entities y algo de Repositories. La charla está basada en el libro que Christian, Keyvan y yo estamos escribiendo en leanpub: &lt;a href=&#34;https://leanpub.com/ddd-in-php&#34; target=&#34;_blank&#34;&gt;&amp;#8220;Domain-Driven Design with PHP by Examples&amp;#8221;&lt;/a&gt;. En los últimos 30 minutos hablo sobre cómo estamos gestionando la Integración Continua en Atrápalo.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

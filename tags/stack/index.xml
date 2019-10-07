@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>stack on Carlos Buenosvinos</title>
+    <link>https://carlosbuenosvinos.github.io/tags/stack/</link>
+    <description>Recent content in stack on Carlos Buenosvinos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 31 Mar 2015 09:47:18 +0000</lastBuildDate>
+    
+	<atom:link href="https://carlosbuenosvinos.github.io/tags/stack/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Migrating progressively to Symfony without pain</title>
+      <link>https://carlosbuenosvinos.github.io/migrating-progressively-to-symfony-without-pain/</link>
+      <pubDate>Tue, 31 Mar 2015 09:47:18 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/migrating-progressively-to-symfony-without-pain/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.atrapalo.com&#34; target=&#34;_blank&#34;&gt;Atrápalo&lt;/a&gt; is a travel e-commerce website founded in 2000. Based in Barcelona, Spain, it sells flights, trips, tickets, booking restaurants, car renting, etc. to 10 different countries. It&amp;#8217;s a 9000 world Alexa ranking and it&amp;#8217;s running PHP. Since 2014, we are pushing hard in order to evolve technically using best practices, agile methodologies and distributed architectures. One of the key aspects is the framework.&lt;/p&gt;
+
+&lt;p&gt;We are currently migrating to Symfony in order to speed up the development process and reduce the maintenance costs. We are doing it progressively, step by step, without rewriting the whole application, no green-field project, without any dedicated team neither. All developers are involved in this process, and by policy, each new feature is developed using Symfony while the old features remain served by the old framework.&lt;/p&gt;
+
+&lt;p&gt;I would say this process is going quite smoothly, without pain. Based on some emails and tweets I have received, here are some tricks about how we are doing it. Hope it helps!&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

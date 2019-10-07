@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>deployment on Carlos Buenosvinos</title>
+    <link>https://carlosbuenosvinos.github.io/tags/deployment/</link>
+    <description>Recent content in deployment on Carlos Buenosvinos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 20 Oct 2015 08:00:30 +0000</lastBuildDate>
+    
+	<atom:link href="https://carlosbuenosvinos.github.io/tags/deployment/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Deploying Symfony (and PHP) apps with Ansistrano</title>
+      <link>https://carlosbuenosvinos.github.io/deploying-symfony-and-php-apps-with-ansistrano/</link>
+      <pubDate>Tue, 20 Oct 2015 08:00:30 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/deploying-symfony-and-php-apps-with-ansistrano/</guid>
+      <description>&lt;p class=&#34;p1&#34;&gt;
+  &lt;span class=&#34;s1&#34;&gt;For a long time, &lt;a href=&#34;http://capifony.org/&#34; target=&#34;_blank&#34;&gt;Capifony&lt;/a&gt; was, without any doubt, the facto option for deploying Symfony2 applications. Capifony is a ruby gem based in &lt;/span&gt;&lt;a href=&#34;https://github.com/capistrano/capistrano&#34; target=&#34;_blank&#34;&gt;Capistrano&lt;/a&gt; v2, an open source tool for running scripts on multiple servers with a deployment flow built-in. It’s primary use is for easily deploying applications. While it was built specifically for deploying &lt;a href=&#34;http://rubyonrails.org/&#34; target=&#34;_blank&#34;&gt;Rails&lt;/a&gt; apps, it’s pretty simple to customize it to deploy other types of applications. At that time, alternatives were shell scripting or Fabric. Now there&amp;#8217;s a better one, Ansistrano.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Tactical Domain-Driven Design Screencast at PHPBarcelona (Spanish)</title>
+      <link>https://carlosbuenosvinos.github.io/tactical-domain-driven-design-screencast-at-phpbarcelona-spanish/</link>
+      <pubDate>Wed, 22 Oct 2014 05:59:28 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/tactical-domain-driven-design-screencast-at-phpbarcelona-spanish/</guid>
+      <description>&lt;p&gt;Os dejo el video sobre DDD Tactical Design que hice en la Monthly Talk de PHPBarcelona. Nos dio tiempo a charlar un poco de estrategia, ver los Value Objects, Entities y algo de Repositories. La charla está basada en el libro que Christian, Keyvan y yo estamos escribiendo en leanpub: &lt;a href=&#34;https://leanpub.com/ddd-in-php&#34; target=&#34;_blank&#34;&gt;&amp;#8220;Domain-Driven Design with PHP by Examples&amp;#8221;&lt;/a&gt;. En los últimos 30 minutos hablo sobre cómo estamos gestionando la Integración Continua en Atrápalo.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

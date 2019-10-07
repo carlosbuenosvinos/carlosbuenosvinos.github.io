@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>performance on Carlos Buenosvinos</title>
+    <link>https://carlosbuenosvinos.github.io/tags/performance/</link>
+    <description>Recent content in performance on Carlos Buenosvinos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 14 Apr 2016 07:30:15 +0000</lastBuildDate>
+    
+	<atom:link href="https://carlosbuenosvinos.github.io/tags/performance/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Saved 500 Kbytes of autoload classmap with autoload-dev at @AtrapaloEng</title>
+      <link>https://carlosbuenosvinos.github.io/saved-500-kbytes-of-autoload-classmap-with-autoload-dev-at-atrapaloeng/</link>
+      <pubDate>Thu, 14 Apr 2016 07:30:15 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/saved-500-kbytes-of-autoload-classmap-with-autoload-dev-at-atrapaloeng/</guid>
+      <description>&lt;p&gt;This week, at Atrápalo, we have reviewed our autoloading Composer configuration to use PSR-4 and split production classmap from development classmap to save some space in our Opcache. The result, 500 Kbytes less. Let&amp;#8217;s see some details.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>First tests with #PHP7 in production at @AtrapaloEng</title>
+      <link>https://carlosbuenosvinos.github.io/first-tests-with-php7-in-production-at-atrapaloeng/</link>
+      <pubDate>Wed, 16 Mar 2016 09:00:03 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/first-tests-with-php7-in-production-at-atrapaloeng/</guid>
+      <description>&lt;p&gt;On Monday, Badoo blogged about its migration to PHP7 (&lt;a href=&#34;https://techblog.badoo.com/blog/2016/03/14/how-badoo-saved-one-million-dollars-switching-to-php7/&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;https://techblog.badoo.com/blog/2016/03/14/how-badoo-saved-one-million-dollars-switching-to-php7/&#34;&gt;https://techblog.badoo.com/blog/2016/03/14/how-badoo-saved-one-million-dollars-switching-to-php7/&lt;/a&gt;&lt;/a&gt;). Those are great results! At @AtrapaloEng, we&amp;#8217;re running already tests in production to perform the same step. We could have started some months before, but we&amp;#8217;ve been struggling with the php-msgpack extension and its (un)support for PHP7. We hope to deploy PHP7 in all our server during this week but we would like to share with you what we have seen so far. What we have done is adding another FPM node with the same capabilities as the current ones running in production with PHP 5.6. The new node is getting the same amount of traffic as the other ones. No special configurations or tweaks such as Huge Pages, just PHP7 upgrade. Data after more than 24 hours running.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rendimiento con Domain Events, Proyecciones y principios de CQRS</title>
+      <link>https://carlosbuenosvinos.github.io/rendimiento-con-domain-events-proyecciones-y-principios-de-cqrs/</link>
+      <pubDate>Mon, 29 Feb 2016 07:00:38 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.github.io/rendimiento-con-domain-events-proyecciones-y-principios-de-cqrs/</guid>
+      <description>&lt;p&gt;Cuando desarrollamos una aplicación nueva, todo va muy rapidito. Hay poco tráfico, pocas queries y si hay alguna más &amp;#8220;dura&amp;#8221; usamos alguna cache como Memcached o Redis. Pero a medida que agregamos más funcionalidad a una página, el número de queries a base de datos u otras infraestructuras va creciendo. Hasta que sin saber cómo, haces 300 queries, y no es broma, en la ficha de algún producto.&lt;/p&gt;
+
+&lt;p&gt;El problema es que estamos acostumbrados a hacer muchas queries de lectura y muy pocas de escritura en estructuras bastante normalizadas. Eso escala mal en base a nueva funcionalidad. Un buen approach en busca del máximo rendimiento es la consistencia eventual, estructuras desnormalizadas y proyecciones.&lt;/p&gt;
+
+&lt;p&gt;Os dejo el video de la formación de @AtrapaloEng sobre cómo el uso de Eventos de Dominio y el uso de conceptos de CQRS nos pueden ayudar enormemente a mejorar el rendimiento de nuestras aplicaciones.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

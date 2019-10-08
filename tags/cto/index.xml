@@ -6,17 +6,32 @@
     <description>Recent content in cto on Carlos Buenosvinos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 06 Oct 2019 00:57:01 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 07 Oct 2019 10:50:24 +0200</lastBuildDate>
     
 	<atom:link href="https://carlosbuenosvinos.com/tags/cto/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Techpump, una historia de Mentoring</title>
-      <link>https://carlosbuenosvinos.com/techpump-una-historia-de-mentoring/</link>
+      <title>Deliveritis Aguda - CTO Summit Valencia 2019</title>
+      <link>https://carlosbuenosvinos.com/deliveritis-aguda-cto-summit-valencia-2019/</link>
+      <pubDate>Mon, 07 Oct 2019 10:50:24 +0200</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/deliveritis-aguda-cto-summit-valencia-2019/</guid>
+      <description>&lt;p&gt;El pasado 4 de Julio, asistí como ponente al 1er CTO Summit en Valencia (&lt;a href=&#34;https://ctosummit.geekshubs.com/&#34;&gt;https://ctosummit.geekshubs.com/&lt;/a&gt;) organizado por Chaume y el equipo de Geekshubs (&lt;a href=&#34;https://geekshubs.com/&#34;&gt;https://geekshubs.com/&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;Como CTOs, nos perdemos en las dinámicas, métodos y hypes olvidando cuál es nuestro verdadero objetivo (ganar $$$) y cómo conseguirlo (delivery de rápido, regular y de calidad a producción).&lt;/p&gt;
+
+&lt;p&gt;En esta presentación, repasaremos algunos de los trucos y observaciones resultantes de mi experiencia como consultor y CTO de algunas empresas .com para encaminar al equipo hacia esa obsesión de entregar valor lo antes y lo más rápido posible. Que la disfrutéis!&lt;/p&gt;
+
+&lt;p&gt;Aquí os dejo la charla en video, las slides y una entrevista que me hicieron después.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Techpump, mentorizando start-ups y CTOs</title>
+      <link>https://carlosbuenosvinos.com/techpump-mentorizando-start-ups-y-ctos/</link>
       <pubDate>Sun, 06 Oct 2019 00:57:01 +0200</pubDate>
       
-      <guid>https://carlosbuenosvinos.com/techpump-una-historia-de-mentoring/</guid>
+      <guid>https://carlosbuenosvinos.com/techpump-mentorizando-start-ups-y-ctos/</guid>
       <description>&lt;p&gt;Ayudar a otros es algo que me hace feliz, me llena. Especialmente, si a quien ayudas es gente comprometida, son buenos alumnos y los resultados se ven pronto. Dejadme que os comparta cómo estoy ayudando a Techpump y a su CTO, Chavi.&lt;/p&gt;</description>
     </item>
     

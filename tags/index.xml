@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Carlos Buenosvinos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 06 Oct 2019 00:57:01 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 07 Oct 2019 10:50:24 +0200</lastBuildDate>
     
 	<atom:link href="https://carlosbuenosvinos.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,81 @@
     <item>
       <title>agile</title>
       <link>https://carlosbuenosvinos.com/tags/agile/</link>
-      <pubDate>Sun, 06 Oct 2019 00:57:01 +0200</pubDate>
+      <pubDate>Mon, 07 Oct 2019 10:50:24 +0200</pubDate>
       
       <guid>https://carlosbuenosvinos.com/tags/agile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cto</title>
+      <link>https://carlosbuenosvinos.com/tags/cto/</link>
+      <pubDate>Mon, 07 Oct 2019 10:50:24 +0200</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/tags/cto/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>delivery</title>
+      <link>https://carlosbuenosvinos.com/tags/delivery/</link>
+      <pubDate>Mon, 07 Oct 2019 10:50:24 +0200</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/tags/delivery/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>deployment</title>
+      <link>https://carlosbuenosvinos.com/tags/deployment/</link>
+      <pubDate>Mon, 07 Oct 2019 10:50:24 +0200</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/tags/deployment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dod</title>
+      <link>https://carlosbuenosvinos.com/tags/dod/</link>
+      <pubDate>Mon, 07 Oct 2019 10:50:24 +0200</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/tags/dod/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>git</title>
+      <link>https://carlosbuenosvinos.com/tags/git/</link>
+      <pubDate>Mon, 07 Oct 2019 10:50:24 +0200</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mvp</title>
+      <link>https://carlosbuenosvinos.com/tags/mvp/</link>
+      <pubDate>Mon, 07 Oct 2019 10:50:24 +0200</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/tags/mvp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>retro</title>
+      <link>https://carlosbuenosvinos.com/tags/retro/</link>
+      <pubDate>Mon, 07 Oct 2019 10:50:24 +0200</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/tags/retro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>scrum board</title>
+      <link>https://carlosbuenosvinos.com/tags/scrum-board/</link>
+      <pubDate>Mon, 07 Oct 2019 10:50:24 +0200</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/tags/scrum-board/</guid>
       <description></description>
     </item>
     
@@ -26,15 +98,6 @@
       <pubDate>Sun, 06 Oct 2019 00:57:01 +0200</pubDate>
       
       <guid>https://carlosbuenosvinos.com/tags/change-management/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>cto</title>
-      <link>https://carlosbuenosvinos.com/tags/cto/</link>
-      <pubDate>Sun, 06 Oct 2019 00:57:01 +0200</pubDate>
-      
-      <guid>https://carlosbuenosvinos.com/tags/cto/</guid>
       <description></description>
     </item>
     
@@ -813,15 +876,6 @@
     </item>
     
     <item>
-      <title>retro</title>
-      <link>https://carlosbuenosvinos.com/tags/retro/</link>
-      <pubDate>Mon, 21 Nov 2016 08:30:55 +0000</pubDate>
-      
-      <guid>https://carlosbuenosvinos.com/tags/retro/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>scrum</title>
       <link>https://carlosbuenosvinos.com/tags/scrum/</link>
       <pubDate>Mon, 21 Nov 2016 08:30:55 +0000</pubDate>
@@ -1416,15 +1470,6 @@
     </item>
     
     <item>
-      <title>git</title>
-      <link>https://carlosbuenosvinos.com/tags/git/</link>
-      <pubDate>Wed, 21 Oct 2015 08:00:39 +0000</pubDate>
-      
-      <guid>https://carlosbuenosvinos.com/tags/git/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>jenkins</title>
       <link>https://carlosbuenosvinos.com/tags/jenkins/</link>
       <pubDate>Wed, 21 Oct 2015 08:00:39 +0000</pubDate>
@@ -1502,15 +1547,6 @@
       <pubDate>Tue, 20 Oct 2015 08:00:30 +0000</pubDate>
       
       <guid>https://carlosbuenosvinos.com/tags/deploy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>deployment</title>
-      <link>https://carlosbuenosvinos.com/tags/deployment/</link>
-      <pubDate>Tue, 20 Oct 2015 08:00:30 +0000</pubDate>
-      
-      <guid>https://carlosbuenosvinos.com/tags/deployment/</guid>
       <description></description>
     </item>
     

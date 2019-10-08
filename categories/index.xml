@@ -6,10 +6,19 @@
     <description>Recent content in Categories on Carlos Buenosvinos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 06 Oct 2019 00:57:01 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 07 Oct 2019 10:50:24 +0200</lastBuildDate>
     
 	<atom:link href="https://carlosbuenosvinos.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Talks</title>
+      <link>https://carlosbuenosvinos.com/categories/talks/</link>
+      <pubDate>Mon, 07 Oct 2019 10:50:24 +0200</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/categories/talks/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Mentoring</title>
@@ -62,15 +71,6 @@
       <pubDate>Mon, 03 Apr 2017 09:00:15 +0000</pubDate>
       
       <guid>https://carlosbuenosvinos.com/categories/agile-amp-craftsmanship/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Talks</title>
-      <link>https://carlosbuenosvinos.com/categories/talks/</link>
-      <pubDate>Mon, 03 Apr 2017 09:00:15 +0000</pubDate>
-      
-      <guid>https://carlosbuenosvinos.com/categories/talks/</guid>
       <description></description>
     </item>
     

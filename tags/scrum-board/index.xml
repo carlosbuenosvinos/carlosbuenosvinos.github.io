@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>retro on Carlos Buenosvinos</title>
-    <link>https://carlosbuenosvinos.com/tags/retro/</link>
-    <description>Recent content in retro on Carlos Buenosvinos</description>
+    <title>scrum board on Carlos Buenosvinos</title>
+    <link>https://carlosbuenosvinos.com/tags/scrum-board/</link>
+    <description>Recent content in scrum board on Carlos Buenosvinos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 07 Oct 2019 10:50:24 +0200</lastBuildDate>
     
-	<atom:link href="https://carlosbuenosvinos.com/tags/retro/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://carlosbuenosvinos.com/tags/scrum-board/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -24,15 +24,6 @@
 &lt;p&gt;En esta presentación, repasaremos algunos de los trucos y observaciones resultantes de mi experiencia como consultor y CTO de algunas empresas .com para encaminar al equipo hacia esa obsesión de entregar valor lo antes y lo más rápido posible. Que la disfrutéis!&lt;/p&gt;
 
 &lt;p&gt;Aquí os dejo la charla en video, las slides y una entrevista que me hicieron después.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>“Scrum, no eres tú, soy yo”: Charla en la #geekdeveloperday organizada por @geekhubs</title>
-      <link>https://carlosbuenosvinos.com/scrum-no-eres-tu-soy-yo-charla-en-la-geekdeveloperday-organizada-por-geekhubs/</link>
-      <pubDate>Mon, 21 Nov 2016 08:30:55 +0000</pubDate>
-      
-      <guid>https://carlosbuenosvinos.com/scrum-no-eres-tu-soy-yo-charla-en-la-geekdeveloperday-organizada-por-geekhubs/</guid>
-      <description>&lt;p&gt;El pasado 2 de Noviembre estuve en Madrid. &lt;a href=&#34;http://geekshubsacademy.com/&#34; target=&#34;_blank&#34;&gt;GeeksHubs Academy&lt;/a&gt; organizaba el II Geek Developer Day y me invitaron a dar una charla sobre Scrum y la manera de mejorar la implementación en las empresas. Aquí os dejo el video y las slides.&lt;/p&gt;</description>
     </item>
     
   </channel>

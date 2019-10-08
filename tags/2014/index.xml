@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2014 on Carlos Buenosvinos</title>
-    <link>https://carlosbuenosvinos.github.io/tags/2014/</link>
+    <link>https://carlosbuenosvinos.com/tags/2014/</link>
     <description>Recent content in 2014 on Carlos Buenosvinos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 09 Feb 2015 12:31:28 +0000</lastBuildDate>
     
-	<atom:link href="https://carlosbuenosvinos.github.io/tags/2014/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://carlosbuenosvinos.com/tags/2014/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Atrápalo Tech 2014 figures</title>
-      <link>https://carlosbuenosvinos.github.io/atrapalo-tech-2014-figures/</link>
+      <link>https://carlosbuenosvinos.com/atrapalo-tech-2014-figures/</link>
       <pubDate>Mon, 09 Feb 2015 12:31:28 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.github.io/atrapalo-tech-2014-figures/</guid>
+      <guid>https://carlosbuenosvinos.com/atrapalo-tech-2014-figures/</guid>
       <description>&lt;p&gt;It&amp;#8217;s almost a year ago since I started working at &lt;a href=&#34;http://www.atrapalo.com&#34; target=&#34;_blank&#34;&gt;Atrápalo&lt;/a&gt;. &lt;span style=&#34;line-height: 1.5;&#34;&gt;The team has done an amazing job learning and applying all the changes in our software development process including the new architecture, testing practices, Scrum changes, branching strategy, releasing process, bugfixing, and so much more. Changing the way ourselves work is probably the most difficult part from a &amp;#8220;status quo&amp;#8221; change.&lt;/span&gt;&lt;/p&gt;
 
 &lt;p&gt;I will like to thank everyone in the team that has done the effort to make it possible. I know it&amp;#8217;s not easy and sometimes not fun at first. There is still so much to do and 2015 is going to be even so much funnier. Following, there are just some figures about 2014. Thanks to the &lt;a href=&#34;https://twitter.com/atrapaloeng&#34; target=&#34;_blank&#34;&gt;Atrapalo Team&lt;/a&gt;.&lt;/p&gt;</description>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>named constructor on Carlos Buenosvinos</title>
-    <link>https://carlosbuenosvinos.github.io/tags/named-constructor/</link>
+    <link>https://carlosbuenosvinos.com/tags/named-constructor/</link>
     <description>Recent content in named constructor on Carlos Buenosvinos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 15 Dec 2016 10:00:26 +0000</lastBuildDate>
     
-	<atom:link href="https://carlosbuenosvinos.github.io/tags/named-constructor/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://carlosbuenosvinos.com/tags/named-constructor/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Rigor Talks – PHP – #6 – Named Constructors IV (Spanish)</title>
-      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-6-named-constructors-iv-spanish/</link>
+      <link>https://carlosbuenosvinos.com/rigor-talks-php-6-named-constructors-iv-spanish/</link>
       <pubDate>Thu, 15 Dec 2016 10:00:26 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-6-named-constructors-iv-spanish/</guid>
+      <guid>https://carlosbuenosvinos.com/rigor-talks-php-6-named-constructors-iv-spanish/</guid>
       <description>&lt;p&gt;Hola Amigos del Rigor! Acabamos con la serie sobre &amp;#8220;Named Constructors&amp;#8221; con el último video de los cuatro. He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Espero que os guste!&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -26,10 +26,10 @@
     
     <item>
       <title>Rigor Talks – PHP – #5 – Named Constructors III (Spanish)</title>
-      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-5-named-constructors-iii-spanish/</link>
+      <link>https://carlosbuenosvinos.com/rigor-talks-php-5-named-constructors-iii-spanish/</link>
       <pubDate>Tue, 13 Dec 2016 10:00:17 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-5-named-constructors-iii-spanish/</guid>
+      <guid>https://carlosbuenosvinos.com/rigor-talks-php-5-named-constructors-iii-spanish/</guid>
       <description>&lt;p&gt;Hola Amigos del Rigor! Seguimos con la serie sobre &amp;#8220;Named Constructors&amp;#8221; con el tercer de los cuatro videos. He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Espero que os guste!&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -39,10 +39,10 @@
     
     <item>
       <title>Rigor Talks – PHP – #4 – Named Constructors II (Spanish)</title>
-      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-4-named-constructors-ii-spanish/</link>
+      <link>https://carlosbuenosvinos.com/rigor-talks-php-4-named-constructors-ii-spanish/</link>
       <pubDate>Thu, 08 Dec 2016 10:00:05 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-4-named-constructors-ii-spanish/</guid>
+      <guid>https://carlosbuenosvinos.com/rigor-talks-php-4-named-constructors-ii-spanish/</guid>
       <description>&lt;p&gt;Hola Amigos del Rigor! Seguimos con la serie sobre &amp;#8220;Named Constructors&amp;#8221; con el segundo de los cuatro videos. He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Espero que os guste!&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -52,10 +52,10 @@
     
     <item>
       <title>Rigor Talks – PHP – #3 – Named Constructors I (Spanish)</title>
-      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-3-named-constructors-i-spanish/</link>
+      <link>https://carlosbuenosvinos.com/rigor-talks-php-3-named-constructors-i-spanish/</link>
       <pubDate>Tue, 06 Dec 2016 10:00:05 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-3-named-constructors-i-spanish/</guid>
+      <guid>https://carlosbuenosvinos.com/rigor-talks-php-3-named-constructors-i-spanish/</guid>
       <description>&lt;p&gt;Hola Amigos del Rigor! Vamos a arrancar un serie de 4 videos sobre &amp;#8220;Named Constructors&amp;#8221;. También conocidos como &amp;#8220;Semantic Constructors&amp;#8221; o &amp;#8220;Constructor Methods&amp;#8221;. Aquí os dejo el primero.&lt;/p&gt;
 
 &lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34;&gt;aquí&lt;/a&gt;. Espero que os guste!&lt;/p&gt;
@@ -67,10 +67,10 @@
     
     <item>
       <title>Firing Domain Events in the __constructor</title>
-      <link>https://carlosbuenosvinos.github.io/firing-domain-events-in-the-__constructor/</link>
+      <link>https://carlosbuenosvinos.com/firing-domain-events-in-the-__constructor/</link>
       <pubDate>Thu, 24 Nov 2016 13:24:02 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.github.io/firing-domain-events-in-the-__constructor/</guid>
+      <guid>https://carlosbuenosvinos.com/firing-domain-events-in-the-__constructor/</guid>
       <description>&lt;p&gt;After my post about &lt;a href=&#34;https://carlosbuenosvinos.com/good-orms-do-not-call-__construct/&#34; target=&#34;_blank&#34;&gt;&amp;#8220;Good ORMs do not call __construct a.k.a. where to fire my Domain Events&amp;#8221;&lt;/a&gt;, nice discussions (and trolling) are happening in the Barcelona Engineering Slack Channel. &lt;strong&gt;Thanks to everyone for the feedback, ideas and concerns. You are more than welcome!&lt;/strong&gt; The main concerns are:&lt;/p&gt;
 
 &lt;ol&gt;
@@ -84,10 +84,10 @@
     
     <item>
       <title>Good ORMs do not call __construct a.k.a. where to fire my Domain Events</title>
-      <link>https://carlosbuenosvinos.github.io/good-orms-do-not-call-__construct/</link>
+      <link>https://carlosbuenosvinos.com/good-orms-do-not-call-__construct/</link>
       <pubDate>Thu, 24 Nov 2016 08:00:31 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.github.io/good-orms-do-not-call-__construct/</guid>
+      <guid>https://carlosbuenosvinos.com/good-orms-do-not-call-__construct/</guid>
       <description>&lt;p&gt;&lt;strong&gt;tl;dr: Entity constructor should be called once in its entire life. That&amp;#8217;s why good ORMs don&amp;#8217;t use constructor to reconstitute objects from the database. Good ORMs use reflection, deserialization or proxies. So, fire your Domain Events in the constructor.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Last week, I saw a presentation about going from &lt;a href=&#34;http://codely.tv/screencasts/codigo-acoplado-framework-microservicios-ddd/&#34; target=&#34;_blank&#34;&gt;coupled-to-framework code to a Domain-Driven Design approach&lt;/a&gt; in a sample application. It was a good talk. However, in my honest opinion, there were some mistakes that are important to address. In order not to troll, I have checked with the speakers to write this post ;).&lt;/p&gt;

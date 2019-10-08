@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>continuous integration on Carlos Buenosvinos</title>
-    <link>https://carlosbuenosvinos.github.io/tags/continuous-integration/</link>
+    <link>https://carlosbuenosvinos.com/tags/continuous-integration/</link>
     <description>Recent content in continuous integration on Carlos Buenosvinos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 02 Dec 2016 08:00:57 +0000</lastBuildDate>
     
-	<atom:link href="https://carlosbuenosvinos.github.io/tags/continuous-integration/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://carlosbuenosvinos.com/tags/continuous-integration/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Integración Continua y Deployment Continuo</title>
-      <link>https://carlosbuenosvinos.github.io/integracion-continua-y-deployment-continuo/</link>
+      <link>https://carlosbuenosvinos.com/integracion-continua-y-deployment-continuo/</link>
       <pubDate>Fri, 02 Dec 2016 08:00:57 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.github.io/integracion-continua-y-deployment-continuo/</guid>
+      <guid>https://carlosbuenosvinos.com/integracion-continua-y-deployment-continuo/</guid>
       <description>&lt;p&gt;Os dejo por aquí, una de mis charlas impartida en la asignatura &amp;#8220;Técnicas para el desarrollo de software en producción&amp;#8221; dentro del Máster en Tecnologías Informáticas de la Universidad de La Rioja. Se grabó hace un año (26/11/2015), pero no lo había encontrado hasta hace unas semanas. Espero que sea útil.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Tactical Domain-Driven Design Screencast at PHPBarcelona (Spanish)</title>
-      <link>https://carlosbuenosvinos.github.io/tactical-domain-driven-design-screencast-at-phpbarcelona-spanish/</link>
+      <link>https://carlosbuenosvinos.com/tactical-domain-driven-design-screencast-at-phpbarcelona-spanish/</link>
       <pubDate>Wed, 22 Oct 2014 05:59:28 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.github.io/tactical-domain-driven-design-screencast-at-phpbarcelona-spanish/</guid>
+      <guid>https://carlosbuenosvinos.com/tactical-domain-driven-design-screencast-at-phpbarcelona-spanish/</guid>
       <description>&lt;p&gt;Os dejo el video sobre DDD Tactical Design que hice en la Monthly Talk de PHPBarcelona. Nos dio tiempo a charlar un poco de estrategia, ver los Value Objects, Entities y algo de Repositories. La charla está basada en el libro que Christian, Keyvan y yo estamos escribiendo en leanpub: &lt;a href=&#34;https://leanpub.com/ddd-in-php&#34; target=&#34;_blank&#34;&gt;&amp;#8220;Domain-Driven Design with PHP by Examples&amp;#8221;&lt;/a&gt;. En los últimos 30 minutos hablo sobre cómo estamos gestionando la Integración Continua en Atrápalo.&lt;/p&gt;</description>
     </item>
     

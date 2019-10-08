@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>clojure on Carlos Buenosvinos</title>
-    <link>https://carlosbuenosvinos.github.io/tags/clojure/</link>
+    <link>https://carlosbuenosvinos.com/tags/clojure/</link>
     <description>Recent content in clojure on Carlos Buenosvinos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 02 Mar 2016 09:00:06 +0000</lastBuildDate>
     
-	<atom:link href="https://carlosbuenosvinos.github.io/tags/clojure/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://carlosbuenosvinos.com/tags/clojure/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>RESTGames – More than katas</title>
-      <link>https://carlosbuenosvinos.github.io/restgames-more-than-katas/</link>
+      <link>https://carlosbuenosvinos.com/restgames-more-than-katas/</link>
       <pubDate>Wed, 02 Mar 2016 09:00:06 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.github.io/restgames-more-than-katas/</guid>
+      <guid>https://carlosbuenosvinos.com/restgames-more-than-katas/</guid>
       <description>&lt;p&gt;Today, Christian (&lt;a href=&#34;https://twitter.com/theUniC&#34; target=&#34;_blank&#34;&gt;@theUniC&lt;/a&gt;) and I (&lt;a href=&#34;https://twitter.com/buenosvinos&#34; target=&#34;_blank&#34;&gt;@buenosvinos&lt;/a&gt;) would like to introduce you &amp;#8220;&lt;a href=&#34;https://github.com/restgames&#34; target=&#34;_blank&#34;&gt;REST Games&lt;/a&gt;&amp;#8220;: Games based in REST Services for learning and practicing coding.&lt;/p&gt;
 
 &lt;p&gt;Its goal is to provide some coding challenges that go beyond katas. You will have to implement a small JSON REST API that will play a well known multiplayer game, such as battleship, connect-4, tic-tac-toe, etc. The best part comes when two mates develop the same JSON REST API and you can use our referees programs two make them play one against the other. Who will win?&lt;/p&gt;</description>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>if on Carlos Buenosvinos</title>
-    <link>https://carlosbuenosvinos.github.io/tags/if/</link>
+    <link>https://carlosbuenosvinos.com/tags/if/</link>
     <description>Recent content in if on Carlos Buenosvinos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 11 Nov 2013 19:09:42 +0000</lastBuildDate>
     
-	<atom:link href="https://carlosbuenosvinos.github.io/tags/if/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://carlosbuenosvinos.com/tags/if/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Code Style: If and return</title>
-      <link>https://carlosbuenosvinos.github.io/code-style-if-and-return/</link>
+      <link>https://carlosbuenosvinos.com/code-style-if-and-return/</link>
       <pubDate>Mon, 11 Nov 2013 19:09:42 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.github.io/code-style-if-and-return/</guid>
+      <guid>https://carlosbuenosvinos.com/code-style-if-and-return/</guid>
       <description>&lt;p&gt;When contributing to opensource code at GitHub, I found some mistakes, or improvements when writing code, that are repetead over and over again for newbies and not so newbies developers. I&amp;#8217;ll try to write some posts about this, but for not, let&amp;#8217;s start with some &amp;#8220;if&amp;#8221; and &amp;#8220;return&amp;#8221; statements cases.&lt;/p&gt;</description>
     </item>
     

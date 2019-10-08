@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>scrum on Carlos Buenosvinos</title>
-    <link>https://carlosbuenosvinos.github.io/tags/scrum/</link>
+    <link>https://carlosbuenosvinos.com/tags/scrum/</link>
     <description>Recent content in scrum on Carlos Buenosvinos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 21 Nov 2016 08:30:55 +0000</lastBuildDate>
     
-	<atom:link href="https://carlosbuenosvinos.github.io/tags/scrum/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://carlosbuenosvinos.com/tags/scrum/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>“Scrum, no eres tú, soy yo”: Charla en la #geekdeveloperday organizada por @geekhubs</title>
-      <link>https://carlosbuenosvinos.github.io/scrum-no-eres-tu-soy-yo-charla-en-la-geekdeveloperday-organizada-por-geekhubs/</link>
+      <link>https://carlosbuenosvinos.com/scrum-no-eres-tu-soy-yo-charla-en-la-geekdeveloperday-organizada-por-geekhubs/</link>
       <pubDate>Mon, 21 Nov 2016 08:30:55 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.github.io/scrum-no-eres-tu-soy-yo-charla-en-la-geekdeveloperday-organizada-por-geekhubs/</guid>
+      <guid>https://carlosbuenosvinos.com/scrum-no-eres-tu-soy-yo-charla-en-la-geekdeveloperday-organizada-por-geekhubs/</guid>
       <description>&lt;p&gt;El pasado 2 de Noviembre estuve en Madrid. &lt;a href=&#34;http://geekshubsacademy.com/&#34; target=&#34;_blank&#34;&gt;GeeksHubs Academy&lt;/a&gt; organizaba el II Geek Developer Day y me invitaron a dar una charla sobre Scrum y la manera de mejorar la implementación en las empresas. Aquí os dejo el video y las slides.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>What happens if we don’t do it? – 4 ways to speed teams up</title>
-      <link>https://carlosbuenosvinos.github.io/what-happens-if-we-dont-do-it/</link>
+      <link>https://carlosbuenosvinos.com/what-happens-if-we-dont-do-it/</link>
       <pubDate>Mon, 09 May 2016 08:00:57 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.github.io/what-happens-if-we-dont-do-it/</guid>
+      <guid>https://carlosbuenosvinos.com/what-happens-if-we-dont-do-it/</guid>
       <description>&lt;p class=&#34;p1&#34;&gt;
   &lt;span class=&#34;s1&#34;&gt;I became Certified Scrum Master (CSM) on 2010. I took a CSM course at beautiful Oporto. My instructor was Mitch Lacey (&lt;a href=&#34;https://www.mitchlacey.com/&#34;&gt;&lt;span class=&#34;s2&#34;&gt;https://www.mitchlacey.com/&lt;/span&gt;&lt;/a&gt;). Amazing instructor. If you can attend any of his courses, go ahead. On 2012, he published an amazing book about Scrum, I totally recommend, “The Scrum Field Guide: Practical Advice for Your First Year” (&lt;a href=&#34;http://www.amazon.com/Scrum-Field-Guide-Addison-Wesley-Signature/dp/0133853624&#34;&gt;&lt;span class=&#34;s2&#34;&gt;http://www.amazon.com/Scrum-Field-Guide-Addison-Wesley-Signature/dp/0133853624&lt;/span&gt;&lt;/a&gt;). So practical, so full of examples to understand how to properly apply Scrum and get most of it.&lt;/span&gt;
 &lt;/p&gt;
@@ -41,28 +41,28 @@
     
     <item>
       <title>Guía para el Desarrollo Profesional PHP (edición 2014)</title>
-      <link>https://carlosbuenosvinos.github.io/guia-para-el-desarrollo-profesional-php-edicion-2014/</link>
+      <link>https://carlosbuenosvinos.com/guia-para-el-desarrollo-profesional-php-edicion-2014/</link>
       <pubDate>Wed, 21 Oct 2015 08:00:39 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.github.io/guia-para-el-desarrollo-profesional-php-edicion-2014/</guid>
+      <guid>https://carlosbuenosvinos.com/guia-para-el-desarrollo-profesional-php-edicion-2014/</guid>
       <description>&lt;p&gt;Rascando por Youtube, encontré este vídeo de 2014, de una presentación que hice en LaSalle inspirada por &lt;a href=&#34;http://carlosbuenosvinos.com/desarrollo-php-profesional/&#34; target=&#34;_blank&#34;&gt;otra que hice en Castellón en 2011&lt;/a&gt;. La idea es hacer un overview del ecosistema PHP y puntos importantes a la hora de montar un ciclo de desarrollo basado en esta tecnología. Que la disfrutéis.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Economía del Desarrollo de Software – PHP Barcelona – Marzo 2015</title>
-      <link>https://carlosbuenosvinos.github.io/economia-del-desarrollo-de-software-php-barcelona-marzo-2015/</link>
+      <link>https://carlosbuenosvinos.com/economia-del-desarrollo-de-software-php-barcelona-marzo-2015/</link>
       <pubDate>Wed, 11 Mar 2015 21:55:43 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.github.io/economia-del-desarrollo-de-software-php-barcelona-marzo-2015/</guid>
+      <guid>https://carlosbuenosvinos.com/economia-del-desarrollo-de-software-php-barcelona-marzo-2015/</guid>
       <description>&lt;p&gt;Aquí os dejo las slides y el video de mi charla sobre &amp;#8220;Economía del Desarrollo de Software&amp;#8221; impartida en la &lt;a href=&#34;http://phpbarcelona.org/eventos/php-barcelona-monthly-talks-march-software-economics&#34; target=&#34;_blank&#34;&gt;Barcelona PHP Monthly Talk de Marzo&lt;/a&gt; y en la &lt;a href=&#34;http://smash-tech.com/developers/&#34; target=&#34;_blank&#34;&gt;SmashTech &amp;#8220;I&amp;#8217;m a Developer&amp;#8221;&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Detalles sobre Scrum: ¿Cómo atacar el sprint?</title>
-      <link>https://carlosbuenosvinos.github.io/detalles-sobre-scrum-como-atacar-el-sprint/</link>
+      <link>https://carlosbuenosvinos.com/detalles-sobre-scrum-como-atacar-el-sprint/</link>
       <pubDate>Fri, 30 May 2014 17:38:10 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.github.io/detalles-sobre-scrum-como-atacar-el-sprint/</guid>
+      <guid>https://carlosbuenosvinos.com/detalles-sobre-scrum-como-atacar-el-sprint/</guid>
       <description>&lt;p&gt;Os presento un pequeño ejercicio que llevo utilizando un mes y que me está dando buenos resultados a la hora de ilustrar la importancia de cómo atacar el sprint y la obsesión por entregar valor lo antes posible.&lt;/p&gt;
 
 &lt;p&gt;&amp;#8220;Es lunes, perteneces a un equipo de Scrum de 6 personas. Habéis acabado el planning meeting y habéis enviado un mail con el commitment. Montáis la ScrumBoard y os queda de la siguiente manera&amp;#8221;.&lt;/p&gt;</description>
@@ -70,19 +70,19 @@
     
     <item>
       <title>Smash Tech: PHP 2014</title>
-      <link>https://carlosbuenosvinos.github.io/smash-tech-php-2014/</link>
+      <link>https://carlosbuenosvinos.com/smash-tech-php-2014/</link>
       <pubDate>Thu, 29 May 2014 09:04:44 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.github.io/smash-tech-php-2014/</guid>
+      <guid>https://carlosbuenosvinos.com/smash-tech-php-2014/</guid>
       <description>&lt;p&gt;El pasado día 28 de Mayo, participé en &lt;a href=&#34;http://smash-tech.com/&#34; target=&#34;_blank&#34;&gt;Smash Tech&lt;/a&gt; como ponente impartiendo una master class de 2 horas sobre el ecosistema PHP y en lo que se debe prestar atención para el 2015. Con los 50 asistentes que pagaron la entrada, repasamos desde Metodologías de desarrollo: Agile, Scrum y Extreme Programming. Sobre ésta última pivotó la gran mayoría de la presentación, viendo cómo se resuelven las dinámicas de TDD, Integración Continua, Coding Standards, etc.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Make your product owner or CEO watch this video</title>
-      <link>https://carlosbuenosvinos.github.io/make-your-product-owner-or-ceo-watch-this-video/</link>
+      <link>https://carlosbuenosvinos.com/make-your-product-owner-or-ceo-watch-this-video/</link>
       <pubDate>Wed, 26 Mar 2014 09:00:21 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.github.io/make-your-product-owner-or-ceo-watch-this-video/</guid>
+      <guid>https://carlosbuenosvinos.com/make-your-product-owner-or-ceo-watch-this-video/</guid>
       <description>For months, I have been trying to find a way to explain in a short way how Product Ownership works in Scrum. Then I found:
 
 Source: http://blog.crisp.se/2012/10/25/henrikkniberg/agile-product-ownership-in-a-nutshell</description>
@@ -90,19 +90,19 @@ Source: http://blog.crisp.se/2012/10/25/henrikkniberg/agile-product-ownership-in
     
     <item>
       <title>Adiós Emagister – 8 reflexiones sobre gestión de equipos</title>
-      <link>https://carlosbuenosvinos.github.io/adios-emagister-8-reflexiones-sobre-gestion-de-equipos/</link>
+      <link>https://carlosbuenosvinos.com/adios-emagister-8-reflexiones-sobre-gestion-de-equipos/</link>
       <pubDate>Fri, 14 Feb 2014 08:00:24 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.github.io/adios-emagister-8-reflexiones-sobre-gestion-de-equipos/</guid>
+      <guid>https://carlosbuenosvinos.com/adios-emagister-8-reflexiones-sobre-gestion-de-equipos/</guid>
       <description>&lt;p&gt;Hoy, 14 de Febrero, es mi último día en Emagister. Después de casi 4 años ha llegado el momento de decir adiós y marchar hacia nuevas aventuras y retos profesionales. Con este post, quiero compartir algunos consejos e ideas basados en mi experiencia en la gestión del equipo técnico que espero que os resulten útiles.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Review: The Scrum Field Guide: Practical Advice for Your First Year</title>
-      <link>https://carlosbuenosvinos.github.io/review-the-scrum-field-guide-practical-advice-for-your-first-year/</link>
+      <link>https://carlosbuenosvinos.com/review-the-scrum-field-guide-practical-advice-for-your-first-year/</link>
       <pubDate>Thu, 08 Aug 2013 06:30:51 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.github.io/review-the-scrum-field-guide-practical-advice-for-your-first-year/</guid>
+      <guid>https://carlosbuenosvinos.com/review-the-scrum-field-guide-practical-advice-for-your-first-year/</guid>
       <description>&lt;p style=&#34;text-align: left;&#34;&gt;
   He tenido el placer de leerme esta última semana el libro &lt;a href=&#34;http://www.amazon.es/The-Scrum-Field-Guide-ebook/dp/B007JWJVCA/ref=sr_1_1?s=digital-text&amp;ie=UTF8&amp;qid=1375904701&amp;sr=1-1&#34; target=&#34;_blank&#34;&gt;&amp;#8220;The Scrum Field Guide: Practical Advice for Your First Year&amp;#8221;&lt;/a&gt; de &lt;a href=&#34;http://www.mitchlacey.com&#34; target=&#34;_blank&#34;&gt;Mitch Lacey&lt;/a&gt;. Mitch fue mi profesor del curso de certificación para ScrumMaster de la scrumalliance.org. Si el curso fue una pasada, el libro lo es aún más.
 &lt;/p&gt;</description>
@@ -110,19 +110,19 @@ Source: http://blog.crisp.se/2012/10/25/henrikkniberg/agile-product-ownership-in
     
     <item>
       <title>Introducción a Scrum y Agile</title>
-      <link>https://carlosbuenosvinos.github.io/introduccion-a-scrum-y-agile/</link>
+      <link>https://carlosbuenosvinos.com/introduccion-a-scrum-y-agile/</link>
       <pubDate>Thu, 04 Jul 2013 09:00:49 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.github.io/introduccion-a-scrum-y-agile/</guid>
+      <guid>https://carlosbuenosvinos.com/introduccion-a-scrum-y-agile/</guid>
       <description>&lt;p&gt;Hoy, me gustaría rescatar una presentación sobre Scrum y Agile que hice en la BetaBeers Barcelona. Una hora de Scrum en vena con dinámicas prácticas, overview de toda la metodología, ejemplos, etc. ¡Espero que la disfrutéis!&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Guía para el desarrollo PHP Profesional</title>
-      <link>https://carlosbuenosvinos.github.io/desarrollo-php-profesional/</link>
+      <link>https://carlosbuenosvinos.com/desarrollo-php-profesional/</link>
       <pubDate>Sun, 30 Jun 2013 23:30:13 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.github.io/desarrollo-php-profesional/</guid>
+      <guid>https://carlosbuenosvinos.com/desarrollo-php-profesional/</guid>
       <description>&lt;p&gt;Os dejo un material de hace un tiempo (&lt;span style=&#34;line-height: 1.714285714; font-size: 1rem;&#34;&gt;16 de mayo de 2011) pero todavía bastante válido.&lt;/span&gt;&lt;/p&gt;
 
 &lt;p&gt;Como me gusta decir, PHP es fácil de aprender y difícil de dominar. Es una de las opciones más rápidas y efectivas para la creación y mantenimiento de aplicaciones web de todo tipo. Su simplicidad es la ventaja tecnológica #1 que tiene sobre sus principales competidores aunque no implica que su uso sea sólo orientado al desarrollo de aplicaciones simples. Con PHP podemos crear sistemas avanzados y potencialmente muy complejos. Para poder garantizar la escalabilidad de estos últimos necesitamos un ciclo de desarrollo y un equipo técnico alineado para hacer más con menos. En esta ponencia, vamos a repasar las características principales de PHP y cómo mejorar nuestro ciclo de desarrollo a través de herramientas y buenas prácticas.&lt;/p&gt;</description>

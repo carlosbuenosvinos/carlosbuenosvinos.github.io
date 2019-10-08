@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>mysql on Carlos Buenosvinos</title>
-    <link>https://carlosbuenosvinos.github.io/tags/mysql/</link>
+    <link>https://carlosbuenosvinos.com/tags/mysql/</link>
     <description>Recent content in mysql on Carlos Buenosvinos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 25 Oct 2016 08:01:46 +0000</lastBuildDate>
     
-	<atom:link href="https://carlosbuenosvinos.github.io/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://carlosbuenosvinos.com/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Accessing securely production services with SSH port forwarding</title>
-      <link>https://carlosbuenosvinos.github.io/accessing-securely-production-services-with-ssh-port-forwarding/</link>
+      <link>https://carlosbuenosvinos.com/accessing-securely-production-services-with-ssh-port-forwarding/</link>
       <pubDate>Tue, 25 Oct 2016 08:01:46 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.github.io/accessing-securely-production-services-with-ssh-port-forwarding/</guid>
+      <guid>https://carlosbuenosvinos.com/accessing-securely-production-services-with-ssh-port-forwarding/</guid>
       <description>&lt;p&gt;We&amp;#8217;ve already talked about &lt;a href=&#34;https://carlosbuenosvinos.com/github-ansible-deploy-your-public-ssh-keys-to-your-server/&#34; target=&#34;_blank&#34;&gt;how to deploy your public SSH keys into your server using Ansible and GitHub&lt;/a&gt;. This time, I just want to share a simple approach to have access to your production services (MySQL, Elastic, RabbitMQ, etc.) without exposing publicly your services. You have different alternatives, probably the most common are using a VPN or use SSH port forwarding. Let&amp;#8217;s see an example of the last one.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>MySQL 5.6 Developer Certification Beta Exam Review</title>
-      <link>https://carlosbuenosvinos.github.io/mysql-5-6-developer-certification-beta-exam-review/</link>
+      <link>https://carlosbuenosvinos.com/mysql-5-6-developer-certification-beta-exam-review/</link>
       <pubDate>Tue, 24 Dec 2013 17:35:23 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.github.io/mysql-5-6-developer-certification-beta-exam-review/</guid>
+      <guid>https://carlosbuenosvinos.com/mysql-5-6-developer-certification-beta-exam-review/</guid>
       <description>&lt;p&gt;Last friday, I did the MySQL 5.6 Developer Certification Beta Exam. This is the exam that Oracle is launching because of the new MySQL 5.6 Developer certification that will replace the old MySQL 5.0 certification in 2014. I don&amp;#8217;t know if I&amp;#8217;m certified yet because in beta, all candidate exams have to be reviewed in order to analyse how difficult it was, what questions were not appropriated, typos, etc.) before going live.&lt;/p&gt;</description>
     </item>
     

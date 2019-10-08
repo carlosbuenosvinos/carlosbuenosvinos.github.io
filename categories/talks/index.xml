@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Talks on Carlos Buenosvinos</title>
-    <link>https://carlosbuenosvinos.github.io/categories/talks/</link>
+    <link>https://carlosbuenosvinos.com/categories/talks/</link>
     <description>Recent content in Talks on Carlos Buenosvinos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 03 Apr 2017 09:00:15 +0000</lastBuildDate>
     
-	<atom:link href="https://carlosbuenosvinos.github.io/categories/talks/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://carlosbuenosvinos.com/categories/talks/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>No necesitáis consultoría sobre DDD: Caso Motor de Reservas</title>
-      <link>https://carlosbuenosvinos.github.io/no-necesitais-consultoria-o-formacion-sobre-ddd-caso-1/</link>
+      <link>https://carlosbuenosvinos.com/no-necesitais-consultoria-o-formacion-sobre-ddd-caso-1/</link>
       <pubDate>Mon, 03 Apr 2017 09:00:15 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.github.io/no-necesitais-consultoria-o-formacion-sobre-ddd-caso-1/</guid>
+      <guid>https://carlosbuenosvinos.com/no-necesitais-consultoria-o-formacion-sobre-ddd-caso-1/</guid>
       <description>&lt;p&gt;Cuando una empresa me contacta para hacer consultoría, monto un Skype para entender mejor las necesidades y la situación en la que se encuentra. Normalmente, hablo con un par de técnicos y/o el CTO que me cuentan sus dificultades. Tengo varias de éstas al mes. Algunas son empresas grandes (50 developers o más) y más pequeñas (menos de 10 developers). Como no me gano la vida haciendo consultoría, soy muy imparcial con lo que necesitan y &lt;strong&gt;sobretodo con lo que no necesitan&lt;/strong&gt;. En sus dificultades, algunos patrones se repiten (miedos, prejuicios, presiones, modas, etc.). Me gustaría resumir cómo fue una de esas video conferencias por si podéis estar en la misma situación.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Integración Continua y Deployment Continuo</title>
-      <link>https://carlosbuenosvinos.github.io/integracion-continua-y-deployment-continuo/</link>
+      <link>https://carlosbuenosvinos.com/integracion-continua-y-deployment-continuo/</link>
       <pubDate>Fri, 02 Dec 2016 08:00:57 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.github.io/integracion-continua-y-deployment-continuo/</guid>
+      <guid>https://carlosbuenosvinos.com/integracion-continua-y-deployment-continuo/</guid>
       <description>&lt;p&gt;Os dejo por aquí, una de mis charlas impartida en la asignatura &amp;#8220;Técnicas para el desarrollo de software en producción&amp;#8221; dentro del Máster en Tecnologías Informáticas de la Universidad de La Rioja. Se grabó hace un año (26/11/2015), pero no lo había encontrado hasta hace unas semanas. Espero que sea útil.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>#MayTheRigorBeWithYou: Presentamos las “Rigor Talks”</title>
-      <link>https://carlosbuenosvinos.github.io/maytherigorbewithyou-presentamos-las-rigor-talks/</link>
+      <link>https://carlosbuenosvinos.com/maytherigorbewithyou-presentamos-las-rigor-talks/</link>
       <pubDate>Wed, 30 Nov 2016 09:00:14 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.github.io/maytherigorbewithyou-presentamos-las-rigor-talks/</guid>
+      <guid>https://carlosbuenosvinos.com/maytherigorbewithyou-presentamos-las-rigor-talks/</guid>
       <description>&lt;p&gt;Amigos del rigor! Hola! Siguiendo la senda de los más grandes como &lt;a href=&#34;https://cleancoders.com/&#34; target=&#34;_blank&#34;&gt;CleanCoders.com&lt;/a&gt; o &lt;a href=&#34;http://codely.tv/&#34; target=&#34;_blank&#34;&gt;CodelyTV&lt;/a&gt; a.k.a. #cosaMuyFina, tengo el placer de presentaros las &amp;#8220;Rigor Talks&amp;#8221;. Videos cortos de entre 5 y 10 minutos, en Español, que iré publicando de forma periódica con aquellos trucos sobre desarrollo de software que veo que se repiten en las consultorías que hago por esos mundos. Los videos están hechos con todo el cariño y amor para que os resulten útiles en vuestro día a día.&lt;/p&gt;
 
 &lt;p&gt;A fecha de hoy, tengo 12 ya grabados que iré publicando en YouTube y en el blog de forma regular. Para muestra de los primeros videos que iremos publicando (Guard Clauses, Self-Encapsulation, Named Constructors, Test Class, Self-Shunt, Inmutabilidad y Mutant Testing). Os dejo una imagencilla ;)&lt;/p&gt;</description>
@@ -42,10 +42,10 @@
     
     <item>
       <title>Awesome two days helping @Lowpost_es team</title>
-      <link>https://carlosbuenosvinos.github.io/awesome-two-days-helping-lowpost_es-team/</link>
+      <link>https://carlosbuenosvinos.com/awesome-two-days-helping-lowpost_es-team/</link>
       <pubDate>Tue, 22 Nov 2016 09:00:57 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.github.io/awesome-two-days-helping-lowpost_es-team/</guid>
+      <guid>https://carlosbuenosvinos.com/awesome-two-days-helping-lowpost_es-team/</guid>
       <description>&lt;p&gt;I have recently visited Valencia in order to help my friends at &lt;a href=&#34;http://lowpost.es/&#34; target=&#34;_blank&#34;&gt;Lowpost&lt;/a&gt;. It was great and I had a lot of fun! I would like to tell you a bit about how it was.&lt;/p&gt;
 
 &lt;h3 id=&#34;who-is-lowpost&#34;&gt;Who is Lowpost?&lt;/h3&gt;
@@ -59,37 +59,37 @@
     
     <item>
       <title>“Scrum, no eres tú, soy yo”: Charla en la #geekdeveloperday organizada por @geekhubs</title>
-      <link>https://carlosbuenosvinos.github.io/scrum-no-eres-tu-soy-yo-charla-en-la-geekdeveloperday-organizada-por-geekhubs/</link>
+      <link>https://carlosbuenosvinos.com/scrum-no-eres-tu-soy-yo-charla-en-la-geekdeveloperday-organizada-por-geekhubs/</link>
       <pubDate>Mon, 21 Nov 2016 08:30:55 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.github.io/scrum-no-eres-tu-soy-yo-charla-en-la-geekdeveloperday-organizada-por-geekhubs/</guid>
+      <guid>https://carlosbuenosvinos.com/scrum-no-eres-tu-soy-yo-charla-en-la-geekdeveloperday-organizada-por-geekhubs/</guid>
       <description>&lt;p&gt;El pasado 2 de Noviembre estuve en Madrid. &lt;a href=&#34;http://geekshubsacademy.com/&#34; target=&#34;_blank&#34;&gt;GeeksHubs Academy&lt;/a&gt; organizaba el II Geek Developer Day y me invitaron a dar una charla sobre Scrum y la manera de mejorar la implementación en las empresas. Aquí os dejo el video y las slides.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Entrevista en @CodelyTV</title>
-      <link>https://carlosbuenosvinos.github.io/entrevista-en-codelytv/</link>
+      <link>https://carlosbuenosvinos.com/entrevista-en-codelytv/</link>
       <pubDate>Fri, 04 Nov 2016 18:17:46 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.github.io/entrevista-en-codelytv/</guid>
+      <guid>https://carlosbuenosvinos.com/entrevista-en-codelytv/</guid>
       <description>&lt;p&gt;Aquí os dejo la entrevista que me hizo Javier Ferrer, la cara visible de &lt;a href=&#34;http://codely.tv/entrevistas/carlos-buenosvinos-director-tecnico-xing-cto-atrapalo/&#34; target=&#34;_blank&#34;&gt;CodelyTV&lt;/a&gt;, en Julio de 2016. A parte del video, se curró la &lt;a href=&#34;http://codely.tv/entrevistas/carlos-buenosvinos-director-tecnico-xing-cto-atrapalo/&#34; target=&#34;_blank&#34;&gt;transcripción&lt;/a&gt; de las cosas más relevantes. Me gustaría agradecerle personalmente el buen trato y el interés.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Hola Carlos</title>
-      <link>https://carlosbuenosvinos.github.io/hola-carlos/</link>
+      <link>https://carlosbuenosvinos.com/hola-carlos/</link>
       <pubDate>Fri, 16 Sep 2016 07:30:23 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.github.io/hola-carlos/</guid>
+      <guid>https://carlosbuenosvinos.com/hola-carlos/</guid>
       <description>Hola Carlos, Hace poco oí hablar de ti en mi círculo de colegas frikis y me puse una de tus charlas sobre scrum, me pareció increíble que en tan sólo una charla de dos horas me quedara tan claro el concepto, los roles, etc, así que continué mirando tu blog etc. A día de hoy creo que he visto todo tu material online. Ahora estarás pensando ¿qué quiere este capullo? jaja Solamente agradecerte tu labor en la comunidad PHP, gracias a gente como tu, los menos seniors o los que nos encontramos en una empresa estancados podemos aprender grandes cosas.</description>
     </item>
     
     <item>
       <title>“Domain-Driven Design in PHP” (@dddbook) is finished</title>
-      <link>https://carlosbuenosvinos.github.io/domain-driven-design-in-php-book-is-finished/</link>
+      <link>https://carlosbuenosvinos.com/domain-driven-design-in-php-book-is-finished/</link>
       <pubDate>Thu, 15 Sep 2016 11:00:11 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.github.io/domain-driven-design-in-php-book-is-finished/</guid>
+      <guid>https://carlosbuenosvinos.com/domain-driven-design-in-php-book-is-finished/</guid>
       <description>&lt;p&gt;Today, Keyvan, Christian and me are very happy to announce that &lt;a href=&#34;https://leanpub.com/ddd-in-php&#34; target=&#34;_blank&#34;&gt;&amp;#8220;Domain-Driven Design in PHP&amp;#8221;&lt;/a&gt; book is 100% complete. &lt;strong&gt;380 pages&lt;/strong&gt; and around &lt;strong&gt;1400 readers&lt;/strong&gt; so far.&lt;/p&gt;
 
 &lt;h4 id=&#34;thanks&#34;&gt;Thanks&lt;/h4&gt;
@@ -117,100 +117,100 @@
     
     <item>
       <title>See you at @dpcon 2016</title>
-      <link>https://carlosbuenosvinos.github.io/see-you-at-dpcon-2016/</link>
+      <link>https://carlosbuenosvinos.com/see-you-at-dpcon-2016/</link>
       <pubDate>Mon, 18 Apr 2016 13:22:43 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.github.io/see-you-at-dpcon-2016/</guid>
+      <guid>https://carlosbuenosvinos.com/see-you-at-dpcon-2016/</guid>
       <description>I would like to let you know that I&amp;#8217;ll be presenting on the DPC 2016. This year, the Dutch PHP conference celebrates its 10th anniversary. It will be held on June 23rd-25th. I&amp;#8217;m more than happy to be there and talk about &amp;#8220;Integrating Bounded Contexts&amp;#8221;.</description>
     </item>
     
     <item>
       <title>Guía para el Desarrollo Profesional PHP (edición 2014)</title>
-      <link>https://carlosbuenosvinos.github.io/guia-para-el-desarrollo-profesional-php-edicion-2014/</link>
+      <link>https://carlosbuenosvinos.com/guia-para-el-desarrollo-profesional-php-edicion-2014/</link>
       <pubDate>Wed, 21 Oct 2015 08:00:39 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.github.io/guia-para-el-desarrollo-profesional-php-edicion-2014/</guid>
+      <guid>https://carlosbuenosvinos.com/guia-para-el-desarrollo-profesional-php-edicion-2014/</guid>
       <description>&lt;p&gt;Rascando por Youtube, encontré este vídeo de 2014, de una presentación que hice en LaSalle inspirada por &lt;a href=&#34;http://carlosbuenosvinos.com/desarrollo-php-profesional/&#34; target=&#34;_blank&#34;&gt;otra que hice en Castellón en 2011&lt;/a&gt;. La idea es hacer un overview del ecosistema PHP y puntos importantes a la hora de montar un ciclo de desarrollo basado en esta tecnología. Que la disfrutéis.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Domain-Driven Design: Logging with Domain Events Webcast at @AtrapaloEng (Spanish)</title>
-      <link>https://carlosbuenosvinos.github.io/domain-driven-design-logging-with-domain-events-webcast-at-atrapaloeng-spanish/</link>
+      <link>https://carlosbuenosvinos.com/domain-driven-design-logging-with-domain-events-webcast-at-atrapaloeng-spanish/</link>
       <pubDate>Mon, 19 Oct 2015 08:30:09 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.github.io/domain-driven-design-logging-with-domain-events-webcast-at-atrapaloeng-spanish/</guid>
+      <guid>https://carlosbuenosvinos.com/domain-driven-design-logging-with-domain-events-webcast-at-atrapaloeng-spanish/</guid>
       <description>&lt;p&gt;Cuando trabajamos con aplicaciones DDD-style (aunque para las otras también aplica), una de las preguntas clásicas es como ejecutar tareas relacionadas con infraestructura desde las zonas más internas como Value Object o Entidades, sin violar la dependencias hacia capas superiores e incluso el SRP. Un ejemplo es logar información como acciones de usuario (tipo intento de acceso al sistema, alta de usuario, baja de usuario, etc.). El pasado Viernes, orientamos la formación de &lt;a href=&#34;https://twitter.com/AtrapaloEng&#34; target=&#34;_blank&#34;&gt;@AtrapaloEng&lt;/a&gt; sobre este tema. Os dejo el video y los ejercicios. Formación práctica basada en el proyecto de &lt;a href=&#34;https://github.com/dddinphp/last-wishes&#34; target=&#34;_blank&#34;&gt;LastWishes&lt;/a&gt; con múltiples ejercicios resueltos in live coding.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Economía del Desarrollo de Software – PHP Barcelona – Marzo 2015</title>
-      <link>https://carlosbuenosvinos.github.io/economia-del-desarrollo-de-software-php-barcelona-marzo-2015/</link>
+      <link>https://carlosbuenosvinos.com/economia-del-desarrollo-de-software-php-barcelona-marzo-2015/</link>
       <pubDate>Wed, 11 Mar 2015 21:55:43 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.github.io/economia-del-desarrollo-de-software-php-barcelona-marzo-2015/</guid>
+      <guid>https://carlosbuenosvinos.com/economia-del-desarrollo-de-software-php-barcelona-marzo-2015/</guid>
       <description>&lt;p&gt;Aquí os dejo las slides y el video de mi charla sobre &amp;#8220;Economía del Desarrollo de Software&amp;#8221; impartida en la &lt;a href=&#34;http://phpbarcelona.org/eventos/php-barcelona-monthly-talks-march-software-economics&#34; target=&#34;_blank&#34;&gt;Barcelona PHP Monthly Talk de Marzo&lt;/a&gt; y en la &lt;a href=&#34;http://smash-tech.com/developers/&#34; target=&#34;_blank&#34;&gt;SmashTech &amp;#8220;I&amp;#8217;m a Developer&amp;#8221;&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Domain-Driven Design: Code Structure and Application Services Webcast at @AtrapaloEng (Spanish)</title>
-      <link>https://carlosbuenosvinos.github.io/domain-driven-design-code-structure-and-application-services-webcast-at-atrapaloeng-spanish/</link>
+      <link>https://carlosbuenosvinos.com/domain-driven-design-code-structure-and-application-services-webcast-at-atrapaloeng-spanish/</link>
       <pubDate>Tue, 11 Nov 2014 10:00:06 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.github.io/domain-driven-design-code-structure-and-application-services-webcast-at-atrapaloeng-spanish/</guid>
+      <guid>https://carlosbuenosvinos.com/domain-driven-design-code-structure-and-application-services-webcast-at-atrapaloeng-spanish/</guid>
       <description>&lt;p&gt;Siguiendo con la formación de DDD en Atrápalo, os dejo la sesión de formación sobre Code Structure and Application Services. Que la disfrutéis.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Domain-Driven Design: Domain Events and BC Integration Webcast at @AtrapaloEng (Spanish)</title>
-      <link>https://carlosbuenosvinos.github.io/domain-driven-design-domain-events-and-bc-integration-webcast-at-atrapaloeng-spanish/</link>
+      <link>https://carlosbuenosvinos.com/domain-driven-design-domain-events-and-bc-integration-webcast-at-atrapaloeng-spanish/</link>
       <pubDate>Fri, 31 Oct 2014 06:57:10 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.github.io/domain-driven-design-domain-events-and-bc-integration-webcast-at-atrapaloeng-spanish/</guid>
+      <guid>https://carlosbuenosvinos.com/domain-driven-design-domain-events-and-bc-integration-webcast-at-atrapaloeng-spanish/</guid>
       <description>&lt;p&gt;Siguiendo con la formación de DDD en Atrápalo, os dejo la sesión de formación sobre Domain Events y BC Integration. Que la disfrutéis.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Domain-Driven Design: Bounded Context Integration (Spanish)</title>
-      <link>https://carlosbuenosvinos.github.io/domain-driven-design-bounded-context-integration-spanish/</link>
+      <link>https://carlosbuenosvinos.com/domain-driven-design-bounded-context-integration-spanish/</link>
       <pubDate>Mon, 27 Oct 2014 09:00:35 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.github.io/domain-driven-design-bounded-context-integration-spanish/</guid>
+      <guid>https://carlosbuenosvinos.com/domain-driven-design-bounded-context-integration-spanish/</guid>
       <description>&lt;p&gt;Os dejo el video de la charla que impartí el pasado 25 de Octubre de 2014 en la Barcelona Software Craftsmanship.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Domain-Driven Design: Entities and Value Objects Webcast at @AtrapaloEng (Spanish)</title>
-      <link>https://carlosbuenosvinos.github.io/domain-driven-design-entities-and-value-objects-webcast-at-atrapaloeng-spanish/</link>
+      <link>https://carlosbuenosvinos.com/domain-driven-design-entities-and-value-objects-webcast-at-atrapaloeng-spanish/</link>
       <pubDate>Mon, 27 Oct 2014 08:00:39 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.github.io/domain-driven-design-entities-and-value-objects-webcast-at-atrapaloeng-spanish/</guid>
+      <guid>https://carlosbuenosvinos.com/domain-driven-design-entities-and-value-objects-webcast-at-atrapaloeng-spanish/</guid>
       <description>&lt;p&gt;Siguiendo con las formaciones de DDD de Atrápalo, os dejo el video sobre Entities y Value Objects.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Domain-Driven Design: Aggregates Webcast at @AtrapaloEng (Spanish)</title>
-      <link>https://carlosbuenosvinos.github.io/domain-driven-design-aggregates-webcast-at-atrapaloeng-spanish/</link>
+      <link>https://carlosbuenosvinos.com/domain-driven-design-aggregates-webcast-at-atrapaloeng-spanish/</link>
       <pubDate>Thu, 23 Oct 2014 08:00:40 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.github.io/domain-driven-design-aggregates-webcast-at-atrapaloeng-spanish/</guid>
+      <guid>https://carlosbuenosvinos.com/domain-driven-design-aggregates-webcast-at-atrapaloeng-spanish/</guid>
       <description>&lt;p&gt;En Atrápalo, estamos haciendo formación semanal sobre DDD. Estoy grabando todos los screencast y los iré publicando semana a semana. El primero sobre Strategical no lo pudimos grabar pero gran parte del contenido lo podéis encontrar en la sesión que grabé en la &lt;a href=&#34;http://carlosbuenosvinos.com/tactical-domain-driven-design-screencast-at-phpbarcelona-spanish/&#34; title=&#34;Tactical Domain-Driven Design Screencast at PHPBarcelona (Spanish)&#34;&gt;Monthly Talk&lt;/a&gt; en Octubre de 2014. A continuación, os dejo la sesión de formación sobre Aggregates, al final hay discusión sobre SOLID, especialmente SRP. Que la disfrutéis.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Tactical Domain-Driven Design Screencast at PHPBarcelona (Spanish)</title>
-      <link>https://carlosbuenosvinos.github.io/tactical-domain-driven-design-screencast-at-phpbarcelona-spanish/</link>
+      <link>https://carlosbuenosvinos.com/tactical-domain-driven-design-screencast-at-phpbarcelona-spanish/</link>
       <pubDate>Wed, 22 Oct 2014 05:59:28 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.github.io/tactical-domain-driven-design-screencast-at-phpbarcelona-spanish/</guid>
+      <guid>https://carlosbuenosvinos.com/tactical-domain-driven-design-screencast-at-phpbarcelona-spanish/</guid>
       <description>&lt;p&gt;Os dejo el video sobre DDD Tactical Design que hice en la Monthly Talk de PHPBarcelona. Nos dio tiempo a charlar un poco de estrategia, ver los Value Objects, Entities y algo de Repositories. La charla está basada en el libro que Christian, Keyvan y yo estamos escribiendo en leanpub: &lt;a href=&#34;https://leanpub.com/ddd-in-php&#34; target=&#34;_blank&#34;&gt;&amp;#8220;Domain-Driven Design with PHP by Examples&amp;#8221;&lt;/a&gt;. En los últimos 30 minutos hablo sobre cómo estamos gestionando la Integración Continua en Atrápalo.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Legacy Code and Teams Series: Training Sessions and Technical Committee</title>
-      <link>https://carlosbuenosvinos.github.io/legacy-code-and-teams-series-training-sessions-and-technical-committee/</link>
+      <link>https://carlosbuenosvinos.com/legacy-code-and-teams-series-training-sessions-and-technical-committee/</link>
       <pubDate>Mon, 21 Jul 2014 07:49:58 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.github.io/legacy-code-and-teams-series-training-sessions-and-technical-committee/</guid>
+      <guid>https://carlosbuenosvinos.com/legacy-code-and-teams-series-training-sessions-and-technical-committee/</guid>
       <description>&lt;p&gt;(Next: &lt;a title=&#34;Legacy Code and Teams Series: Composer&#34; href=&#34;http://carlosbuenosvinos.com/legacy-code-and-teams-series-composer/&#34; target=&#34;_blank&#34;&gt;Legacy Code and Teams Series: Composer&lt;/a&gt;)&lt;/p&gt;
 
 &lt;p&gt;When talking with some friends about how we are improving Atrápalo legacy code and development process, they asked for creating a presentation and give a talk about the steps we are following, hows, whys, and so on. It sound to me interesting so I would like to help sharing my experiences, not just the Atrápalo ones because when working at Emagister we did something quite similar with Christian, Eber, Dario, Lluís, Jordi, Jose Luís and the rest of the team with great results.&lt;/p&gt;
@@ -220,19 +220,19 @@
     
     <item>
       <title>Smash Tech: PHP 2014</title>
-      <link>https://carlosbuenosvinos.github.io/smash-tech-php-2014/</link>
+      <link>https://carlosbuenosvinos.com/smash-tech-php-2014/</link>
       <pubDate>Thu, 29 May 2014 09:04:44 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.github.io/smash-tech-php-2014/</guid>
+      <guid>https://carlosbuenosvinos.com/smash-tech-php-2014/</guid>
       <description>&lt;p&gt;El pasado día 28 de Mayo, participé en &lt;a href=&#34;http://smash-tech.com/&#34; target=&#34;_blank&#34;&gt;Smash Tech&lt;/a&gt; como ponente impartiendo una master class de 2 horas sobre el ecosistema PHP y en lo que se debe prestar atención para el 2015. Con los 50 asistentes que pagaron la entrada, repasamos desde Metodologías de desarrollo: Agile, Scrum y Extreme Programming. Sobre ésta última pivotó la gran mayoría de la presentación, viendo cómo se resuelven las dinámicas de TDD, Integración Continua, Coding Standards, etc.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Cómo conseguir que tu equipo técnico lea: Club de lectura</title>
-      <link>https://carlosbuenosvinos.github.io/como-conseguir-que-tu-equipo-tecnico-lea-club-de-lectura/</link>
+      <link>https://carlosbuenosvinos.com/como-conseguir-que-tu-equipo-tecnico-lea-club-de-lectura/</link>
       <pubDate>Sun, 13 Apr 2014 10:23:57 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.github.io/como-conseguir-que-tu-equipo-tecnico-lea-club-de-lectura/</guid>
+      <guid>https://carlosbuenosvinos.com/como-conseguir-que-tu-equipo-tecnico-lea-club-de-lectura/</guid>
       <description>&lt;p&gt;Un &lt;a href=&#34;http://en.wikipedia.org/wiki/Software_craftsmanship&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;software craftsman&lt;/em&gt;&lt;/a&gt; lee. Lee mucho.&lt;/p&gt;
 
 &lt;p&gt;A título individual, leer desarrolla nuestras habilidades técnicas, afianza lo que sabemos con ejemplos y experiencias de los autores, matiza conceptos complejos y abre nuevos horizontes hacia nuevas disciplinas. A nivel de equipo, sube el listón global, ayuda a ejecutar el roadmap técnico del departamento y mejora el entusiasmo general incitando la innovación.&lt;/p&gt;
@@ -242,46 +242,46 @@
     
     <item>
       <title>Tech Team Engagement</title>
-      <link>https://carlosbuenosvinos.github.io/tech-team-engagement/</link>
+      <link>https://carlosbuenosvinos.com/tech-team-engagement/</link>
       <pubDate>Sat, 06 Jul 2013 08:00:20 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.github.io/tech-team-engagement/</guid>
+      <guid>https://carlosbuenosvinos.com/tech-team-engagement/</guid>
       <description>&lt;p&gt;Me gustaría compartir con vosotros una de mis antiguas presentaciones sobre motivación de equipos técnicos que pude dar en la PHP Barcelona Conference hace algunos años. Me gusta ver que muchos conceptos todavía son vigentes. Si tenéis alguna duda sobre ella no dudéis en enviarme un tweet.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Introducción a Scrum y Agile</title>
-      <link>https://carlosbuenosvinos.github.io/introduccion-a-scrum-y-agile/</link>
+      <link>https://carlosbuenosvinos.com/introduccion-a-scrum-y-agile/</link>
       <pubDate>Thu, 04 Jul 2013 09:00:49 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.github.io/introduccion-a-scrum-y-agile/</guid>
+      <guid>https://carlosbuenosvinos.com/introduccion-a-scrum-y-agile/</guid>
       <description>&lt;p&gt;Hoy, me gustaría rescatar una presentación sobre Scrum y Agile que hice en la BetaBeers Barcelona. Una hora de Scrum en vena con dinámicas prácticas, overview de toda la metodología, ejemplos, etc. ¡Espero que la disfrutéis!&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Introducción a Appcelerator Titanium</title>
-      <link>https://carlosbuenosvinos.github.io/introduccion-a-appcelerator-titanium/</link>
+      <link>https://carlosbuenosvinos.com/introduccion-a-appcelerator-titanium/</link>
       <pubDate>Wed, 03 Jul 2013 10:00:33 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.github.io/introduccion-a-appcelerator-titanium/</guid>
+      <guid>https://carlosbuenosvinos.com/introduccion-a-appcelerator-titanium/</guid>
       <description>&lt;p&gt;Uno de los productos que está funcionando mejor para el desarrollo de aplicaciones nativas para móviles utilizando Javascript es &lt;a href=&#34;http://www.appcelerator.com&#34; target=&#34;_blank&#34;&gt;Titanium Appcelerator&lt;/a&gt;. Aprovecho para colgar una de las presentaciones al respecto que hice en la BetaBeers de Barcelona.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Zend PHP 5.3 Demo Certification Test: More than 20.000 views!</title>
-      <link>https://carlosbuenosvinos.github.io/zend-certification-more-than-20000-views/</link>
+      <link>https://carlosbuenosvinos.com/zend-certification-more-than-20000-views/</link>
       <pubDate>Tue, 02 Jul 2013 09:00:25 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.github.io/zend-certification-more-than-20000-views/</guid>
+      <guid>https://carlosbuenosvinos.com/zend-certification-more-than-20000-views/</guid>
       <description>&lt;p&gt;During the PHP Barcelona Conference 2010, Enrico Zimuel and me prepared a presentation about a demo on the Zend PHP 5.3 Certification with the support of Zend Europe. Today, we are celebrating more than 20.000 views at Slideshare.net. Thanks to everyone!&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Guía para el desarrollo PHP Profesional</title>
-      <link>https://carlosbuenosvinos.github.io/desarrollo-php-profesional/</link>
+      <link>https://carlosbuenosvinos.com/desarrollo-php-profesional/</link>
       <pubDate>Sun, 30 Jun 2013 23:30:13 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.github.io/desarrollo-php-profesional/</guid>
+      <guid>https://carlosbuenosvinos.com/desarrollo-php-profesional/</guid>
       <description>&lt;p&gt;Os dejo un material de hace un tiempo (&lt;span style=&#34;line-height: 1.714285714; font-size: 1rem;&#34;&gt;16 de mayo de 2011) pero todavía bastante válido.&lt;/span&gt;&lt;/p&gt;
 
 &lt;p&gt;Como me gusta decir, PHP es fácil de aprender y difícil de dominar. Es una de las opciones más rápidas y efectivas para la creación y mantenimiento de aplicaciones web de todo tipo. Su simplicidad es la ventaja tecnológica #1 que tiene sobre sus principales competidores aunque no implica que su uso sea sólo orientado al desarrollo de aplicaciones simples. Con PHP podemos crear sistemas avanzados y potencialmente muy complejos. Para poder garantizar la escalabilidad de estos últimos necesitamos un ciclo de desarrollo y un equipo técnico alineado para hacer más con menos. En esta ponencia, vamos a repasar las características principales de PHP y cómo mejorar nuestro ciclo de desarrollo a través de herramientas y buenas prácticas.&lt;/p&gt;</description>

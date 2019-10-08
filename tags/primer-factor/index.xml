@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>primer factor on Carlos Buenosvinos</title>
-    <link>https://carlosbuenosvinos.github.io/tags/primer-factor/</link>
+    <link>https://carlosbuenosvinos.com/tags/primer-factor/</link>
     <description>Recent content in primer factor on Carlos Buenosvinos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 20 Aug 2013 14:00:37 +0000</lastBuildDate>
     
-	<atom:link href="https://carlosbuenosvinos.github.io/tags/primer-factor/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://carlosbuenosvinos.com/tags/primer-factor/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Kata: Prime Factors</title>
-      <link>https://carlosbuenosvinos.github.io/kata-prime-factors/</link>
+      <link>https://carlosbuenosvinos.com/kata-prime-factors/</link>
       <pubDate>Tue, 20 Aug 2013 14:00:37 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.github.io/kata-prime-factors/</guid>
+      <guid>https://carlosbuenosvinos.com/kata-prime-factors/</guid>
       <description>&lt;h2 id=&#34;context&#34;&gt;Context&lt;/h2&gt;
 
 &lt;p&gt;Although quite short, this kata is fascinating in the way it shows how &amp;#8220;if&amp;#8221; statements become &amp;#8220;while&amp;#8221; statements as the number of test cases increase.  It’s also a wonderful example of how algorithms sometimes become simpler as they become more general.&lt;/p&gt;

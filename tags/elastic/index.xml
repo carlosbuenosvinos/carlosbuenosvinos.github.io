@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>elastic on Carlos Buenosvinos</title>
-    <link>https://carlosbuenosvinos.github.io/tags/elastic/</link>
+    <link>https://carlosbuenosvinos.com/tags/elastic/</link>
     <description>Recent content in elastic on Carlos Buenosvinos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 01 Aug 2017 08:00:09 +0000</lastBuildDate>
     
-	<atom:link href="https://carlosbuenosvinos.github.io/tags/elastic/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://carlosbuenosvinos.com/tags/elastic/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Rigor Talks – PHP – #31 – Viewing Domain Events with Kibana (Spanish)</title>
-      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-31-viewing-domain-events-with-kibana-spanish/</link>
+      <link>https://carlosbuenosvinos.com/rigor-talks-php-31-viewing-domain-events-with-kibana-spanish/</link>
       <pubDate>Tue, 01 Aug 2017 08:00:09 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-31-viewing-domain-events-with-kibana-spanish/</guid>
+      <guid>https://carlosbuenosvinos.com/rigor-talks-php-31-viewing-domain-events-with-kibana-spanish/</guid>
       <description>&lt;p&gt;Hola Amigos del Rigor! Continuamos con la serie sobre Domain Events pero esta vez con un caso práctico de uso muy interesante para marcarse un tanto con negocio. Vamos a enviar los eventos de dominio contra un Elastic para que podamos finalmente agregar un Kibana y tener métricas en tiempo real de lo que ocurre en nuestra aplicación.&lt;/p&gt;
 
 &lt;p&gt;En este vídeo, vamos a configurar Kibana para montar gráficos y ver la información de los eventos que hemos enviado a Elastic de una forma que negocio flipe :)&lt;/p&gt;</description>
@@ -24,10 +24,10 @@
     
     <item>
       <title>Rigor Talks – PHP – #30 – Sending Domain Events to Elastic III (Spanish)</title>
-      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-30-sending-domain-events-to-elastic-iii-spanish/</link>
+      <link>https://carlosbuenosvinos.com/rigor-talks-php-30-sending-domain-events-to-elastic-iii-spanish/</link>
       <pubDate>Thu, 27 Jul 2017 08:00:39 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-30-sending-domain-events-to-elastic-iii-spanish/</guid>
+      <guid>https://carlosbuenosvinos.com/rigor-talks-php-30-sending-domain-events-to-elastic-iii-spanish/</guid>
       <description>&lt;p&gt;Hola Amigos del Rigor! Continuamos con la serie sobre Domain Events pero esta vez con un caso práctico de uso muy interesante para marcarse un tanto con negocio. Vamos a enviar los eventos de dominio contra un Elastic para que podamos finalmente agregar un Kibana y tener métricas en tiempo real de lo que ocurre en nuestra aplicación.&lt;/p&gt;
 
 &lt;p&gt;En este vídeo, vamos a ver la cómo enriquecer el evento de dominio antes de enviarlo a Elastic. Agregaremos información sobre la request, memoria, etc. para traquear si algún servidor está procesando menos eventos de un cierto tipo.&lt;/p&gt;
@@ -41,10 +41,10 @@
     
     <item>
       <title>Rigor Talks – PHP – #29 – Sending Domain Events to Elastic II (Spanish)</title>
-      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-29-sending-domain-events-to-elastic-ii-spanish/</link>
+      <link>https://carlosbuenosvinos.com/rigor-talks-php-29-sending-domain-events-to-elastic-ii-spanish/</link>
       <pubDate>Tue, 25 Jul 2017 08:00:59 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-29-sending-domain-events-to-elastic-ii-spanish/</guid>
+      <guid>https://carlosbuenosvinos.com/rigor-talks-php-29-sending-domain-events-to-elastic-ii-spanish/</guid>
       <description>&lt;p&gt;Hola Amigos del Rigor! Continuamos con la serie sobre Domain Events pero esta vez con un caso práctico de uso muy interesante para marcarse un tanto con negocio. Vamos a enviar los eventos de dominio contra un Elastic para que podamos finalmente agregar un Kibana y tener métricas en tiempo real de lo que ocurre en nuestra aplicación. En este vídeo, vamos a ver la segunda alternativa para enviar todos los eventos juntos de una vez, después de ejecutar el command handler. Reducimos números de peticiones mejorando el rendimiento.&lt;/p&gt;
 
 &lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;aquí&lt;/a&gt;. Si los videos os gustan, no olvidéis suscribiros a mi canal. Espero que os guste!&lt;/p&gt;
@@ -56,10 +56,10 @@
     
     <item>
       <title>Rigor Talks – PHP – #28 – Sending Domain Events to Elastic (Spanish)</title>
-      <link>https://carlosbuenosvinos.github.io/rigor-talks-php-28-sending-domain-events-to-elastic-spanish/</link>
+      <link>https://carlosbuenosvinos.com/rigor-talks-php-28-sending-domain-events-to-elastic-spanish/</link>
       <pubDate>Thu, 20 Jul 2017 08:00:03 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.github.io/rigor-talks-php-28-sending-domain-events-to-elastic-spanish/</guid>
+      <guid>https://carlosbuenosvinos.com/rigor-talks-php-28-sending-domain-events-to-elastic-spanish/</guid>
       <description>&lt;p&gt;Hola Amigos del Rigor! Continuamos con la serie sobre Domain Events pero esta vez con un caso práctico de uso muy interesante para marcarse un tanto con negocio. Vamos a enviar los eventos de dominio contra un Elastic para que podamos finalmente agregar un Kibana y tener métricas en tiempo real de lo que ocurre en nuestra aplicación. En este vídeo, vamos a ver una de las alternativas para hacer esto, el envío síncrono a Elastic por cada eventos disparado.&lt;/p&gt;
 
 &lt;p&gt;He creado una lista de reproducción pública con los videos que vaya publicando. La podéis encontrar &lt;a href=&#34;https://www.youtube.com/playlist?list=PLfgj7DYkKH3Cd8bdu5SIHGYXh_bPV2idP&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;aquí&lt;/a&gt;. Si los videos os gustan, no olvidéis suscribiros a mi canal. Espero que os guste!&lt;/p&gt;
@@ -71,10 +71,10 @@
     
     <item>
       <title>Accessing securely production services with SSH port forwarding</title>
-      <link>https://carlosbuenosvinos.github.io/accessing-securely-production-services-with-ssh-port-forwarding/</link>
+      <link>https://carlosbuenosvinos.com/accessing-securely-production-services-with-ssh-port-forwarding/</link>
       <pubDate>Tue, 25 Oct 2016 08:01:46 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.github.io/accessing-securely-production-services-with-ssh-port-forwarding/</guid>
+      <guid>https://carlosbuenosvinos.com/accessing-securely-production-services-with-ssh-port-forwarding/</guid>
       <description>&lt;p&gt;We&amp;#8217;ve already talked about &lt;a href=&#34;https://carlosbuenosvinos.com/github-ansible-deploy-your-public-ssh-keys-to-your-server/&#34; target=&#34;_blank&#34;&gt;how to deploy your public SSH keys into your server using Ansible and GitHub&lt;/a&gt;. This time, I just want to share a simple approach to have access to your production services (MySQL, Elastic, RabbitMQ, etc.) without exposing publicly your services. You have different alternatives, probably the most common are using a VPN or use SSH port forwarding. Let&amp;#8217;s see an example of the last one.&lt;/p&gt;</description>
     </item>
     

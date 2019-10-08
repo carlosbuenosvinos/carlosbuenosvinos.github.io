@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>clean coders on Carlos Buenosvinos</title>
-    <link>https://carlosbuenosvinos.github.io/tags/clean-coders/</link>
+    <link>https://carlosbuenosvinos.com/tags/clean-coders/</link>
     <description>Recent content in clean coders on Carlos Buenosvinos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 06 Oct 2013 17:02:20 +0000</lastBuildDate>
     
-	<atom:link href="https://carlosbuenosvinos.github.io/tags/clean-coders/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://carlosbuenosvinos.com/tags/clean-coders/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Los 331€ mejor invertidos – CleanCoders Videos</title>
-      <link>https://carlosbuenosvinos.github.io/los-331-euros-mejores-invertidos-clean-coders-videos/</link>
+      <link>https://carlosbuenosvinos.com/los-331-euros-mejores-invertidos-clean-coders-videos/</link>
       <pubDate>Sun, 06 Oct 2013 17:02:20 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.github.io/los-331-euros-mejores-invertidos-clean-coders-videos/</guid>
+      <guid>https://carlosbuenosvinos.com/los-331-euros-mejores-invertidos-clean-coders-videos/</guid>
       <description>&lt;p&gt;Hoy, después de un fin de semana de maratón de los últimos 3 capítulos sobre TDD de CleanCoders, de Robert C. Martin (@unclebobmartin), he acabado de verme todos los 21 capítulos. Empecé hace un mes y medio, he intentado ver cada día uno antes de salir del trabajo y también los fines de semana.&lt;/p&gt;</description>
     </item>
     

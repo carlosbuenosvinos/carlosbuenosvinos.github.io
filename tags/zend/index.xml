@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>zend on Carlos Buenosvinos</title>
-    <link>https://carlosbuenosvinos.github.io/tags/zend/</link>
+    <link>https://carlosbuenosvinos.com/tags/zend/</link>
     <description>Recent content in zend on Carlos Buenosvinos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 26 Sep 2013 07:40:56 +0000</lastBuildDate>
     
-	<atom:link href="https://carlosbuenosvinos.github.io/tags/zend/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://carlosbuenosvinos.com/tags/zend/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Remove non used PHP files in your project</title>
-      <link>https://carlosbuenosvinos.github.io/remove-non-used-php-files-in-your-project/</link>
+      <link>https://carlosbuenosvinos.com/remove-non-used-php-files-in-your-project/</link>
       <pubDate>Thu, 26 Sep 2013 07:40:56 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.github.io/remove-non-used-php-files-in-your-project/</guid>
+      <guid>https://carlosbuenosvinos.com/remove-non-used-php-files-in-your-project/</guid>
       <description>&lt;p&gt;When a project gets bigger, specially when using a framework, it&amp;#8217;s mandatory to have some processes that help you in removing code that is not used anymore such as models, classes, template files, etc.&lt;/p&gt;
 
 &lt;p&gt;That is not an easy task, however the benefits or removing non used coded are tons (code coverage, development speed, bugs, etc.). But what&amp;#8217;s the best approach to detect that a template file is not used anymore in your PHP project?&lt;/p&gt;</description>
@@ -24,10 +24,10 @@
     
     <item>
       <title>Zend PHP 5.3 Demo Certification Test: More than 20.000 views!</title>
-      <link>https://carlosbuenosvinos.github.io/zend-certification-more-than-20000-views/</link>
+      <link>https://carlosbuenosvinos.com/zend-certification-more-than-20000-views/</link>
       <pubDate>Tue, 02 Jul 2013 09:00:25 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.github.io/zend-certification-more-than-20000-views/</guid>
+      <guid>https://carlosbuenosvinos.com/zend-certification-more-than-20000-views/</guid>
       <description>&lt;p&gt;During the PHP Barcelona Conference 2010, Enrico Zimuel and me prepared a presentation about a demo on the Zend PHP 5.3 Certification with the support of Zend Europe. Today, we are celebrating more than 20.000 views at Slideshare.net. Thanks to everyone!&lt;/p&gt;</description>
     </item>
     

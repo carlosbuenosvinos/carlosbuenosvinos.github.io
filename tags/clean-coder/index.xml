@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>clean coder on Carlos Buenosvinos</title>
-    <link>https://carlosbuenosvinos.github.io/tags/clean-coder/</link>
+    <link>https://carlosbuenosvinos.com/tags/clean-coder/</link>
     <description>Recent content in clean coder on Carlos Buenosvinos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 14 Aug 2013 14:30:40 +0000</lastBuildDate>
     
-	<atom:link href="https://carlosbuenosvinos.github.io/tags/clean-coder/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://carlosbuenosvinos.com/tags/clean-coder/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Robert C. Martin Clean Code Collection Review (Part I)</title>
-      <link>https://carlosbuenosvinos.github.io/robert-c-martin-clean-code-collection-review-part-i/</link>
+      <link>https://carlosbuenosvinos.com/robert-c-martin-clean-code-collection-review-part-i/</link>
       <pubDate>Wed, 14 Aug 2013 14:30:40 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.github.io/robert-c-martin-clean-code-collection-review-part-i/</guid>
+      <guid>https://carlosbuenosvinos.com/robert-c-martin-clean-code-collection-review-part-i/</guid>
       <description>&lt;p&gt;Me gustaría compartir la review de otro libro que ha caído esta semana. En realidad, son es una colección de 2 libros de Robert C. Martin que te puedes comprar en formato Kindle por 15,99 € (dos libros de Robert C. Martin por ese precio ya vale la pena), el pack lo podéis encontrar en &lt;a href=&#34;http://www.amazon.es/Robert-Martin-Collection-Series-ebook/dp/B00666M59G/ref=sr_1_1?s=digital-text&amp;ie=UTF8&amp;qid=1376480876&amp;sr=1-1&amp;keywords=robert+c+martin+collection&#34; target=&#34;_blank&#34;&gt;amazon&lt;/a&gt;. En este post (de una serie de dos) os quiero hablar de &amp;#8220;The Clean Coder&amp;#8221;.&lt;/p&gt;</description>
     </item>
     

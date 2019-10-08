@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>apache cordova on Carlos Buenosvinos</title>
-    <link>https://carlosbuenosvinos.github.io/tags/apache-cordova/</link>
+    <link>https://carlosbuenosvinos.com/tags/apache-cordova/</link>
     <description>Recent content in apache cordova on Carlos Buenosvinos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 30 Sep 2015 03:00:40 +0000</lastBuildDate>
     
-	<atom:link href="https://carlosbuenosvinos.github.io/tags/apache-cordova/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://carlosbuenosvinos.com/tags/apache-cordova/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Dot: Puzzles for smart masses</title>
-      <link>https://carlosbuenosvinos.github.io/dot-puzzles-for-smart-masses/</link>
+      <link>https://carlosbuenosvinos.com/dot-puzzles-for-smart-masses/</link>
       <pubDate>Wed, 30 Sep 2015 03:00:40 +0000</pubDate>
       
-      <guid>https://carlosbuenosvinos.github.io/dot-puzzles-for-smart-masses/</guid>
+      <guid>https://carlosbuenosvinos.com/dot-puzzles-for-smart-masses/</guid>
       <description>&lt;p&gt;I have always been interested in games, just for fun, nothing serious. A game is IMHO the most difficult piece of software to write. Think for a second. It needs support for user input devices (mouse, keywords, gamepads, etc.), graphics (2D or 3D), sounds and music, physics, AI, networking when playing with more players and it has to perform really, really fast. That&amp;#8217;s not the typical PHP web, is it? Today, I would like to present my first really small and silly game, and probably the last one :) for iOS/Android and the technologies behind it. Hope you like it.&lt;/p&gt;</description>
     </item>
     

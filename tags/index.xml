@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Carlos Buenosvinos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 07 Oct 2019 10:50:24 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 08 Oct 2019 10:50:24 +0200</lastBuildDate>
     
 	<atom:link href="https://carlosbuenosvinos.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,27 +14,99 @@
     <item>
       <title>agile</title>
       <link>https://carlosbuenosvinos.com/tags/agile/</link>
-      <pubDate>Mon, 07 Oct 2019 10:50:24 +0200</pubDate>
+      <pubDate>Tue, 08 Oct 2019 10:50:24 +0200</pubDate>
       
       <guid>https://carlosbuenosvinos.com/tags/agile/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>change management</title>
+      <link>https://carlosbuenosvinos.com/tags/change-management/</link>
+      <pubDate>Tue, 08 Oct 2019 10:50:24 +0200</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/tags/change-management/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>cto</title>
       <link>https://carlosbuenosvinos.com/tags/cto/</link>
-      <pubDate>Mon, 07 Oct 2019 10:50:24 +0200</pubDate>
+      <pubDate>Tue, 08 Oct 2019 10:50:24 +0200</pubDate>
       
       <guid>https://carlosbuenosvinos.com/tags/cto/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>curve adoption</title>
+      <link>https://carlosbuenosvinos.com/tags/curve-adoption/</link>
+      <pubDate>Tue, 08 Oct 2019 10:50:24 +0200</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/tags/curve-adoption/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>delivery</title>
       <link>https://carlosbuenosvinos.com/tags/delivery/</link>
-      <pubDate>Mon, 07 Oct 2019 10:50:24 +0200</pubDate>
+      <pubDate>Tue, 08 Oct 2019 10:50:24 +0200</pubDate>
       
       <guid>https://carlosbuenosvinos.com/tags/delivery/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>experimentation</title>
+      <link>https://carlosbuenosvinos.com/tags/experimentation/</link>
+      <pubDate>Tue, 08 Oct 2019 10:50:24 +0200</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/tags/experimentation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hiring</title>
+      <link>https://carlosbuenosvinos.com/tags/hiring/</link>
+      <pubDate>Tue, 08 Oct 2019 10:50:24 +0200</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/tags/hiring/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mvp</title>
+      <link>https://carlosbuenosvinos.com/tags/mvp/</link>
+      <pubDate>Tue, 08 Oct 2019 10:50:24 +0200</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/tags/mvp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pdca</title>
+      <link>https://carlosbuenosvinos.com/tags/pdca/</link>
+      <pubDate>Tue, 08 Oct 2019 10:50:24 +0200</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/tags/pdca/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>scrum</title>
+      <link>https://carlosbuenosvinos.com/tags/scrum/</link>
+      <pubDate>Tue, 08 Oct 2019 10:50:24 +0200</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/tags/scrum/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>xp</title>
+      <link>https://carlosbuenosvinos.com/tags/xp/</link>
+      <pubDate>Tue, 08 Oct 2019 10:50:24 +0200</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/tags/xp/</guid>
       <description></description>
     </item>
     
@@ -66,15 +138,6 @@
     </item>
     
     <item>
-      <title>mvp</title>
-      <link>https://carlosbuenosvinos.com/tags/mvp/</link>
-      <pubDate>Mon, 07 Oct 2019 10:50:24 +0200</pubDate>
-      
-      <guid>https://carlosbuenosvinos.com/tags/mvp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>retro</title>
       <link>https://carlosbuenosvinos.com/tags/retro/</link>
       <pubDate>Mon, 07 Oct 2019 10:50:24 +0200</pubDate>
@@ -89,15 +152,6 @@
       <pubDate>Mon, 07 Oct 2019 10:50:24 +0200</pubDate>
       
       <guid>https://carlosbuenosvinos.com/tags/scrum-board/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>change management</title>
-      <link>https://carlosbuenosvinos.com/tags/change-management/</link>
-      <pubDate>Sun, 06 Oct 2019 00:57:01 +0200</pubDate>
-      
-      <guid>https://carlosbuenosvinos.com/tags/change-management/</guid>
       <description></description>
     </item>
     
@@ -872,15 +926,6 @@
       <pubDate>Mon, 21 Nov 2016 08:30:55 +0000</pubDate>
       
       <guid>https://carlosbuenosvinos.com/tags/planning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>scrum</title>
-      <link>https://carlosbuenosvinos.com/tags/scrum/</link>
-      <pubDate>Mon, 21 Nov 2016 08:30:55 +0000</pubDate>
-      
-      <guid>https://carlosbuenosvinos.com/tags/scrum/</guid>
       <description></description>
     </item>
     
@@ -1997,15 +2042,6 @@
       <pubDate>Thu, 29 May 2014 09:04:44 +0000</pubDate>
       
       <guid>https://carlosbuenosvinos.com/tags/virtualbox/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>xp</title>
-      <link>https://carlosbuenosvinos.com/tags/xp/</link>
-      <pubDate>Thu, 29 May 2014 09:04:44 +0000</pubDate>
-      
-      <guid>https://carlosbuenosvinos.com/tags/xp/</guid>
       <description></description>
     </item>
     

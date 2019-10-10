@@ -831,9 +831,7 @@ class BasuritasTest extends \PHPUnit_Framework_TestCase { /** * @test * @dataPro
       <pubDate>Tue, 20 Oct 2015 08:00:30 +0000</pubDate>
       
       <guid>https://carlosbuenosvinos.com/deploying-symfony-and-php-apps-with-ansistrano/</guid>
-      <description>&lt;p class=&#34;p1&#34;&gt;
-  &lt;span class=&#34;s1&#34;&gt;For a long time, &lt;a href=&#34;http://capifony.org/&#34; target=&#34;_blank&#34;&gt;Capifony&lt;/a&gt; was, without any doubt, the facto option for deploying Symfony2 applications. Capifony is a ruby gem based in &lt;/span&gt;&lt;a href=&#34;https://github.com/capistrano/capistrano&#34; target=&#34;_blank&#34;&gt;Capistrano&lt;/a&gt; v2, an open source tool for running scripts on multiple servers with a deployment flow built-in. It’s primary use is for easily deploying applications. While it was built specifically for deploying &lt;a href=&#34;http://rubyonrails.org/&#34; target=&#34;_blank&#34;&gt;Rails&lt;/a&gt; apps, it’s pretty simple to customize it to deploy other types of applications. At that time, alternatives were shell scripting or Fabric. Now there&amp;#8217;s a better one, Ansistrano.
-&lt;/p&gt;</description>
+      <description>&lt;p&gt;For a long time, &lt;a href=&#34;http://capifony.org/&#34; target=&#34;_blank&#34;&gt;Capifony&lt;/a&gt; was, without any doubt, the facto option for deploying Symfony2 applications. Capifony is a ruby gem based in &lt;/span&gt;&lt;a href=&#34;https://github.com/capistrano/capistrano&#34; target=&#34;_blank&#34;&gt;Capistrano&lt;/a&gt; v2, an open source tool for running scripts on multiple servers with a deployment flow built-in. It’s primary use is for easily deploying applications. While it was built specifically for deploying &lt;a href=&#34;http://rubyonrails.org/&#34; target=&#34;_blank&#34;&gt;Rails&lt;/a&gt; apps, it’s pretty simple to customize it to deploy other types of applications. At that time, alternatives were shell scripting or Fabric. Now there&amp;#8217;s a better one, Ansistrano.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -1114,7 +1112,8 @@ class BasuritasTest extends \PHPUnit_Framework_TestCase { /** * @test * @dataPro
       <pubDate>Fri, 09 May 2014 16:34:02 +0000</pubDate>
       
       <guid>https://carlosbuenosvinos.com/comentarios-al-hangout-is-tdd-dead/</guid>
-      <description>Después del Hangout sobre TDD de Martin Fowler, Kent Beck y David Heinemeier (https://www.youtube.com/watch?v=z9quxZsLcfo), Christian Soronellas (@theUnic) y yo hemos hecho lo propio y hemos opinado sobre cómo ha ido y hemos incluido algunas reflexiones adicionales. Esperemos que os guste.</description>
+      <description>Después del Hangout sobre TDD de Martin Fowler, Kent Beck y David Heinemeier (https://www.youtube.com/watch?v=z9quxZsLcfo), Christian Soronellas (@theUnic) y yo hemos hecho lo propio y hemos opinado sobre cómo ha ido y hemos incluido algunas reflexiones adicionales. Esperemos que os guste.
+  </description>
     </item>
     
     <item>
@@ -1155,8 +1154,7 @@ class BasuritasTest extends \PHPUnit_Framework_TestCase { /** * @test * @dataPro
       
       <guid>https://carlosbuenosvinos.com/make-your-product-owner-or-ceo-watch-this-video/</guid>
       <description>For months, I have been trying to find a way to explain in a short way how Product Ownership works in Scrum. Then I found:
-
-Source: http://blog.crisp.se/2012/10/25/henrikkniberg/agile-product-ownership-in-a-nutshell</description>
+  Source: http://blog.crisp.se/2012/10/25/henrikkniberg/agile-product-ownership-in-a-nutshell</description>
     </item>
     
     <item>

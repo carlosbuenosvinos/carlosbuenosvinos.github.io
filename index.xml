@@ -53,6 +53,37 @@
     </item>
     
     <item>
+      <title>Auf Wiedersehen XING</title>
+      <link>https://carlosbuenosvinos.com/posts/2019-04-12_auf-wiedersehen-xing-43d4422dc003/</link>
+      <pubDate>Fri, 12 Apr 2019 17:45:31 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/posts/2019-04-12_auf-wiedersehen-xing-43d4422dc003/</guid>
+      <description>I want to share with you that I’ll be leaving XING on May, 3rd. It has been a fantastic professional and personal experience. I have learned a lot from every single one of my mates, and I want to thank you all my colleagues the love and support. Special mentions to Jens Pape, CTO, and Thomas Vollmoeller, CEO, for giving me such an opportunity. I’m leaving because I’ve received “an offer I cannot refuse.</description>
+    </item>
+    
+    <item>
+      <title>Ansistrano reaches 1M deployments!</title>
+      <link>https://carlosbuenosvinos.com/posts/2019-03-15_ansistrano-reaches-1m-deployments-7671e1900a2f/</link>
+      <pubDate>Fri, 15 Mar 2019 11:31:00 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/posts/2019-03-15_ansistrano-reaches-1m-deployments-7671e1900a2f/</guid>
+      <description>ansistrano.deploy and ansistrano.rollback are Ansible Galaxy roles to easily manage the deployment process for scripting applications such as PHP, Python, and Ruby. It’s an Ansible port for Capistrano.
+First commit was on August 14th, 2014. Almost 5 years later, and only 492 commits after, Ansistrano has become a really useful tool for those who are not using containers yet.
+ Today is a great day and we want to celebrate it with all of you</description>
+    </item>
+    
+    <item>
+      <title>“Domain-Driven Design Distilled” book will have a Spanish translation</title>
+      <link>https://carlosbuenosvinos.com/posts/2019-03-15_-domain-driven-design-distilled-book-will-have-a-spanish-translation-15ab043225e2/</link>
+      <pubDate>Fri, 15 Mar 2019 09:01:00 +0000</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/posts/2019-03-15_-domain-driven-design-distilled-book-will-have-a-spanish-translation-15ab043225e2/</guid>
+      <description>This week, Vaughn Vernon, DDD guru and author of multiple books including Implementing Domain-Driven Design, Reactive Messaging Pattern with the Actor Model and Domain-Driven Design Distilled, announced via Twitter that Domain-Driven Design Distilled Spanish translation would be available soon.
+A couple of days later, we discovered that Yuji Kiriki, Colombian Software Engineer, will be the official reviewer. He is about to start soon the revision. That’s great news!
+The official translator remained unknown… until now!</description>
+    </item>
+    
+    <item>
       <title>Rigor Talks – PHP – #31 – Viewing Domain Events with Kibana (Spanish)</title>
       <link>https://carlosbuenosvinos.com/rigor-talks-php-31-viewing-domain-events-with-kibana-spanish/</link>
       <pubDate>Tue, 01 Aug 2017 08:00:09 +0000</pubDate>

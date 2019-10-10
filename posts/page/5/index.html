@@ -134,6 +134,73 @@
   <div class="bg-white mb3 pa4 gray overflow-hidden">
     <span class="f6 db">Posts</span>
     <h1 class="f3 near-black">
+      <a href="/firing-domain-events-in-the-__constructor/" class="link black dim">
+        Firing Domain Events in the __constructor
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <p>After my post about <a href="https://carlosbuenosvinos.com/good-orms-do-not-call-__construct/" target="_blank">&#8220;Good ORMs do not call __construct a.k.a. where to fire my Domain Events&#8221;</a>, nice discussions (and trolling) are happening in the Barcelona Engineering Slack Channel. <strong>Thanks to everyone for the feedback, ideas and concerns. You are more than welcome!</strong> The main concerns are:</p>
+
+<ol>
+<li>How do I fetch an Entity from ElasticSearch, using new and without firing the Event?</li>
+<li>How do I create stubs on the Entity that is firing the Domain Event?</li>
+<li>What are pros and cons of firing the Domain Event in the __constructor or in the named constructor?</li>
+</ol>
+
+<p>So, I&#8217;ll take the original code as a starting point, and I&#8217;ll suggest different strategies to answer those questions. </p>
+    </div>
+  </div>
+</div>
+</div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa4 gray overflow-hidden">
+    <span class="f6 db">Posts</span>
+    <h1 class="f3 near-black">
+      <a href="/good-orms-do-not-call-__construct/" class="link black dim">
+        Good ORMs do not call __construct a.k.a. where to fire my Domain Events
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <p><strong>tl;dr: Entity constructor should be called once in its entire life. That&#8217;s why good ORMs don&#8217;t use constructor to reconstitute objects from the database. Good ORMs use reflection, deserialization or proxies. So, fire your Domain Events in the constructor.</strong></p>
+
+<p>Last week, I saw a presentation about going from <a href="http://codely.tv/screencasts/codigo-acoplado-framework-microservicios-ddd/" target="_blank">coupled-to-framework code to a Domain-Driven Design approach</a> in a sample application. It was a good talk. However, in my honest opinion, there were some mistakes that are important to address. In order not to troll, I have checked with the speakers to write this post ;).</p>
+
+<p>One of the mistakes, that I would like to point is <em>where a Domain Event about &#8220;a new product was created&#8221;</em> should be trigger specifically inside the Product Entity.</p>
+
+<p>Speakers were showing a &#8220;Video&#8221; Entity with a named constructor called &#8220;create&#8221;. They were calling _new _inside the named constructor <strong>and then</strong> firing the event. I mean, the Domain Event was not fired inside of the real constructor. Let&#8217;s see the code we&#8217;re talking about (the whole repository can be found <a href="https://github.com/CodelyTV/cqrs-ddd-example" target="_blank">here</a>):</p>
+    </div>
+  </div>
+</div>
+</div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa4 gray overflow-hidden">
+    <span class="f6 db">Posts</span>
+    <h1 class="f3 near-black">
+      <a href="/awesome-two-days-helping-lowpost_es-team/" class="link black dim">
+        Awesome two days helping @Lowpost_es team
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <p>I have recently visited Valencia in order to help my friends at <a href="http://lowpost.es/" target="_blank">Lowpost</a>. It was great and I had a lot of fun! I would like to tell you a bit about how it was.</p>
+
+<h3 id="who-is-lowpost">Who is Lowpost?</h3>
+
+<p>Lowpost is a cool start-up that are focused in Content Marketing. Lowpost connects companies that need interesting content with authors that can write about such topics. Authors bet for the open jobs and then they deliver the content to the final customer. Everything around such process is managed by the Lowpost platform.</p>
+
+<p>As a start-up, they have grown quite fast, so their code. They started with Drupal, as many start-ups, and then they added a Silex application. You know that testing is difficult, however, doing unit testing for Drupal is a challenge.</p>
+
+<h3 id="what-we-did">What we did?</h3>
+    </div>
+  </div>
+</div>
+</div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa4 gray overflow-hidden">
+    <span class="f6 db">Posts</span>
+    <h1 class="f3 near-black">
       <a href="/scrum-no-eres-tu-soy-yo-charla-en-la-geekdeveloperday-organizada-por-geekhubs/" class="link black dim">
         “Scrum, no eres tú, soy yo”: Charla en la #geekdeveloperday organizada por @geekhubs
       </a>
@@ -254,62 +321,6 @@
       <p><strong>tl;dr: If you are sending messages to RabbitMQ to communicate one application to another, you are not doing Event Sourcing. You&#8217;re just doing messaging ;)</strong></p>
 
 <p>In the last two months, I&#8217;ve seen different nice talks using DDD, CQRS or Event Sourcing in the talk title. However, after watching the content, I think there are some general misunderstandings about some of the concepts. The most important one, in my honest opinion, is calling Event Sourcing to sending messaging to other applications using a broker. Event Sourcing is not about that. Let me explain a bit more.</p>
-    </div>
-  </div>
-</div>
-</div>
-      
-        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
-  <div class="bg-white mb3 pa4 gray overflow-hidden">
-    <span class="f6 db">Posts</span>
-    <h1 class="f3 near-black">
-      <a href="/some-basuritas-php-list-and-objects/" class="link black dim">
-        Some “basuritas”: PHP, list() and objects
-      </a>
-    </h1>
-    <div class="nested-links f5 lh-copy nested-copy-line-height">
-      I was just playing around with the Symfony Expression Language Component. Suddenly, I started to play with list() and some objects and this example came up. You can use list() and _$this_ for assigning fields. I would not recommend it, but it just funny.
-class BasuritasTest extends \PHPUnit_Framework_TestCase { /** * @test * @dataProvider validUsersDataProvider * @param $id * @param $name */ public function listForObjects(int $id, string $name) { $user = new User($id, $name); $this-&gt;assertSame($id, $user-&gt;id()); $this-&gt;assertSame($name, $user-&gt;name()); } public function validUsersDataProvider() { return [ [1, "
-    </div>
-  </div>
-</div>
-</div>
-      
-        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
-  <div class="bg-white mb3 pa4 gray overflow-hidden">
-    <span class="f6 db">Posts</span>
-    <h1 class="f3 near-black">
-      <a href="/what-happens-if-we-dont-do-it/" class="link black dim">
-        What happens if we don’t do it? – 4 ways to speed teams up
-      </a>
-    </h1>
-    <div class="nested-links f5 lh-copy nested-copy-line-height">
-      <p class="p1">
-  <span class="s1">I became Certified Scrum Master (CSM) on 2010. I took a CSM course at beautiful Oporto. My instructor was Mitch Lacey (<a href="https://www.mitchlacey.com/"><span class="s2">https://www.mitchlacey.com/</span></a>). Amazing instructor. If you can attend any of his courses, go ahead. On 2012, he published an amazing book about Scrum, I totally recommend, “The Scrum Field Guide: Practical Advice for Your First Year” (<a href="http://www.amazon.com/Scrum-Field-Guide-Addison-Wesley-Signature/dp/0133853624"><span class="s2">http://www.amazon.com/Scrum-Field-Guide-Addison-Wesley-Signature/dp/0133853624</span></a>). So practical, so full of examples to understand how to properly apply Scrum and get most of it.</span>
-</p>
-
-<p class="p1">
-  <span class="s1">During the CSM training session, when talking about INVEST (<a href="https://en.wikipedia.org/wiki/INVEST_(mnemonic)"><span class="s2">https://en.wikipedia.org/wiki/INVEST_(mnemonic)</span></a>) in your product backlog, value of User Stories and priorities he said, &#8220;the first question to ask yourself about a user story, task or process is what happens if we just don’t do it?”. Everyone laughed. Not doing something useless you were supposed to do, it&#8217;s a high productive activity.</span>
-</p>
-
-<p class="p1">
-  <span class="s1">The more I meet teams, project managers, developers, sysops, etc., the stronger my feeling is that we always try to improve things adding stuff not removing waste. More process, more abstraction, more code, more tools. My recommendation is that the <b>best way to speed teams up is to remove useless or low value things</b>. Let’s see some suggestions.</span>
-</p>
-    </div>
-  </div>
-</div>
-</div>
-      
-        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
-  <div class="bg-white mb3 pa4 gray overflow-hidden">
-    <span class="f6 db">Posts</span>
-    <h1 class="f3 near-black">
-      <a href="/hi-xing/" class="link black dim">
-        Hi @xing_bcn and @xing_de!
-      </a>
-    </h1>
-    <div class="nested-links f5 lh-copy nested-copy-line-height">
-      <p>After leaving <a href="https://carlosbuenosvinos.com/adios-atrapalo/" target="_blank">Atrápalo</a>, it&#8217;s time to jump to a new challenge. As I explained, I need to get out of my confort zone and check other things that will make me learn new things. Some of you already know, but for the rest, the chosen company is <a href="https://www.xing.com" target="_blank">Xing</a>. So, I&#8217;m more than happy to announce that I&#8217;m the next B2B Head of Engineering at @xing. I&#8217;d like to share some thoughts about the reasons that took me here.</p>
     </div>
   </div>
 </div>

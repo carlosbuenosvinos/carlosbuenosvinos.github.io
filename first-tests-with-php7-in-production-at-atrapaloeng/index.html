@@ -9,7 +9,7 @@
     <meta name="generator" content="Hugo 0.58.3" />
     
     
-      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+      <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
     
 
     
@@ -46,9 +46,22 @@
 <meta name="twitter:title" content="First tests with #PHP7 in production at @AtrapaloEng"/>
 <meta name="twitter:description" content="On Monday, Badoo blogged about its migration to PHP7 (https://techblog.badoo.com/blog/2016/03/14/how-badoo-saved-one-million-dollars-switching-to-php7/). Those are great results! At @AtrapaloEng, we&#8217;re running already tests in production to perform the same step. We could have started some months before, but we&#8217;ve been struggling with the php-msgpack extension and its (un)support for PHP7. We hope to deploy PHP7 in all our server during this week but we would like to share with you what we have seen so far. What we have done is adding another FPM node with the same capabilities as the current ones running in production with PHP 5.6. The new node is getting the same amount of traffic as the other ones. No special configurations or tweaks such as Huge Pages, just PHP7 upgrade. Data after more than 24 hours running."/>
 
+      
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-42173983-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+    
   </head>
 
-  <body class="ma0 avenir bg-near-white">
+  <body class="ma0 avenir bg-near-white production">
 
     
    
@@ -149,6 +162,9 @@
       
       <time class="f6 mv4 dib tracked" datetime="2016-03-16T09:00:03Z">March 16, 2016</time>
       
+      
+        <span class="f6 mv4 dib tracked"> - 2 minutes read</span>
+        <span class="f6 mv4 dib tracked"> - 319 words</span>
       
     </header>
 

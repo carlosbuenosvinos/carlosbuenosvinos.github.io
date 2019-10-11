@@ -9,7 +9,7 @@
     <meta name="generator" content="Hugo 0.58.3" />
     
     
-      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+      <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
     
 
     
@@ -49,9 +49,22 @@ class BasuritasTest extends \PHPUnit_Framework_TestCase { /** * @test * @dataPro
 <meta name="twitter:description" content="I was just playing around with the Symfony Expression Language Component. Suddenly, I started to play with list() and some objects and this example came up. You can use list() and _$this_ for assigning fields. I would not recommend it, but it just funny.
 class BasuritasTest extends \PHPUnit_Framework_TestCase { /** * @test * @dataProvider validUsersDataProvider * @param $id * @param $name */ public function listForObjects(int $id, string $name) { $user = new User($id, $name); $this-&gt;assertSame($id, $user-&gt;id()); $this-&gt;assertSame($name, $user-&gt;name()); } public function validUsersDataProvider() { return [ [1, &#34;"/>
 
+      
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-42173983-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+    
   </head>
 
-  <body class="ma0 avenir bg-near-white">
+  <body class="ma0 avenir bg-near-white production">
 
     
    
@@ -144,6 +157,9 @@ class BasuritasTest extends \PHPUnit_Framework_TestCase { /** * @test * @dataPro
       
       <time class="f6 mv4 dib tracked" datetime="2016-07-29T11:27:28Z">July 29, 2016</time>
       
+      
+        <span class="f6 mv4 dib tracked"> - 1 minutes read</span>
+        <span class="f6 mv4 dib tracked"> - 168 words</span>
       
     </header>
 

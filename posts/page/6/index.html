@@ -35,7 +35,7 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://carlosbuenosvinos.com/posts/" />
 
-<meta property="og:updated_time" content="2019-10-08T10:50:24+02:00" />
+<meta property="og:updated_time" content="2019-10-14T14:05:37+02:00" />
 <meta itemprop="name" content="Posts">
 <meta itemprop="description" content="Carlos Buenosvinos | PHP, DevOps, Extreme Programming, Scrum and Domain-Driven Design">
 
@@ -142,6 +142,23 @@ if (!doNotTrack) {
   <article class="pa3 pa4-ns nested-copy-line-height nested-img">
     <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray"></section>
     <section class="flex-ns flex-wrap justify-around mt5">
+      
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa4 gray overflow-hidden">
+    <span class="f6 db">Posts</span>
+    <h1 class="f3 near-black">
+      <a href="/event-sourcing-is-not-a-messaging-integration-pattern/" class="link black dim">
+        Event Sourcing is not a messaging integration pattern
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <p><strong>tl;dr: If you are sending messages to RabbitMQ to communicate one application to another, you are not doing Event Sourcing. You&#8217;re just doing messaging ;)</strong></p>
+
+<p>In the last two months, I&#8217;ve seen different nice talks using DDD, CQRS or Event Sourcing in the talk title. However, after watching the content, I think there are some general misunderstandings about some of the concepts. The most important one, in my honest opinion, is calling Event Sourcing to sending messaging to other applications using a broker. Event Sourcing is not about that. Let me explain a bit more.</p>
+    </div>
+  </div>
+</div>
+</div>
       
         <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
   <div class="bg-white mb3 pa4 gray overflow-hidden">
@@ -297,25 +314,6 @@ class BasuritasTest extends \PHPUnit_Framework_TestCase { /** * @test * @dataPro
 </div>
 </div>
       
-        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
-  <div class="bg-white mb3 pa4 gray overflow-hidden">
-    <span class="f6 db">Posts</span>
-    <h1 class="f3 near-black">
-      <a href="/rendimiento-con-domain-events-proyecciones-y-principios-de-cqrs/" class="link black dim">
-        Rendimiento con Domain Events, Proyecciones y principios de CQRS
-      </a>
-    </h1>
-    <div class="nested-links f5 lh-copy nested-copy-line-height">
-      <p>Cuando desarrollamos una aplicación nueva, todo va muy rapidito. Hay poco tráfico, pocas queries y si hay alguna más &#8220;dura&#8221; usamos alguna cache como Memcached o Redis. Pero a medida que agregamos más funcionalidad a una página, el número de queries a base de datos u otras infraestructuras va creciendo. Hasta que sin saber cómo, haces 300 queries, y no es broma, en la ficha de algún producto.</p>
-
-<p>El problema es que estamos acostumbrados a hacer muchas queries de lectura y muy pocas de escritura en estructuras bastante normalizadas. Eso escala mal en base a nueva funcionalidad. Un buen approach en busca del máximo rendimiento es la consistencia eventual, estructuras desnormalizadas y proyecciones.</p>
-
-<p>Os dejo el video de la formación de @AtrapaloEng sobre cómo el uso de Eventos de Dominio y el uso de conceptos de CQRS nos pueden ayudar enormemente a mejorar el rendimiento de nuestras aplicaciones.</p>
-    </div>
-  </div>
-</div>
-</div>
-      
     </section>
 
 <ul class="pagination">
@@ -462,7 +460,16 @@ class BasuritasTest extends \PHPUnit_Framework_TestCase { /** * @test * @dataPro
         
     
     
-    <li class="page-item"><a class="page-link" href="/posts/page/13/">13</a></li>
+    
+    
+    
+    
+    
+        
+        
+    
+    
+    <li class="page-item"><a class="page-link" href="/posts/page/14/">14</a></li>
     
     
     <li class="page-item">
@@ -470,7 +477,7 @@ class BasuritasTest extends \PHPUnit_Framework_TestCase { /** * @test * @dataPro
     </li>
     
     <li class="page-item">
-        <a href="/posts/page/13/" class="page-link" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
+        <a href="/posts/page/14/" class="page-link" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
     </li>
     
 </ul>

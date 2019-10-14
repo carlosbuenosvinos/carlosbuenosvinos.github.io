@@ -3,17 +3,62 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://carlosbuenosvinos.com/tags/agile/</loc>
-    <lastmod>2019-10-08T10:50:24+02:00</lastmod>
+    <loc>https://carlosbuenosvinos.com/tags/async/</loc>
+    <lastmod>2019-10-14T14:05:37+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://carlosbuenosvinos.com/</loc>
-    <lastmod>2019-10-08T10:50:24+02:00</lastmod>
+    <lastmod>2019-10-14T14:05:37+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://carlosbuenosvinos.com/categories/</loc>
+    <lastmod>2019-10-14T14:05:37+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carlosbuenosvinos.com/tags/command/</loc>
+    <lastmod>2019-10-14T14:05:37+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carlosbuenosvinos.com/tags/domain-event/</loc>
+    <lastmod>2019-10-14T14:05:37+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carlosbuenosvinos.com/gracias-pulpocon-2019-eventos-mensajeria-y-otras-fabulas/</loc>
+    <lastmod>2019-10-14T14:05:37+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carlosbuenosvinos.com/posts/</loc>
+    <lastmod>2019-10-14T14:05:37+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carlosbuenosvinos.com/tags/process-manager/</loc>
+    <lastmod>2019-10-14T14:05:37+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carlosbuenosvinos.com/tags/sagas/</loc>
+    <lastmod>2019-10-14T14:05:37+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carlosbuenosvinos.com/tags/</loc>
+    <lastmod>2019-10-14T14:05:37+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carlosbuenosvinos.com/categories/talks/</loc>
+    <lastmod>2019-10-14T14:05:37+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carlosbuenosvinos.com/tags/agile/</loc>
     <lastmod>2019-10-08T10:50:24+02:00</lastmod>
   </url>
   
@@ -58,22 +103,7 @@
   </url>
   
   <url>
-    <loc>https://carlosbuenosvinos.com/posts/</loc>
-    <lastmod>2019-10-08T10:50:24+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://carlosbuenosvinos.com/tags/scrum/</loc>
-    <lastmod>2019-10-08T10:50:24+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carlosbuenosvinos.com/tags/</loc>
-    <lastmod>2019-10-08T10:50:24+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carlosbuenosvinos.com/categories/talks/</loc>
     <lastmod>2019-10-08T10:50:24+02:00</lastmod>
   </url>
   
@@ -230,11 +260,6 @@
   <url>
     <loc>https://carlosbuenosvinos.com/rigor-talks-php-28-sending-domain-events-to-elastic-spanish/</loc>
     <lastmod>2017-07-20T08:00:03+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://carlosbuenosvinos.com/tags/async/</loc>
-    <lastmod>2017-06-22T08:00:22+00:00</lastmod>
   </url>
   
   <url>

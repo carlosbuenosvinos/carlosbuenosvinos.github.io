@@ -6,10 +6,55 @@
     <description>Recent content in Tags on Carlos Buenosvinos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 08 Oct 2019 10:50:24 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 14 Oct 2019 14:05:37 +0200</lastBuildDate>
     
 	<atom:link href="https://carlosbuenosvinos.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>async</title>
+      <link>https://carlosbuenosvinos.com/tags/async/</link>
+      <pubDate>Mon, 14 Oct 2019 14:05:37 +0200</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/tags/async/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>command</title>
+      <link>https://carlosbuenosvinos.com/tags/command/</link>
+      <pubDate>Mon, 14 Oct 2019 14:05:37 +0200</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/tags/command/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>domain event</title>
+      <link>https://carlosbuenosvinos.com/tags/domain-event/</link>
+      <pubDate>Mon, 14 Oct 2019 14:05:37 +0200</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/tags/domain-event/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>process manager</title>
+      <link>https://carlosbuenosvinos.com/tags/process-manager/</link>
+      <pubDate>Mon, 14 Oct 2019 14:05:37 +0200</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/tags/process-manager/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sagas</title>
+      <link>https://carlosbuenosvinos.com/tags/sagas/</link>
+      <pubDate>Mon, 14 Oct 2019 14:05:37 +0200</pubDate>
+      
+      <guid>https://carlosbuenosvinos.com/tags/sagas/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>agile</title>
@@ -242,15 +287,6 @@
       <pubDate>Tue, 01 Aug 2017 08:00:09 +0000</pubDate>
       
       <guid>https://carlosbuenosvinos.com/tags/reporting/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>async</title>
-      <link>https://carlosbuenosvinos.com/tags/async/</link>
-      <pubDate>Thu, 22 Jun 2017 08:00:22 +0000</pubDate>
-      
-      <guid>https://carlosbuenosvinos.com/tags/async/</guid>
       <description></description>
     </item>
     

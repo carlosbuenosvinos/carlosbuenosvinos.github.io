@@ -1,0 +1,352 @@
+---
+title: Write your git hooks in PHP and keep them under git control
+author: Carlos Buenosvinos
+type: post
+date: 2014-07-11T17:29:29+00:00
+url: /write-your-git-hooks-in-php-and-keep-them-under-git-control/
+featured_image: /posts/images/2014/07/10731649565_aaa614b0c5_o-1.jpg
+dsq_thread_id:
+  - "4653547420"
+categories:
+  - PHP
+tags:
+  - code sniffer
+  - git
+  - hook
+  - php
+  - php-cs-fixer
+  - phpunit
+  - precommit
+
+---
+Last month, in the PHP Barcelona Monthly Talk, I was talking with some mates about the GitHub migration we have recently done at Atrápalo. They were interested in branches, deployments, code reviews and so on. However, they were specially surprised about who we are dealing with pre-commit hooks at Atrápalo. Let&#8217;s see if there&#8217;s more people out there interested in the subject.
+
+<!--more-->
+
+### Checks in our pre-commit hook
+
+At Atrápalo, each time a developer wants to commit its code, we run several checks:
+
+  1. Syntax check with php lint (&#8220;php -l&#8221;): We check every committed file has a valid PHP syntax.
+  2. Sync check of composer.json and composer.lock files: We check these two files are committed together in order to avoid committing the json but not the lock and generate some issue to another developers.
+  3. <a href="http://cs.sensiolabs.org/" target="_blank">PHP CS Fixer</a> check: With the **&#8211;dry-run** parameter it does not fix, just say what the problems are. With the **&#8211;fixers** parameter you can control what fixers you want to execute.
+  4. <a href="https://packagist.org/packages/squizlabs/php_codesniffer" target="_blank">PHP Code Sniffer</a> check: Same as before, but another rule that checks another rules.
+  5. <a href="https://packagist.org/packages/phpmd/phpmd" target="_blank">PHPMD</a>: We have enabled the controversial rules.
+  6. Unit Testing check: We run around 3.000 tests right now.
+
+Maybe you think it&#8217;s too much, and it is, however it takes about seconds (specially if your tests are fast) and it mainly guarantees that you don&#8217;t break the unit tests and the code is formatted based in your coding standard. Check <a href="http://xprogramming.com/what-is-extreme-programming/#coding" target="_blank">Coding Standard</a>, <a href="http://xprogramming.com/what-is-extreme-programming/#test" target="_blank">TDD</a> and <a href="http://xprogramming.com/what-is-extreme-programming/#continuous" target="_blank">Continuous Integration</a> as XP related practices.
+
+### Keeping our hooks under git control
+
+In any Git project, you have a **.git** folder. Inside, there is another **hooks** folder where hooks scripts samples can be found. For more info, visit [git hooks reference][1]. For making a hook work, just remove the **.sample** extension from a file and done.
+
+[<img class="alignnone size-large wp-image-455" src="https://i1.wp.com/carlosbuenosvinos.com/posts/images/2014/07/Screen-Shot-2014-07-11-at-19.13.16-1024x557.png?resize=620%2C337" alt="Screen Shot 2014-07-11 at 19.13.16" width="620" height="337" srcset="https://i2.wp.com/carlosbuenosvinos.com/posts/images/2014/07/Screen-Shot-2014-07-11-at-19.13.16.png?resize=1024%2C557&ssl=1 1024w, https://i2.wp.com/carlosbuenosvinos.com/posts/images/2014/07/Screen-Shot-2014-07-11-at-19.13.16.png?resize=300%2C163&ssl=1 300w, https://i2.wp.com/carlosbuenosvinos.com/posts/images/2014/07/Screen-Shot-2014-07-11-at-19.13.16.png?w=1536&ssl=1 1536w, https://i2.wp.com/carlosbuenosvinos.com/posts/images/2014/07/Screen-Shot-2014-07-11-at-19.13.16.png?w=1240&ssl=1 1240w" sizes="(max-width: 620px) 100vw, 620px" data-recalc-dims="1" />][2]
+
+At Atrápalo, we have a doc/hooks folder with two files:
+
+<pre class="brush: bash; gutter: false">commit-msg: Manages commit msg hook (for issue tracking purposes)
+pre-commit: Manages pre-commit hook</pre>
+
+Both are plain files, so managed without any problem with git.
+
+[<img class="alignnone size-large wp-image-456" src="https://i0.wp.com/carlosbuenosvinos.com/posts/images/2014/07/Screen-Shot-2014-07-11-at-19.24.08-1024x557.png?resize=620%2C337" alt="Screen Shot 2014-07-11 at 19.24.08" width="620" height="337" srcset="https://i2.wp.com/carlosbuenosvinos.com/posts/images/2014/07/Screen-Shot-2014-07-11-at-19.24.08.png?resize=1024%2C557&ssl=1 1024w, https://i2.wp.com/carlosbuenosvinos.com/posts/images/2014/07/Screen-Shot-2014-07-11-at-19.24.08.png?resize=300%2C163&ssl=1 300w, https://i2.wp.com/carlosbuenosvinos.com/posts/images/2014/07/Screen-Shot-2014-07-11-at-19.24.08.png?w=1536&ssl=1 1536w, https://i2.wp.com/carlosbuenosvinos.com/posts/images/2014/07/Screen-Shot-2014-07-11-at-19.24.08.png?w=1240&ssl=1 1240w" sizes="(max-width: 620px) 100vw, 620px" data-recalc-dims="1" />][3]
+
+So, what&#8217;s the silliest idea to link these two folders? Yep! a soft link!
+
+<img class="alignnone size-large wp-image-457" src="https://i1.wp.com/carlosbuenosvinos.com/posts/images/2014/07/Screen-Shot-2014-07-11-at-19.24.17-1024x557.png?resize=620%2C337" alt="Screen Shot 2014-07-11 at 19.24.17" width="620" height="337" srcset="https://i0.wp.com/carlosbuenosvinos.com/posts/images/2014/07/Screen-Shot-2014-07-11-at-19.24.17.png?resize=1024%2C557&ssl=1 1024w, https://i0.wp.com/carlosbuenosvinos.com/posts/images/2014/07/Screen-Shot-2014-07-11-at-19.24.17.png?resize=300%2C163&ssl=1 300w, https://i0.wp.com/carlosbuenosvinos.com/posts/images/2014/07/Screen-Shot-2014-07-11-at-19.24.17.png?w=1536&ssl=1 1536w, https://i0.wp.com/carlosbuenosvinos.com/posts/images/2014/07/Screen-Shot-2014-07-11-at-19.24.17.png?w=1240&ssl=1 1240w" sizes="(max-width: 620px) 100vw, 620px" data-recalc-dims="1" />
+
+When a developer clones the project, it just needs to:
+
+<pre class="brush: bash; gutter: false">rm -rf .git/hooks
+ln -s ../docs/hooks .git/hooks</pre>
+
+#### Remembering to set up the hooks
+
+If you want to remember you developers to do the trick, add a Composer script to remember it.
+
+<pre class="brush: javascript; gutter: true">... composer.json
+    "scripts": {
+        "pre-update-cmd": "AtrapaloLib\\Composer\\Script\\Hooks::checkHooks",
+        "pre-install-cmd": "AtrapaloLib\\Composer\\Script\\Hooks::checkHooks"
+    }</pre>
+
+<pre class="brush: php; gutter: true">&lt;?php
+
+namespace AtrapaloLib\Composer\Script;
+
+use Composer\Script\Event;
+
+class Hooks
+{
+    public static function checkHooks(Event $event)
+    {
+        $io = $event-&gt;getIO();
+        $gitHook = @file_get_contents(__DIR__.&#039;/../../../../.git/hooks/pre-commit&#039;);
+        $docHook = @file_get_contents(__DIR__.&#039;/../../../../docs/hooks/pre-commit&#039;);
+
+        $result = true;
+        if ($gitHook !== $docHook) {
+            $io-&gt;write(&#039;&lt;error&gt;You, motherfucker, please, set up your hooks!&lt;/error&gt;&#039;);
+            $result = false;
+        }
+
+        return $result;
+    }
+}</pre>
+
+You could make the script create the hooks, however, I&#8217;m trying first to be polite about it. For more information about how to create scripts in Composer visit its <a href="https://getcomposer.org/doc/articles/scripts.md" target="_blank">reference</a>.
+
+### pre-commit hook in PHP
+
+An easy way to develop your hooks is in PHP, you have set up everything, so carry on with PHP. Following there is an example. The most interesting part is that we are using Symfony Console Component as the Application, each library comes from composers (phpunit, phpmd, php-cs-fixer, etc.) and we are running all the command using the Symfony Process Component.
+
+<pre class="brush: php; gutter: true">#!/usr/bin/php
+&lt;?php
+
+require __DIR__ . &#039;/../../vendor/autoload.php&#039;;
+
+use Symfony\Component\Console\Input\InputInterface;
+use Symfony\Component\Console\Output\OutputInterface;
+use Symfony\Component\Process\ProcessBuilder;
+use Symfony\Component\Console\Application;
+
+class CodeQualityTool extends Application
+{
+    private $output;
+    private $input;
+
+    const PHP_FILES_IN_SRC = &#039;/^src\/(.*)(\.php)$/&#039;;
+    const PHP_FILES_IN_CLASSES = &#039;/^classes\/(.*)(\.php)$/&#039;;
+
+    public function __construct()
+    {
+        parent::__construct(&#039;Code Quality Tool&#039;, &#039;1.0.0&#039;);
+    }
+
+    public function doRun(InputInterface $input, OutputInterface $output)
+    {
+        $this-&gt;input = $input;
+        $this-&gt;output = $output;
+
+        $output-&gt;writeln(&#039;&lt;fg=white;options=bold;bg=red&gt;Atrapalo Code Quality Tool&lt;/fg=white;options=bold;bg=red&gt;&#039;);
+        $output-&gt;writeln(&#039;&lt;info&gt;Fetching files&lt;/info&gt;&#039;);
+        $files = $this-&gt;extractCommitedFiles();
+
+        $output-&gt;writeln(&#039;&lt;info&gt;Check composer&lt;/info&gt;&#039;);
+        $this-&gt;checkComposer($files);
+
+        $output-&gt;writeln(&#039;&lt;info&gt;Running PHPLint&lt;/info&gt;&#039;);
+        if (!$this-&gt;phpLint($files)) {
+            throw new Exception(&#039;There are some PHP syntax errors!&#039;);
+        }
+
+        $output-&gt;writeln(&#039;&lt;info&gt;Checking code style&lt;/info&gt;&#039;);
+        if (!$this-&gt;codeStyle($files)) {
+            throw new Exception(sprintf(&#039;There are coding standards violations!&#039;));
+        }
+
+        $output-&gt;writeln(&#039;&lt;info&gt;Checking code style with PHPCS&lt;/info&gt;&#039;);
+        if (!$this-&gt;codeStylePsr($files)) {
+            throw new Exception(sprintf(&#039;There are PHPCS coding standards violations!&#039;));
+        }
+
+        $output-&gt;writeln(&#039;&lt;info&gt;Checking code mess with PHPMD&lt;/info&gt;&#039;);
+        if (!$this-&gt;phPmd($files)) {
+            throw new Exception(sprintf(&#039;There are PHPMD violations!&#039;));
+        }
+
+        $output-&gt;writeln(&#039;&lt;info&gt;Running unit tests&lt;/info&gt;&#039;);
+        if (!$this-&gt;unitTests()) {
+            throw new Exception(&#039;Fix the fucking unit tests!&#039;);
+        }
+
+        $output-&gt;writeln(&#039;&lt;info&gt;Good job dude!&lt;/info&gt;&#039;);
+    }
+
+    private function checkComposer($files)
+    {
+        $composerJsonDetected = false;
+        $composerLockDetected = false;
+
+        foreach ($files as $file) {
+            if ($file === &#039;composer.json&#039;) {
+                $composerJsonDetected = true;
+            }
+
+            if ($file === &#039;composer.lock&#039;) {
+                $composerLockDetected = true;
+            }
+        }
+
+        if ($composerJsonDetected && !$composerLockDetected) {
+            throw new Exception(&#039;composer.lock must be commited if composer.json is modified!&#039;);
+        }
+    }
+
+    private function extractCommitedFiles()
+    {
+        $output = array();
+        $rc = 0;
+
+        exec(&#039;git rev-parse --verify HEAD 2&gt; /dev/null&#039;, $output, $rc);
+
+        $against = &#039;4b825dc642cb6eb9a060e54bf8d69288fbee4904&#039;;
+        if ($rc == 0) {
+            $against = &#039;HEAD&#039;;
+        }
+
+        exec("git diff-index --cached --name-status $against | egrep &#039;^(A|M)&#039; | awk &#039;{print $2;}&#039;", $output);
+
+        return $output;
+    }
+
+    private function phpLint($files)
+    {
+        $needle = &#039;/(\.php)|(\.inc)$/&#039;;
+        $succeed = true;
+
+        foreach ($files as $file) {
+            if (!preg_match($needle, $file)) {
+                continue;
+            }
+
+            $processBuilder = new ProcessBuilder(array(&#039;php&#039;, &#039;-l&#039;, $file));
+            $process = $processBuilder-&gt;getProcess();
+            $process-&gt;run();
+
+            if (!$process-&gt;isSuccessful()) {
+                $this-&gt;output-&gt;writeln($file);
+                $this-&gt;output-&gt;writeln(sprintf(&#039;&lt;error&gt;%s&lt;/error&gt;&#039;, trim($process-&gt;getErrorOutput())));
+
+                if ($succeed) {
+                    $succeed = false;
+                }
+            }
+        }
+
+        return $succeed;
+    }
+
+    private function phPmd($files)
+    {
+        $needle = self::PHP_FILES_IN_SRC;
+        $succeed = true;
+        $rootPath = realpath(__DIR__ . &#039;/../../&#039;);
+
+        foreach ($files as $file) {
+            if (!preg_match($needle, $file) || preg_match(&#039;/src\/AtrapaloLib\/ORM\/Doctrine\/DBAL\/Driver\/Adodb/&#039;, $file)) {
+                continue;
+            }
+
+            $processBuilder = new ProcessBuilder([&#039;php&#039;, &#039;bin/phpmd&#039;, $file, &#039;text&#039;, &#039;controversial&#039;]);
+            $processBuilder-&gt;setWorkingDirectory($rootPath);
+            $process = $processBuilder-&gt;getProcess();
+            $process-&gt;run();
+
+            if (!$process-&gt;isSuccessful()) {
+                $this-&gt;output-&gt;writeln($file);
+                $this-&gt;output-&gt;writeln(sprintf(&#039;&lt;error&gt;%s&lt;/error&gt;&#039;, trim($process-&gt;getErrorOutput())));
+                $this-&gt;output-&gt;writeln(sprintf(&#039;&lt;info&gt;%s&lt;/info&gt;&#039;, trim($process-&gt;getOutput())));
+                if ($succeed) {
+                    $succeed = false;
+                }
+            }
+        }
+
+        return $succeed;
+    }
+
+    private function unitTests()
+    {
+        $processBuilder = new ProcessBuilder(array(&#039;php&#039;, &#039;bin/phpunit&#039;));
+        $processBuilder-&gt;setWorkingDirectory(__DIR__ . &#039;/../..&#039;);
+        $processBuilder-&gt;setTimeout(3600);
+        $phpunit = $processBuilder-&gt;getProcess();
+
+        $phpunit-&gt;run(function ($type, $buffer) {
+            $this-&gt;output-&gt;write($buffer);
+        });
+
+        return $phpunit-&gt;isSuccessful();
+    }
+
+    private function codeStyle(array $files)
+    {
+        $succeed = true;
+
+        foreach ($files as $file) {
+            $classesFile = preg_match(self::PHP_FILES_IN_CLASSES, $file);
+            $srcFile = preg_match(self::PHP_FILES_IN_SRC, $file);
+
+            if (!$classesFile && !$srcFile) {
+                continue;
+            }
+
+            $fixers = &#039;-psr0&#039;;
+            if ($classesFile) {
+                $fixers = &#039;eof_ending,indentation,linefeed,lowercase_keywords,trailing_spaces,short_tag,php_closing_tag,extra_empty_lines,elseif,function_declaration&#039;;
+            }
+            $processBuilder = new ProcessBuilder(array(&#039;php&#039;, &#039;bin/php-cs-fixer&#039;, &#039;--dry-run&#039;, &#039;--verbose&#039;, &#039;fix&#039;, $file, &#039;--fixers=&#039;.$fixers));
+
+            $processBuilder-&gt;setWorkingDirectory(__DIR__ . &#039;/../../&#039;);
+            $phpCsFixer = $processBuilder-&gt;getProcess();
+            $phpCsFixer-&gt;run();
+
+            if (!$phpCsFixer-&gt;isSuccessful()) {
+                $this-&gt;output-&gt;writeln(sprintf(&#039;&lt;error&gt;%s&lt;/error&gt;&#039;, trim($phpCsFixer-&gt;getOutput())));
+
+                if ($succeed) {
+                    $succeed = false;
+                }
+            }
+        }
+
+        return $succeed;
+    }
+
+    private function codeStylePsr(array $files)
+    {
+        $succeed = true;
+        $needle = self::PHP_FILES_IN_SRC;
+
+        foreach ($files as $file) {
+            if (!preg_match($needle, $file)) {
+                continue;
+            }
+
+            $processBuilder = new ProcessBuilder(array(&#039;php&#039;, &#039;bin/phpcs&#039;, &#039;--standard=PSR2&#039;, $file));
+            $processBuilder-&gt;setWorkingDirectory(__DIR__ . &#039;/../../&#039;);
+            $phpCsFixer = $processBuilder-&gt;getProcess();
+            $phpCsFixer-&gt;run();
+
+            if (!$phpCsFixer-&gt;isSuccessful()) {
+                $this-&gt;output-&gt;writeln(sprintf(&#039;&lt;error&gt;%s&lt;/error&gt;&#039;, trim($phpCsFixer-&gt;getOutput())));
+
+                if ($succeed) {
+                    $succeed = false;
+                }
+            }
+        }
+
+        return $succeed;
+    }
+}
+
+$console = new CodeQualityTool();
+$console-&gt;run();
+</pre>
+
+So that&#8217;s it! That was easy and useful. Hope it helps someone out there. If there&#8217;s people doing something different or better, please share to improve it.
+
+**Update:**
+
+If you want to directly set up your hooks when executing &#8220;composer install&#8221; or &#8220;composer update&#8221;, you can just add the bash lines to do so in the &#8220;scripts&#8221; section of your composer.json file. See an example:
+
+<pre class="brush: javascript; gutter: true">"scripts": {
+        "pre-install-cmd": ["rm -rf .git/hooks", "ln -s ../docs/hooks .git/hooks"],
+        "post-install-cmd": ["rm -rf .git/hooks", "ln -s ../docs/hooks .git/hooks"]
+    }</pre>
+
+ [1]: http://git-scm.com/book/en/Customizing-Git-Git-Hooks
+ [2]: https://i2.wp.com/carlosbuenosvinos.com/posts/images/2014/07/Screen-Shot-2014-07-11-at-19.13.16.png
+ [3]: https://i2.wp.com/carlosbuenosvinos.com/posts/images/2014/07/Screen-Shot-2014-07-11-at-19.24.08.png

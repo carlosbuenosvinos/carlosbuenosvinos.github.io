@@ -1,0 +1,45 @@
+---
+title: Dogmáticos a favor vs. radicales en contra
+author: Carlos Buenosvinos
+type: post
+date: 2014-10-07T15:21:12+00:00
+url: /dogmaticos-a-favor-vs-radicales-en-contra/
+categories:
+  - 'Agile &amp; Craftsmanship'
+
+---
+**Las herramientas y las metodologías no fallan, son las personas al aplicarlas.** Una llave inglesa no puede fallar, o es la herramienta adecuada para tu problema o no lo es. Si eliges una llave inglesa para un trabajo que no es el suyo, el error es tuyo. No existe el _legacy code_, sólo los _legacy teams_, o las _legacy companies_ que generan el _legacy code_.
+
+En los proyectos Web veo dos tipos de proyectos en función del estado en el que se encuentran: los que especulan para ver si funcionan (start-ups, etc.) y los que han conseguido consolidarse y tienen una proyección a largo plazo. La gran mayoría son unos terceros, que son los que no tiran y se han de cerrar.
+
+En los que especulan, la gran mayoría de veces, tiene todo el sentido el &#8220;don&#8217;t worry be crappy&#8221; si te ayuda a ir más rápido para poder mostrar que el proyecto funciona, ganas usuarios, emites algunas facturas, puedes conseguir financiación y tirar adelante. Si todo va bien, curras mucho, consigues funding y después de algún tiempo, el proyecto se consolidará. ¡Felicidades! Ahora bien, todo lo rápido que has ido al principio tocará hacerlo bien hecho para reducir los costes de mantenimiento (lanzamiento de nuevas funcionalidad, bugs, etc.) ya que tu proyecto ya no especula sino que ha venido para quedarse. Seguro que habéis visto las típicas gráficas de la deuda técnica.
+
+En los proyectos consolidados, cualquier herramienta que acelere la velocidad de desarrollo reduciendo costes de mantenimiento es un plus. Las metodologías de desarrollo ayudan este objetivo. Cada uno es libre de usarlas o no.
+
+<!--more-->
+
+### Sobre TDD
+
+Si creéis que no la aplicaríais en vuestros proyectos, genial, super respetable, pero la realidad es que, ya no sólo TDD, sino hacer Unit Testing sobre la lógica de negocio con un Coverage del 100%, es posible si trabajas desacoplado y no es ningún disparate. El testing de tu infraestructura, si es sencilla (repositorios de doctrine, petis a redis, petis a WS, etc.) te la puedes ahorrar, no es relevante. Los beneficios son reducir la generación de bugs (coste de mantenimiento), lo que se traduce en $$.
+
+### Sobre Arquitectura Hexagonal y otras
+
+Si no la queréis aplicar, bien, pero la realidad es que cualquier arquitectura basada en la inversión de dependencias, facilita que los componentes se puedan unit testear. Facilita estar desacoplado del método de entrega así es más sencillo que un caso de uso funcione para un App móvil, API, una web tradicional, una web single App por REST, etc. Si te puedes desacoplar del framework mejor. Se puede pensar que nunca migrarás de framework, yo lo pensaba cuando estaba en ZF1 y todo el mundo estaba en ZF1, pero luego apareció Symfony2 (+ velocidad de desarrollo). Aparecerán más cosas que acelerarán el proceso de desarrollo y reducirán los costes, por lo tanto, mi sugerencia es estar preparado para cambiar ese tipo de detalles de implementación. Es más de uno los proyectos en los que he visto que para añadir Web móvil y/o App móvil se tripicla el controlador o las vistas.
+
+### Sobre DDD
+
+DDD tiene dos partes, la estratégica y la táctica.
+
+La estratégica defiende, para equipos grandes y proyectos de envergadura, una arquitectura basada en servicios (algo super trillado y que no es nuevo) donde cada parte del sistema se comunica de forma síncrona por peticiones REST, principalmente, y de forma asíncrona por mensajería (sistemas de colas). Cada parte del sistema puede estar desarrollada con código espaguetti o super clean code, en paradigma funcional o orientado a objetos, en PHP o cualquier otro lenguaje. Cada mini aplicación que resuelve parte del problema global de la compañía se orienta desde el punto de vista de negocio. Muchas empresas siguen esta filosofía (Amazon, Airbnb, Twitter, etc.). El beneficio es la gestión de equipos grandes, autónomos, que tiran millas y no se pisan entre sí. De nuevo, velocidad de desarrollo para equipos grandes.
+
+Respecto a la parte táctica, habla de estilos de arquitectura como el hexagonal y muchos otros, y de algunos patrones útiles como Repositories, Value Objects, Services, etc. para modelar el lenguaje de negocio en el código.
+
+Como veis, son conceptos que existen hace mucho años, nada nuevo. Sólo que ahora se han agrupado bajo estas siglas. (Hay alguna cosa más pero es el resumen más sencillo que he podido hacer). Se puede aplicar cualquier parte una sin la otra.
+
+Seguro que habéis visto más de un proyecto grande con una única BBDD con 1000 tablas donde todos escriben y todos leen. Donde todo el mundo pushea features que no se relacionan y en cambio hay conflictos, etc. Pues DDD intenta resolver este tipo de cosillas.
+
+### Conclusión
+
+No hace falta que nadie defienda una herramienta o metodología, no tienen sentimientos. Se defienden solas por lo que aportan. Y aunque estoy de acuerdo que a veces hay dogmáticos a favor, también es cierto que hay radicales en contra. **No entiendo ni una postura, ni la otra.**
+
+&nbsp;
